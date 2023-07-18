@@ -4848,5 +4848,145 @@ Whenever Ho-Oh deals combat damage to a player, you may cast a spell from your h
 If another Pokémon you control would die, instead remove all counters from it, then it phases out with three time counters on it. If that Pokémon would phase in while it has a time counter on it, remove a time counter from it instead.</text>
 		</card>
 		<!-- trainer cards -->
+		<card>
+			<name>Falkner</name>
+			<set picURL="https://brooks42.github.io/pjto/cards/Falkner.png" rarity="mythic">PJTO</set>
+			<color>WB</color>
+			<manacost>WB</manacost>
+			<tablerow>1</tablerow>
+			<type>Legendary Trainer - Falkner</type>
+			<loyalty>2</loyalty>
+			<text>Whenever a Pokémon you control with flying becomes the target of a spell or ability an opponent controls, draw a card and create a Treasure token.
+[+1]: Put a flying counter on up to one target Pokémon.</text>
+		</card>
+		<card>
+			<name>Bugsy</name>
+			<set picURL="https://brooks42.github.io/pjto/cards/Bugsy.png" rarity="mythic">PJTO</set>
+			<color>G</color>
+			<manacost>GG</manacost>
+			<tablerow>1</tablerow>
+			<type>Legendary Trainer - Bugsy</type>
+			<loyalty>2</loyalty>
+			<text>Whenever a Bug Pokémon enters the battlefield, draw a card.
+[+1]: Untap target land. Until your next turn, whenever that land is tapped for mana, its controller adds an additional {G}.
+[−2]: Put a +1/+1 counter on each Pokémon you control.</text>
+		</card>
+		<card>
+			<name>Whitney</name>
+			<set picURL="https://brooks42.github.io/pjto/cards/Whitney.png" rarity="mythic">PJTO</set>
+			<color>W</color>
+			<manacost>3WW</manacost>
+			<tablerow>1</tablerow>
+			<type>Legendary Trainer - Whitney</type>
+			<loyalty>4</loyalty>
+			<related>Cleffa Token</related>
+			<text>[+2]: You gain 1 life for each Pokémon you control.
+[-2]: Create three 1/1 white and black Fairy Pokémon tokens named Cleffa.
+[−5]: Destroy all other permanents except for lands and tokens.</text>
+		</card>
+		<card>
+			<name>Morty</name>
+			<set picURL="https://brooks42.github.io/pjto/cards/Morty.png" rarity="mythic">PJTO</set>
+			<color>WB</color>
+			<manacost>3{W/B}{W/B}</manacost>
+			<tablerow>1</tablerow>
+			<type>Legendary Trainer - Morty</type>
+			<loyalty>5</loyalty>
+			<related>Treasure Token</related>
+			<related>Morty Emblem</related>
+			<text>[+1]: Until your next turn, prevent all damage target permanent would deal. Create a Treasure token.
+[-3]: Exile target nonland permanent.
+[−7]: You get an emblem with “At the beginning of your upkeep, return target Pokémon card from your graveyard to the battlefield.”</text>
+		</card>
+		<card>
+			<name>Chuck</name>
+			<set picURL="https://brooks42.github.io/pjto/cards/Chuck.png" rarity="mythic">PJTO</set>
+			<color>R</color>
+			<manacost>3RR</manacost>
+			<tablerow>1</tablerow>
+			<type>Legendary Trainer - Chuck</type>
+			<loyalty>4</loyalty>
+			<related>Poliwrath Token</related>
+			<related>Chuck Emblem</related>
+			<text>This spell can’t be countered.
+[+1]: Create a 4/4 blue and red Water Fighting Pokémon token with haste named Poliwrath. Sacrifice it at the beginning of the next end step.
+[−6]: You get an emblem with “Whenever a Pokémon you control dies, it deals damage equal to its power to target player.”</text>
+		</card>
+		<card>
+			<name>Jasmine</name>
+			<set picURL="https://brooks42.github.io/pjto/cards/Jasmine.png" rarity="mythic">PJTO</set>
+			<color>GW</color>
+			<manacost>3GW</manacost>
+			<tablerow>1</tablerow>
+			<type>Legendary Trainer - Jasmine</type>
+			<loyalty>5</loyalty>
+			<related>Steelix Token</related>
+			<text>[0]: Put a loyalty counter on Jasmine for each token Pokémon you control. Add {C} for each Steel Pokémon you control.
+[−4]: Create a 5/5 red Steel Ground artifact Pokémon token named Steelix.</text>
+		</card>
+		<card>
+			<name>Pryce</name>
+			<set picURL="https://brooks42.github.io/pjto/cards/Pryce.png" rarity="mythic">PJTO</set>
+			<color>WU</color>
+			<manacost>2WU</manacost>
+			<tablerow>1</tablerow>
+			<type>Legendary Trainer - Pryce</type>
+			<loyalty>4</loyalty>
+			<related>Pryce Emblem</related>
+			<text>[0]: Tap target Pokémon and put a stun counter on it. Put a loyalty counter on each Trainer you control.
+[−8]: You get an emblem with “Whenever you draw a card, exile target permanent an opponent controls.”</text>
+		</card>
+		<card>
+			<name>Clair</name>
+			<set picURL="https://brooks42.github.io/pjto/cards/Clair.png" rarity="mythic">PJTO</set>
+			<color>UR</color>
+			<manacost>4{U/R}{U/R}</manacost>
+			<tablerow>1</tablerow>
+			<type>Legendary Trainer - Clair</type>
+			<loyalty>5</loyalty>
+			<related>Clair Emblem</related>
+			<text>[+1]: Up to one target Pokémon gets +1/+0 until end of turn for each card you own in exile.
+[−3]: You may cast an instant or sorcery card you own in exile this turn.
+[-7]: You get an emblem with “At the beginning of your draw step, draw two additional cards” and “At the beginning of your end step, exile your hand.”</text>
+		</card>
+		<card>
+			<name>Janine</name>
+			<set picURL="https://brooks42.github.io/pjto/cards/Janine.png" rarity="mythic">PJTO</set>
+			<color>BG</color>
+			<manacost>3BG</manacost>
+			<tablerow>1</tablerow>
+			<type>Legendary Trainer - Janine</type>
+			<loyalty>5</loyalty>
+			<related count="3">Weedle Token</related>
+			<text>[+1]: Put a -1/-1 counter on up to one target Pokémon. Until your next turn, whenever that Pokémon deals damage to Janine, destroy it.
+[−3]: Destroy target nonland permanent.
+[-7]: Create three 1/1 black Bug Poison Pokémon tokens named Weedle with wither and “Whenever this Pokémon deals combat damage to a player, that player loses the game.”</text>
+		</card>
+		<card>
+			<name>Will</name>
+			<set picURL="https://brooks42.github.io/pjto/cards/Will.png" rarity="mythic">PJTO</set>
+			<color>U</color>
+			<manacost>2UU</manacost>
+			<tablerow>1</tablerow>
+			<type>Legendary Trainer - Will</type>
+			<loyalty>3</loyalty>
+			<text>[+1]: Up to one target Pokémon gets -3/-0 until your next turn.
+[0]: Look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library.
+[-7]: Any number of target players each draw twenty cards.</text>
+		</card>
+		<card>
+			<name>Karen</name>
+			<set picURL="https://brooks42.github.io/pjto/cards/Karen.png" rarity="mythic">PJTO</set>
+			<color>BR</color>
+			<manacost>1BR</manacost>
+			<tablerow>1</tablerow>
+			<type>Legendary Trainer - Karen</type>
+			<loyalty>3</loyalty>
+			<related>Karen Token</related>
+			<text>As you cast this spell, you may sacrifice a Pokémon with power X. When you do, copy this spell. The copy isn’t legendary and has starting loyalty X.
+[+1]: Each opponent loses 2 life unless they sacrifice a permanent or discard a card.
+[-7]: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of their choice.</text>
+		</card>
+		<!-- sorceries/instants -->
 	</cards>
 </cockatrice_carddatabase>
