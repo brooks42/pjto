@@ -11,7 +11,7 @@
 		</set>
 	</sets>
 	<cards>
-	<!-- Kanto -->
+		<!-- Kanto -->
 		<!-- Pokémon -->
 		<card>
 			<name>Bulbasaur</name>
@@ -3631,7 +3631,7 @@ Cycling {2}</text>
 			<tablerow>1</tablerow>
 			<text>Pokémon you control have indestructible.</text>
 		</card>
-	<!-- Johto -->
+		<!-- Johto -->
 		<!-- Pokémon -->
 		<card>
 			<name>Chikorita</name>
@@ -3738,7 +3738,6 @@ Whenever Typhlosion enters the battlefield or evolves, target opponent sacrifice
 			<text>{2}{U}, {T}: Draw a card, then you may put a land card from your hand onto the battlefield.
 {G}{U}: Evolve</text>
 		</card>
-		</card>
 		<card>
 			<name>Croconaw (DFC)</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/CroconawDFC.png" rarity="common">PJTO</set>
@@ -3830,7 +3829,7 @@ Whenever you sacrifice a Treasure for the first time each turn, target player lo
 			<related>Ledyba Token</related>
 			<text>Whenever Ledyba evolves, create a 2/2 green and white Bug Flying Pokémon token named Ledyba, then populate.
 {1}{G}{W}, {T}: Populate.</text>
-		</card>	
+		</card>
 		<card>
 			<name>Ledian</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Ledian.png" rarity="rare">PJTO</set>
