@@ -4048,7 +4048,7 @@ Whenever Marill evolves, look at the top five cards of your library. Put up to t
 		<card>
 			<name>Azumarill</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Azumarill.png" rarity="rare">PJTO</set>
-			<color>W</color>
+			<color>U</color>
 			<manacost>3UU</manacost>
 			<type>Pokémon - Water Fairy</type>
 			<pt>3/4</pt>
