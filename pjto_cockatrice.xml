@@ -1768,7 +1768,7 @@ Whenever you gain life, untap Snorlax.</text>
 			<tablerow>2</tablerow>
 			<text>Flying
 Articuno can't attack or block unless it's obedient.
-Tap 4 other untapped nonland permanents you control and put a stun counter on them: Articuno becomes obedient.</text>
+Tap four other untapped nonland permanents you control and put a stun counter on them: Articuno becomes obedient.</text>
 		</card>
 		<card>
 			<name>Zapdos</name>
@@ -6001,16 +6001,6 @@ When Victory Road enters the battlefield, sacrifice two lands.
 			<text />
 		</card>
 		<card>
-			<name>Jumpluff Token</name>
-			<set picURL="https://brooks42.github.io/pjto/cards/JumpluffToken.png" rarity="token">PJTO</set>
-			<color>GW</color>
-			<manacost />
-			<type>Token Pokémon - Grass Flying</type>
-			<pt>4/4</pt>
-			<tablerow>2</tablerow>
-			<text>Flying</text>
-		</card>
-		<card>
 			<name>Karen Token</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/KarenToken.png" rarity="token">PJTO</set>
 			<color>BR</color>
@@ -6059,16 +6049,6 @@ When Victory Road enters the battlefield, sacrifice two lands.
 			<pt>20/20</pt>
 			<tablerow>2</tablerow>
 			<text>Menace, indestructible</text>
-		</card>
-		<card>
-			<name>Skiploom Token</name>
-			<set picURL="https://brooks42.github.io/pjto/cards/SkiploomToken.png" rarity="token">PJTO</set>
-			<color>GW</color>
-			<manacost />
-			<type>Token Pokémon - Grass Flying</type>
-			<pt>3/3</pt>
-			<tablerow>2</tablerow>
-			<text />
 		</card>
 		<card>
 			<name>Spinarak Token</name>
