@@ -83,7 +83,9 @@ def main():
                             continue
 
                         # append (PJTO) to the card name to work with dr4ft
-                        card_name = f"{card_name} (PJTO)"
+                        for set_tag in cockatrice_card:
+                            if set_tag.name == 'set':
+                                card_name = f'{card_name} ({set_tag.string})'
 
                         if not emblemOrToken:
                             for color_tag in cockatrice_card:
@@ -110,11 +112,6 @@ def main():
                                         card_color, 0) + 1
 
         cube_list.sort()
-        # print(f'Map of all card types: {json.dumps(all_card_types, indent=4)}')
-        print('===')
-        print(
-            f'Map of all card colors: {json.dumps(all_card_colors, indent=4)}')
-        print('===')
 
         print(f'Writing {len(cube_list)} cards to cube file...')
         with open('pjto_cube.txt', 'w') as f:
