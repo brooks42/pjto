@@ -3705,7 +3705,7 @@ Whenever Meganium enters the battlefield or evolves, create a 5/5 green and whit
 		</card>
 		<card>
 			<name>Quilava</name>
-			<set picURL="https://brooks42.github.io/pjto/cards/Meganium.png" rarity="uncommon">PJTO</set>
+			<set picURL="https://brooks42.github.io/pjto/cards/Quilava.png" rarity="uncommon">PJTO</set>
 			<color>BR</color>
 			<manacost>2BR</manacost>
 			<type>Pokémon - Fire</type>
