@@ -5497,6 +5497,7 @@ At the beginning of your upkeep, if you control ten or more Treasures, you win t
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>Bike Shop enters the battlefield tapped.
 {T}: Add {R} or {W}.
 Cycling {2}</text>
@@ -5517,6 +5518,7 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>As Burned Tower enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
 {T}: Add {B} or {R}.</text>
 		</card>
@@ -5536,6 +5538,7 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>As Celadon University enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
 {T}: Add {G} or {U}.</text>
 		</card>
@@ -5546,6 +5549,7 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>As Cherrygrove City enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
 {T}: Add {G} or {W}.</text>
 		</card>
@@ -5556,6 +5560,7 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>Cianwood City enters the battlefield tapped.
 {T}: Add {R} or {G}.
 Cycling {2}</text>
@@ -5675,6 +5680,7 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>Herb Shop enters the battlefield tapped.
 {T}: Add {B} or {G}.
 Cycling {2}</text>
@@ -5696,6 +5702,7 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>Ice Path enters the battlefield tapped.
 {T}: Add {W} or {U}.
 Cycling {2}</text>
@@ -5845,6 +5852,7 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>As Research Facility enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
 {T}: Add {U} or {R}.</text>
 		</card>
@@ -5903,6 +5911,7 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>Union Cave enters the battlefield tapped.
 {T}: Add {U} or {B}.
 Cycling {2}</text>
@@ -5914,6 +5923,7 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>Hexproof
 Victory Road enters the battlefield tapped.
 When Victory Road enters the battlefield, sacrifice two lands.
@@ -5926,6 +5936,7 @@ When Victory Road enters the battlefield, sacrifice two lands.
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>As Violet City enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
 {T}: Add {W} or {B}.</text>
 		</card>
