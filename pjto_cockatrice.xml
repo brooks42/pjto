@@ -5006,7 +5006,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<text>Counter target non-Pokémon spell. Its controller loses 2 life.</text>
 		</card>
 		<card>
-			<name>Foresight</name>
+			<name>Foresight (PJTO)</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Foresight.png" rarity="common">PJTO</set>
 			<color>U</color>
 			<manacost>1UU</manacost>
