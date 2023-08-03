@@ -4480,7 +4480,7 @@ When Magcargo dies, return target Pokémon card with power 3 or less from your g
 			<pt>2/3</pt>
 			<tablerow>2</tablerow>
 			<text>Lifelink
-You may look at the top card of your library at any time.
+You may look at the top card of your library any time.
 You may cast instant spells from the top of your library.</text>
 		</card>
 		<card>
@@ -4514,7 +4514,7 @@ Whenever Piloswine evolves, mill four, then put any number of instant and/or sor
 			<pt>2/1</pt>
 			<tablerow>2</tablerow>
 			<text>As long as you control a Pokémon with flying, Remoraid has flying.
-You may look at the top card of your library at any time.
+You may look at the top card of your library any time.
 {2}: Exile the top card of your library.</text>
 		</card>
 		<card>
