@@ -5233,7 +5233,7 @@ Flame Wheel deals damage equal to the sacrificed Pokémon’s power to each Pok�
 			<tablerow>3</tablerow>
 			<related count="X">Cleffa Token</related>
 			<text>Moonlight has flashback as long as you control a Fairy Pokémon.
-Exile target Pokémon. Its controller creates a 1/1 white Fairy Pokémon token named Cleffa.
+Exile target Pokémon. For each Pokémon exiled this way, its controller creates a 1/1 white Fairy Pokémon token named Cleffa.
 Overload {2}{W}{W}, Reveal a white Pokémon card from your hand.</text>
 		</card>
 		<card>
