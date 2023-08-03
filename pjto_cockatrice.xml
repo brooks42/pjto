@@ -5864,7 +5864,7 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
 			<type>Land</type>
 			<tablerow>0</tablerow>
 			<text>{T}: Add {R}.
-{3}{R}, Discard Ruins of Alph: Each player discards their hand and draws seven cards. This ability costs {1} less to activate for each evolved Pokémon you control.</text>
+{3}{R}, Discard Ruins of Alph: Each player exiles their hand and draws seven cards. This ability costs {1} less to activate for each evolved Pokémon you control.</text>
 		</card>
 		<card>
 			<name>Slowpoke Well</name>
