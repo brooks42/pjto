@@ -5049,7 +5049,7 @@ Counter target spell unless its controller pays {1}.</text>
 			<manacost>WU</manacost>
 			<type>Instant</type>
 			<tablerow>3</tablerow>
-			<text>Counter target spell that targets you or a permanent you control.
+			<text>Counter target spell that targets a player or permanent.
 At the beginning of your end step, if you gained 3 or more life this turn, you may return Powder Snow from your graveyard to your hand.</text>
 		</card>
 		<card>
