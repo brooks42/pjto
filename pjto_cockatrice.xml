@@ -4501,9 +4501,9 @@ Whenever Piloswine evolves, mill four, then put any number of instant and/or sor
 			<color>U</color>
 			<manacost>U</manacost>
 			<type>Pokémon - Water Rock</type>
-			<pt>1/2</pt>
+			<pt>0/3</pt>
 			<tablerow>2</tablerow>
-			<text>Whenever one or more cards you own are put into exile, add {R}{R}.</text>
+			<text>{1}{U}, {T}: Exile a card from your hand face down. You may look at and cast that card for as long as it remains exiled. Spells cast this way cost {2} less to cast.</text>
 		</card>
 		<card>
 			<name>Remoraid</name>
