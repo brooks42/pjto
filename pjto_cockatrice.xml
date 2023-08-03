@@ -5131,7 +5131,7 @@ Landfall — If you had a land enter the battlefield under your control this tur
 			<manacost>UR</manacost>
 			<type>Instant</type>
 			<tablerow>3</tablerow>
-			<text>Choose a Pokémon you don’t control at random. Zap Cannon deals damage to that Pokémon equal to the number of cards you own in exile. If excess damage is dealt this way, draw a card.Choose a Pokémon you don’t control at random. Zap Cannon deals damage to that Pokémon equal to 2 plus the number of cards you own in exile. If excess damage is dealt this way, draw a card.</text>
+			<text>Choose a Pokémon you don’t control at random. Zap Cannon deals damage to that Pokémon equal to the number of cards you own in exile. If excess damage is dealt this way, draw a card.Choose a Pokémon you don’t control at random. Zap Cannon deals damage to that Pokémon equal to 2 plus the number of cards you own in exile. If excess damage is dealt this way, draw a card. Exile Zap Cannon.</text>
 		</card>
 		<!-- sorceries -->
 		<card>
