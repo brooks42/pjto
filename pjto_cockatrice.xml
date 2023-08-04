@@ -4944,8 +4944,8 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<type>Legendary Trainer - Clair</type>
 			<loyalty>5</loyalty>
 			<related>Clair Emblem</related>
-			<text>[+1]: Up to one target Pokémon gets +1/+0 until end of turn for each card you own in exile.
-[−3]: You may cast an instant or sorcery card you own in exile this turn.
+			<text>[+1]: Look at the top two cards of your library. Put one of them into your hand and exile the other. Up to one target Pokémon gets +X/+0 until end of turn, where X is the number of cards you own in exile.
+[−X]: You may cast a non-Pokémon card you own in exile with mana value X without paying its mana cost.
 [-7]: You get an emblem with “At the beginning of your draw step, draw two additional cards” and “At the beginning of your end step, exile your hand.”</text>
 		</card>
 		<card>
