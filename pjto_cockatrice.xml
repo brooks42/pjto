@@ -5038,9 +5038,9 @@ Counter target spell unless its controller pays {1}.</text>
 			<set picURL="https://brooks42.github.io/pjto/cards/Megahorn.png" rarity="uncommon">PJTO</set>
 			<color>G</color>
 			<manacost>1G</manacost>
-			<type>Instant</type>
+			<type>Sorcery</type>
 			<tablerow>3</tablerow>
-			<text>Target Pokémon you control gains trample until end of turn. Put a -1/-1 counter on each Pokémon blocking it.</text>
+			<text>Put a trample counter on target Pokémon you control. Until end of turn, it becomes a green Bug Pokémon with base power and toughness 6/6.</text>
 		</card>
 		<card>
 			<name>Powder Snow</name>
