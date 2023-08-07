@@ -3705,7 +3705,7 @@ Whenever Meganium enters the battlefield or evolves, create a 5/5 green and whit
 		</card>
 		<card>
 			<name>Quilava</name>
-			<set picURL="https://brooks42.github.io/pjto/cards/Meganium.png" rarity="uncommon">PJTO</set>
+			<set picURL="https://brooks42.github.io/pjto/cards/Quilava.png" rarity="uncommon">PJTO</set>
 			<color>BR</color>
 			<manacost>2BR</manacost>
 			<type>Pokémon - Fire</type>
@@ -4480,7 +4480,7 @@ When Magcargo dies, return target Pokémon card with power 3 or less from your g
 			<pt>2/3</pt>
 			<tablerow>2</tablerow>
 			<text>Lifelink
-You may look at the top card of your library at any time.
+You may look at the top card of your library any time.
 You may cast instant spells from the top of your library.</text>
 		</card>
 		<card>
@@ -4501,9 +4501,9 @@ Whenever Piloswine evolves, mill four, then put any number of instant and/or sor
 			<color>U</color>
 			<manacost>U</manacost>
 			<type>Pokémon - Water Rock</type>
-			<pt>1/2</pt>
+			<pt>0/3</pt>
 			<tablerow>2</tablerow>
-			<text>Whenever one or more cards you own are put into exile, add {R}{R}.</text>
+			<text>{1}{U}, {T}: Exile a card from your hand face down. You may look at and cast that card for as long as it remains exiled. Spells cast this way cost {2} less to cast.</text>
 		</card>
 		<card>
 			<name>Remoraid</name>
@@ -4514,7 +4514,7 @@ Whenever Piloswine evolves, mill four, then put any number of instant and/or sor
 			<pt>2/1</pt>
 			<tablerow>2</tablerow>
 			<text>As long as you control a Pokémon with flying, Remoraid has flying.
-You may look at the top card of your library at any time.
+You may look at the top card of your library any time.
 {2}: Exile the top card of your library.</text>
 		</card>
 		<card>
@@ -4878,7 +4878,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<tablerow>1</tablerow>
 			<type>Legendary Trainer - Whitney</type>
 			<loyalty>4</loyalty>
-			<related>Cleffa Token</related>
+			<related count="3">Cleffa Token</related>
 			<text>[+2]: You gain 1 life for each Pokémon you control.
 [-2]: Create three 1/1 white and black Fairy Pokémon tokens named Cleffa.
 [−5]: Destroy all other permanents except for lands and tokens.</text>
@@ -4944,9 +4944,9 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<type>Legendary Trainer - Clair</type>
 			<loyalty>5</loyalty>
 			<related>Clair Emblem</related>
-			<text>[+1]: Up to one target Pokémon gets +1/+0 until end of turn for each card you own in exile.
-[−3]: You may cast an instant or sorcery card you own in exile this turn.
-[-7]: You get an emblem with “At the beginning of your draw step, draw two additional cards” and “At the beginning of your end step, exile your hand.”</text>
+			<text>[+1]: Look at the top two cards of your library. Put one of them into your hand and exile the other. Up to one target Pokémon gets +X/+0 until end of turn, where X is the number of cards you own in exile.
+[−X]: You may cast a non-Pokémon card you own in exile with mana value X without paying its mana cost.
+[-7]: You get an emblem with “At the beginning of your upkeep, exile your hand and draw two cards.”</text>
 		</card>
 		<card>
 			<name>Janine</name>
@@ -5006,7 +5006,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<text>Counter target non-Pokémon spell. Its controller loses 2 life.</text>
 		</card>
 		<card>
-			<name>Foresight</name>
+			<name>Foresight (PJTO)</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Foresight.png" rarity="common">PJTO</set>
 			<color>U</color>
 			<manacost>1UU</manacost>
@@ -5038,9 +5038,9 @@ Counter target spell unless its controller pays {1}.</text>
 			<set picURL="https://brooks42.github.io/pjto/cards/Megahorn.png" rarity="uncommon">PJTO</set>
 			<color>G</color>
 			<manacost>1G</manacost>
-			<type>Instant</type>
+			<type>Sorcery</type>
 			<tablerow>3</tablerow>
-			<text>Target Pokémon you control gains trample until end of turn. Put a -1/-1 counter on each Pokémon blocking it.</text>
+			<text>Put a trample counter on target Pokémon you control. Until end of turn, it becomes a green Bug Pokémon with base power and toughness 6/6.</text>
 		</card>
 		<card>
 			<name>Powder Snow</name>
@@ -5049,7 +5049,7 @@ Counter target spell unless its controller pays {1}.</text>
 			<manacost>WU</manacost>
 			<type>Instant</type>
 			<tablerow>3</tablerow>
-			<text>Counter target spell that targets you or a permanent you control.
+			<text>Counter target spell that targets a player or permanent.
 At the beginning of your end step, if you gained 3 or more life this turn, you may return Powder Snow from your graveyard to your hand.</text>
 		</card>
 		<card>
@@ -5131,7 +5131,7 @@ Landfall — If you had a land enter the battlefield under your control this tur
 			<manacost>UR</manacost>
 			<type>Instant</type>
 			<tablerow>3</tablerow>
-			<text>Choose a Pokémon you don’t control at random. Zap Cannon deals damage to that Pokémon equal to the number of cards you own in exile. If excess damage is dealt this way, draw a card.Choose a Pokémon you don’t control at random. Zap Cannon deals damage to that Pokémon equal to 2 plus the number of cards you own in exile. If excess damage is dealt this way, draw a card.</text>
+			<text>Choose a Pokémon you don’t control at random. Zap Cannon deals damage to that Pokémon equal to the number of cards you own in exile. If excess damage is dealt this way, draw a card.Choose a Pokémon you don’t control at random. Zap Cannon deals damage to that Pokémon equal to 2 plus the number of cards you own in exile. If excess damage is dealt this way, draw a card. Exile Zap Cannon.</text>
 		</card>
 		<!-- sorceries -->
 		<card>
@@ -5233,7 +5233,7 @@ Flame Wheel deals damage equal to the sacrificed Pokémon’s power to each Pok�
 			<tablerow>3</tablerow>
 			<related count="X">Cleffa Token</related>
 			<text>Moonlight has flashback as long as you control a Fairy Pokémon.
-Exile target Pokémon. Its controller creates a 1/1 white Fairy Pokémon token named Cleffa.
+Exile target Pokémon. For each Pokémon exiled this way, its controller creates a 1/1 white Fairy Pokémon token named Cleffa.
 Overload {2}{W}{W}, Reveal a white Pokémon card from your hand.</text>
 		</card>
 		<card>
@@ -5497,6 +5497,7 @@ At the beginning of your upkeep, if you control ten or more Treasures, you win t
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>Bike Shop enters the battlefield tapped.
 {T}: Add {R} or {W}.
 Cycling {2}</text>
@@ -5517,6 +5518,7 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>As Burned Tower enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
 {T}: Add {B} or {R}.</text>
 		</card>
@@ -5536,6 +5538,7 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>As Celadon University enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
 {T}: Add {G} or {U}.</text>
 		</card>
@@ -5546,6 +5549,7 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>As Cherrygrove City enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
 {T}: Add {G} or {W}.</text>
 		</card>
@@ -5556,6 +5560,7 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>Cianwood City enters the battlefield tapped.
 {T}: Add {R} or {G}.
 Cycling {2}</text>
@@ -5675,6 +5680,7 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>Herb Shop enters the battlefield tapped.
 {T}: Add {B} or {G}.
 Cycling {2}</text>
@@ -5696,6 +5702,7 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>Ice Path enters the battlefield tapped.
 {T}: Add {W} or {U}.
 Cycling {2}</text>
@@ -5845,6 +5852,7 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>As Research Facility enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
 {T}: Add {U} or {R}.</text>
 		</card>
@@ -5856,7 +5864,7 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
 			<type>Land</type>
 			<tablerow>0</tablerow>
 			<text>{T}: Add {R}.
-{3}{R}, Discard Ruins of Alph: Each player discards their hand and draws seven cards. This ability costs {1} less to activate for each evolved Pokémon you control.</text>
+{3}{R}, Discard Ruins of Alph: Each player exiles their hand and draws seven cards. This ability costs {1} less to activate for each evolved Pokémon you control.</text>
 		</card>
 		<card>
 			<name>Slowpoke Well</name>
@@ -5903,6 +5911,7 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>Union Cave enters the battlefield tapped.
 {T}: Add {U} or {B}.
 Cycling {2}</text>
@@ -5914,6 +5923,7 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>Hexproof
 Victory Road enters the battlefield tapped.
 When Victory Road enters the battlefield, sacrifice two lands.
@@ -5926,6 +5936,7 @@ When Victory Road enters the battlefield, sacrifice two lands.
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
+			<cipt>1</cipt>
 			<text>As Violet City enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
 {T}: Add {W} or {B}.</text>
 		</card>
@@ -6127,8 +6138,7 @@ Whenever this Pokémon deals combat damage to a player, that player loses the ga
 			<manacost />
 			<type>Emblem - Clair</type>
 			<tablerow>1</tablerow>
-			<text>At the beginning of your draw step, draw two additional cards.
-At the beginning of your end step, exile your hand.</text>
+			<text>At the beginning of your upkeep, exile your hand and draw two cards.</text>
 		</card>
 		<card>
 			<name>Morty Emblem</name>
