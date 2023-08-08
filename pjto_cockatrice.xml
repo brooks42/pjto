@@ -3802,7 +3802,7 @@ Whenever Furret evolves, token Pokémon you control get +2/+0 and gain first str
 			<pt>2/2</pt>
 			<tablerow>2</tablerow>
 			<related>Treasure Token</related>
-			<related count="X">Treasure Token</related>
+			<related count="x">Treasure Token</related>
 			<text>Whenever Hoothoot deals combat damage to a player, create a Treasure token.
 Whenever Hoothoot evolves, create X Treasure tokens, where X is the amount of life lost by opponents this turn.</text>
 		</card>
@@ -5231,7 +5231,7 @@ Flame Wheel deals damage equal to the sacrificed Pokémon's power to each Pokém
 			<manacost>2WW</manacost>
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
-			<related count="X">Cleffa Token</related>
+			<related count="x">Cleffa Token</related>
 			<text>Moonlight has flashback as long as you control a Fairy Pokémon.
 Exile target Pokémon. For each Pokémon exiled this way, its controller creates a 1/1 white Fairy Pokémon token named Cleffa.
 Overload {2}{W}{W}, Reveal a white Pokémon card from your hand.</text>
