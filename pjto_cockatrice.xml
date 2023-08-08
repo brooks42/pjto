@@ -4717,7 +4717,7 @@ Whenever a Pokémon card is put into exile, untap Magby and add {R}.</text>
 			<color>W</color>
 			<manacost>3WW</manacost>
 			<type>Pokémon - Normal</type>
-			<pt>4/4</pt>
+			<pt>3/3</pt>
 			<tablerow>2</tablerow>
 			<text>At the beginning of your end step, if Miltank attacked this turn, put two +1/+1 counters on it. If Miltank dealt combat damage to a player this turn, you gain X life, where X is the number of Pokémon you control.</text>
 		</card>
