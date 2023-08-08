@@ -5319,14 +5319,14 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
 {G/W}{G/W}{G/W}{G/W}, {T}, Sacrifice Berry: You gain 3 life and draw a card.</text>
 		</card>
 		<card>
-			<name>Clear Bells</name>
-			<set picURL="https://brooks42.github.io/pjto/cards/Clear%20Bells.png" rarity="uncommon">PJTO</set>
+			<name>Clear Bell</name>
+			<set picURL="https://brooks42.github.io/pjto/cards/Clear%20Bell.png" rarity="uncommon">PJTO</set>
 			<color />
 			<manacost>2</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
 			<text>{2}, {T}: Add {W}{U}.
-{W/U}{W/U}{W/U}{W/U}, {T}, Sacrifice Clear Bells: You gain 3 life and draw a card.</text>
+{W/U}{W/U}{W/U}{W/U}, {T}, Sacrifice Clear Bell: You gain 3 life and draw a card.</text>
 		</card>
 		<card>
 			<name>Dragon Fang</name>
