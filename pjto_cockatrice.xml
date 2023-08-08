@@ -1926,7 +1926,7 @@ When you cycle Mew, shuffle it into your library.</text>
 			<loyalty>3</loyalty>
 			<text>[+1]: Add {R} or {G}. Pokémon spells you cast this turn can't be countered.
 [+1]: Draw a card if you control a Pokémon with power 4 or greater.
-[−7]: You get an emblem with “Whenever a source deals damage to a Pokémon you control, that Pokémon deals that much damage to that source's controller.”</text>
+[−7]: You get an emblem with “Whenever a source deals damage to a Pokémon you control, that Pokémon deals that much damage to that source's controller."</text>
 			<related>Brock (Emblem)</related>
 		</card>
 		<card>
@@ -2995,7 +2995,7 @@ Whenever a Pokémon an opponent controls dies, that player may have you create a
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<text>As Cerulean Cave enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
+			<text>As Cerulean Cave enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
 {T}: Add {U} or {B}.</text>
 			<cipt>1</cipt>
 		</card>
@@ -3006,7 +3006,7 @@ Whenever a Pokémon an opponent controls dies, that player may have you create a
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<text>As Cerulean City enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
+			<text>As Cerulean City enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
 {T}: Add {W} or {U}.</text>
 			<cipt>1</cipt>
 		</card>
@@ -3059,7 +3059,7 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<text>As Fuchsia City enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
+			<text>As Fuchsia City enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
 {T}: Add {B} or {G}.</text>
 			<cipt>1</cipt>
 		</card>
@@ -3125,7 +3125,7 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<text>As Pewter City enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
+			<text>As Pewter City enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
 {T}: Add {R} or {G}.</text>
 			<cipt>1</cipt>
 		</card>
@@ -3156,7 +3156,7 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<text>As Power Plant enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
+			<text>As Power Plant enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
 {T}: Add {R} or {W}.</text>
 			<cipt>1</cipt>
 		</card>
@@ -3851,7 +3851,7 @@ Whenever you attack with five or more Pokémon, Pokémon you control get +1/+1 u
 			<tablerow>2</tablerow>
 			<related>Spinarak Token</related>
 			<text>Deathtouch
-Whenever a Pokémon dies, if it had a -1/-1 counter on it, create a token copy of Spinarak except it doesn’t have this ability.</text>
+Whenever a Pokémon dies, if it had a -1/-1 counter on it, create a token copy of Spinarak except it doesn't have this ability.</text>
 		</card>
 		<card>
 			<name>Ariados</name>
@@ -3875,7 +3875,7 @@ Whenever a Pokémon dies, if it had a -1/-1 counter on it, create a token copy o
 			<tablerow>2</tablerow>
 			<text>Evolve From Golbat {X}{B}
 Flying
-Pokémon you control can’t be blocked by Pokémon with -1/-1 counters on them.</text>
+Pokémon you control can't be blocked by Pokémon with -1/-1 counters on them.</text>
 		</card>
 		<card>
 			<name>Chinchou</name>
@@ -3906,7 +3906,7 @@ Whenever you exile a card from your hand, you may cast it until your next turn. 
 			<type>Pokémon - Electric</type>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
-			<text>Baby — Cards named Pikachu have “Evolve From Pichu {R/W}.”
+			<text>Baby — Cards named Pikachu have “Evolve From Pichu {R/W}."
 Whenever Pichu evolves, up to two target Pokémon must block this turn if able. Pichu deals 1 damage to each of those Pokémon.</text>
 		</card>
 		<card>
@@ -3917,7 +3917,7 @@ Whenever Pichu evolves, up to two target Pokémon must block this turn if able. 
 			<type>Pokémon - Fairy</type>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
-			<text>Baby — Cards named Clefairy have “Evolve From Cleffa {W/B}.”
+			<text>Baby — Cards named Clefairy have “Evolve From Cleffa {W/B}."
 Pokémon you control have all other abilities of Cleffa.</text>
 		</card>
 		<card>
@@ -3929,7 +3929,7 @@ Pokémon you control have all other abilities of Cleffa.</text>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
 			<related>Treasure Token</related>
-			<text>Baby — Cards named Jigglypuff have “Evolve From Igglybuff {W}.”
+			<text>Baby — Cards named Jigglypuff have “Evolve From Igglybuff {W}."
 Whenever Igglybuff evolves, tap up to two target Pokémon. Create X Treasure tokens, where X is the number of tapped Pokémon on the battlefield.</text>
 		</card>
 		<card>
@@ -4042,7 +4042,7 @@ Whenever Bellosom becomes untapped, populate.</text>
 			<type>Pokémon - Water Fairy</type>
 			<pt>2/3</pt>
 			<tablerow>2</tablerow>
-			<text>Whenever a card you own is put into exile, Marill can’t be blocked this turn.
+			<text>Whenever a card you own is put into exile, Marill can't be blocked this turn.
 Whenever Marill evolves, look at the top five cards of your library. Put up to two of them into your hand and the rest into your graveyard.</text>
 		</card>
 		<card>
@@ -4054,7 +4054,7 @@ Whenever Marill evolves, look at the top five cards of your library. Put up to t
 			<pt>3/4</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Marill {U}
-Each instant and sorcery card in your graveyard has flashback. The flashback cost is equal to that card’s mana cost.</text>
+Each instant and sorcery card in your graveyard has flashback. The flashback cost is equal to that card's mana cost.</text>
 		</card>
 		<card>
 			<name>Sudowoodo</name>
@@ -4136,7 +4136,7 @@ Whenever you populate for the first time each turn, populate again.</text>
 			<pt>2/1</pt>
 			<tablerow>2</tablerow>
 			<related>Treasure Token</related>
-			<text>Whenever Aipom deals combat damage to a player, exile the top card of that player’s library. Until end of turn, you may cast that card. If a land card is exiled this way, create a Treasure token.</text>
+			<text>Whenever Aipom deals combat damage to a player, exile the top card of that player's library. Until end of turn, you may cast that card. If a land card is exiled this way, create a Treasure token.</text>
 		</card>
 		<card>
 			<name>Sunkern</name>
@@ -4159,7 +4159,7 @@ Whenever Sunkern evolves, create a  0/1 green Grass Pokémon token named Sunkern
 			<pt>*/*</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Sunkern {G}
-Sunflora’s power and toughness are each equal to the number of Pokémon you control.</text>
+Sunflora's power and toughness are each equal to the number of Pokémon you control.</text>
 		</card>
 		<card>
 			<name>Yanma</name>
@@ -4170,7 +4170,7 @@ Sunflora’s power and toughness are each equal to the number of Pokémon you co
 			<pt>1+*/3</pt>
 			<tablerow>2</tablerow>
 			<text>Flying, haste
-Yanma’s power is equal to 1 plus the number of cards you own in exile.
+Yanma's power is equal to 1 plus the number of cards you own in exile.
 Yanma has hexproof from each mana value among cards you own in exile.</text>
 		</card>
 		<card>
@@ -4311,7 +4311,7 @@ When Pineco dies, you may move its counters onto target Pokémon.</text>
 			<tablerow>2</tablerow>
 			<text>Evolve From Pineco {C/R}
 Forretress enters the battlefield and evolves with an indestructible counter and a haste counter on it if {C} was spent to cast it.
-Forretress can’t attack or block unless a player sacrificed a permanent this turn.</text>
+Forretress can't attack or block unless a player sacrificed a permanent this turn.</text>
 		</card>
 		<card>
 			<name>Dunsparce</name>
@@ -4321,7 +4321,7 @@ Forretress can’t attack or block unless a player sacrificed a permanent this t
 			<type>Pokémon - Normal</type>
 			<pt>1/3</pt>
 			<tablerow>2</tablerow>
-			<text>{9}, {T}: Destroy target Pokémon. Put X -1/-1 counters on Dunsparce, where X is that Pokémon’s toughness. This ability costs {1} less to activate for each -1/-1 counter on all Pokémon.</text>
+			<text>{9}, {T}: Destroy target Pokémon. Put X -1/-1 counters on Dunsparce, where X is that Pokémon's toughness. This ability costs {1} less to activate for each -1/-1 counter on all Pokémon.</text>
 		</card>
 		<card>
 			<name>Gligar</name>
@@ -4332,7 +4332,7 @@ Forretress can’t attack or block unless a player sacrificed a permanent this t
 			<pt>3/3</pt>
 			<tablerow>2</tablerow>
 			<text>Flying
-Whenever a card is put into an opponent’s graveyard from anywhere, put a -1/-1 counter on target Pokémon.</text>
+Whenever a card is put into an opponent's graveyard from anywhere, put a -1/-1 counter on target Pokémon.</text>
 		</card>
 		<card>
 			<name>Steelix</name>
@@ -4343,7 +4343,7 @@ Whenever a card is put into an opponent’s graveyard from anywhere, put a -1/-1
 			<pt>5/5</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Onix {C/R}{C/R}
-When you cast Steelix, if {C} was spent to cast it, up to two target Pokémon can’t block this turn.
+When you cast Steelix, if {C} was spent to cast it, up to two target Pokémon can't block this turn.
 Whenever Steelix deals combat damage to a player, exile the top card of your library. You may play that card this turn.</text>
 		</card>
 		<card>
@@ -4355,7 +4355,7 @@ Whenever Steelix deals combat damage to a player, exile the top card of your lib
 			<pt>2/3</pt>
 			<tablerow>2</tablerow>
 			<text>Snubbull gets +1/+0 for each Treasure you control.
-{3}{W}: Reveal the top card of your library. If it’s a Pokémon card and mana from a Treasure was spent to activate this ability, you may cast that card. Otherwise, put it into your hand.</text>
+{3}{W}: Reveal the top card of your library. If it's a Pokémon card and mana from a Treasure was spent to activate this ability, you may cast that card. Otherwise, put it into your hand.</text>
 		</card>
 		<card>
 			<name>Granbull</name>
@@ -4379,7 +4379,7 @@ Whenever a Pokémon with toughness 5 or greater enters the battlefield or evolve
 			<pt>2/3</pt>
 			<tablerow>2</tablerow>
 			<text>Deathtouch
-Landfall — Whenever a land enters the battlefield under your control, up to one target land becomes a 2/3 green and blue Water Poison Pokémon with deathtouch until end of turn. It’s still a land. Whenever that Pokémon deals combat damage to a player this turn, draw a card.</text>
+Landfall — Whenever a land enters the battlefield under your control, up to one target land becomes a 2/3 green and blue Water Poison Pokémon with deathtouch until end of turn. It's still a land. Whenever that Pokémon deals combat damage to a player this turn, draw a card.</text>
 		</card>
 		<card>
 			<name>Scizor</name>
@@ -4412,8 +4412,8 @@ Sacrifice two Foods: Target artifact or Pokémon loses all abilities and becomes
 			<type>Pokémon - Bug Fighting</type>
 			<pt>6/6</pt>
 			<tablerow>2</tablerow>
-			<text>When Heracross enters the battlefield, it fights up to one target Pokémon you don’t control.
-Whenever Heracross is dealt damage, put a +1/+1 counter on it and it fights up to one target Pokémon you don’t control.</text>
+			<text>When Heracross enters the battlefield, it fights up to one target Pokémon you don't control.
+Whenever Heracross is dealt damage, put a +1/+1 counter on it and it fights up to one target Pokémon you don't control.</text>
 		</card>
 		<card>
 			<name>Sneasel</name>
@@ -4572,7 +4572,7 @@ When Skarmory enters the battlefield, reveal the top X cards of your library, wh
 			<pt>3/2</pt>
 			<tablerow>2</tablerow>
 			<text>Menace
-Whenever Houndour evolves, it deals 1 damage to each Pokémon you don’t control.</text>
+Whenever Houndour evolves, it deals 1 damage to each Pokémon you don't control.</text>
 		</card>
 		<card>
 			<name>Houndoom</name>
@@ -4583,7 +4583,7 @@ Whenever Houndour evolves, it deals 1 damage to each Pokémon you don’t contro
 			<pt>5/4</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Houndour {B/R}
-Players can’t gain life.
+Players can't gain life.
 Whenever a Pokémon or trainer is dealt damage, its controller sacrifices it.</text>
 		</card>
 		<card>
@@ -4663,7 +4663,7 @@ When Stantler dies, create two 2/2 green and white Normal Pokémon tokens with v
 			<type>Pokémon - Fighting</type>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
-			<text>Baby — Cards named Hitmonchan, Hitmonlee, or Hitmontop have “Evolve From Tyrogue {G}.”
+			<text>Baby — Cards named Hitmonchan, Hitmonlee, or Hitmontop have “Evolve From Tyrogue {G}."
 Whenever Tyrogue evolves, put three stun counters on up to one target Pokémon.</text>
 		</card>
 		<card>
@@ -4685,8 +4685,8 @@ Whenever Hitmontop attacks or blocks, tap target Pokémon.</text>
 			<type>Pokémon - Ice Psychic</type>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
-			<text>Baby — Cards named Jynx have “Evolve From Smoochum {B}.”
-Whenever Smoochum evolves, for each Pokémon you don’t control, its controller may sacrifice it. For each Pokémon not sacrificed this way, you draw a card and gain 2 life.</text>
+			<text>Baby — Cards named Jynx have “Evolve From Smoochum {B}."
+Whenever Smoochum evolves, for each Pokémon you don't control, its controller may sacrifice it. For each Pokémon not sacrificed this way, you draw a card and gain 2 life.</text>
 		</card>
 		<card>
 			<name>Elekid</name>
@@ -4696,7 +4696,7 @@ Whenever Smoochum evolves, for each Pokémon you don’t control, its controller
 			<type>Pokémon - Electric</type>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
-			<text>Baby — Cards named Electabuzz have “Evolve From Elekid {R/W}.”
+			<text>Baby — Cards named Electabuzz have “Evolve From Elekid {R/W}."
 Whenever Elekid evolves, Pokémon you control gain first strike until end of turn.</text>
 		</card>
 		<card>
@@ -4707,7 +4707,7 @@ Whenever Elekid evolves, Pokémon you control gain first strike until end of tur
 			<type>Pokémon - Fire</type>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
-			<text>Baby — Cards named Magmar have “Evolve From Magby {R}.”
+			<text>Baby — Cards named Magmar have “Evolve From Magby {R}."
 If Magby would deal damage to a Pokémon, it deals that much damage plus 1 instead.
 Whenever a Pokémon card is put into exile, untap Magby and add {R}.</text>
 		</card>
@@ -4740,7 +4740,7 @@ Whenever a Pokémon card is put into exile, untap Magby and add {R}.</text>
 			<type>Legendary Pokémon - Electric</type>
 			<pt>4/4</pt>
 			<tablerow>2</tablerow>
-			<text>Roaming — When you cast this spell, if it’s the first time you’ve cast a spell named Raikou this game, shuffle it into its owner’s library at the beginning of the next end step.
+			<text>Roaming — When you cast this spell, if it's the first time you've cast a spell named Raikou this game, shuffle it into its owner's library at the beginning of the next end step.
 Attacking Pokémon you control have first strike.</text>
 		</card>
 		<card>
@@ -4751,7 +4751,7 @@ Attacking Pokémon you control have first strike.</text>
 			<type>Legendary Pokémon - Fire</type>
 			<pt>4/4</pt>
 			<tablerow>2</tablerow>
-			<text>Roaming — When you cast this spell, if it’s the first time you’ve cast a spell named Entei this game, shuffle it into its owner’s library at the beginning of the next end step.
+			<text>Roaming — When you cast this spell, if it's the first time you've cast a spell named Entei this game, shuffle it into its owner's library at the beginning of the next end step.
 Each creature you control with a +1/+1 counter on it has trample.</text>
 		</card>
 		<card>
@@ -4762,7 +4762,7 @@ Each creature you control with a +1/+1 counter on it has trample.</text>
 			<type>Legendary Pokémon - Water</type>
 			<pt>4/4</pt>
 			<tablerow>2</tablerow>
-			<text>Roaming — When you cast this spell, if it’s the first time you’ve cast a spell named Suicune this game, shuffle it into its owner’s library at the beginning of the next end step.
+			<text>Roaming — When you cast this spell, if it's the first time you've cast a spell named Suicune this game, shuffle it into its owner's library at the beginning of the next end step.
 Other Pokémon you control have hexproof.</text>
 		</card>
 		<card>
@@ -4895,7 +4895,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<related>Morty Emblem</related>
 			<text>[+1]: Until your next turn, prevent all damage target permanent would deal. Create a Treasure token.
 [-3]: Exile target nonland permanent.
-[−7]: You get an emblem with “At the beginning of your upkeep, return target Pokémon card from your graveyard to the battlefield.”</text>
+[−7]: You get an emblem with “At the beginning of your upkeep, return target Pokémon card from your graveyard to the battlefield."</text>
 		</card>
 		<card>
 			<name>Chuck</name>
@@ -4907,9 +4907,9 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<loyalty>4</loyalty>
 			<related>Poliwrath Token</related>
 			<related>Chuck Emblem</related>
-			<text>This spell can’t be countered.
+			<text>This spell can't be countered.
 [+1]: Create a 4/4 blue and red Water Fighting Pokémon token with haste named Poliwrath. Sacrifice it at the beginning of the next end step.
-[−6]: You get an emblem with “Whenever a Pokémon you control dies, it deals damage equal to its power to target player.”</text>
+[−6]: You get an emblem with “Whenever a Pokémon you control dies, it deals damage equal to its power to target player."</text>
 		</card>
 		<card>
 			<name>Jasmine</name>
@@ -4933,7 +4933,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<loyalty>4</loyalty>
 			<related>Pryce Emblem</related>
 			<text>[0]: Tap target Pokémon and put a stun counter on it. Put a loyalty counter on each Trainer you control.
-[−8]: You get an emblem with “Whenever you draw a card, exile target permanent an opponent controls.”</text>
+[−8]: You get an emblem with “Whenever you draw a card, exile target permanent an opponent controls."</text>
 		</card>
 		<card>
 			<name>Clair</name>
@@ -4946,7 +4946,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<related>Clair Emblem</related>
 			<text>[+1]: Look at the top two cards of your library. Put one of them into your hand and exile the other. Up to one target Pokémon gets +X/+0 until end of turn, where X is the number of cards you own in exile.
 [−X]: You may cast a non-Pokémon card you own in exile with mana value X without paying its mana cost.
-[-7]: You get an emblem with “At the beginning of your upkeep, exile your hand and draw two cards.”</text>
+[-7]: You get an emblem with “At the beginning of your upkeep, exile your hand and draw two cards."</text>
 		</card>
 		<card>
 			<name>Janine</name>
@@ -4959,7 +4959,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<related count="3">Weedle Token</related>
 			<text>[+1]: Put a -1/-1 counter on up to one target Pokémon. Until your next turn, whenever that Pokémon deals damage to Janine, destroy it.
 [−3]: Destroy target nonland permanent.
-[-7]: Create three 1/1 black Bug Poison Pokémon tokens named Weedle with wither and “Whenever this Pokémon deals combat damage to a player, that player loses the game.”</text>
+[-7]: Create three 1/1 black Bug Poison Pokémon tokens named Weedle with wither and “Whenever this Pokémon deals combat damage to a player, that player loses the game."</text>
 		</card>
 		<card>
 			<name>Will</name>
@@ -4982,7 +4982,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<type>Legendary Trainer - Karen</type>
 			<loyalty>3</loyalty>
 			<related>Karen Token</related>
-			<text>As you cast this spell, you may sacrifice a Pokémon with power X. When you do, copy this spell. The copy isn’t legendary and has starting loyalty X.
+			<text>As you cast this spell, you may sacrifice a Pokémon with power X. When you do, copy this spell. The copy isn't legendary and has starting loyalty X.
 [+1]: Each opponent loses 2 life unless they sacrifice a permanent or discard a card.
 [-7]: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of their choice.</text>
 		</card>
@@ -5012,7 +5012,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<manacost>1UU</manacost>
 			<type>Instant</type>
 			<tablerow>3</tablerow>
-			<text>Counter target spell. Scry X, where X is the that spell’s mana value.</text>
+			<text>Counter target spell. Scry X, where X is the that spell's mana value.</text>
 		</card>
 		<card>
 			<name>Icy Wind</name>
@@ -5030,7 +5030,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<manacost>1U</manacost>
 			<type>Instant</type>
 			<tablerow>3</tablerow>
-			<text>You may return an Island you control to its owner’s hand rather than pay this spell’s mana cost.
+			<text>You may return an Island you control to its owner's hand rather than pay this spell's mana cost.
 Counter target spell unless its controller pays {1}.</text>
 		</card>
 		<card>
@@ -5082,8 +5082,8 @@ Draw two cards and create a Treasure token.</text>
 			<manacost>4U</manacost>
 			<type>Instant</type>
 			<tablerow>3</tablerow>
-			<text>Put target nonland permanent on top of its owner’s library.
-Landfall — If you had a land enter the battlefield under your control this turn, put that permanent into its owner’s library third from the top.</text>
+			<text>Put target nonland permanent on top of its owner's library.
+Landfall — If you had a land enter the battlefield under your control this turn, put that permanent into its owner's library third from the top.</text>
 		</card>
 		<card>
 			<name>Reversal</name>
@@ -5092,7 +5092,7 @@ Landfall — If you had a land enter the battlefield under your control this tur
 			<manacost>2BG</manacost>
 			<type>Instant</type>
 			<tablerow>3</tablerow>
-			<text>Choose target Pokémon card in your graveyard that was put there from the battlefield this turn. Return that card to the battlefield. When you do, it fights up to one target Pokémon you don’t control.</text>
+			<text>Choose target Pokémon card in your graveyard that was put there from the battlefield this turn. Return that card to the battlefield. When you do, it fights up to one target Pokémon you don't control.</text>
 		</card>
 		<card>
 			<name>Spite</name>
@@ -5121,7 +5121,7 @@ Landfall — If you had a land enter the battlefield under your control this tur
 			<tablerow>3</tablerow>
 			<text>Choose three. You may choose the same mode more than once.
 • Counter target spell unless its controller pays 3.
-• Return target Pokémon to its owner’s hand.
+• Return target Pokémon to its owner's hand.
 • Draw a card.</text>
 		</card>
 		<card>
@@ -5131,7 +5131,7 @@ Landfall — If you had a land enter the battlefield under your control this tur
 			<manacost>UR</manacost>
 			<type>Instant</type>
 			<tablerow>3</tablerow>
-			<text>Choose a Pokémon you don’t control at random. Zap Cannon deals damage to that Pokémon equal to the number of cards you own in exile. If excess damage is dealt this way, draw a card.Choose a Pokémon you don’t control at random. Zap Cannon deals damage to that Pokémon equal to 2 plus the number of cards you own in exile. If excess damage is dealt this way, draw a card. Exile Zap Cannon.</text>
+			<text>Choose a Pokémon you don't control at random. Zap Cannon deals damage to that Pokémon equal to the number of cards you own in exile. If excess damage is dealt this way, draw a card.Choose a Pokémon you don't control at random. Zap Cannon deals damage to that Pokémon equal to 2 plus the number of cards you own in exile. If excess damage is dealt this way, draw a card. Exile Zap Cannon.</text>
 		</card>
 		<!-- sorceries -->
 		<card>
@@ -5192,8 +5192,8 @@ Choose one, then choose another one for each time Aeroblast was kicked.
 			<manacost>2BB</manacost>
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
-			<text>If you control a Dark, Ghost, or Psychic Pokémon, you may pay 2 life rather than pay this spell’s mana cost.
-Target Pokémon’s controller sacrifices it unless they pay life equal to 1 plus its mana value.
+			<text>If you control a Dark, Ghost, or Psychic Pokémon, you may pay 2 life rather than pay this spell's mana cost.
+Target Pokémon's controller sacrifices it unless they pay life equal to 1 plus its mana value.
 Overload {2}{B}{B}, Reveal a black Pokémon card from your hand.</text>
 		</card>
 		<card>
@@ -5204,7 +5204,7 @@ Overload {2}{B}{B}, Reveal a black Pokémon card from your hand.</text>
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
 			<text>As an additional cost to cast this spell, sacrifice a Pokémon.
-Flame Wheel deals damage equal to the sacrificed Pokémon’s power to each Pokémon and each trainer.</text>
+Flame Wheel deals damage equal to the sacrificed Pokémon's power to each Pokémon and each trainer.</text>
 		</card>
 		<card>
 			<name>Giga Drain</name>
@@ -5254,7 +5254,7 @@ Sacred Fire deals 8 damage to each Pokémon and each trainer.</text>
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
 			<text>As an additional cost to cast this spell, you may sacrifice a permanent.
-Up to two target Pokémon can’t block this turn. If this spell’s additional cost was paid, tap those Pokémon and put a stun counter on each of them.</text>
+Up to two target Pokémon can't block this turn. If this spell's additional cost was paid, tap those Pokémon and put a stun counter on each of them.</text>
 		</card>
 		<card>
 			<name>Shadow Ball</name>
@@ -5438,7 +5438,7 @@ Equip {1}</text>
 			<type>Enchantment</type>
 			<tablerow>1</tablerow>
 			<related>Treasure Token</related>
-			<text>Whenever an opponent draws a card or a Pokémon an opponent controls dies, any opponent may pay 1. If they don’t, create a Treasure token.
+			<text>Whenever an opponent draws a card or a Pokémon an opponent controls dies, any opponent may pay 1. If they don't, create a Treasure token.
 At the beginning of your upkeep, if you control ten or more Treasures, you win the game.</text>
 		</card>
 		<card>
@@ -5519,7 +5519,7 @@ Cycling {2}</text>
 			<type>Land</type>
 			<tablerow>0</tablerow>
 			<cipt>1</cipt>
-			<text>As Burned Tower enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
+			<text>As Burned Tower enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
 {T}: Add {B} or {R}.</text>
 		</card>
 		<card>
@@ -5539,7 +5539,7 @@ Cycling {2}</text>
 			<type>Land</type>
 			<tablerow>0</tablerow>
 			<cipt>1</cipt>
-			<text>As Celadon University enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
+			<text>As Celadon University enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
 {T}: Add {G} or {U}.</text>
 		</card>
 		<card>
@@ -5550,7 +5550,7 @@ Cycling {2}</text>
 			<type>Land</type>
 			<tablerow>0</tablerow>
 			<cipt>1</cipt>
-			<text>As Cherrygrove City enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
+			<text>As Cherrygrove City enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
 {T}: Add {G} or {W}.</text>
 		</card>
 		<card>
@@ -5605,7 +5605,7 @@ Cycling {2}</text>
 {1}, {T}, Sacrifice Daycare Center: Draw a card.</text>
 		</card>
 		<card>
-			<name>Dragon’s Den</name>
+			<name>Dragon's Den</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Dragons%20Den.png" rarity="rare">PJTO</set>
 			<color />
 			<manacost />
@@ -5796,7 +5796,7 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
 			<type>Land</type>
 			<tablerow>0</tablerow>
 			<text>{T}: Add {C}.
-{B/R}: Add {B}{B}, {B}{R}, or {R}{R}.</text>
+{B/R}, {T}: Add {B}{B}, {B}{R}, or {R}{R}.</text>
 		</card>
 		<card>
 			<name>Mt. Silver</name>
@@ -5853,7 +5853,7 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
 			<type>Land</type>
 			<tablerow>0</tablerow>
 			<cipt>1</cipt>
-			<text>As Research Facility enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
+			<text>As Research Facility enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
 {T}: Add {U} or {R}.</text>
 		</card>
 		<card>
@@ -5893,7 +5893,7 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
 			<type>Land</type>
 			<tablerow>0</tablerow>
 			<text>{T}: Add {C}.
-{G/W}: Add {G}{G}, {G}{W}, or {W}{W}.</text>
+{G/W}, {T}: Add {G}{G}, {G}{W}, or {W}{W}.</text>
 		</card>
 		<card>
 			<name>Tohjo Falls</name>
@@ -5937,7 +5937,7 @@ When Victory Road enters the battlefield, sacrifice two lands.
 			<type>Land</type>
 			<tablerow>0</tablerow>
 			<cipt>1</cipt>
-			<text>As Violet City enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.
+			<text>As Violet City enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
 {T}: Add {W} or {B}.</text>
 		</card>
 		<card>
@@ -5948,7 +5948,7 @@ When Victory Road enters the battlefield, sacrifice two lands.
 			<type>Land</type>
 			<tablerow>0</tablerow>
 			<text>{T}: Add {U}.
-{3}{U}, Discard Whirl Islands: Return target nonland permanent to its owner’s hand. This ability costs {1} less to activate for each evolved Pokémon you control.</text>
+{3}{U}, Discard Whirl Islands: Return target nonland permanent to its owner's hand. This ability costs {1} less to activate for each evolved Pokémon you control.</text>
 		</card>
 		<!-- tokens -->
 		<card>
