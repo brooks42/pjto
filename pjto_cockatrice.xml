@@ -5263,6 +5263,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
 			<manacost>XBB</manacost>
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
+			<related>Treasure Token</related>
 			<text>Exile any number of target Pokémon with total mana value X or less. If X is 3 or less, create a Treasure token. Otherwise, scry X.</text>
 		</card>
 		<card>
