@@ -4933,7 +4933,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<loyalty>4</loyalty>
 			<related>Pryce Emblem</related>
 			<text>[0]: Tap target Pokémon and put a stun counter on it. Put a loyalty counter on each Trainer you control.
-[−8]: You get an emblem with “Whenever you draw a card, exile target permanent an opponent controls."</text>
+[−8]: Tap all permanents you don’t control and put a stun counter on them. You gain 1 life for each tapped permanent your opponents control.</text>
 		</card>
 		<card>
 			<name>Clair</name>
