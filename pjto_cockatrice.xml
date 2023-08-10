@@ -4549,7 +4549,7 @@ Whenever you sacrifice a Food, each opponent gains 2 life. Populate.</text>
 			<type>Pokémon - Water Flying</type>
 			<pt>2/2</pt>
 			<tablerow>2</tablerow>
-			<text>At the beginning of your upkeep, if you own 20 or more cards in exile, you win the game.
+			<text>At the beginning of your upkeep, if you own 12 or more cards in exile, you win the game.
 {U}: Mantine gains flying until end of turn.</text>
 		</card>
 		<card>
