@@ -4412,8 +4412,8 @@ Sacrifice two Foods: Target artifact or Pokémon loses all abilities and becomes
 			<type>Pokémon - Bug Fighting</type>
 			<pt>6/6</pt>
 			<tablerow>2</tablerow>
-			<text>When Heracross enters the battlefield, it fights up to one target Pokémon you don't control.
-Whenever Heracross is dealt damage, put a +1/+1 counter on it and it fights up to one target Pokémon you don't control.</text>
+			<text>When Heracross enters the battlefield, it fights target Pokémon you don't control.
+Whenever Heracross is dealt damage, put a +1/+1 counter on it and it fights target Pokémon you don't control.</text>
 		</card>
 		<card>
 			<name>Sneasel</name>
