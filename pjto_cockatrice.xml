@@ -4820,7 +4820,7 @@ Whenever Tyranitar attacks, defending player sacrifices a nonland permanent. If 
 			<type>Legendary Pokémon - Psychic Flying</type>
 			<pt>6/6</pt>
 			<tablerow>2</tablerow>
-			<text>When you cast this spell, exile target permanent.
+			<text>When you cast this spell from your hand, exile target permanent.
 Flying, first strike, vigilance, lifelink
 Protection from instants</text>
 		</card>
