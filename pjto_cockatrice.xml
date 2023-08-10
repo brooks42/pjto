@@ -5237,7 +5237,7 @@ Exile target Pokémon. For each Pokémon exiled this way, its controller creates
 Overload {2}{W}{W}, Reveal a white Pokémon card from your hand.</text>
 		</card>
 		<card>
-			<name>Sacred Fire</name>
+			<name>Sacred Fire (PJTO)</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Sacred%20Fire.png" rarity="mythic">PJTO</set>
 			<color>R</color>
 			<manacost>8R</manacost>
