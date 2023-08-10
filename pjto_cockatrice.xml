@@ -4740,7 +4740,7 @@ Whenever a Pokémon card is put into exile, untap Magby and add {R}.</text>
 			<type>Legendary Pokémon - Electric</type>
 			<pt>4/4</pt>
 			<tablerow>2</tablerow>
-			<text>Roaming — When you cast this spell, if it's the first time you've cast a spell named Raikou this game, shuffle it into its owner's library at the beginning of the next end step.
+			<text>Roaming — When you cast this spell, if it's the first time you've cast a spell named Raikou this game, shuffle it into its owner's library and draw a card at the beginning of the next end step.
 Attacking Pokémon you control have first strike.</text>
 		</card>
 		<card>
@@ -4751,8 +4751,8 @@ Attacking Pokémon you control have first strike.</text>
 			<type>Legendary Pokémon - Fire</type>
 			<pt>4/4</pt>
 			<tablerow>2</tablerow>
-			<text>Roaming — When you cast this spell, if it's the first time you've cast a spell named Entei this game, shuffle it into its owner's library at the beginning of the next end step.
-Each creature you control with a +1/+1 counter on it has trample.</text>
+			<text>Roaming — When you cast this spell, if it's the first time you've cast a spell named Entei this game, shuffle it into its owner's library and draw a card at the beginning of the next end step.
+Each Pokémon you control with a +1/+1 counter on it has trample.</text>
 		</card>
 		<card>
 			<name>Suicune</name>
@@ -4762,7 +4762,7 @@ Each creature you control with a +1/+1 counter on it has trample.</text>
 			<type>Legendary Pokémon - Water</type>
 			<pt>4/4</pt>
 			<tablerow>2</tablerow>
-			<text>Roaming — When you cast this spell, if it's the first time you've cast a spell named Suicune this game, shuffle it into its owner's library at the beginning of the next end step.
+			<text>Roaming — When you cast this spell, if it's the first time you've cast a spell named Suicune this game, shuffle it into its owner's library and draw a card at the beginning of the next end step.
 Other Pokémon you control have hexproof.</text>
 		</card>
 		<card>
