@@ -7,6 +7,10 @@ A repo for the MTG Pokemon TCG cockatrice XML and supporting materials but for G
 
 **A**: No, if you spend mana to cast a spell, Togetic's triggered ability will not trigger at all.
 
+**Q: When I cast Raikou/Entei/Suicune for the second time, do I draw a card?**
+
+**A**: No, the triggered ability will not trigger at all on the second cast.
+
 **Q: Can I pay life to cast Destiny Bond when I overload it?**
 
 **A**: No, paying life to cast Destiny Bond is an alternate casting cost, as is overload. You can only choose one alternate casting cost.

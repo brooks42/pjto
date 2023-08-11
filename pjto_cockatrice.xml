@@ -4412,8 +4412,8 @@ Sacrifice two Foods: Target artifact or Pokémon loses all abilities and becomes
 			<type>Pokémon - Bug Fighting</type>
 			<pt>6/6</pt>
 			<tablerow>2</tablerow>
-			<text>When Heracross enters the battlefield, it fights up to one target Pokémon you don't control.
-Whenever Heracross is dealt damage, put a +1/+1 counter on it and it fights up to one target Pokémon you don't control.</text>
+			<text>When Heracross enters the battlefield, it fights target Pokémon you don't control.
+Whenever Heracross is dealt damage, put a +1/+1 counter on it and it fights target Pokémon you don't control.</text>
 		</card>
 		<card>
 			<name>Sneasel</name>
@@ -4525,7 +4525,7 @@ You may look at the top card of your library any time.
 			<type>Pokémon - Water</type>
 			<pt>4/3</pt>
 			<tablerow>2</tablerow>
-			<text>Evolve From Remoraid {U}
+			<text>Evolve From Remoraid {R}
 Activated abilities of evolved Pokémon you control cost {1} less to activate.
 {1}{U}{R}: Draw a card, then exile a card from your hand.</text>
 		</card>
@@ -4549,7 +4549,7 @@ Whenever you sacrifice a Food, each opponent gains 2 life. Populate.</text>
 			<type>Pokémon - Water Flying</type>
 			<pt>2/2</pt>
 			<tablerow>2</tablerow>
-			<text>At the beginning of your upkeep, if you own 20 or more cards in exile, you win the game.
+			<text>At the beginning of your upkeep, if you own 12 or more cards in exile, you win the game.
 {U}: Mantine gains flying until end of turn.</text>
 		</card>
 		<card>
@@ -4740,7 +4740,7 @@ Whenever a Pokémon card is put into exile, untap Magby and add {R}.</text>
 			<type>Legendary Pokémon - Electric</type>
 			<pt>4/4</pt>
 			<tablerow>2</tablerow>
-			<text>Roaming — When you cast this spell, if it's the first time you've cast a spell named Raikou this game, shuffle it into its owner's library at the beginning of the next end step.
+			<text>Roaming — When you cast this spell, if it's the first time you've cast a spell named Raikou this game, shuffle it into its owner's library and draw a card at the beginning of the next end step.
 Attacking Pokémon you control have first strike.</text>
 		</card>
 		<card>
@@ -4751,8 +4751,8 @@ Attacking Pokémon you control have first strike.</text>
 			<type>Legendary Pokémon - Fire</type>
 			<pt>4/4</pt>
 			<tablerow>2</tablerow>
-			<text>Roaming — When you cast this spell, if it's the first time you've cast a spell named Entei this game, shuffle it into its owner's library at the beginning of the next end step.
-Each creature you control with a +1/+1 counter on it has trample.</text>
+			<text>Roaming — When you cast this spell, if it's the first time you've cast a spell named Entei this game, shuffle it into its owner's library and draw a card at the beginning of the next end step.
+Each Pokémon you control with a +1/+1 counter on it has trample.</text>
 		</card>
 		<card>
 			<name>Suicune</name>
@@ -4762,7 +4762,7 @@ Each creature you control with a +1/+1 counter on it has trample.</text>
 			<type>Legendary Pokémon - Water</type>
 			<pt>4/4</pt>
 			<tablerow>2</tablerow>
-			<text>Roaming — When you cast this spell, if it's the first time you've cast a spell named Suicune this game, shuffle it into its owner's library at the beginning of the next end step.
+			<text>Roaming — When you cast this spell, if it's the first time you've cast a spell named Suicune this game, shuffle it into its owner's library and draw a card at the beginning of the next end step.
 Other Pokémon you control have hexproof.</text>
 		</card>
 		<card>
@@ -4820,7 +4820,7 @@ Whenever Tyranitar attacks, defending player sacrifices a nonland permanent. If 
 			<type>Legendary Pokémon - Psychic Flying</type>
 			<pt>6/6</pt>
 			<tablerow>2</tablerow>
-			<text>When you cast this spell, exile target permanent.
+			<text>When you cast this spell from your hand, exile target permanent.
 Flying, first strike, vigilance, lifelink
 Protection from instants</text>
 		</card>
@@ -4833,7 +4833,7 @@ Protection from instants</text>
 			<pt>6/6</pt>
 			<tablerow>2</tablerow>
 			<text>Flying
-Whenever Ho-Oh deals combat damage to a player, you may cast a spell from your hand or graveyard without paying its mana cost.</text>
+Whenever Ho-Oh deals combat damage to a player, you may return target permanent card from your graveyard to the battlefield.</text>
 		</card>
 		<card>
 			<name>Celebi</name>
@@ -4933,7 +4933,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<loyalty>4</loyalty>
 			<related>Pryce Emblem</related>
 			<text>[0]: Tap target Pokémon and put a stun counter on it. Put a loyalty counter on each Trainer you control.
-[−8]: You get an emblem with “Whenever you draw a card, exile target permanent an opponent controls."</text>
+[−8]: Tap all permanents you don’t control and put a stun counter on them. You gain 1 life for each tapped permanent your opponents control.</text>
 		</card>
 		<card>
 			<name>Clair</name>
@@ -5237,14 +5237,14 @@ Exile target Pokémon. For each Pokémon exiled this way, its controller creates
 Overload {2}{W}{W}, Reveal a white Pokémon card from your hand.</text>
 		</card>
 		<card>
-			<name>Sacred Fire</name>
+			<name>Sacred Fire (PJTO)</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Sacred%20Fire.png" rarity="mythic">PJTO</set>
 			<color>R</color>
 			<manacost>8R</manacost>
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
 			<text>This spell costs {1} less to cast for each card you own in exile.
-Sacred Fire deals 8 damage to each Pokémon and each trainer.</text>
+Sacred Fire deals 8 damage to each Pokémon and each trainer. If a permanent dealt damage this way would die this turn, exile it instead.</text>
 		</card>
 		<card>
 			<name>Scary Face</name>
