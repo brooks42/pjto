@@ -1562,7 +1562,7 @@ Whenever you scry, target Pokémon gets -2/-0 until end of turn. If Starmie is e
 			<type>Pokémon - Electric</type>
 			<pt>4/4</pt>
 			<tablerow>2</tablerow>
-			<text>Whenever Electabuzz attacks for the first time each turn, untap all attacking creatures. After this phase, there is an additional combat phase.</text>
+			<text>Whenever Electabuzz attacks for the first time each turn, untap all attacking Pokémon. After this phase, there is an additional combat phase.</text>
 		</card>
 		<card>
 			<name>Magmar</name>
@@ -5293,7 +5293,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
 			<manacost>R</manacost>
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
-			<text>Gain control of target Pokémon with mana value X or less until end of turn, where X is the number of cards you own in exile plus 3. Untap that creature. It gains haste until end of turn.</text>
+			<text>Gain control of target Pokémon with mana value X or less until end of turn, where X is the number of cards you own in exile plus 3. Untap that Pokémon. It gains haste until end of turn.</text>
 		</card>
 		<card>
 			<name>Twister</name>
