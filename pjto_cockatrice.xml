@@ -4275,7 +4275,7 @@ When Unown dies, put its mystery counters on target Clue you control. That Clue 
 			<pt>0/1</pt>
 			<tablerow>2</tablerow>
 			<text>Indestructible
-Whenever a Pokémon deals damage to Wobbuffet, gain control of that Pokémon until your next end step.
+Whenever a Pokémon deals damage to Wobbuffet, gain control of that Pokémon until your next end step. Put a stun counter on that Pokémon.
 {4}{B/R}{B/R}, {T}: Target Pokémon fights Wobbuffet. Activate only as a sorcery.</text>
 		</card>
 		<card>
