@@ -4535,11 +4535,11 @@ Activated abilities of evolved Pokémon you control cost {1} less to activate.
 			<color>W</color>
 			<manacost>2W</manacost>
 			<type>Pokémon - Ice Flying</type>
-			<pt>2/2</pt>
+			<pt>2/3</pt>
 			<tablerow>2</tablerow>
 			<related>Food Token</related>
 			<text>Whenever you cast a spell, create a Food token.
-Whenever you sacrifice a Food, each opponent gains 2 life. Populate.</text>
+Whenever you sacrifice a Food, populate.</text>
 		</card>
 		<card>
 			<name>Mantine</name>
