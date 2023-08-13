@@ -4931,7 +4931,6 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<tablerow>1</tablerow>
 			<type>Legendary Trainer - Pryce</type>
 			<loyalty>4</loyalty>
-			<related>Pryce Emblem</related>
 			<text>[0]: Tap target Pokémon and put a stun counter on it. Put a loyalty counter on each Trainer you control.
 [−8]: Tap all permanents you don’t control and put a stun counter on them. You gain 1 life for each tapped permanent your opponents control.</text>
 		</card>
@@ -6149,15 +6148,6 @@ Whenever this Pokémon deals combat damage to a player, that player loses the ga
 			<type>Emblem - Morty</type>
 			<tablerow>1</tablerow>
 			<text>At the beginning of your upkeep, return target Pokémon card from your graveyard to the battlefield.</text>
-		</card>
-		<card>
-			<name>Pryce Emblem</name>
-			<set picURL="https://brooks42.github.io/pjto/cards/PryceEmblem.png" rarity="token">PJTO</set>
-			<color />
-			<manacost />
-			<type>Emblem - Pryce</type>
-			<tablerow>1</tablerow>
-			<text>Whenever you draw a card, exile target permanent an opponent controls.</text>
 		</card>
 	</cards>
 </cockatrice_carddatabase>
