@@ -4447,7 +4447,7 @@ Whenever Teddiursa evolves, create three Treasure tokens.</text>
 			<pt>5/5</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Teddiursa {1}{W}
-Whenever you sacrifice a Treasure, Ursaring gets +1/+1 until end of turn.</text>
+{2}{W}, Exile a Treasure you control: Exile target nonland permanent until Ursaring leaves the battlefield. Activate only as a sorcery.</text>
 		</card>
 		<card>
 			<name>Slugma</name>
