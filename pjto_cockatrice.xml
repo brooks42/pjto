@@ -3735,7 +3735,7 @@ Whenever Typhlosion enters the battlefield or evolves, target opponent sacrifice
 			<tablerow>2</tablerow>
 			<side>front</side>
 			<related attach="attach">Croconaw (DFC)</related>
-			<text>{2}{U}, {T}: Draw a card, then you may put a land card from your hand onto the battlefield.
+			<text>{1}{G}{U}, {T}: Draw a card. You may put a land card from your hand onto the battlefield.
 {G}{U}: Evolve</text>
 		</card>
 		<card>
@@ -3745,7 +3745,7 @@ Whenever Typhlosion enters the battlefield or evolves, target opponent sacrifice
 			<type>Pokémon - Water</type>
 			<pt>3/4</pt>
 			<tablerow>2</tablerow>
-			<text>{2}{U}, {T}: Draw a card, then you may put a land card from your hand onto the battlefield.</text>
+			<text>{1}{G}{U}, {T}: Draw a card. You may put a land card from your hand onto the battlefield.</text>
 			<side>back</side>
 		</card>
 		<card>
@@ -3757,7 +3757,8 @@ Whenever Typhlosion enters the battlefield or evolves, target opponent sacrifice
 			<pt>3/4</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Totodile {G}{U}
-Landfall — Whenever a land enters the battlefield under your control, untap Croconaw and add {U}.</text>
+Landfall — Whenever a land enters the battlefield under your control, untap Croconaw and add one mana of any color that land could produce.
+Sacrifice a land: Croconaw gets +2/+2 and gains hexproof until end of turn.</text>
 		</card>
 		<card>
 			<name>Feraligatr</name>
@@ -3768,7 +3769,7 @@ Landfall — Whenever a land enters the battlefield under your control, untap Cr
 			<pt>4/6</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Croconaw {G}{U}
-Whenever Feraligatr enters the battlefield or evolves, draw X cards, where X is 1 plus the number of times it has evolved. You may play X additional lands this turn.</text>
+Whenever Feraligatr enters the battlefield or evolves, draw X cards, where X is 1 plus the number of times it has evolved. You may play X additional lands this turn. You may play lands from your graveyard this turn.</text>
 		</card>
 		<card>
 			<name>Sentret</name>
