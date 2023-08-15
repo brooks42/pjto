@@ -4379,7 +4379,8 @@ Whenever a Pokémon with toughness 5 or greater enters the battlefield or evolve
 			<pt>2/3</pt>
 			<tablerow>2</tablerow>
 			<text>Deathtouch
-Landfall — Whenever a land enters the battlefield under your control, up to one target land you control becomes a 2/3 Water Poison Pokémon with deathtouch until end of turn. It's still a land. Whenever it deals combat damage to a player this turn, draw a card.</text>
+Whenever Qwilfish attacks, return up to one target land you control to its owner's hand. You may play an additional land this turn.
+Landfall — Whenever a land enters the battlefield under your control, up to one target Pokémon gets -1/-1 until end of turn.</text>
 		</card>
 		<card>
 			<name>Scizor</name>
