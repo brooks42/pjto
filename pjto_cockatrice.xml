@@ -4286,9 +4286,9 @@ Whenever a Pokémon deals damage to Wobbuffet, gain control of that Pokémon unt
 			<type>Pokémon - Normal Psychic</type>
 			<pt>4/4</pt>
 			<tablerow>2</tablerow>
-			<text>{1}{B}, {T}, Pay 1 life: Create a Treasure token.
-{1}{W}, {T}, Pay 1 life: Tap target Pokémon.
-Whenever you sacrifice a Treasure, untap Girafarig.</text>
+			<text>Vigilance
+When Girafarig enters the battlefield, target opponent reveals their hand and you choose a nonland card from it. Exile that card until Girafarig leaves the battlefield.
+{1}{W}{B}, {T}: Put a card an opponent owns in exile on the bottom of that player’s library. If you do, create a Treasure token.</text>
 		</card>
 		<card>
 			<name>Pineco</name>
