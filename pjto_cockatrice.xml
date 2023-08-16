@@ -4228,7 +4228,7 @@ Whenever a Pokémon you control evolves, each opponent loses twice X life, where
 			<pt>2/2</pt>
 			<tablerow>2</tablerow>
 			<text>Flying
-When Murkrow enters the battlefield, target player discards a card. If mana from a Treasure was spent to cast Murkrow, instead that player reveals their hand. You choose a nonland card from it. That player discards that card.</text>
+When Murkrow enters the battlefield, target player discards a card. If mana from a Treasure was spent to cast Murkrow, instead that player reveals their hand and you choose a nonland card from it. That player discards that card.</text>
 		</card>
 		<card>
 			<name>Slowking</name>
