@@ -3723,7 +3723,7 @@ Whenever Quilava attacks, you may sacrifice a permanent. If you do, Quilava gain
 			<pt>6/4</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Quilava {B}{R}
-Whenever Typhlosion enters the battlefield or evolves, target opponent sacrifices X nonland permanents, where X is 2 plus the number of times Typhlosion has evolved.</text>
+Whenever Typhlosion enters the battlefield or evolves, target opponent sacrifices X nonland permanents, where X is 1 plus the number of times Typhlosion has evolved.</text>
 		</card>
 		<card>
 			<name>Totodile</name>
