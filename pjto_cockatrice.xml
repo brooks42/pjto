@@ -4289,7 +4289,7 @@ Whenever a Pokémon deals damage to Wobbuffet, gain control of that Pokémon unt
 			<tablerow>2</tablerow>
 			<text>Vigilance
 When Girafarig enters the battlefield, target opponent reveals their hand and you choose a nonland card from it. Exile that card until Girafarig leaves the battlefield.
-{1}{W}{B}, {T}: Put a card an opponent owns in exile on the bottom of that player’s library. If you do, create a Treasure token.</text>
+{1}{W}{B}, {T}: Put a card an opponent owns in exile on the bottom of that player's library. If you do, create a Treasure token.</text>
 		</card>
 		<card>
 			<name>Pineco</name>
@@ -4936,7 +4936,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<type>Legendary Trainer - Pryce</type>
 			<loyalty>4</loyalty>
 			<text>[0]: Tap target Pokémon and put a stun counter on it. Put a loyalty counter on each Trainer you control.
-[−8]: Tap all permanents you don’t control and put a stun counter on them. You gain 1 life for each tapped permanent your opponents control.</text>
+[−8]: Tap all permanents you don't control and put a stun counter on them. You gain 1 life for each tapped permanent your opponents control.</text>
 		</card>
 		<card>
 			<name>Clair</name>
@@ -5225,7 +5225,7 @@ Flame Wheel deals damage equal to the sacrificed Pokémon's power to each Pokém
 			<manacost>2GU</manacost>
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
-			<text>Shuffle your library, then reveal the top card. If it’s a nonland card, you may cast it without paying its mana cost. If it’s a land card, you may put it onto the battlefield and return Hidden Power to its owner’s hand.</text>
+			<text>Shuffle your library, then reveal the top card. If it's a nonland card, you may cast it without paying its mana cost. If it's a land card, you may put it onto the battlefield and return Hidden Power to its owner's hand.</text>
 		</card>
 		<card>
 			<name>Moonlight</name>
