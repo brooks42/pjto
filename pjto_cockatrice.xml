@@ -4947,7 +4947,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<type>Legendary Trainer - Clair</type>
 			<loyalty>5</loyalty>
 			<related>Clair Emblem</related>
-			<text>[+2]: Look at the top two cards of your library. Put one of them into your hand and exile the other. Up to one target Pokémon gets +X/+0 until end of turn, where X is the number of cards you own in exile.
+			<text>[+2]: Look at the top two cards of your library.
 [−X]: You may cast target non-Pokémon card in your graveyard with mana value X without paying its mana cost. If that spell would be put into your graveyard, exile it instead.
 [-7]: You get an emblem with "At the beginning of your upkeep, exile your hand and draw two cards."</text>
 		</card>
