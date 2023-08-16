@@ -1562,7 +1562,7 @@ Whenever you scry, target Pokémon gets -2/-0 until end of turn. If Starmie is e
 			<type>Pokémon - Electric</type>
 			<pt>4/4</pt>
 			<tablerow>2</tablerow>
-			<text>Whenever Electabuzz attacks for the first time each turn, untap all attacking creatures. After this phase, there is an additional combat phase.</text>
+			<text>Whenever Electabuzz attacks for the first time each turn, untap all attacking Pokémon. After this phase, there is an additional combat phase.</text>
 		</card>
 		<card>
 			<name>Magmar</name>
@@ -1926,7 +1926,7 @@ When you cycle Mew, shuffle it into your library.</text>
 			<loyalty>3</loyalty>
 			<text>[+1]: Add {R} or {G}. Pokémon spells you cast this turn can't be countered.
 [+1]: Draw a card if you control a Pokémon with power 4 or greater.
-[−7]: You get an emblem with “Whenever a source deals damage to a Pokémon you control, that Pokémon deals that much damage to that source's controller."</text>
+[−7]: You get an emblem with "Whenever a source deals damage to a Pokémon you control, that Pokémon deals that much damage to that source's controller."</text>
 			<related>Brock (Emblem)</related>
 		</card>
 		<card>
@@ -3735,7 +3735,7 @@ Whenever Typhlosion enters the battlefield or evolves, target opponent sacrifice
 			<tablerow>2</tablerow>
 			<side>front</side>
 			<related attach="attach">Croconaw (DFC)</related>
-			<text>{2}{U}, {T}: Draw a card, then you may put a land card from your hand onto the battlefield.
+			<text>{1}{G}{U}, {T}: Draw a card. You may put a land card from your hand onto the battlefield.
 {G}{U}: Evolve</text>
 		</card>
 		<card>
@@ -3745,7 +3745,7 @@ Whenever Typhlosion enters the battlefield or evolves, target opponent sacrifice
 			<type>Pokémon - Water</type>
 			<pt>3/4</pt>
 			<tablerow>2</tablerow>
-			<text>{2}{U}, {T}: Draw a card, then you may put a land card from your hand onto the battlefield.</text>
+			<text>{1}{G}{U}, {T}: Draw a card. You may put a land card from your hand onto the battlefield.</text>
 			<side>back</side>
 		</card>
 		<card>
@@ -3757,7 +3757,8 @@ Whenever Typhlosion enters the battlefield or evolves, target opponent sacrifice
 			<pt>3/4</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Totodile {G}{U}
-Landfall — Whenever a land enters the battlefield under your control, untap Croconaw and add {U}.</text>
+Landfall — Whenever a land enters the battlefield under your control, untap Croconaw and add one mana of any color that land could produce.
+Sacrifice a land: Croconaw gets +2/+2 and gains hexproof until end of turn.</text>
 		</card>
 		<card>
 			<name>Feraligatr</name>
@@ -3768,7 +3769,7 @@ Landfall — Whenever a land enters the battlefield under your control, untap Cr
 			<pt>4/6</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Croconaw {G}{U}
-Whenever Feraligatr enters the battlefield or evolves, draw X cards, where X is 1 plus the number of times it has evolved. You may play X additional lands this turn.</text>
+Whenever Feraligatr enters the battlefield or evolves, draw X cards, where X is 1 plus the number of times it has evolved. You may play X additional lands this turn. You may play lands from your graveyard this turn.</text>
 		</card>
 		<card>
 			<name>Sentret</name>
@@ -3839,7 +3840,7 @@ Whenever you sacrifice a Treasure for the first time each turn, target player lo
 			<pt>3/4</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Ledyba {G}
-Whenever you attack with five or more Pokémon, Pokémon you control get +1/+1 until end of turn.</text>
+Pokémon you control get +1/+1 for each other Pokémon you control with the same name as that Pokémon.</text>
 		</card>
 		<card>
 			<name>Spinarak</name>
@@ -3906,7 +3907,7 @@ Whenever you exile a card from your hand, you may cast it until your next turn. 
 			<type>Pokémon - Electric</type>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
-			<text>Baby — Cards named Pikachu have “Evolve From Pichu {R/W}."
+			<text>Baby — Cards named Pikachu have "Evolve From Pichu {R/W}."
 Whenever Pichu evolves, up to two target Pokémon must block this turn if able. Pichu deals 1 damage to each of those Pokémon.</text>
 		</card>
 		<card>
@@ -3917,7 +3918,7 @@ Whenever Pichu evolves, up to two target Pokémon must block this turn if able. 
 			<type>Pokémon - Fairy</type>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
-			<text>Baby — Cards named Clefairy have “Evolve From Cleffa {W/B}."
+			<text>Baby — Cards named Clefairy have "Evolve From Cleffa {W/B}."
 Pokémon you control have all other abilities of Cleffa.</text>
 		</card>
 		<card>
@@ -3929,7 +3930,7 @@ Pokémon you control have all other abilities of Cleffa.</text>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
 			<related>Treasure Token</related>
-			<text>Baby — Cards named Jigglypuff have “Evolve From Igglybuff {W}."
+			<text>Baby — Cards named Jigglypuff have "Evolve From Igglybuff {W}."
 Whenever Igglybuff evolves, tap up to two target Pokémon. Create X Treasure tokens, where X is the number of tapped Pokémon on the battlefield.</text>
 		</card>
 		<card>
@@ -4275,7 +4276,7 @@ When Unown dies, put its mystery counters on target Clue you control. That Clue 
 			<pt>0/1</pt>
 			<tablerow>2</tablerow>
 			<text>Indestructible
-Whenever a Pokémon deals damage to Wobbuffet, gain control of that Pokémon until your next end step.
+Whenever a Pokémon deals damage to Wobbuffet, gain control of that Pokémon until your next end step. Put a stun counter on that Pokémon.
 {4}{B/R}{B/R}, {T}: Target Pokémon fights Wobbuffet. Activate only as a sorcery.</text>
 		</card>
 		<card>
@@ -4286,9 +4287,9 @@ Whenever a Pokémon deals damage to Wobbuffet, gain control of that Pokémon unt
 			<type>Pokémon - Normal Psychic</type>
 			<pt>4/4</pt>
 			<tablerow>2</tablerow>
-			<text>{1}{B}, {T}, Pay 1 life: Create a Treasure token.
-{1}{W}, {T}, Pay 1 life: Tap target Pokémon.
-Whenever you sacrifice a Treasure, untap Girafarig.</text>
+			<text>Vigilance
+When Girafarig enters the battlefield, target opponent reveals their hand and you choose a nonland card from it. Exile that card until Girafarig leaves the battlefield.
+{1}{W}{B}, {T}: Put a card an opponent owns in exile on the bottom of that player’s library. If you do, create a Treasure token.</text>
 		</card>
 		<card>
 			<name>Pineco</name>
@@ -4379,7 +4380,8 @@ Whenever a Pokémon with toughness 5 or greater enters the battlefield or evolve
 			<pt>2/3</pt>
 			<tablerow>2</tablerow>
 			<text>Deathtouch
-Landfall — Whenever a land enters the battlefield under your control, up to one target land becomes a 2/3 green and blue Water Poison Pokémon with deathtouch until end of turn. It's still a land. Whenever that Pokémon deals combat damage to a player this turn, draw a card.</text>
+Whenever Qwilfish attacks, return up to one target land you control to its owner's hand. You may play an additional land this turn.
+Landfall — Whenever a land enters the battlefield under your control, up to one target Pokémon gets -1/-1 until end of turn.</text>
 		</card>
 		<card>
 			<name>Scizor</name>
@@ -4436,7 +4438,8 @@ Whenever Heracross is dealt damage, put a +1/+1 counter on it and it fights targ
 			<tablerow>2</tablerow>
 			<related count="3">Treasure Token</related>
 			<text>Vigilance
-Whenever Teddiursa evolves, create three Treasure tokens.</text>
+Whenever you cast your second spell each turn, create a Treasure token.
+Whenever Teddiursa evolves, create two Treasure tokens.</text>
 		</card>
 		<card>
 			<name>Ursaring</name>
@@ -4447,7 +4450,7 @@ Whenever Teddiursa evolves, create three Treasure tokens.</text>
 			<pt>5/5</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Teddiursa {1}{W}
-Whenever you sacrifice a Treasure, Ursaring gets +1/+1 until end of turn.</text>
+{2}{W}, Exile a Treasure you control: Exile target nonland permanent until Ursaring leaves the battlefield. Activate only as a sorcery.</text>
 		</card>
 		<card>
 			<name>Slugma</name>
@@ -4535,11 +4538,11 @@ Activated abilities of evolved Pokémon you control cost {1} less to activate.
 			<color>W</color>
 			<manacost>2W</manacost>
 			<type>Pokémon - Ice Flying</type>
-			<pt>2/2</pt>
+			<pt>2/3</pt>
 			<tablerow>2</tablerow>
 			<related>Food Token</related>
 			<text>Whenever you cast a spell, create a Food token.
-Whenever you sacrifice a Food, each opponent gains 2 life. Populate.</text>
+Whenever you sacrifice a Food, populate.</text>
 		</card>
 		<card>
 			<name>Mantine</name>
@@ -4652,8 +4655,9 @@ When Stantler dies, create two 2/2 green and white Normal Pokémon tokens with v
 			<type>Pokémon - Normal</type>
 			<pt>2/2</pt>
 			<tablerow>2</tablerow>
-			<text>{3}, {T}: Copy target activated ability, triggered ability, instant spell, or sorcery spell you control. You may choose new targets for the copy. 
-{4}, {T}: Copy target permanent spell you control.</text>
+			<text>{3}, {T}: Copy target instant or sorcery spell you control. You may choose new targets for the copy.
+{4}, {T}: Copy target token you control.
+{5}, {T}: Copy target permanent spell you control.</text>
 		</card>
 		<card>
 			<name>Tyrogue</name>
@@ -4663,7 +4667,7 @@ When Stantler dies, create two 2/2 green and white Normal Pokémon tokens with v
 			<type>Pokémon - Fighting</type>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
-			<text>Baby — Cards named Hitmonchan, Hitmonlee, or Hitmontop have “Evolve From Tyrogue {G}."
+			<text>Baby — Cards named Hitmonchan, Hitmonlee, or Hitmontop have "Evolve From Tyrogue {G}."
 Whenever Tyrogue evolves, put three stun counters on up to one target Pokémon.</text>
 		</card>
 		<card>
@@ -4685,7 +4689,7 @@ Whenever Hitmontop attacks or blocks, tap target Pokémon.</text>
 			<type>Pokémon - Ice Psychic</type>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
-			<text>Baby — Cards named Jynx have “Evolve From Smoochum {B}."
+			<text>Baby — Cards named Jynx have "Evolve From Smoochum {B}."
 Whenever Smoochum evolves, for each Pokémon you don't control, its controller may sacrifice it. For each Pokémon not sacrificed this way, you draw a card and gain 2 life.</text>
 		</card>
 		<card>
@@ -4696,7 +4700,7 @@ Whenever Smoochum evolves, for each Pokémon you don't control, its controller m
 			<type>Pokémon - Electric</type>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
-			<text>Baby — Cards named Electabuzz have “Evolve From Elekid {R/W}."
+			<text>Baby — Cards named Electabuzz have "Evolve From Elekid {R/W}."
 Whenever Elekid evolves, Pokémon you control gain first strike until end of turn.</text>
 		</card>
 		<card>
@@ -4707,7 +4711,7 @@ Whenever Elekid evolves, Pokémon you control gain first strike until end of tur
 			<type>Pokémon - Fire</type>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
-			<text>Baby — Cards named Magmar have “Evolve From Magby {R}."
+			<text>Baby — Cards named Magmar have "Evolve From Magby {R}."
 If Magby would deal damage to a Pokémon, it deals that much damage plus 1 instead.
 Whenever a Pokémon card is put into exile, untap Magby and add {R}.</text>
 		</card>
@@ -4895,7 +4899,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<related>Morty Emblem</related>
 			<text>[+1]: Until your next turn, prevent all damage target permanent would deal. Create a Treasure token.
 [-3]: Exile target nonland permanent.
-[−7]: You get an emblem with “At the beginning of your upkeep, return target Pokémon card from your graveyard to the battlefield."</text>
+[−7]: You get an emblem with "At the beginning of your upkeep, return target Pokémon card from your graveyard to the battlefield."</text>
 		</card>
 		<card>
 			<name>Chuck</name>
@@ -4909,7 +4913,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<related>Chuck Emblem</related>
 			<text>This spell can't be countered.
 [+1]: Create a 4/4 blue and red Water Fighting Pokémon token with haste named Poliwrath. Sacrifice it at the beginning of the next end step.
-[−6]: You get an emblem with “Whenever a Pokémon you control dies, it deals damage equal to its power to target player."</text>
+[−6]: You get an emblem with "Whenever a Pokémon you control dies, it deals damage equal to its power to target player."</text>
 		</card>
 		<card>
 			<name>Jasmine</name>
@@ -4931,7 +4935,6 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<tablerow>1</tablerow>
 			<type>Legendary Trainer - Pryce</type>
 			<loyalty>4</loyalty>
-			<related>Pryce Emblem</related>
 			<text>[0]: Tap target Pokémon and put a stun counter on it. Put a loyalty counter on each Trainer you control.
 [−8]: Tap all permanents you don’t control and put a stun counter on them. You gain 1 life for each tapped permanent your opponents control.</text>
 		</card>
@@ -4944,9 +4947,9 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<type>Legendary Trainer - Clair</type>
 			<loyalty>5</loyalty>
 			<related>Clair Emblem</related>
-			<text>[+1]: Look at the top two cards of your library. Put one of them into your hand and exile the other. Up to one target Pokémon gets +X/+0 until end of turn, where X is the number of cards you own in exile.
-[−X]: You may cast a non-Pokémon card you own in exile with mana value X without paying its mana cost.
-[-7]: You get an emblem with “At the beginning of your upkeep, exile your hand and draw two cards."</text>
+			<text>[+2]: Look at the top two cards of your library.
+[−X]: You may cast target non-Pokémon card in your graveyard with mana value X without paying its mana cost. If that spell would be put into your graveyard, exile it instead.
+[-7]: You get an emblem with "At the beginning of your upkeep, exile your hand and draw two cards."</text>
 		</card>
 		<card>
 			<name>Janine</name>
@@ -4959,7 +4962,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<related count="3">Weedle Token</related>
 			<text>[+1]: Put a -1/-1 counter on up to one target Pokémon. Until your next turn, whenever that Pokémon deals damage to Janine, destroy it.
 [−3]: Destroy target nonland permanent.
-[-7]: Create three 1/1 black Bug Poison Pokémon tokens named Weedle with wither and “Whenever this Pokémon deals combat damage to a player, that player loses the game."</text>
+[-7]: Create three 1/1 black Bug Poison Pokémon tokens named Weedle with wither and "Whenever this Pokémon deals combat damage to a player, that player loses the game."</text>
 		</card>
 		<card>
 			<name>Will</name>
@@ -5294,7 +5297,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
 			<manacost>R</manacost>
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
-			<text>Gain control of target Pokémon with mana value X or less until end of turn, where X is the number of cards you own in exile plus 3. Untap that creature. It gains haste until end of turn.</text>
+			<text>Gain control of target Pokémon with mana value X or less until end of turn, where X is the number of cards you own in exile plus 3. Untap that Pokémon. It gains haste until end of turn.</text>
 		</card>
 		<card>
 			<name>Twister</name>
@@ -6149,15 +6152,6 @@ Whenever this Pokémon deals combat damage to a player, that player loses the ga
 			<type>Emblem - Morty</type>
 			<tablerow>1</tablerow>
 			<text>At the beginning of your upkeep, return target Pokémon card from your graveyard to the battlefield.</text>
-		</card>
-		<card>
-			<name>Pryce Emblem</name>
-			<set picURL="https://brooks42.github.io/pjto/cards/PryceEmblem.png" rarity="token">PJTO</set>
-			<color />
-			<manacost />
-			<type>Emblem - Pryce</type>
-			<tablerow>1</tablerow>
-			<text>Whenever you draw a card, exile target permanent an opponent controls.</text>
 		</card>
 	</cards>
 </cockatrice_carddatabase>
