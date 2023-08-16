@@ -5222,10 +5222,10 @@ Flame Wheel deals damage equal to the sacrificed Pokémon's power to each Pokém
 			<name>Hidden Power</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Hidden%20Power.png" rarity="rare">PJTO</set>
 			<color>GU</color>
-			<manacost>3GU</manacost>
+			<manacost>2GU</manacost>
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
-			<text>Search your library for a Pokémon, instant, or sorcery card with mana value less than or equal to the number of colors of mana spent to cast this spell, exile that card, then shuffle. You may cast that card without paying its mana cost.</text>
+			<text>Shuffle your library, then reveal the top card. If it’s a nonland card, you may cast it without paying its mana cost. If it’s a land card, you may put it onto the battlefield and return Hidden Power to its owner’s hand.</text>
 		</card>
 		<card>
 			<name>Moonlight</name>
