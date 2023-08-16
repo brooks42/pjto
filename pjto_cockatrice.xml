@@ -5110,10 +5110,10 @@ Landfall — If you had a land enter the battlefield under your control this tur
 			<name>Sweet Scent</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Sweet%20Scent.png" rarity="rare">PJTO</set>
 			<color>GW</color>
-			<manacost>1GW</manacost>
+			<manacost>1GGW</manacost>
 			<type>Instant</type>
 			<tablerow>3</tablerow>
-			<text>Search your library for a Pokémon card and reveal it. Then search your library for a Pokémon card with Evolve From that can target Pokémon with the same name as the revealed card and reveal it. Put those cards into your hand, then shuffle.</text>
+			<text>Create a 5/5 green and white Pokémon token with trample named Meganium.</text>
 		</card>
 		<card>
 			<name>Whirlpool</name>
