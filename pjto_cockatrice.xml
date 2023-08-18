@@ -4324,7 +4324,7 @@ Forretress can't attack or block unless a player sacrificed a permanent this tur
 			<type>Pokémon - Normal</type>
 			<pt>1/3</pt>
 			<tablerow>2</tablerow>
-			<text>{9}, {T}: Destroy target Pokémon. Put X -1/-1 counters on Dunsparce, where X is that Pokémon's toughness. This ability costs {1} less to activate for each -1/-1 counter on all Pokémon.</text>
+			<text>{6}{B}, {T}: Destroy target Pokémon if it has a -1/-1 counter on it. Otherwise, put a -1/-1 counter on it. This ability costs {1} less to activate for each -1/-1 counter on all Pokémon.</text>
 		</card>
 		<card>
 			<name>Gligar</name>
