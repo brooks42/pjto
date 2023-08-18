@@ -3805,7 +3805,7 @@ Whenever Furret evolves, token Pokémon you control get +2/+0 and gain first str
 			<related>Treasure Token</related>
 			<related count="x">Treasure Token</related>
 			<text>Whenever Hoothoot deals combat damage to a player, create a Treasure token.
-Whenever Hoothoot evolves, create X Treasure tokens, where X is the the number of Pokémon cards in all graveyards.</text>
+Whenever Hoothoot evolves, create X Treasure tokens, where X is the number of Pokémon cards in all graveyards.</text>
 		</card>
 		<card>
 			<name>Noctowl</name>
