@@ -3644,7 +3644,7 @@ Cycling {2}</text>
 			<side>front</side>
 			<related attach="attach">Bayleef (DFC)</related>
 			<text>{3}{G}{W}: Populate. This ability costs {1} less to activate for each time Chikorita has evolved.
-{1}{G}{W}: Evolve</text>
+{G}{W}: Evolve</text>
 		</card>
 		<card>
 			<name>Bayleef (DFC)</name>
@@ -3691,7 +3691,7 @@ Whenever Meganium enters the battlefield or evolves, create a 5/5 green and whit
 			<side>front</side>
 			<related attach="attach">Quilava (DFC)</related>
 			<text>Whenever a player sacrifices a permanent, Cyndaquil deals 1 damage to any target.
-{1}{B}{R}: Evolve</text>
+{B}{R}: Evolve</text>
 		</card>
 		<card>
 			<name>Quilava (DFC)</name>
