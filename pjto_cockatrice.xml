@@ -5932,7 +5932,6 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<cipt>1</cipt>
 			<text>{T}: Add {C}.
 {1}, {T}: Add one many of any color among Pokémon you control.
 {4}, {T}, Sacrifice Victory Road: Search your library for a trainer card, reveal it, put it into your hand, then shuffle.</text>
