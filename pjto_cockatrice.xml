@@ -5222,7 +5222,7 @@ Flame Wheel deals damage equal to the sacrificed Pokémon's power to each Pokém
 			<manacost>X{B/G}</manacost>
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
-			<text>Put X -1/-1 counters on target Pokémon. You gain life equal to the number of -1/-1 counters on it. Up to one other target Pokémon gets +X/+X until end of turn.</text>
+			<text>Put X -1/-1 counters on target Pokémon. You gain life equal to the number of -1/-1 counters on it.</text>
 		</card>
 		<card>
 			<name>Hidden Power</name>
