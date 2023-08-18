@@ -3931,7 +3931,8 @@ Pokémon you control have all other abilities of Cleffa.</text>
 			<tablerow>2</tablerow>
 			<related>Treasure Token</related>
 			<text>Baby — Cards named Jigglypuff have "Evolve From Igglybuff {W}."
-Whenever Igglybuff evolves, tap up to two target Pokémon. Create X Treasure tokens, where X is the number of tapped Pokémon on the battlefield.</text>
+Whenever a Pokémon an opponent controls becomes tapped, if it isn't being declared as an attacker, put a stun counter on it.
+Whenever Igglybuff attacks, tap up to one target Pokémon.</text>
 		</card>
 		<card>
 			<name>Togepi</name>
