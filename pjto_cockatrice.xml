@@ -1768,7 +1768,7 @@ Whenever you gain life, untap Snorlax.</text>
 			<tablerow>2</tablerow>
 			<text>Flying
 Articuno can't attack or block unless it's obedient.
-Tap four other untapped nonland permanents you control and put a stun counter on them: Articuno becomes obedient.</text>
+Tap four other untapped nonland permanents you control and put a stun counter on each of them: Articuno becomes obedient.</text>
 		</card>
 		<card>
 			<name>Zapdos</name>
@@ -2278,7 +2278,7 @@ You gain 1 life.</text>
 			<manacost>U</manacost>
 			<type>Instant</type>
 			<tablerow>3</tablerow>
-			<text>Target Pokémon gets +0/+4 until end of turn. Untap it. At this turn's next end of combat, tap each Pokémon that was blocked by that Pokémon this turn and put a stun counter on them.</text>
+			<text>Target Pokémon gets +0/+4 until end of turn. Untap it. At this turn's next end of combat, tap each Pokémon that was blocked by that Pokémon this turn and put a stun counter on each of them.</text>
 		</card>
 		<card>
 			<name>Guard Spec.</name>
@@ -3723,7 +3723,7 @@ Whenever Quilava attacks, you may sacrifice a permanent. If you do, Quilava gain
 			<pt>6/4</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Quilava {B}{R}
-Whenever Typhlosion enters the battlefield or evolves, target opponent sacrifices X nonland permanents, where X is 2 plus the number of times Typhlosion has evolved.</text>
+Whenever Typhlosion enters the battlefield or evolves, target opponent sacrifices X nonland permanents, where X is 1 plus the number of times Typhlosion has evolved.</text>
 		</card>
 		<card>
 			<name>Totodile</name>
@@ -3805,7 +3805,7 @@ Whenever Furret evolves, token Pokémon you control get +2/+0 and gain first str
 			<related>Treasure Token</related>
 			<related count="x">Treasure Token</related>
 			<text>Whenever Hoothoot deals combat damage to a player, create a Treasure token.
-Whenever Hoothoot evolves, create X Treasure tokens, where X is the amount of life lost by opponents this turn.</text>
+Whenever Hoothoot evolves, create X Treasure tokens, where X is the number of Pokémon cards in all graveyards.</text>
 		</card>
 		<card>
 			<name>Noctowl</name>
@@ -3908,6 +3908,7 @@ Whenever you exile a card from your hand, you may cast it until your next turn. 
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
 			<text>Baby — Cards named Pikachu have "Evolve From Pichu {R/W}."
+Whenever an attacking Pokémon you control leaves the battlefield, draw a card.
 Whenever Pichu evolves, up to two target Pokémon must block this turn if able. Pichu deals 1 damage to each of those Pokémon.</text>
 		</card>
 		<card>
@@ -3931,7 +3932,8 @@ Pokémon you control have all other abilities of Cleffa.</text>
 			<tablerow>2</tablerow>
 			<related>Treasure Token</related>
 			<text>Baby — Cards named Jigglypuff have "Evolve From Igglybuff {W}."
-Whenever Igglybuff evolves, tap up to two target Pokémon. Create X Treasure tokens, where X is the number of tapped Pokémon on the battlefield.</text>
+Whenever a Pokémon an opponent controls becomes tapped, if it isn't being declared as an attacker, put a stun counter on it.
+Whenever Igglybuff attacks, tap up to one target Pokémon.</text>
 		</card>
 		<card>
 			<name>Togepi</name>
@@ -4228,7 +4230,7 @@ Whenever a Pokémon you control evolves, each opponent loses twice X life, where
 			<pt>2/2</pt>
 			<tablerow>2</tablerow>
 			<text>Flying
-When Murkrow enters the battlefield, target player discards a card. If mana from a Treasure was spent to cast Murkrow, instead that player reveals their hand. You choose a nonland card from it. That player discards that card.</text>
+When Murkrow enters the battlefield, target player discards a card. If mana from a Treasure was spent to cast Murkrow, instead that player reveals their hand and you choose a nonland card from it. That player discards that card.</text>
 		</card>
 		<card>
 			<name>Slowking</name>
@@ -4264,7 +4266,7 @@ When Misdreavus dies, create a Treasure Token.</text>
 			<tablerow>2</tablerow>
 			<related>Clue Token</related>
 			<text>{3}, {T}: Scry 1.
-Whenever you scry a number of cards, put that many mystery counters on Unown and investigate. Then if it has 26 or more mystery counters on it, you win the game.
+Whenever you scry a number of cards, put that many mystery counters on Unown and create a Clue token. Then if it has 26 or more mystery counters on it, you win the game.
 When Unown dies, put its mystery counters on target Clue you control. That Clue becomes a copy of Unown.</text>
 		</card>
 		<card>
@@ -4289,7 +4291,7 @@ Whenever a Pokémon deals damage to Wobbuffet, gain control of that Pokémon unt
 			<tablerow>2</tablerow>
 			<text>Vigilance
 When Girafarig enters the battlefield, target opponent reveals their hand and you choose a nonland card from it. Exile that card until Girafarig leaves the battlefield.
-{1}{W}{B}, {T}: Put a card an opponent owns in exile on the bottom of that player’s library. If you do, create a Treasure token.</text>
+{1}{W}{B}, {T}: Put a card an opponent owns in exile on the bottom of that player's library. If you do, create a Treasure token.</text>
 		</card>
 		<card>
 			<name>Pineco</name>
@@ -4668,6 +4670,7 @@ When Stantler dies, create two 2/2 green and white Normal Pokémon tokens with v
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
 			<text>Baby — Cards named Hitmonchan, Hitmonlee, or Hitmontop have "Evolve From Tyrogue {G}."
+First strike, trample, haste
 Whenever Tyrogue evolves, put three stun counters on up to one target Pokémon.</text>
 		</card>
 		<card>
@@ -4690,7 +4693,8 @@ Whenever Hitmontop attacks or blocks, tap target Pokémon.</text>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
 			<text>Baby — Cards named Jynx have "Evolve From Smoochum {B}."
-Whenever Smoochum evolves, for each Pokémon you don't control, its controller may sacrifice it. For each Pokémon not sacrificed this way, you draw a card and gain 2 life.</text>
+Whenever you scry a number of cards, each opponent loses that much life.
+Whenever Smoochum evolves, for each Pokémon you don't control, its controller may sacrifice it. For each Pokémon not sacrificed this way, scry 2.</text>
 		</card>
 		<card>
 			<name>Elekid</name>
@@ -4701,7 +4705,8 @@ Whenever Smoochum evolves, for each Pokémon you don't control, its controller m
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
 			<text>Baby — Cards named Electabuzz have "Evolve From Elekid {R/W}."
-Whenever Elekid evolves, Pokémon you control gain first strike until end of turn.</text>
+Whenever Elekid attacks, Pokémon you control with first strike gain double strike until end of turn, then Pokémon you control gain first strike until end of turn.
+Whenever Elekid evolves, it deals 4 damage to any target.</text>
 		</card>
 		<card>
 			<name>Magby</name>
@@ -4936,7 +4941,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<type>Legendary Trainer - Pryce</type>
 			<loyalty>4</loyalty>
 			<text>[0]: Tap target Pokémon and put a stun counter on it. Put a loyalty counter on each Trainer you control.
-[−8]: Tap all permanents you don’t control and put a stun counter on them. You gain 1 life for each tapped permanent your opponents control.</text>
+[−8]: Tap all permanents you don't control and put a stun counter on each of them. You gain 1 life for each tapped permanent your opponents control.</text>
 		</card>
 		<card>
 			<name>Clair</name>
@@ -4947,7 +4952,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<type>Legendary Trainer - Clair</type>
 			<loyalty>5</loyalty>
 			<related>Clair Emblem</related>
-			<text>[+2]: Look at the top two cards of your library.
+			<text>[+2]: Look at the top two cards of your library. Put one of them into your hand and exile the other.
 [−X]: You may cast target non-Pokémon card in your graveyard with mana value X without paying its mana cost. If that spell would be put into your graveyard, exile it instead.
 [-7]: You get an emblem with "At the beginning of your upkeep, exile your hand and draw two cards."</text>
 		</card>
@@ -5110,10 +5115,11 @@ Landfall — If you had a land enter the battlefield under your control this tur
 			<name>Sweet Scent</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Sweet%20Scent.png" rarity="rare">PJTO</set>
 			<color>GW</color>
-			<manacost>1GW</manacost>
+			<manacost>1GGW</manacost>
 			<type>Instant</type>
 			<tablerow>3</tablerow>
-			<text>Search your library for a Pokémon card and reveal it. Then search your library for a Pokémon card with Evolve From that can target Pokémon with the same name as the revealed card and reveal it. Put those cards into your hand, then shuffle.</text>
+			<related>Meganium Token</related>
+			<text>Create a 5/5 green and white Grass Pokémon token with trample named Meganium.</text>
 		</card>
 		<card>
 			<name>Whirlpool</name>
@@ -5222,10 +5228,10 @@ Flame Wheel deals damage equal to the sacrificed Pokémon's power to each Pokém
 			<name>Hidden Power</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Hidden%20Power.png" rarity="rare">PJTO</set>
 			<color>GU</color>
-			<manacost>3GU</manacost>
+			<manacost>2GU</manacost>
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
-			<text>Search your library for a Pokémon, instant, or sorcery card with mana value less than or equal to the number of colors of mana spent to cast this spell, exile that card, then shuffle. You may cast that card without paying its mana cost.</text>
+			<text>Shuffle your library, then reveal the top card. If it's a nonland card, you may cast it without paying its mana cost. If it's a land card, you may put it onto the battlefield and return Hidden Power to its owner's hand.</text>
 		</card>
 		<card>
 			<name>Moonlight</name>
@@ -5266,8 +5272,8 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
 			<manacost>XBB</manacost>
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
-			<related>Treasure Token</related>
-			<text>Exile any number of target Pokémon with total mana value X or less. If X is 3 or less, create a Treasure token. Otherwise, scry X.</text>
+			<related count="x">Treasure Token</related>
+			<text>Exile one or more target Pokémon with total mana value X or less. If X is 3 or less, create X Treasure tokens. Otherwise, create three Treasure tokens and scry 2.</text>
 		</card>
 		<card>
 			<name>Snore</name>
@@ -5927,11 +5933,9 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<cipt>1</cipt>
-			<text>Hexproof
-Victory Road enters the battlefield tapped.
-When Victory Road enters the battlefield, sacrifice two lands.
-{T}: Add three mana of any one color.</text>
+			<text>{T}: Add {C}.
+{1}, {T}: Add one many of any color among Pokémon you control.
+{4}, {T}, Sacrifice Victory Road: Search your library for a trainer card, reveal it, put it into your hand, then shuffle.</text>
 		</card>
 		<card>
 			<name>Violet City</name>
