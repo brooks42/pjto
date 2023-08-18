@@ -5928,10 +5928,9 @@ Cycling {2}</text>
 			<type>Land</type>
 			<tablerow>0</tablerow>
 			<cipt>1</cipt>
-			<text>Hexproof
-Victory Road enters the battlefield tapped.
-When Victory Road enters the battlefield, sacrifice two lands.
-{T}: Add three mana of any one color.</text>
+			<text>{T}: Add {C}.
+{1}, {T}: Add one many of any color among Pokémon you control.
+{4}, {T}, Sacrifice Victory Road: Search your library for a trainer card, reveal it, put it into your hand, then shuffle.</text>
 		</card>
 		<card>
 			<name>Violet City</name>
