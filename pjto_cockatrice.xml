@@ -3908,6 +3908,7 @@ Whenever you exile a card from your hand, you may cast it until your next turn. 
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
 			<text>Baby — Cards named Pikachu have "Evolve From Pichu {R/W}."
+Whenever an attacking Pokémon you control leaves the battlefield, draw a card.
 Whenever Pichu evolves, up to two target Pokémon must block this turn if able. Pichu deals 1 damage to each of those Pokémon.</text>
 		</card>
 		<card>
