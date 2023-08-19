@@ -4301,8 +4301,8 @@ When Girafarig enters the battlefield, target opponent reveals their hand and yo
 			<type>Pokémon - Bug</type>
 			<pt>2/2</pt>
 			<tablerow>2</tablerow>
-			<text>{2}{R}, {T}, Sacrifice Pineco: It deals 4 damage to target Pokémon.
-When Pineco dies, you may move its counters onto target Pokémon.</text>
+			<text>{2}{R}, Sacrifice Pineco: It deals 4 damage to target Pokémon.
+Whenever Pineco deals damage to a player, for each counter on Pineco, put a counter of that kind on up to one target Pokémon.</text>
 		</card>
 		<card>
 			<name>Forretress</name>
