@@ -4541,13 +4541,17 @@ Activated abilities of evolved Pokémon you control cost {1} less to activate.
 			<name>Delibird</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Delibird.png" rarity="rare">PJTO</set>
 			<color>W</color>
-			<manacost>2W</manacost>
+			<manacost>3W</manacost>
 			<type>Pokémon - Ice Flying</type>
 			<pt>2/3</pt>
 			<tablerow>2</tablerow>
 			<related>Food Token</related>
-			<text>Whenever you cast a spell, create a Food token.
-Whenever you sacrifice a Food, populate.</text>
+			<related>Treasure Token</related>
+			<related>Hoppip Token</related>
+			<text>Whenever you cast a spell, choose one at random.
+• Create a Food token.
+• Create a Treasure token.
+• Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip, then populate.</text>
 		</card>
 		<card>
 			<name>Mantine</name>
