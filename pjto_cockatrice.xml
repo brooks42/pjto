@@ -4116,7 +4116,8 @@ Whenever Politoed evolves, search your library for up to two land cards, put the
 			<pt>3/3</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Hoppip {G/W}
-Whenever Skiploom evolves, put a flying counter on it and each Pokémon token you control. </text>
+{2}{G}{W}: Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.
+Whenever Skiploom evolves, put a flying counter on each Pokémon token you control.</text>
 		</card>
 		<card>
 			<name>Jumpluff</name>
