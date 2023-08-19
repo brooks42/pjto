@@ -5332,81 +5332,81 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
 			<name>Clear Bell</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Clear%20Bell.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {W}{U}.
-{W/U}{W/U}{W/U}{W/U}, {T}, Sacrifice Clear Bell: You gain 3 life and draw a card.</text>
+			<text>{T}: Add {W} or {U}.
+{1}{W}{U}, {T}, Sacrifice Clear Bell: You gain 3 life. Draw a card.</text>
 		</card>
 		<card>
 			<name>Dragon Fang</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Dragon%20Fang.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {R}{W}.
-{R/W}{R/W}{R/W}{R/W}, {T}, Sacrifice Dragon Fang: You gain 3 life and draw a card.</text>
+			<text>{T}: Add {R} or {W}.
+{1}{R}{W}, {T}, Sacrifice Dragon Fang: Up to one target Pokémon gains first strike and haste until end of turn. Draw a card.</text>
 		</card>
 		<card>
 			<name>Dragon Scale</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Dragon%20Scale.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {U}{R}.
-{U/R}{U/R}{U/R}{U/R}, {T}, Sacrifice Dragon Scale: You gain 3 life and draw a card.</text>
+			<text>{T}: Add {U} or {R}.
+{1}{U}{R}, {T}, Sacrifice Dragon Scale: Until the end of your next turn, if a card would be put into your graveyard from anywhere, you may exile that card instead. Draw a card.</text>
 		</card>
 		<card>
 			<name>Everstone</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Everstone.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {W}{B}.
-{W/B}{W/B}{W/B}{W/B}, {T}, Sacrifice Everstone: You gain 3 life and draw a card.</text>
+			<text>{T}: Add {W} or {B}.
+{1}{W}{B}, {T}, Sacrifice Everstone: Create a Treasure token. Draw a card.</text>
 		</card>
 		<card>
 			<name>Focus Band</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Focus%20Band.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {R}{G}.
-{R/G}{R/G}{R/G}{R/G}, {T}, Sacrifice Focus Band: You gain 3 life and draw a card.</text>
+			<text>{T}: Add {R} or {G}.
+{1}{R}{G}, {T}, Sacrifice Focus Band: Put a +1/+1 counter on up to one target Pokémon. Draw a card.</text>
 		</card>
 		<card>
 			<name>Miracle Seed</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Miracle%20Seed.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {B}{G}.
-{B/G}{B/G}{B/G}{B/G}, {T}, Sacrifice Miracle Seed: You gain 3 life and draw a card.</text>
+			<text>{T}: Add {B} or {G}.
+{1}{B}{G}, {T}, Sacrifice Miracle Seed: Put a -1/-1 counter on up to one target Pokémon. Draw a card.</text>
 		</card>
 		<card>
 			<name>Old Amber</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Old%20Amber.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {B}{R}.
-{B/R}{B/R}{B/R}{B/R}, {T}, Sacrifice Old Amber: You gain 3 life and draw a card.</text>
+			<text>{T}: Add {B} or {R}.
+{1}{B}{R}, {T}, Sacrifice Old Amber: Target player sacrifices a nonland permanent with mana value 3 or less. Draw a card.</text>
 		</card>
 		<card>
 			<name>Squirt Bottle</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Squirt%20Bottle.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {G}{U}.
-{G/U}{G/U}{G/U}{G/U}, {T}, Sacrifice Squirt Bottle: You gain 3 life and draw a card.</text>
+			<text>{T}: Add {G} or {U}.
+{1}{G}{U}, {T}, Sacrifice Squirt Bottle: You may play an additional land this turn. Draw a card.</text>
 		</card>
 		<card>
 			<name>Sun Stone</name>
@@ -5434,11 +5434,11 @@ Equip {1}</text>
 			<name>Twisted Spoon</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Twisted%20Spoon.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {U}{B}.
-{U/B}{U/B}{U/B}{U/B}, {T}, Sacrifice Twisted Spoon: You gain 3 life and draw a card.</text>
+			<text>{T}: Add {U} or {B}.
+{1}{U}{B}, {T}, Sacrifice Twisted Spoon: Scry 1. Draw a card.</text>
 		</card>
 		<!-- enchantments -->
 		<card>
