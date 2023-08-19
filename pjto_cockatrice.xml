@@ -3791,6 +3791,7 @@ Whenever a Pokémon attacks you or a trainer you control, Pokémon you control g
 			<type>Pokémon - Normal</type>
 			<pt>3/3</pt>
 			<tablerow>2</tablerow>
+			<related>Sentret Token</related>
 			<text>Evolve From Sentret {W}
 First strike
 Whenever Furret attacks or evolves, create a 1/1 white Normal Pokémon token with vigilance named Sentret.</text>
