@@ -5283,7 +5283,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
 			<manacost>3WW</manacost>
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
-			<text>Destroy all tapped nontoken Pokémon. Create a tapped Treasure token for each Pokémon destroyed this way.</text>
+			<text>Destroy all nontoken Pokémon. Create a tapped Treasure token for each Pokémon destroyed this way.</text>
 		</card>
 		<card>
 			<name>Spikes</name>
