@@ -3712,7 +3712,8 @@ Whenever Meganium enters the battlefield or evolves, create a 5/5 green and whit
 			<pt>4/3</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Cyndaquil {B}{R}
-Whenever Quilava attacks, you may sacrifice a permanent. If you do, Quilava gains deathtouch until end of turn.</text>
+Whenever you sacrifice a permanent, Quilava gains deathtouch until end of turn.
+Whenever Quilava attacks, you may sacrifice a permanent.</text>
 		</card>
 		<card>
 			<name>Typhlosion</name>
