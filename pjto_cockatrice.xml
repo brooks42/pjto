@@ -4163,7 +4163,8 @@ Whenever Sunkern evolves, create a  0/1 green Grass Pokémon token named Sunkern
 			<pt>*/*</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Sunkern {G}
-Sunflora's power and toughness are each equal to the number of Pokémon you control.</text>
+Sunflora's power and toughness are each equal to the number of Pokémon you control.
+Whenever you populate, Sunflora gains trample until end of turn.</text>
 		</card>
 		<card>
 			<name>Yanma</name>
