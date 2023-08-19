@@ -5322,11 +5322,11 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
 			<name>Berry</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Berry.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {G}{W}.
-{G/W}{G/W}{G/W}{G/W}, {T}, Sacrifice Berry: You gain 3 life and draw a card.</text>
+			<text>{T}: Add {G} or {W}.
+{1}{G}{W}, {T}, Sacrifice Berry: Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip. Draw a card.</text>
 		</card>
 		<card>
 			<name>Clear Bell</name>
