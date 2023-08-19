@@ -3787,13 +3787,13 @@ Whenever a Pokémon attacks you or a trainer you control, Pokémon you control g
 			<name>Furret</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Furret.png" rarity="uncommon">PJTO</set>
 			<color>W</color>
-			<manacost>2W</manacost>
+			<manacost>2WW</manacost>
 			<type>Pokémon - Normal</type>
 			<pt>3/3</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Sentret {W}
 First strike
-Whenever Furret evolves, token Pokémon you control get +2/+0 and gain first strike until end of turn.</text>
+Whenever Furret attacks or evolves, create a 1/1 white Normal Pokémon token with vigilance named Sentret.</text>
 		</card>
 		<card>
 			<name>Hoothoot</name>
