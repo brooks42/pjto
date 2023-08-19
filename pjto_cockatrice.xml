@@ -4152,7 +4152,7 @@ Whenever you populate for the first time each turn, populate again.</text>
 			<tablerow>2</tablerow>
 			<related>Sunkern Token</related>
 			<text>Whenever Sunkern attacks, populate.
-Whenever Sunkern evolves, create a  0/1 green Grass Pokémon token named Sunkern, then populate.</text>
+Whenever Sunkern evolves, create a  0/1 green Grass Pokémon token named Sunkern with "{T}: Add {G}." Then populate.</text>
 		</card>
 		<card>
 			<name>Sunflora</name>
@@ -6109,7 +6109,7 @@ Cycling {2}</text>
 			<type>Token Pokémon - Grass</type>
 			<pt>0/1</pt>
 			<tablerow>2</tablerow>
-			<text />
+			<text>{T}: Add {G}.</text>
 		</card>
 		<card>
 			<name>Treasure Token(a)</name>
