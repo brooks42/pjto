@@ -5325,6 +5325,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
 			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
+			<related>Hoppip Token</related>
 			<text>{T}: Add {G} or {W}.
 {1}{G}{W}, {T}, Sacrifice Berry: Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip. Draw a card.</text>
 		</card>
