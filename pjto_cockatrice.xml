@@ -5183,7 +5183,7 @@ Choose one, then choose another one for each time Aeroblast was kicked.
 			<tablerow>3</tablerow>
 			<text>Choose one — 
 • Target player reveals their hand. You choose a Pokémon card from it. Exile that card.
-• Bone Rush deals 3 damage to target Pokémon.</text>
+• Target player sacrifices a Pokémon. If it had mana value 2 or less, that player sacrifices another Pokémon.</text>
 		</card>
 		<card>
 			<name>Combined Forces</name>
