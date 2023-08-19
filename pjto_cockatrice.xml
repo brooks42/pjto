@@ -4899,7 +4899,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<manacost>3{W/B}{W/B}</manacost>
 			<tablerow>1</tablerow>
 			<type>Legendary Trainer - Morty</type>
-			<loyalty>5</loyalty>
+			<loyalty>4</loyalty>
 			<related>Treasure Token</related>
 			<related>Morty Emblem</related>
 			<text>[+1]: Until your next turn, prevent all damage target permanent would deal. Create a Treasure token.
