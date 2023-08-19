@@ -6074,6 +6074,16 @@ Cycling {2}</text>
 			<text>Menace, indestructible</text>
 		</card>
 		<card>
+			<name>Sentret Token</name>
+			<set picURL="https://brooks42.github.io/pjto/cards/SentretToken.png" rarity="token">PJTO</set>
+			<color>W</color>
+			<manacost />
+			<type>Token Pokémon - Normal</type>
+			<pt>1/1</pt>
+			<tablerow>2</tablerow>
+			<text>Vigilance</text>
+		</card>
+		<card>
 			<name>Spinarak Token</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/SpinarakToken.png" rarity="token">PJTO</set>
 			<color>BG</color>
