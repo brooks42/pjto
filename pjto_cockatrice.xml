@@ -4694,7 +4694,7 @@ Whenever Hitmontop attacks or blocks, tap target Pokémon.</text>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
 			<text>Baby — Cards named Jynx have "Evolve From Smoochum {B}."
-Whenever you scry a number of cards, each opponent loses that much life.
+Whenever you scry, each opponent loses 1 life and you gain 1 life.
 Whenever Smoochum evolves, for each Pokémon you don't control, its controller may sacrifice it. For each Pokémon not sacrificed this way, scry 2.</text>
 		</card>
 		<card>
