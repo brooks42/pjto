@@ -4429,7 +4429,7 @@ Whenever Heracross is dealt damage, put a +1/+1 counter on it and it fights targ
 			<pt>3/1</pt>
 			<tablerow>2</tablerow>
 			<related count="2">Treasure Token</related>
-			<text>Whenever an opponent casts a spell, you create two Treasure tokens unless that player discards a card.</text>
+			<text>Whenever an opponent casts a spell, you create a Treasure token unless that player discards a card.</text>
 		</card>
 		<card>
 			<name>Teddiursa</name>
