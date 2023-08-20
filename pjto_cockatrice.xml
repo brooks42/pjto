@@ -4032,12 +4032,13 @@ Whenever Ampharos deals excess damage, you may cast an instant or sorcery card y
 			<name>Bellossom</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Bellossom.png" rarity="rare">PJTO</set>
 			<color>G</color>
-			<manacost>2GG</manacost>
+			<manacost>1GGG</manacost>
 			<type>Pokémon - Grass</type>
-			<pt>5/4</pt>
+			<pt>5/3</pt>
 			<tablerow>2</tablerow>
+			<related>Oddish Token</related>
 			<text>Evolve From Gloom {G/W}
-Whenever Bellosom becomes untapped, populate.</text>
+Whenever Bellosom becomes untapped, create a 1/1 green Grass Poison Pokémon token with lifelink named Oddish.</text>
 		</card>
 		<card>
 			<name>Marill</name>
