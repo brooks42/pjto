@@ -4476,10 +4476,10 @@ When Slugma dies, destroy target artifact or land.</text>
 			<color>BR</color>
 			<manacost>2{B/R}{B/R}</manacost>
 			<type>Pokémon - Fire</type>
-			<pt>5/2</pt>
+			<pt>5/3</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Slugma {R}
-When Magcargo dies, return target Pokémon card with power 3 or less from your graveyard to your hand. If it was evolved, return that card to the battlefield instead.</text>
+When Magcargo dies, return another target Pokémon card from your graveyard to your hand. If Magcargo was evolved, return that card to the battlefield instead.</text>
 		</card>
 		<card>
 			<name>Swinub</name>
