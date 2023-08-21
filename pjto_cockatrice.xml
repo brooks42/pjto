@@ -4465,10 +4465,11 @@ Whenever Teddiursa evolves, create two Treasure tokens.</text>
 			<color>R</color>
 			<manacost>1RR</manacost>
 			<type>Pokémon - Fire</type>
-			<pt>3/1</pt>
+			<pt>3/3</pt>
 			<tablerow>2</tablerow>
 			<text>Slugma attacks each combat if able.
-When Slugma dies, destroy target artifact or land.</text>
+When Slugma dies, destroy target artifact or land.
+Whenever a Pokémon enters the battlefield from your graveyard, return Slugma from your graveyard to the battlefield, then sacrifice it.</text>
 		</card>
 		<card>
 			<name>Magcargo</name>
