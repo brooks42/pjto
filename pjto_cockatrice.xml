@@ -3644,7 +3644,7 @@ Cycling {2}</text>
 			<side>front</side>
 			<related attach="attach">Bayleef (DFC)</related>
 			<text>{3}{G}{W}: Populate. This ability costs {1} less to activate for each time Chikorita has evolved.
-{1}{G}{W}: Evolve</text>
+{G}{W}: Evolve</text>
 		</card>
 		<card>
 			<name>Bayleef (DFC)</name>
@@ -3678,7 +3678,7 @@ Bayleef gets +1/+1 for each token you control.</text>
 			<tablerow>2</tablerow>
 			<text>Evolve From Bayleef {1}{G}{W}
 Trample
-Whenever Meganium enters the battlefield or evolves, create a 5/5 green and white Pokémon token with trample named Meganium.</text>
+Whenever Meganium enters the battlefield or evolves, create a 5/5 green and white Grass Pokémon token with trample named Meganium.</text>
 		</card>
 		<card>
 			<name>Cyndaquil</name>
@@ -3691,7 +3691,7 @@ Whenever Meganium enters the battlefield or evolves, create a 5/5 green and whit
 			<side>front</side>
 			<related attach="attach">Quilava (DFC)</related>
 			<text>Whenever a player sacrifices a permanent, Cyndaquil deals 1 damage to any target.
-{1}{B}{R}: Evolve</text>
+{B}{R}: Evolve</text>
 		</card>
 		<card>
 			<name>Quilava (DFC)</name>
@@ -3712,7 +3712,8 @@ Whenever Meganium enters the battlefield or evolves, create a 5/5 green and whit
 			<pt>4/3</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Cyndaquil {B}{R}
-Whenever Quilava attacks, you may sacrifice a permanent. If you do, Quilava gains deathtouch until end of turn.</text>
+Whenever you sacrifice a permanent, Quilava gains deathtouch until end of turn.
+Whenever Quilava attacks, you may sacrifice a permanent.</text>
 		</card>
 		<card>
 			<name>Typhlosion</name>
@@ -3766,7 +3767,7 @@ Sacrifice a land: Croconaw gets +2/+2 and gains hexproof until end of turn.</tex
 			<color>GU</color>
 			<manacost>4GU</manacost>
 			<type>Pokémon - Water</type>
-			<pt>4/6</pt>
+			<pt>5/7</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Croconaw {G}{U}
 Whenever Feraligatr enters the battlefield or evolves, draw X cards, where X is 1 plus the number of times it has evolved. You may play X additional lands this turn. You may play lands from your graveyard this turn.</text>
@@ -3786,13 +3787,14 @@ Whenever a Pokémon attacks you or a trainer you control, Pokémon you control g
 			<name>Furret</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Furret.png" rarity="uncommon">PJTO</set>
 			<color>W</color>
-			<manacost>2W</manacost>
+			<manacost>2WW</manacost>
 			<type>Pokémon - Normal</type>
 			<pt>3/3</pt>
 			<tablerow>2</tablerow>
+			<related>Sentret Token</related>
 			<text>Evolve From Sentret {W}
 First strike
-Whenever Furret evolves, token Pokémon you control get +2/+0 and gain first strike until end of turn.</text>
+Whenever Furret attacks or evolves, create a 1/1 white Normal Pokémon token with vigilance named Sentret.</text>
 		</card>
 		<card>
 			<name>Hoothoot</name>
@@ -4030,12 +4032,13 @@ Whenever Ampharos deals excess damage, you may cast an instant or sorcery card y
 			<name>Bellossom</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Bellossom.png" rarity="rare">PJTO</set>
 			<color>G</color>
-			<manacost>2GG</manacost>
+			<manacost>1GGG</manacost>
 			<type>Pokémon - Grass</type>
-			<pt>5/4</pt>
+			<pt>5/3</pt>
 			<tablerow>2</tablerow>
+			<related>Oddish Token</related>
 			<text>Evolve From Gloom {G/W}
-Whenever Bellosom becomes untapped, populate.</text>
+Whenever Bellosom becomes untapped, create a 1/1 green Grass Poison Pokémon token with lifelink named Oddish.</text>
 		</card>
 		<card>
 			<name>Marill</name>
@@ -4092,7 +4095,7 @@ Whenever Politoed evolves, search your library for up to two land cards, put the
 			<side>front</side>
 			<related>Hoppip Token</related>
 			<related attach="attach">Skiploom (DFC)</related>
-			<text>Whenever Hoppip enters the battlefield or evolves, create a 1/1 green Grass Flying Pokémon token named Hoppip.
+			<text>Whenever Hoppip enters the battlefield or evolves, create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.
 {1}{G}: Evolve</text>
 		</card>
 		<card>
@@ -4103,7 +4106,7 @@ Whenever Politoed evolves, search your library for up to two land cards, put the
 			<pt>2/2</pt>
 			<tablerow>2</tablerow>
 			<related>Hoppip Token</related>
-			<text>Whenever Skiploom enters the battlefield or evolves, create a 1/1 green and white Grass Flying Pokémon token named Hoppip.</text>
+			<text>Whenever Skiploom enters the battlefield or evolves, create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.</text>
 			<side>back</side>
 		</card>
 		<card>
@@ -4115,7 +4118,8 @@ Whenever Politoed evolves, search your library for up to two land cards, put the
 			<pt>3/3</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Hoppip {G/W}
-Whenever Skiploom evolves, put a flying counter on it and each Pokémon token you control. </text>
+{2}{G}{W}: Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.
+Whenever Skiploom evolves, put a flying counter on each Pokémon token you control.</text>
 		</card>
 		<card>
 			<name>Jumpluff</name>
@@ -4151,7 +4155,7 @@ Whenever you populate for the first time each turn, populate again.</text>
 			<tablerow>2</tablerow>
 			<related>Sunkern Token</related>
 			<text>Whenever Sunkern attacks, populate.
-Whenever Sunkern evolves, create a  0/1 green Grass Pokémon token named Sunkern, then populate.</text>
+Whenever Sunkern evolves, create a  0/1 green Grass Pokémon token named Sunkern with "{T}: Add {G}." Then populate.</text>
 		</card>
 		<card>
 			<name>Sunflora</name>
@@ -4162,7 +4166,8 @@ Whenever Sunkern evolves, create a  0/1 green Grass Pokémon token named Sunkern
 			<pt>*/*</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Sunkern {G}
-Sunflora's power and toughness are each equal to the number of Pokémon you control.</text>
+Sunflora's power and toughness are each equal to the number of Pokémon you control.
+Whenever you populate, Sunflora gains trample until end of turn.</text>
 		</card>
 		<card>
 			<name>Yanma</name>
@@ -4301,8 +4306,8 @@ When Girafarig enters the battlefield, target opponent reveals their hand and yo
 			<type>Pokémon - Bug</type>
 			<pt>2/2</pt>
 			<tablerow>2</tablerow>
-			<text>{2}{R}, {T}, Sacrifice Pineco: It deals 4 damage to target Pokémon.
-When Pineco dies, you may move its counters onto target Pokémon.</text>
+			<text>{2}{R}, Sacrifice Pineco: It deals 4 damage to target Pokémon.
+Whenever Pineco deals damage to a player, for each counter on Pineco, put a counter of that kind on up to one target Pokémon.</text>
 		</card>
 		<card>
 			<name>Forretress</name>
@@ -4324,7 +4329,7 @@ Forretress can't attack or block unless a player sacrificed a permanent this tur
 			<type>Pokémon - Normal</type>
 			<pt>1/3</pt>
 			<tablerow>2</tablerow>
-			<text>{9}, {T}: Destroy target Pokémon. Put X -1/-1 counters on Dunsparce, where X is that Pokémon's toughness. This ability costs {1} less to activate for each -1/-1 counter on all Pokémon.</text>
+			<text>{6}{B}, {T}: Destroy target Pokémon if it has a -1/-1 counter on it. Otherwise, put a -1/-1 counter on it. This ability costs {1} less to activate for each -1/-1 counter on all Pokémon.</text>
 		</card>
 		<card>
 			<name>Gligar</name>
@@ -4406,7 +4411,7 @@ Scizor enters the battlefield and evolves with two +1/+1 counters on it if {C} w
 			<tablerow>2</tablerow>
 			<related>Food Token(a)</related>
 			<text>Landfall — Whenever a land enters the battlefield under your control, create a Food token.
-Sacrifice two Foods: Target artifact or Pokémon loses all abilities and becomes a green Bug Pokémon with base power and toughness 3/3.</text>
+Sacrifice two Foods: Target artifact or Pokémon loses all abilities and becomes a green Bug Pokémon with base power and toughness 3/3. Activate only as a sorcery.</text>
 		</card>
 		<card>
 			<name>Heracross</name>
@@ -4428,7 +4433,7 @@ Whenever Heracross is dealt damage, put a +1/+1 counter on it and it fights targ
 			<pt>3/1</pt>
 			<tablerow>2</tablerow>
 			<related count="2">Treasure Token</related>
-			<text>Whenever an opponent casts a spell, you create two Treasure tokens unless that player discards a card.</text>
+			<text>Whenever an opponent casts a spell, you create a Treasure token unless that player discards a card.</text>
 		</card>
 		<card>
 			<name>Teddiursa</name>
@@ -4460,10 +4465,11 @@ Whenever Teddiursa evolves, create two Treasure tokens.</text>
 			<color>R</color>
 			<manacost>1RR</manacost>
 			<type>Pokémon - Fire</type>
-			<pt>3/1</pt>
+			<pt>3/3</pt>
 			<tablerow>2</tablerow>
 			<text>Slugma attacks each combat if able.
-When Slugma dies, destroy target artifact or land.</text>
+When Slugma dies, destroy target artifact or land.
+Whenever a Pokémon enters the battlefield from your graveyard, return Slugma from your graveyard to the battlefield, then sacrifice it.</text>
 		</card>
 		<card>
 			<name>Magcargo</name>
@@ -4471,10 +4477,10 @@ When Slugma dies, destroy target artifact or land.</text>
 			<color>BR</color>
 			<manacost>2{B/R}{B/R}</manacost>
 			<type>Pokémon - Fire</type>
-			<pt>5/2</pt>
+			<pt>5/3</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Slugma {R}
-When Magcargo dies, return target Pokémon card with power 3 or less from your graveyard to your hand. If it was evolved, return that card to the battlefield instead.</text>
+When Magcargo dies, return another target Pokémon card from your graveyard to your hand. If Magcargo was evolved, return that card to the battlefield instead.</text>
 		</card>
 		<card>
 			<name>Swinub</name>
@@ -4538,13 +4544,17 @@ Activated abilities of evolved Pokémon you control cost {1} less to activate.
 			<name>Delibird</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Delibird.png" rarity="rare">PJTO</set>
 			<color>W</color>
-			<manacost>2W</manacost>
+			<manacost>3W</manacost>
 			<type>Pokémon - Ice Flying</type>
 			<pt>2/3</pt>
 			<tablerow>2</tablerow>
 			<related>Food Token</related>
-			<text>Whenever you cast a spell, create a Food token.
-Whenever you sacrifice a Food, populate.</text>
+			<related>Treasure Token</related>
+			<related>Hoppip Token</related>
+			<text>Whenever you cast a spell, choose one at random.
+• Create a Food token.
+• Create a Treasure token.
+• Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip, then populate.</text>
 		</card>
 		<card>
 			<name>Mantine</name>
@@ -4693,7 +4703,7 @@ Whenever Hitmontop attacks or blocks, tap target Pokémon.</text>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
 			<text>Baby — Cards named Jynx have "Evolve From Smoochum {B}."
-Whenever you scry a number of cards, each opponent loses that much life.
+Whenever you scry, each opponent loses 1 life and you gain 1 life.
 Whenever Smoochum evolves, for each Pokémon you don't control, its controller may sacrifice it. For each Pokémon not sacrificed this way, scry 2.</text>
 		</card>
 		<card>
@@ -4887,9 +4897,9 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<tablerow>1</tablerow>
 			<type>Legendary Trainer - Whitney</type>
 			<loyalty>4</loyalty>
-			<related count="3">Cleffa Token</related>
+			<related count="2">Cleffa Token</related>
 			<text>[+2]: You gain 1 life for each Pokémon you control.
-[-2]: Create three 1/1 white and black Fairy Pokémon tokens named Cleffa.
+[-2]: Create two 1/1 white and black Fairy Pokémon tokens named Cleffa.
 [−5]: Destroy all other permanents except for lands and tokens.</text>
 		</card>
 		<card>
@@ -4899,7 +4909,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<manacost>3{W/B}{W/B}</manacost>
 			<tablerow>1</tablerow>
 			<type>Legendary Trainer - Morty</type>
-			<loyalty>5</loyalty>
+			<loyalty>4</loyalty>
 			<related>Treasure Token</related>
 			<related>Morty Emblem</related>
 			<text>[+1]: Until your next turn, prevent all damage target permanent would deal. Create a Treasure token.
@@ -4978,7 +4988,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<type>Legendary Trainer - Will</type>
 			<loyalty>3</loyalty>
 			<text>[+1]: Up to one target Pokémon gets -3/-0 until your next turn.
-[0]: Look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library.
+[-1]: Reveal cards from the top of your library until you reveal a land card. Put one of the revealed cards into your hand and the rest on the bottom of your library in any order.
 [-7]: Any number of target players each draw twenty cards.</text>
 		</card>
 		<card>
@@ -5130,7 +5140,7 @@ Landfall — If you had a land enter the battlefield under your control this tur
 			<tablerow>3</tablerow>
 			<text>Choose three. You may choose the same mode more than once.
 • Counter target spell unless its controller pays 3.
-• Return target Pokémon to its owner's hand.
+• Tap all Pokémon your opponents control.
 • Draw a card.</text>
 		</card>
 		<card>
@@ -5183,7 +5193,7 @@ Choose one, then choose another one for each time Aeroblast was kicked.
 			<tablerow>3</tablerow>
 			<text>Choose one — 
 • Target player reveals their hand. You choose a Pokémon card from it. Exile that card.
-• Bone Rush deals 3 damage to target Pokémon.</text>
+• Target player sacrifices a Pokémon. If a Pokémon with mana value 2 or less is sacrificed this way, that player sacrifices another Pokémon.</text>
 		</card>
 		<card>
 			<name>Combined Forces</name>
@@ -5222,7 +5232,7 @@ Flame Wheel deals damage equal to the sacrificed Pokémon's power to each Pokém
 			<manacost>X{B/G}</manacost>
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
-			<text>Put X -1/-1 counters on target Pokémon. You gain life equal to the number of -1/-1 counters on it. Up to one other target Pokémon gets +X/+X until end of turn.</text>
+			<text>Put X -1/-1 counters on target Pokémon. You gain life equal to the number of -1/-1 counters on it.</text>
 		</card>
 		<card>
 			<name>Hidden Power</name>
@@ -5282,7 +5292,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
 			<manacost>3WW</manacost>
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
-			<text>Destroy all tapped nontoken Pokémon. Create a tapped Treasure token for each Pokémon destroyed this way.</text>
+			<text>Destroy all nontoken Pokémon. Create a tapped Treasure token for each Pokémon destroyed this way.</text>
 		</card>
 		<card>
 			<name>Spikes</name>
@@ -5321,91 +5331,92 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
 			<name>Berry</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Berry.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {G}{W}.
-{G/W}{G/W}{G/W}{G/W}, {T}, Sacrifice Berry: You gain 3 life and draw a card.</text>
+			<related>Hoppip Token</related>
+			<text>{T}: Add {G} or {W}.
+{1}{G}{W}, {T}, Sacrifice Berry: Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip. Draw a card.</text>
 		</card>
 		<card>
 			<name>Clear Bell</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Clear%20Bell.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {W}{U}.
-{W/U}{W/U}{W/U}{W/U}, {T}, Sacrifice Clear Bell: You gain 3 life and draw a card.</text>
+			<text>{T}: Add {W} or {U}.
+{1}{W}{U}, {T}, Sacrifice Clear Bell: You gain 3 life. Draw a card.</text>
 		</card>
 		<card>
 			<name>Dragon Fang</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Dragon%20Fang.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {R}{W}.
-{R/W}{R/W}{R/W}{R/W}, {T}, Sacrifice Dragon Fang: You gain 3 life and draw a card.</text>
+			<text>{T}: Add {R} or {W}.
+{1}{R}{W}, {T}, Sacrifice Dragon Fang: Up to one target Pokémon gains first strike and haste until end of turn. Draw a card.</text>
 		</card>
 		<card>
 			<name>Dragon Scale</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Dragon%20Scale.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {U}{R}.
-{U/R}{U/R}{U/R}{U/R}, {T}, Sacrifice Dragon Scale: You gain 3 life and draw a card.</text>
+			<text>{T}: Add {U} or {R}.
+{1}{U}{R}, {T}, Sacrifice Dragon Scale: Until the end of your next turn, if a card would be put into your graveyard from anywhere, you may exile that card instead. Draw a card.</text>
 		</card>
 		<card>
 			<name>Everstone</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Everstone.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {W}{B}.
-{W/B}{W/B}{W/B}{W/B}, {T}, Sacrifice Everstone: You gain 3 life and draw a card.</text>
+			<text>{T}: Add {W} or {B}.
+{1}{W}{B}, {T}, Sacrifice Everstone: Create a Treasure token. Draw a card.</text>
 		</card>
 		<card>
 			<name>Focus Band</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Focus%20Band.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {R}{G}.
-{R/G}{R/G}{R/G}{R/G}, {T}, Sacrifice Focus Band: You gain 3 life and draw a card.</text>
+			<text>{T}: Add {R} or {G}.
+{1}{R}{G}, {T}, Sacrifice Focus Band: Put a +1/+1 counter on up to one target Pokémon. Draw a card.</text>
 		</card>
 		<card>
 			<name>Miracle Seed</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Miracle%20Seed.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {B}{G}.
-{B/G}{B/G}{B/G}{B/G}, {T}, Sacrifice Miracle Seed: You gain 3 life and draw a card.</text>
+			<text>{T}: Add {B} or {G}.
+{1}{B}{G}, {T}, Sacrifice Miracle Seed: Put a -1/-1 counter on up to one target Pokémon. Draw a card.</text>
 		</card>
 		<card>
 			<name>Old Amber</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Old%20Amber.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {B}{R}.
-{B/R}{B/R}{B/R}{B/R}, {T}, Sacrifice Old Amber: You gain 3 life and draw a card.</text>
+			<text>{T}: Add {B} or {R}.
+{1}{B}{R}, {T}, Sacrifice Old Amber: Target player sacrifices a nonland permanent with mana value 3 or less. Draw a card.</text>
 		</card>
 		<card>
 			<name>Squirt Bottle</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Squirt%20Bottle.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {G}{U}.
-{G/U}{G/U}{G/U}{G/U}, {T}, Sacrifice Squirt Bottle: You gain 3 life and draw a card.</text>
+			<text>{T}: Add {G} or {U}.
+{1}{G}{U}, {T}, Sacrifice Squirt Bottle: You may play an additional land this turn. Draw a card.</text>
 		</card>
 		<card>
 			<name>Sun Stone</name>
@@ -5433,11 +5444,11 @@ Equip {1}</text>
 			<name>Twisted Spoon</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Twisted%20Spoon.png" rarity="uncommon">PJTO</set>
 			<color />
-			<manacost>2</manacost>
+			<manacost>3</manacost>
 			<type>Artifact</type>
 			<tablerow>1</tablerow>
-			<text>{2}, {T}: Add {U}{B}.
-{U/B}{U/B}{U/B}{U/B}, {T}, Sacrifice Twisted Spoon: You gain 3 life and draw a card.</text>
+			<text>{T}: Add {U} or {B}.
+{1}{U}{B}, {T}, Sacrifice Twisted Spoon: Scry 1. Draw a card.</text>
 		</card>
 		<!-- enchantments -->
 		<card>
@@ -6017,7 +6028,7 @@ Cycling {2}</text>
 			<type>Token Pokémon - Grass Flying</type>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
-			<text />
+			<text>Reach</text>
 		</card>
 		<card>
 			<name>Karen Token</name>
@@ -6070,6 +6081,16 @@ Cycling {2}</text>
 			<text>Menace, indestructible</text>
 		</card>
 		<card>
+			<name>Sentret Token</name>
+			<set picURL="https://brooks42.github.io/pjto/cards/SentretToken.png" rarity="token">PJTO</set>
+			<color>W</color>
+			<manacost />
+			<type>Token Pokémon - Normal</type>
+			<pt>1/1</pt>
+			<tablerow>2</tablerow>
+			<text>Vigilance</text>
+		</card>
+		<card>
 			<name>Spinarak Token</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/SpinarakToken.png" rarity="token">PJTO</set>
 			<color>BG</color>
@@ -6107,7 +6128,7 @@ Cycling {2}</text>
 			<type>Token Pokémon - Grass</type>
 			<pt>0/1</pt>
 			<tablerow>2</tablerow>
-			<text />
+			<text>{T}: Add {G}.</text>
 		</card>
 		<card>
 			<name>Treasure Token(a)</name>
