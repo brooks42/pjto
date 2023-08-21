@@ -4897,7 +4897,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<tablerow>1</tablerow>
 			<type>Legendary Trainer - Whitney</type>
 			<loyalty>4</loyalty>
-			<related count="3">Cleffa Token</related>
+			<related count="2">Cleffa Token</related>
 			<text>[+2]: You gain 1 life for each Pokémon you control.
 [-2]: Create two 1/1 white and black Fairy Pokémon tokens named Cleffa.
 [−5]: Destroy all other permanents except for lands and tokens.</text>
