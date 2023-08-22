@@ -3969,7 +3969,7 @@ Whenever you cast a spell, if no mana was spent to cast it, create a Treasure to
 			<type>Pokémon - Psychic Flying</type>
 			<pt>2/1</pt>
 			<tablerow>2</tablerow>
-			<text>At the beginning of your upkeep, any opponent may sacrifice a Pokémon. If no one does, you draw a card and lose 2 life.
+			<text>At the beginning of your upkeep, you may sacrifice a permanent or pay 2 life. If you do, draw a card.
 Whenever Natu evolves, each opponent sacrifices a Pokémon with the greatest mana value among Pokémon they control.</text>
 		</card>
 		<card>
@@ -3982,7 +3982,7 @@ Whenever Natu evolves, each opponent sacrifices a Pokémon with the greatest man
 			<tablerow>2</tablerow>
 			<text>Evolve From Natu {B}
 Flying
-At the beginning of your end step, each opponent discards a card unless they sacrificed a permanent this turn.</text>
+At the beginning of your end step, if you sacrificed a permanent this turn, each opponent discards a card. </text>
 		</card>
 		<card>
 			<name>Mareep</name>
