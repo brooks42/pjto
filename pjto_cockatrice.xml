@@ -5460,7 +5460,7 @@ Equip {1}</text>
 			<type>Enchantment</type>
 			<tablerow>1</tablerow>
 			<related>Treasure Token</related>
-			<text>Whenever an opponent draws a card or a Pokémon an opponent controls dies, any opponent may pay 1. If they don't, create a Treasure token.
+			<text>Whenever an opponent draws a card or a Pokémon an opponent controls dies, you create a Treasure token unless that player pays {1}.
 At the beginning of your upkeep, if you control ten or more Treasures, you win the game.</text>
 		</card>
 		<card>
