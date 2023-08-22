@@ -3676,6 +3676,7 @@ Bayleef gets +1/+1 for each token you control.</text>
 			<type>Pokémon - Grass</type>
 			<pt>5/5</pt>
 			<tablerow>2</tablerow>
+			<related>Meganium Token</related>
 			<text>Evolve From Bayleef {1}{G}{W}
 Trample
 Whenever Meganium enters the battlefield or evolves, create a 5/5 green and white Grass Pokémon token with trample named Meganium.</text>
