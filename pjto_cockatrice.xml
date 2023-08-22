@@ -4716,7 +4716,7 @@ Whenever Smoochum evolves, for each Pokémon you don't control, its controller m
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
 			<text>Baby — Cards named Electabuzz have "Evolve From Elekid {R/W}."
-Whenever Elekid attacks, Pokémon you control with first strike gain double strike until end of turn, then Pokémon you control gain first strike until end of turn.
+Whenever Elekid attacks, other attacking Pokémon you control gain first strike until end of turn.
 Whenever Elekid evolves, it deals 4 damage to any target.</text>
 		</card>
 		<card>
