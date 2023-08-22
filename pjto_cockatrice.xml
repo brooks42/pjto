@@ -5001,7 +5001,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<type>Legendary Trainer - Karen</type>
 			<loyalty>3</loyalty>
 			<related>Karen Token</related>
-			<text>As you cast this spell, you may sacrifice a Pokémon with power X. When you do, copy this spell. The copy isn't legendary and has starting loyalty X.
+			<text>As you cast this spell, you may sacrifice a Pokémon. When you do, copy this spell. The copy isn’t legendary and has starting loyalty equal to the sacrificed Pokémon's power.
 [+1]: Each opponent loses 2 life unless they sacrifice a permanent or discard a card.
 [-7]: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of their choice.</text>
 		</card>
