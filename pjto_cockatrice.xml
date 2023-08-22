@@ -4271,7 +4271,7 @@ When Misdreavus dies, create a Treasure Token.</text>
 			<pt>0/1</pt>
 			<tablerow>2</tablerow>
 			<related>Clue Token</related>
-			<text>{3}, {T}: Scry 1.
+			<text>{U}{U}, {T}: Scry 2.
 Whenever you scry a number of cards, put that many mystery counters on Unown and create a Clue token. Then if it has 26 or more mystery counters on it, you win the game.
 When Unown dies, put its mystery counters on target Clue you control. That Clue becomes a copy of Unown.</text>
 		</card>
