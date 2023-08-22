@@ -5230,10 +5230,10 @@ Flame Wheel deals damage equal to the sacrificed Pokémon's power to each Pokém
 			<name>Giga Drain</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Giga%20Drain.png" rarity="rare">PJTO</set>
 			<color>BG</color>
-			<manacost>X{B/G}</manacost>
+			<manacost>XBG</manacost>
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
-			<text>Put X -1/-1 counters on target Pokémon. You gain life equal to the number of -1/-1 counters on it.</text>
+			<text>Put X -1/-1 counters on target Pokémon. You gain life equal to the number of -1/-1 counters on that Pokémon.</text>
 		</card>
 		<card>
 			<name>Hidden Power</name>
