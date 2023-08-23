@@ -4622,7 +4622,7 @@ Whenever a Pokémon or trainer is dealt damage, its controller sacrifices it.</t
 			<pt>3/3</pt>
 			<tablerow>2</tablerow>
 			<text>Menace
-Remove all +1/+1 counters from Phanpy: If one or more counters are removed this way, it gains indestructible until end of turn.</text>
+Remove all +1/+1 counters from Phanpy: If one or more counters are removed this way, Phanpy gains indestructible until end of turn.</text>
 		</card>
 		<card>
 			<name>Donphan</name>
