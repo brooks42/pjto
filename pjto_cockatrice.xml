@@ -5476,10 +5476,11 @@ At the beginning of your upkeep, if you control ten or more Treasures, you win t
 			<name>Sunny Day</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Sunny%20Day.png" rarity="rare">PJTO</set>
 			<color>RW</color>
-			<manacost>3WR</manacost>
+			<manacost>WR</manacost>
 			<type>Enchantment</type>
 			<tablerow>1</tablerow>
-			<text>Pokémon you control get +2/+0 and have vigilance and haste.</text>
+			<text>Attacking Pokémon you control get +1/+0.
+{R/W}{R/W}: Red Pokémon you control gain first strike until end of turn. White Pokémon you control gain vigilance until end of turn.</text>
 		</card>
 		<!-- lands -->
 		<card>
