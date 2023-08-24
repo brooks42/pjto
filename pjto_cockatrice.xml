@@ -4875,8 +4875,9 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<tablerow>1</tablerow>
 			<type>Legendary Trainer - Falkner</type>
 			<loyalty>2</loyalty>
+			<related>Treasure Token</related>
 			<text>Whenever a Pokémon you control with flying becomes the target of a spell or ability an opponent controls, draw a card and create a Treasure token.
-[+1]: Put a flying counter on up to one target Pokémon.</text>
+[1]: Put a flying counter on up to one target Pokémon.</text>
 		</card>
 		<card>
 			<name>Bugsy</name>
