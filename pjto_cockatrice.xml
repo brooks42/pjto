@@ -847,7 +847,7 @@ Whenever a Pokémon becomes the target of a spell or ability, you may change a t
 		<card>
 			<name>Kadabra</name>
 			<set picURL="https://brooks42.github.io/pkto/cards/Kadabra.png" rarity="uncommon">PKTO</set>
-			<color>U</color>
+			<color>UB</color>
 			<manacost>2UB</manacost>
 			<type>Pokémon - Psychic</type>
 			<pt>3/2</pt>
@@ -5016,15 +5016,6 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<text>Scry 1, then reveal the top card of your library. Counter target spell if it shares a card type with the revealed card, if it was cast from exile, or if no mana was spent to cast it.</text>
 		</card>
 		<card>
-			<name>Confusion</name>
-			<set picURL="https://brooks42.github.io/pjto/cards/Confusion.png" rarity="uncommon">PJTO</set>
-			<color>UB</color>
-			<manacost>UB</manacost>
-			<type>Instant</type>
-			<tablerow>3</tablerow>
-			<text>Counter target non-Pokémon spell. Its controller loses 2 life.</text>
-		</card>
-		<card>
 			<name>Foresight (PJTO)</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Foresight.png" rarity="common">PJTO</set>
 			<color>U</color>
@@ -5285,6 +5276,16 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
 			<tablerow>3</tablerow>
 			<related count="x">Treasure Token</related>
 			<text>Exile one or more target Pokémon with total mana value X or less. If X is 3 or less, create X Treasure tokens. Otherwise, create three Treasure tokens and scry 2.</text>
+		</card>
+		<card>
+			<name>Sketch</name>
+			<set picURL="https://brooks42.github.io/pjto/cards/Sketch.png" rarity="uncommon">PJTO</set>
+			<color>W</color>
+			<manacost>2W</manacost>
+			<type>Instant</type>
+			<tablerow>3</tablerow>
+			<related>Sentret Token</related>
+			<text>Create a 1/1 white Normal Pokémon token with vigilance named Sentret, then populate.</text>
 		</card>
 		<card>
 			<name>Snore</name>
