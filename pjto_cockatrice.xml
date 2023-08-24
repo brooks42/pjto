@@ -847,7 +847,7 @@ Whenever a Pokémon becomes the target of a spell or ability, you may change a t
 		<card>
 			<name>Kadabra</name>
 			<set picURL="https://brooks42.github.io/pkto/cards/Kadabra.png" rarity="uncommon">PKTO</set>
-			<color>U</color>
+			<color>UB</color>
 			<manacost>2UB</manacost>
 			<type>Pokémon - Psychic</type>
 			<pt>3/2</pt>
@@ -2919,7 +2919,7 @@ You may cast cards exiled with Cinnabar Gym.</text>
 			<type>Enchantment</type>
 			<tablerow>1</tablerow>
 			<text>Pokémon you control have deathtouch.
-Whenever a Pokémon an opponent controls dies, that player may have you create a Treasure token. If they don't, they lose 2 life.</text>
+Whenever a Pokémon an opponent controls dies, you create a Treasure token unless that player pays 2 life.</text>
 			<related>Treasure Token</related>
 		</card>
 		<!-- lands -->
@@ -3676,6 +3676,7 @@ Bayleef gets +1/+1 for each token you control.</text>
 			<type>Pokémon - Grass</type>
 			<pt>5/5</pt>
 			<tablerow>2</tablerow>
+			<related>Meganium Token</related>
 			<text>Evolve From Bayleef {1}{G}{W}
 Trample
 Whenever Meganium enters the battlefield or evolves, create a 5/5 green and white Grass Pokémon token with trample named Meganium.</text>
@@ -3968,7 +3969,7 @@ Whenever you cast a spell, if no mana was spent to cast it, create a Treasure to
 			<type>Pokémon - Psychic Flying</type>
 			<pt>2/1</pt>
 			<tablerow>2</tablerow>
-			<text>At the beginning of your upkeep, any opponent may sacrifice a Pokémon. If no one does, you draw a card and lose 2 life.
+			<text>At the beginning of your upkeep, you may sacrifice a permanent or pay 2 life. If you do, draw a card.
 Whenever Natu evolves, each opponent sacrifices a Pokémon with the greatest mana value among Pokémon they control.</text>
 		</card>
 		<card>
@@ -3981,7 +3982,7 @@ Whenever Natu evolves, each opponent sacrifices a Pokémon with the greatest man
 			<tablerow>2</tablerow>
 			<text>Evolve From Natu {B}
 Flying
-At the beginning of your end step, each opponent discards a card unless they sacrificed a permanent this turn.</text>
+At the beginning of your end step, if you sacrificed a permanent this turn, each opponent discards a card. </text>
 		</card>
 		<card>
 			<name>Mareep</name>
@@ -4270,7 +4271,7 @@ When Misdreavus dies, create a Treasure Token.</text>
 			<pt>0/1</pt>
 			<tablerow>2</tablerow>
 			<related>Clue Token</related>
-			<text>{3}, {T}: Scry 1.
+			<text>{U}{U}, {T}: Scry 2.
 Whenever you scry a number of cards, put that many mystery counters on Unown and create a Clue token. Then if it has 26 or more mystery counters on it, you win the game.
 When Unown dies, put its mystery counters on target Clue you control. That Clue becomes a copy of Unown.</text>
 		</card>
@@ -4432,8 +4433,8 @@ Whenever Heracross is dealt damage, put a +1/+1 counter on it and it fights targ
 			<type>Pokémon - Dark Ice</type>
 			<pt>3/1</pt>
 			<tablerow>2</tablerow>
-			<related count="2">Treasure Token</related>
-			<text>Whenever an opponent casts a spell, you create a Treasure token unless that player discards a card.</text>
+			<related>Treasure Token</related>
+			<text>Whenever an opponent casts a non-Pokémon spell, you create a Treasure token unless that player discards a card.</text>
 		</card>
 		<card>
 			<name>Teddiursa</name>
@@ -4621,7 +4622,7 @@ Whenever a Pokémon or trainer is dealt damage, its controller sacrifices it.</t
 			<pt>3/3</pt>
 			<tablerow>2</tablerow>
 			<text>Menace
-Remove all +1/+1 counters from Phanpy: If one or more counters are removed this way, it gains indestructible until end of turn.</text>
+Remove all +1/+1 counters from Phanpy: If one or more counters are removed this way, Phanpy gains indestructible until end of turn.</text>
 		</card>
 		<card>
 			<name>Donphan</name>
@@ -4715,7 +4716,7 @@ Whenever Smoochum evolves, for each Pokémon you don't control, its controller m
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
 			<text>Baby — Cards named Electabuzz have "Evolve From Elekid {R/W}."
-Whenever Elekid attacks, Pokémon you control with first strike gain double strike until end of turn, then Pokémon you control gain first strike until end of turn.
+Whenever Elekid attacks, other attacking Pokémon you control gain first strike until end of turn.
 Whenever Elekid evolves, it deals 4 damage to any target.</text>
 		</card>
 		<card>
@@ -5000,7 +5001,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<type>Legendary Trainer - Karen</type>
 			<loyalty>3</loyalty>
 			<related>Karen Token</related>
-			<text>As you cast this spell, you may sacrifice a Pokémon with power X. When you do, copy this spell. The copy isn't legendary and has starting loyalty X.
+			<text>As you cast this spell, you may sacrifice a Pokémon. When you do, copy this spell. The copy isn’t legendary and has starting loyalty equal to the sacrificed Pokémon's power.
 [+1]: Each opponent loses 2 life unless they sacrifice a permanent or discard a card.
 [-7]: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of their choice.</text>
 		</card>
@@ -5013,15 +5014,6 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<type>Instant</type>
 			<tablerow>3</tablerow>
 			<text>Scry 1, then reveal the top card of your library. Counter target spell if it shares a card type with the revealed card, if it was cast from exile, or if no mana was spent to cast it.</text>
-		</card>
-		<card>
-			<name>Confusion</name>
-			<set picURL="https://brooks42.github.io/pjto/cards/Confusion.png" rarity="uncommon">PJTO</set>
-			<color>UB</color>
-			<manacost>UB</manacost>
-			<type>Instant</type>
-			<tablerow>3</tablerow>
-			<text>Counter target non-Pokémon spell. Its controller loses 2 life.</text>
 		</card>
 		<card>
 			<name>Foresight (PJTO)</name>
@@ -5229,10 +5221,10 @@ Flame Wheel deals damage equal to the sacrificed Pokémon's power to each Pokém
 			<name>Giga Drain</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Giga%20Drain.png" rarity="rare">PJTO</set>
 			<color>BG</color>
-			<manacost>X{B/G}</manacost>
+			<manacost>XBG</manacost>
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
-			<text>Put X -1/-1 counters on target Pokémon. You gain life equal to the number of -1/-1 counters on it.</text>
+			<text>Put X -1/-1 counters on target Pokémon. You gain life equal to the number of -1/-1 counters on that Pokémon.</text>
 		</card>
 		<card>
 			<name>Hidden Power</name>
@@ -5284,6 +5276,16 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
 			<tablerow>3</tablerow>
 			<related count="x">Treasure Token</related>
 			<text>Exile one or more target Pokémon with total mana value X or less. If X is 3 or less, create X Treasure tokens. Otherwise, create three Treasure tokens and scry 2.</text>
+		</card>
+		<card>
+			<name>Sketch</name>
+			<set picURL="https://brooks42.github.io/pjto/cards/Sketch.png" rarity="uncommon">PJTO</set>
+			<color>W</color>
+			<manacost>2W</manacost>
+			<type>Instant</type>
+			<tablerow>3</tablerow>
+			<related>Sentret Token</related>
+			<text>Create a 1/1 white Normal Pokémon token with vigilance named Sentret, then populate.</text>
 		</card>
 		<card>
 			<name>Snore</name>
@@ -5459,7 +5461,7 @@ Equip {1}</text>
 			<type>Enchantment</type>
 			<tablerow>1</tablerow>
 			<related>Treasure Token</related>
-			<text>Whenever an opponent draws a card or a Pokémon an opponent controls dies, any opponent may pay 1. If they don't, create a Treasure token.
+			<text>Whenever an opponent draws a card or a Pokémon an opponent controls dies, you create a Treasure token unless that player pays {1}.
 At the beginning of your upkeep, if you control ten or more Treasures, you win the game.</text>
 		</card>
 		<card>
@@ -5475,10 +5477,11 @@ At the beginning of your upkeep, if you control ten or more Treasures, you win t
 			<name>Sunny Day</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Sunny%20Day.png" rarity="rare">PJTO</set>
 			<color>RW</color>
-			<manacost>3WR</manacost>
+			<manacost>WR</manacost>
 			<type>Enchantment</type>
 			<tablerow>1</tablerow>
-			<text>Pokémon you control get +2/+0 and have vigilance and haste.</text>
+			<text>Attacking Pokémon you control get +1/+0.
+{R/W}{R/W}: Red Pokémon you control gain first strike until end of turn. White Pokémon you control gain vigilance until end of turn.</text>
 		</card>
 		<!-- lands -->
 		<card>
