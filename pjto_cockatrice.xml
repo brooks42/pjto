@@ -4444,6 +4444,7 @@ Whenever Heracross is dealt damage, put a +1/+1 counter on it and it fights targ
 			<type>Pokémon - Normal</type>
 			<pt>2/2</pt>
 			<tablerow>2</tablerow>
+			<related>Treasure Token</related>
 			<related count="3">Treasure Token</related>
 			<text>Vigilance
 Whenever you cast your second spell each turn, create a Treasure token.
