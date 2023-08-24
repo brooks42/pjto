@@ -3944,7 +3944,7 @@ Whenever Igglybuff attacks, tap up to one target Pokémon.</text>
 			<color>W</color>
 			<manacost>W</manacost>
 			<type>Pokémon - Fairy</type>
-			<pt>1/1</pt>
+			<pt>0/2</pt>
 			<tablerow>2</tablerow>
 			<text>Whenever you cast a spell, if mana from a Treasure was spent to cast it, reveal cards from the top of your library until you reveal a nonland card with lesser mana value. You may cast that card without paying its mana cost. Then shuffle.</text>
 		</card>
