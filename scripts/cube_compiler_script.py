@@ -113,6 +113,9 @@ def main():
 
         cube_list.sort()
 
+        print(f'Writing {len(all_card_colors)} cards to cube file...')
+        print(f'{json.dumps(all_card_colors)}')
+
         print(f'Writing {len(cube_list)} cards to cube file...')
         with open('pjto_cube.txt', 'w') as f:
             f.write('\n'.join(str(item) for item in cube_list))
