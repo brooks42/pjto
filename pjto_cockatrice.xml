@@ -4412,7 +4412,7 @@ Scizor enters the battlefield and evolves with two +1/+1 counters on it if {C} w
 			<tablerow>2</tablerow>
 			<related>Food Token(a)</related>
 			<text>Landfall — Whenever a land enters the battlefield under your control, create a Food token.
-Sacrifice two Foods: Target artifact or Pokémon loses all abilities and becomes a green Bug Pokémon with base power and toughness 3/3. Activate only as a sorcery.</text>
+Sacrifice two Foods: Target artifact, enchantment, or Pokémon loses all abilities and becomes a green Bug Pokémon with base power and toughness 3/3. Activate only as a sorcery.</text>
 		</card>
 		<card>
 			<name>Heracross</name>
