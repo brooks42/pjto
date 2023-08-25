@@ -4400,7 +4400,7 @@ Landfall — Whenever a land enters the battlefield under your control, up to on
 			<pt>5/3</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Scyther {C/R}{C/G}
-Scizor enters the battlefield and evolves with two +1/+1 counters on it if {C} was spent to cast it.</text>
+When Scizor enters the battlefield or evolves, if {C} was spent to cast it, put two +1/+1 counters on it. If {R} was spent to cast it, destroy up to one target artifact. If {G} was spent to cast it, destroy up to one target enchantment.</text>
 		</card>
 		<card>
 			<name>Shuckle</name>
