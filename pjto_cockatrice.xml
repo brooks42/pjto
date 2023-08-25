@@ -3944,7 +3944,7 @@ Whenever Igglybuff attacks, tap up to one target Pokémon.</text>
 			<color>W</color>
 			<manacost>W</manacost>
 			<type>Pokémon - Fairy</type>
-			<pt>1/1</pt>
+			<pt>0/2</pt>
 			<tablerow>2</tablerow>
 			<text>Whenever you cast a spell, if mana from a Treasure was spent to cast it, reveal cards from the top of your library until you reveal a nonland card with lesser mana value. You may cast that card without paying its mana cost. Then shuffle.</text>
 		</card>
@@ -4190,7 +4190,8 @@ Yanma has hexproof from each mana value among cards you own in exile.</text>
 			<type>Pokémon - Water Ground</type>
 			<pt>2/3</pt>
 			<tablerow>2</tablerow>
-			<text>Landfall — Whenever a land enters the battlefield under your control, Wooper gains deathtouch until end of turn. Untap it.</text>
+			<text>Landfall — Whenever a land enters the battlefield under your control, Wooper gains deathtouch until end of turn. Untap it.
+When Wooper dies, destroy up to one target artifact or enchantment.</text>
 		</card>
 		<card>
 			<name>Quagsire</name>
@@ -4400,7 +4401,7 @@ Landfall — Whenever a land enters the battlefield under your control, up to on
 			<pt>5/3</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Scyther {C/R}{C/G}
-Scizor enters the battlefield and evolves with two +1/+1 counters on it if {C} was spent to cast it.</text>
+When Scizor enters the battlefield or evolves, if {C} was spent to cast it, put two +1/+1 counters on it. If {R} was spent to cast it, destroy up to one target artifact. If {G} was spent to cast it, destroy up to one target enchantment.</text>
 		</card>
 		<card>
 			<name>Shuckle</name>
@@ -4412,7 +4413,7 @@ Scizor enters the battlefield and evolves with two +1/+1 counters on it if {C} w
 			<tablerow>2</tablerow>
 			<related>Food Token(a)</related>
 			<text>Landfall — Whenever a land enters the battlefield under your control, create a Food token.
-Sacrifice two Foods: Target artifact or Pokémon loses all abilities and becomes a green Bug Pokémon with base power and toughness 3/3. Activate only as a sorcery.</text>
+Sacrifice two Foods: Target artifact, enchantment, or Pokémon loses all abilities and becomes a green Bug Pokémon with base power and toughness 3/3. Activate only as a sorcery.</text>
 		</card>
 		<card>
 			<name>Heracross</name>
@@ -4444,6 +4445,7 @@ Whenever Heracross is dealt damage, put a +1/+1 counter on it and it fights targ
 			<type>Pokémon - Normal</type>
 			<pt>2/2</pt>
 			<tablerow>2</tablerow>
+			<related>Treasure Token</related>
 			<related count="3">Treasure Token</related>
 			<text>Vigilance
 Whenever you cast your second spell each turn, create a Treasure token.
@@ -4565,7 +4567,7 @@ Activated abilities of evolved Pokémon you control cost {1} less to activate.
 			<type>Pokémon - Water Flying</type>
 			<pt>2/2</pt>
 			<tablerow>2</tablerow>
-			<text>At the beginning of your upkeep, if you own 12 or more cards in exile, you win the game.
+			<text>At the beginning of your upkeep, if there are five or more card types among cards you own in exile, you win the game.
 {U}: Mantine gains flying until end of turn.</text>
 		</card>
 		<card>
@@ -4750,6 +4752,7 @@ Whenever a Pokémon card is put into exile, untap Magby and add {R}.</text>
 			<pt>3/17</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Chansey {W}{W}
+Whenever Blissey enters the battlefield or evolves, exile up to one target enchantment.
 {4}{W}{W}: Blissey gets +X/+0 until end of turn, where X is your life total.</text>
 		</card>
 		<card>
@@ -4875,8 +4878,9 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<tablerow>1</tablerow>
 			<type>Legendary Trainer - Falkner</type>
 			<loyalty>2</loyalty>
+			<related>Treasure Token</related>
 			<text>Whenever a Pokémon you control with flying becomes the target of a spell or ability an opponent controls, draw a card and create a Treasure token.
-[+1]: Put a flying counter on up to one target Pokémon.</text>
+[1]: Put a flying counter on up to one target Pokémon.</text>
 		</card>
 		<card>
 			<name>Bugsy</name>
@@ -5083,7 +5087,8 @@ Draw two cards and create a Treasure token.</text>
 			<text>Choose one — 
 • Psych up deals 4 damage to target trainer.
 • Permanents you control gain indestructible until end of turn.
-• Up to two target Pokémon gain first strike until end of turn.</text>
+• Up to two target Pokémon gain first strike until end of turn.
+• Destroy target artifact or enchantment.</text>
 		</card>
 		<card>
 			<name>Rapid Spin</name>
@@ -5275,7 +5280,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
 			<related count="x">Treasure Token</related>
-			<text>Exile one or more target Pokémon with total mana value X or less. If X is 3 or less, create X Treasure tokens. Otherwise, create three Treasure tokens and scry 2.</text>
+			<text>Exile one or more target Pokémon with total mana value X or less. If X is 3 or less, create a Treasure token and scry 2.</text>
 		</card>
 		<card>
 			<name>Sketch</name>
