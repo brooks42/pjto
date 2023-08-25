@@ -5277,7 +5277,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
 			<related count="x">Treasure Token</related>
-			<text>Exile one or more target Pokémon with total mana value X or less. If X is 3 or less, create X Treasure tokens. Otherwise, create three Treasure tokens and scry 2.</text>
+			<text>Exile one or more target Pokémon with total mana value X or less. If X is 3 or less, create a Treasure token and scry 2.</text>
 		</card>
 		<card>
 			<name>Sketch</name>
