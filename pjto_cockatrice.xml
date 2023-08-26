@@ -5017,7 +5017,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<manacost>U</manacost>
 			<type>Instant</type>
 			<tablerow>3</tablerow>
-			<text>Scry 1, then reveal the top card of your library. Counter target spell if it shares a card type with the revealed card, if it was cast from exile, or if no mana was spent to cast it.</text>
+			<text>Scry 1, then you may reveal the top card of your library. Counter up to one target spell if it shares a card type with the revealed card, if it was cast from exile, or if no mana was spent to cast it.</text>
 		</card>
 		<card>
 			<name>Foresight (PJTO)</name>
