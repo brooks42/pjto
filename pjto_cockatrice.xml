@@ -5284,7 +5284,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
 		</card>
 		<card>
 			<name>Sketch</name>
-			<set picURL="https://brooks42.github.io/pjto/cards/Sketch.png" rarity="uncommon">PJTO</set>
+			<set picURL="https://brooks42.github.io/pjto/cards/Sketch.png" rarity="common">PJTO</set>
 			<color>W</color>
 			<manacost>2W</manacost>
 			<type>Instant</type>
