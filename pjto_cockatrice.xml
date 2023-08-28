@@ -4272,8 +4272,8 @@ When Misdreavus dies, create a Treasure Token.</text>
 			<pt>0/1</pt>
 			<tablerow>2</tablerow>
 			<related>Clue Token</related>
-			<text>{U}{U}, {T}: Scry 2.
-Whenever you scry a number of cards, put that many mystery counters on Unown and create a Clue token. Then if it has 26 or more mystery counters on it, you win the game.
+			<text>{U}{B}, {T}: Scry 2.
+Whenever you scry a number of cards, put that many mystery counters on Unown. Then if it has 26 or more mystery counter on it, you win the game. Otherwise, create a Clue token.
 When Unown dies, put its mystery counters on target Clue you control. That Clue becomes a copy of Unown.</text>
 		</card>
 		<card>
@@ -4763,8 +4763,8 @@ Whenever Blissey enters the battlefield or evolves, exile up to one target encha
 			<type>Legendary Pokémon - Electric</type>
 			<pt>4/4</pt>
 			<tablerow>2</tablerow>
-			<text>Roaming — When you cast this spell, if it's the first time you've cast a spell named Raikou this game, shuffle it into its owner's library and draw a card at the beginning of the next end step.
-Attacking Pokémon you control have first strike.</text>
+			<text>Roam — When you cast this spell, if it's the first time you've cast a spell named Raikou this game, at the beginning of the next end step, shuffle it into its owner's library and draw a card.
+Pokémon you control have first strike.</text>
 		</card>
 		<card>
 			<name>Entei</name>
@@ -4774,8 +4774,8 @@ Attacking Pokémon you control have first strike.</text>
 			<type>Legendary Pokémon - Fire</type>
 			<pt>4/4</pt>
 			<tablerow>2</tablerow>
-			<text>Roaming — When you cast this spell, if it's the first time you've cast a spell named Entei this game, shuffle it into its owner's library and draw a card at the beginning of the next end step.
-Each Pokémon you control with a +1/+1 counter on it has trample.</text>
+			<text>Roam — When you cast this spell, if it's the first time you've cast a spell named Entei this game, at the beginning of the next end step, shuffle it into its owner's library and draw a card.
+Pokémon you control have trample.</text>
 		</card>
 		<card>
 			<name>Suicune</name>
@@ -4785,8 +4785,8 @@ Each Pokémon you control with a +1/+1 counter on it has trample.</text>
 			<type>Legendary Pokémon - Water</type>
 			<pt>4/4</pt>
 			<tablerow>2</tablerow>
-			<text>Roaming — When you cast this spell, if it's the first time you've cast a spell named Suicune this game, shuffle it into its owner's library and draw a card at the beginning of the next end step.
-Other Pokémon you control have hexproof.</text>
+			<text>Roam — When you cast this spell, if it's the first time you've cast a spell named Suicune this game, at the beginning of the next end step, shuffle it into its owner's library and draw a card.
+Pokémon you control have ward {2}.</text>
 		</card>
 		<card>
 			<name>Larvitar</name>
@@ -5017,7 +5017,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 			<manacost>U</manacost>
 			<type>Instant</type>
 			<tablerow>3</tablerow>
-			<text>Scry 1, then reveal the top card of your library. Counter target spell if it shares a card type with the revealed card, if it was cast from exile, or if no mana was spent to cast it.</text>
+			<text>Scry 1, then you may reveal the top card of your library. Counter up to one target spell if it shares a card type with the revealed card, if it was cast from exile, or if no mana was spent to cast it.</text>
 		</card>
 		<card>
 			<name>Foresight (PJTO)</name>
@@ -5279,12 +5279,12 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
 			<manacost>XBB</manacost>
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
-			<related count="x">Treasure Token</related>
+			<related>Treasure Token</related>
 			<text>Exile one or more target Pokémon with total mana value X or less. If X is 3 or less, create a Treasure token and scry 2.</text>
 		</card>
 		<card>
 			<name>Sketch</name>
-			<set picURL="https://brooks42.github.io/pjto/cards/Sketch.png" rarity="uncommon">PJTO</set>
+			<set picURL="https://brooks42.github.io/pjto/cards/Sketch.png" rarity="common">PJTO</set>
 			<color>W</color>
 			<manacost>2W</manacost>
 			<type>Instant</type>
