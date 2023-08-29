@@ -4790,7 +4790,7 @@ Pokémon you control have ward {2}.</text>
 		</card>
 		<card>
 			<name>Larvitar</name>
-			<set picURL="https://brooks42.github.io/pjto/cards/Larvitar.png" rarity="common">PJTO</set>
+			<set picURL="https://brooks42.github.io/pjto/cards/Larvitar.png" rarity="uncommon">PJTO</set>
 			<color>B</color>
 			<manacost>3B</manacost>
 			<type>Pokémon - Rock Ground</type>
@@ -4804,7 +4804,7 @@ Sacrifice a land: Evolve</text>
 		</card>
 		<card>
 			<name>Pupitar (DFC)</name>
-			<set picURL="https://brooks42.github.io/pjto/cards/PupitarDFC.png" rarity="common">PJTO</set>
+			<set picURL="https://brooks42.github.io/pjto/cards/PupitarDFC.png" rarity="uncommon">PJTO</set>
 			<color>B</color>
 			<type>Pokémon - Rock Ground</type>
 			<pt>5/5</pt>
@@ -4815,7 +4815,7 @@ Whenever you sacrifice a permanent, target opponent discards a card.</text>
 		</card>
 		<card>
 			<name>Pupitar</name>
-			<set picURL="https://brooks42.github.io/pjto/cards/Pupitar.png" rarity="uncommon">PJTO</set>
+			<set picURL="https://brooks42.github.io/pjto/cards/Pupitar.png" rarity="rare">PJTO</set>
 			<color>BR</color>
 			<manacost>4BR</manacost>
 			<type>Pokémon - Rock Ground</type>
@@ -4826,7 +4826,7 @@ Whenever Pupitar deals combat damage to a player, you may sacrifice a permanent.
 		</card>
 		<card>
 			<name>Tyranitar</name>
-			<set picURL="https://brooks42.github.io/pjto/cards/Tyranitar.png" rarity="rare">PJTO</set>
+			<set picURL="https://brooks42.github.io/pjto/cards/Tyranitar.png" rarity="mythic">PJTO</set>
 			<color>BR</color>
 			<manacost>6BR</manacost>
 			<type>Pokémon - Rock Dark</type>
