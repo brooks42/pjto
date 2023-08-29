@@ -5202,6 +5202,15 @@ Choose one, then choose another one for each time Aeroblast was kicked.
 			<text>Exile target nonland permanent if its mana value is less than or equal to the number of colors of mana spent to cast this spell.</text>
 		</card>
 		<card>
+			<name>Crunch</name>
+			<set picURL="https://brooks42.github.io/pjto/cards/Crunch.png" rarity="uncommon">PJTO</set>
+			<color>B</color>
+			<manacost>BB</manacost>
+			<type>Sorcery</type>
+			<tablerow>3</tablerow>
+			<text>Remove all counters from target nonland permanent. If that permanent is a Pokémon, put three -1/-1 counters on it.</text>
+		</card>
+		<card>
 			<name>Destiny Bond</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Destiny%20Bond.png" rarity="rare">PJTO</set>
 			<color>B</color>
