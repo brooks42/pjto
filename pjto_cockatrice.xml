@@ -3853,9 +3853,8 @@ Pokémon you control get +1/+1 for each other Pokémon you control with the same
 			<type>Pokémon - Bug Poison</type>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
-			<related>Spinarak Token</related>
-			<text>Deathtouch
-Whenever a Pokémon dies, if it had a -1/-1 counter on it, create a token copy of Spinarak except it doesn't have this ability.</text>
+			<text>Reach, deathtouch
+Whenever Spinarak evolves, destroy up to one target Flying Pokémon or Pokémon with flying.</text>
 		</card>
 		<card>
 			<name>Ariados</name>
@@ -3865,9 +3864,8 @@ Whenever a Pokémon dies, if it had a -1/-1 counter on it, create a token copy o
 			<type>Pokémon - Bug Poison</type>
 			<pt>2/4</pt>
 			<tablerow>2</tablerow>
-			<related>Ariados Token</related>
 			<text>Evolve From Spinarak {B/G}
-{3}{B}, {T}: Put a -1/-1 counter on target Pokémon. This ability costs {1} less to activate for each Pokémon that died this turn.</text>
+{3}{B}, {T}: Exile target Pokémon card from your graveyard. Put a number of -1/-1 counters equal to that card’s power on target Pokémon.</text>
 		</card>
 		<card>
 			<name>Crobat</name>
@@ -5989,16 +5987,6 @@ Cycling {2}</text>
 		</card>
 		<!-- tokens -->
 		<card>
-			<name>Ariados Token</name>
-			<set picURL="https://brooks42.github.io/pjto/cards/AriadosToken.png" rarity="token">PJTO</set>
-			<color>BG</color>
-			<manacost />
-			<type>Token Pokémon - Bug Poison</type>
-			<pt>2/4</pt>
-			<tablerow>2</tablerow>
-			<text>{3}{B}, {T}: Put a -1/-1 counter on target Pokémon. This ability costs {1} less to activate for each Pokémon that died this turn.</text>
-		</card>
-		<card>
 			<name>Cleffa Token</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/CleffaToken.png" rarity="token">PJTO</set>
 			<color>WB</color>
@@ -6107,16 +6095,6 @@ Cycling {2}</text>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
 			<text>Vigilance</text>
-		</card>
-		<card>
-			<name>Spinarak Token</name>
-			<set picURL="https://brooks42.github.io/pjto/cards/SpinarakToken.png" rarity="token">PJTO</set>
-			<color>BG</color>
-			<manacost />
-			<type>Token Pokémon - Bug Poison</type>
-			<pt>1/1</pt>
-			<tablerow>2</tablerow>
-			<text>Deathtouch</text>
 		</card>
 		<card>
 			<name>Stantler Token</name>
