@@ -3958,8 +3958,9 @@ Whenever Igglybuff attacks, tap up to one target Pokémon.</text>
 			<tablerow>2</tablerow>
 			<related>Treasure Token</related>
 			<text>Evolve From Togepi {W}
+Flash
 Flying
-Whenever you cast a spell, if no mana was spent to cast it, create a Treasure token. Then if Togetic is evolved, draw a card.</text>
+Whenever Togetic evolves, create a Treasure token for each different mana value among cards in your graveyard.</text>
 		</card>
 		<card>
 			<name>Natu</name>
