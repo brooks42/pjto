@@ -5782,7 +5782,7 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<related>Red Gyarados Token</related>
+			<related>Red Gyarados</related>
 			<text>Lake of Rage enters the battlefield with ten peace counters on it.
 {3}: Remove a peace counter from Lake of Rage.
 When Lake of Rage has no peace counters on it, sacrifice it. If you do, create Red Gyarados, a legendary 20/20 red Water Flying Pokémon token with menace and indestructible.</text>
@@ -6078,7 +6078,7 @@ Cycling {2}</text>
 			<text>Haste</text>
 		</card>
 		<card>
-			<name>Red Gyarados Token</name>
+			<name>Red Gyarados</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Red%20GyaradosToken.png" rarity="token">PJTO</set>
 			<color>R</color>
 			<manacost />
