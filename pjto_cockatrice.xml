@@ -3782,7 +3782,7 @@ Whenever Feraligatr enters the battlefield or evolves, draw X cards, where X is 
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
 			<text>Vigilance
-Whenever a Pokémon attacks you or a trainer you control, Pokémon you control get +0/+1 until end of turn.</text>
+Whenever one or more Pokémon attack you or a trainer you control, Pokémon you control get +0/+1 until end of turn.</text>
 		</card>
 		<card>
 			<name>Furret</name>
