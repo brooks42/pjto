@@ -4273,7 +4273,7 @@ When Misdreavus dies, create a Treasure Token.</text>
 			<tablerow>2</tablerow>
 			<related>Clue Token</related>
 			<text>{U}{B}, {T}: Scry 2.
-Whenever you scry a number of cards, put that many mystery counters on Unown. Then if it has 26 or more mystery counter on it, you win the game. Otherwise, create a Clue token.
+Whenever you scry a number of cards, put that many mystery counters on Unown. Then if it has 26 or more mystery counters on it, you win the game. Otherwise, investigate.
 When Unown dies, put its mystery counters on target Clue you control. That Clue becomes a copy of Unown.</text>
 		</card>
 		<card>
@@ -4557,7 +4557,7 @@ Activated abilities of evolved Pokémon you control cost {1} less to activate.
 			<text>Whenever you cast a spell, choose one at random.
 • Create a Food token.
 • Create a Treasure token.
-• Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip, then populate.</text>
+• Copy target token you control.</text>
 		</card>
 		<card>
 			<name>Mantine</name>
