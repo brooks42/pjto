@@ -99,6 +99,9 @@ def main():
                         for rarity_tag in cockatrice_card:
                             if rarity_tag.name == 'set':
 
+                                if rarity_tag.string == 'PKTO':
+                                    continue
+
                                 if rarity_tag['rarity'] == 'token':
                                     continue
 
@@ -118,7 +121,7 @@ def main():
 
         print(f'Writing {len(cube_list)} cards to cube file...')
         with open('pjto_cube.txt', 'w') as f:
-            f.write('\n'.join(str(item) for item in cube_list))
+            f.write(',\n'.join(str(item) for item in cube_list))
 
         print('Done')
 
