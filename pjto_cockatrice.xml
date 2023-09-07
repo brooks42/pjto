@@ -3782,7 +3782,7 @@ Whenever Feraligatr enters the battlefield or evolves, draw X cards, where X is 
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
 			<text>Vigilance
-Whenever a Pokémon attacks you or a trainer you control, Pokémon you control get +0/+1 until end of turn.</text>
+Whenever one or more Pokémon attack you or a trainer you control, Pokémon you control get +0/+1 until end of turn.</text>
 		</card>
 		<card>
 			<name>Furret</name>
@@ -3853,9 +3853,8 @@ Pokémon you control get +1/+1 for each other Pokémon you control with the same
 			<type>Pokémon - Bug Poison</type>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
-			<related>Spinarak Token</related>
-			<text>Deathtouch
-Whenever a Pokémon dies, if it had a -1/-1 counter on it, create a token copy of Spinarak except it doesn't have this ability.</text>
+			<text>Reach, deathtouch
+Whenever Spinarak evolves, destroy up to one target Flying Pokémon or Pokémon with flying.</text>
 		</card>
 		<card>
 			<name>Ariados</name>
@@ -3865,9 +3864,8 @@ Whenever a Pokémon dies, if it had a -1/-1 counter on it, create a token copy o
 			<type>Pokémon - Bug Poison</type>
 			<pt>2/4</pt>
 			<tablerow>2</tablerow>
-			<related>Ariados Token</related>
 			<text>Evolve From Spinarak {B/G}
-{3}{B}, {T}: Put a -1/-1 counter on target Pokémon. This ability costs {1} less to activate for each Pokémon that died this turn.</text>
+{3}{B}, {T}: Exile target Pokémon card from your graveyard. Put a number of -1/-1 counters equal to that card’s power on target Pokémon.</text>
 		</card>
 		<card>
 			<name>Crobat</name>
@@ -3944,9 +3942,10 @@ Whenever Igglybuff attacks, tap up to one target Pokémon.</text>
 			<color>W</color>
 			<manacost>W</manacost>
 			<type>Pokémon - Fairy</type>
-			<pt>0/2</pt>
+			<pt>1/1</pt>
 			<tablerow>2</tablerow>
-			<text>Whenever you cast a spell, if mana from a Treasure was spent to cast it, reveal cards from the top of your library until you reveal a nonland card with lesser mana value. You may cast that card without paying its mana cost. Then shuffle.</text>
+			<text>Baby — Cards named Togetic have “Evolve From Togepi {W}.” 
+Whenever you cast a spell, if mana from a Treasure was spent to cast it, reveal cards from the top of your library until you reveal a nonland card with lesser mana value. You may cast that card without paying its mana cost. Then shuffle.</text>
 		</card>
 		<card>
 			<name>Togetic</name>
@@ -3958,8 +3957,9 @@ Whenever Igglybuff attacks, tap up to one target Pokémon.</text>
 			<tablerow>2</tablerow>
 			<related>Treasure Token</related>
 			<text>Evolve From Togepi {W}
+Flash
 Flying
-Whenever you cast a spell, if no mana was spent to cast it, create a Treasure token. Then if Togetic is evolved, draw a card.</text>
+Whenever Togetic evolves, create a Treasure token for each different mana value among cards in your graveyard.</text>
 		</card>
 		<card>
 			<name>Natu</name>
@@ -4273,7 +4273,7 @@ When Misdreavus dies, create a Treasure Token.</text>
 			<tablerow>2</tablerow>
 			<related>Clue Token</related>
 			<text>{U}{B}, {T}: Scry 2.
-Whenever you scry a number of cards, put that many mystery counters on Unown. Then if it has 26 or more mystery counter on it, you win the game. Otherwise, create a Clue token.
+Whenever you scry a number of cards, put that many mystery counters on Unown. Then if it has 26 or more mystery counters on it, you win the game. Otherwise, investigate.
 When Unown dies, put its mystery counters on target Clue you control. That Clue becomes a copy of Unown.</text>
 		</card>
 		<card>
@@ -4557,7 +4557,7 @@ Activated abilities of evolved Pokémon you control cost {1} less to activate.
 			<text>Whenever you cast a spell, choose one at random.
 • Create a Food token.
 • Create a Treasure token.
-• Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip, then populate.</text>
+• Copy target token you control.</text>
 		</card>
 		<card>
 			<name>Mantine</name>
@@ -5257,7 +5257,7 @@ Flame Wheel deals damage equal to the sacrificed Pokémon's power to each Pokém
 			<type>Sorcery</type>
 			<tablerow>3</tablerow>
 			<related count="x">Cleffa Token</related>
-			<text>Moonlight has flashback as long as you control a Fairy Pokémon.
+			<text>Moonlight has flashback {2}{W}{W} as long as you control a Fairy Pokémon.
 Exile target Pokémon. For each Pokémon exiled this way, its controller creates a 1/1 white Fairy Pokémon token named Cleffa.
 Overload {2}{W}{W}, Reveal a white Pokémon card from your hand.</text>
 		</card>
@@ -5753,7 +5753,7 @@ Cycling {2}</text>
 			<type>Land</type>
 			<tablerow>0</tablerow>
 			<text>{T}: Add {G}.
-{2}{G}, Discard Ilex Forest: Destroy target artifact, enchantment, or nonbasic land. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle. This ability costs {1} less to activate for each evolved Pokémon you control.</text>
+{1}{G}, Discard Ilex Forest: Destroy target artifact, enchantment, or nonbasic land an opponent controls. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle. This ability costs {1} less to activate for each evolved Pokémon you control.</text>
 		</card>
 		<card>
 			<name>Ilex Forest Shrine</name>
@@ -5782,7 +5782,7 @@ Cycling {2}</text>
 			<manacost />
 			<type>Land</type>
 			<tablerow>0</tablerow>
-			<related>Red Gyarados Token</related>
+			<related>Red Gyarados</related>
 			<text>Lake of Rage enters the battlefield with ten peace counters on it.
 {3}: Remove a peace counter from Lake of Rage.
 When Lake of Rage has no peace counters on it, sacrifice it. If you do, create Red Gyarados, a legendary 20/20 red Water Flying Pokémon token with menace and indestructible.</text>
@@ -5988,16 +5988,6 @@ Cycling {2}</text>
 		</card>
 		<!-- tokens -->
 		<card>
-			<name>Ariados Token</name>
-			<set picURL="https://brooks42.github.io/pjto/cards/AriadosToken.png" rarity="token">PJTO</set>
-			<color>BG</color>
-			<manacost />
-			<type>Token Pokémon - Bug Poison</type>
-			<pt>2/4</pt>
-			<tablerow>2</tablerow>
-			<text>{3}{B}, {T}: Put a -1/-1 counter on target Pokémon. This ability costs {1} less to activate for each Pokémon that died this turn.</text>
-		</card>
-		<card>
 			<name>Cleffa Token</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/CleffaToken.png" rarity="token">PJTO</set>
 			<color>WB</color>
@@ -6088,7 +6078,7 @@ Cycling {2}</text>
 			<text>Haste</text>
 		</card>
 		<card>
-			<name>Red Gyarados Token</name>
+			<name>Red Gyarados</name>
 			<set picURL="https://brooks42.github.io/pjto/cards/Red%20GyaradosToken.png" rarity="token">PJTO</set>
 			<color>R</color>
 			<manacost />
@@ -6106,16 +6096,6 @@ Cycling {2}</text>
 			<pt>1/1</pt>
 			<tablerow>2</tablerow>
 			<text>Vigilance</text>
-		</card>
-		<card>
-			<name>Spinarak Token</name>
-			<set picURL="https://brooks42.github.io/pjto/cards/SpinarakToken.png" rarity="token">PJTO</set>
-			<color>BG</color>
-			<manacost />
-			<type>Token Pokémon - Bug Poison</type>
-			<pt>1/1</pt>
-			<tablerow>2</tablerow>
-			<text>Deathtouch</text>
 		</card>
 		<card>
 			<name>Stantler Token</name>
