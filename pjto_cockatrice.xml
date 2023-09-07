@@ -5753,7 +5753,7 @@ Cycling {2}</text>
 			<type>Land</type>
 			<tablerow>0</tablerow>
 			<text>{T}: Add {G}.
-{2}{G}, Discard Ilex Forest: Destroy target artifact, enchantment, or nonbasic land. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle. This ability costs {1} less to activate for each evolved Pokémon you control.</text>
+{1}{G}, Discard Ilex Forest: Destroy target artifact, enchantment, or nonbasic land an opponent controls. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle. This ability costs {1} less to activate for each evolved Pokémon you control.</text>
 		</card>
 		<card>
 			<name>Ilex Forest Shrine</name>
