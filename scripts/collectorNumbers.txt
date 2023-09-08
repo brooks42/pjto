@@ -1,0 +1,15 @@
+#Run this in folder with newly exported cards, will crop down to just the collector number area.
+for i in *.png
+do
+  filename="$(basename -- "$i" .png)"
+  echo "Working on $filename"
+  convert "./$filename.png" -gravity North -chop 0x976 "./$filename.png"
+done
+
+#Run this in folder with hires art, a subfolder named cropped with all crops from above, and an empty subfolder named composite to hold the result.
+for i in *.png
+do
+  filename="$(basename -- "$i" .png)"
+  echo "Working on $filename..."
+  sudo composite -geometry +0+976 "./cropped/$filename.png" "$filename.png" "./composite/$filename.png"
+done
