@@ -1,0 +1,15 @@
+#resize
+for i in *.png
+do
+	filename="$(basename -- "$i" .png)"
+	echo "Working on $filename"
+	convert -background black -gravity center "$filename.png" -extent 822x1118 "$filename.png"
+done
+
+#hires composites
+for i in *.png
+do
+  filename="$(basename -- "$i" .png)"
+  echo "Working on $filename file..."
+  sudo composite -geometry +0+0 "./border/border.png" "$filename.png" "$filename.png"
+done

@@ -1,0 +1,7 @@
+#hires composites
+for i in *.png
+do
+  filename="$(basename -- "$i" .png)"
+  echo "Working on $filename file..."
+  sudo composite -geometry +58+118 "./hires/$filename.png" "$filename.png" "./composite/$filename.png"
+done
