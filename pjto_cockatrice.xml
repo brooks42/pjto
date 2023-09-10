@@ -4214,7 +4214,7 @@ Whenever Quagsire attacks, return target land card from your graveyard to the ba
 			<pt>5/4</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Eevee {3}{U/B}
-Whenever a Pokémon you control evolves, target opponent discards two cards. Scry X, where X is the highest mana value of cards discarded this way.</text>
+Whenever a Pokémon you control evolves, target opponent discards a card. Scry X, where X is the mana value of the discarded card.</text>
 		</card>
 		<card>
 			<name>Umbreon</name>
