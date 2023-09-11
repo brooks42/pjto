@@ -45,6 +45,26 @@ foreach($node in $cardNodes)
 
     $rarity = $node | Select @{n='rarity'; e={$_.set.rarity}}
     $picUrl = $node | Select @{n='picUrl'; e={$_.set.picUrl}}
+    $subtypes = @()
+
+    if ($node.type -like "Legendary*")
+    {
+        $initialType = $node.type
+        $typeWords = $initialType.Split(" ")
+        $node.type = "Legendary " + $typeWords[0]
+        $subtypes += $typeWords[3]
+        $subtypes += $typeWords[4]
+        $subtypes += $typeWords[5]
+    }
+    else
+    {
+        $initialType = $node.type
+        $typeWords = $initialType.Split(" ")
+        $node.type = $typeWords[0]
+        $subtypes += $typeWords[2]
+        $subtypes += $typeWords[3]
+        $subtypes += $typeWords[4]
+    }
         
     $rarityElement = $node.AppendChild($xml.CreateElement("rarity"))
     $rarityText = $xml.CreateTextNode($rarity.rarity)
@@ -54,6 +74,10 @@ foreach($node in $cardNodes)
     $enElement = $picUrlElement.AppendChild($xml.CreateElement("en"))
     $enText = $xml.CreateTextNode($picUrl.picUrl)
     [void]$enElement.AppendChild($enText);
+
+    $subtypesElement = $node.AppendChild($xml.CreateElement("subtypes"))
+    $subtypesText = $xml.CreateTextNode($subtypes.subtypes)
+    [void]$subtypesElement.AppendChild($subtypesText);
 
     if ($node.type -like "PokÃ©mon*" -and $rarity.rarity -eq "common")
     {
@@ -85,6 +109,29 @@ foreach($node in $cardNodes)
                 $typeElement = $backElement.AppendChild($xml.CreateElement("type"))
                 $typeText = $xml.CreateTextNode($dfc.type)
                 [void]$typeElement.AppendChild($typeText);
+
+                if ($dfc.type -like "Legendary*")
+                {
+                    $initialType = $dfc.type
+                    $typeWords = $initialType.Split(" ")
+                    $dfc.type = "Legendary " + $typeWords[0]
+                    $subtypes += $typeWords[3]
+                    $subtypes += $typeWords[4]
+                    $subtypes += $typeWords[5]
+                }
+                else
+                {
+                    $initialType = $dfc.type
+                    $typeWords = $initialType.Split(" ")
+                    $dfc.type = $typeWords[0]
+                    $subtypes += $typeWords[2]
+                    $subtypes += $typeWords[3]
+                    $subtypes += $typeWords[4]
+                }
+
+                $subtypesElement = $backElement.AppendChild($xml.CreateElement("subtypes"))
+                $subtypesText = $xml.CreateTextNode($subtypes.subtypes)
+                [void]$subtypesElement.AppendChild($subtypesText);
             }
         }   
     }
@@ -107,6 +154,7 @@ $array = foreach ($card in $xml.cockatrice_carddatabase.cards.card)
             'name' = $card.name
             'mana_cost' = $card.manacost
             'type' = $card.type
+            'subtypes' = $card.subtypes
             'rarity' = $card.rarity
             'image_uris' = @{
                 'en' = $card.picUrl.en
@@ -114,6 +162,7 @@ $array = foreach ($card in $xml.cockatrice_carddatabase.cards.card)
             'back' = @{ 
                 'name' = $card.back.name
                 'type' = $card.back.type
+                'subtypes' = $card.back.subtypes
                 'image_uris' = @{
                     'en' = $card.back.backPicUrl.BackEn
                 }
@@ -126,6 +175,7 @@ $array = foreach ($card in $xml.cockatrice_carddatabase.cards.card)
             'name' = $card.name
             'mana_cost' = $card.manacost
             'type' = $card.type
+            'subtypes' = $card.subtypes
             'rarity' = $card.rarity
             'image_uris' = @{
                 'en' = $card.picUrl.en
