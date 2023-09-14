@@ -1,4 +1,10 @@
-#resize
+#remove helpers
+rm *Helper.jpg
+
+#resize all
+mogrify -resize 375x523 -quality 100 *.jpg
+
+#extend DFC fronts
 for i in {Mewtwo,Caterpie,Weedle,Dratini,Machop,Charmander,Gastly,Bellsprout,Bulbasaur,Oddish,Pidgey,NidoranF,NidoranM,Abra,Geodude,Poliwag,Squirtle,Mareep,Cyndaquil,Chikorita,Hoppip,Larvitar,Totodile}
 do
 	filename="$(basename "$i")"
@@ -14,7 +20,7 @@ for i in {Mewtwo,Caterpie,Weedle,Dratini,Machop,Charmander,Gastly,Bellsprout,Bul
 do
   filename="$(basename "$i")"
   echo "Combining $filename"
-  sudo composite -geometry +375+0 "${backs[$j]}.jpg" "$filename.jpg" "$filename.jpg"
+  composite -geometry +375+0 "${backs[$j]}.jpg" "$filename.jpg" "$filename.jpg"
   rm "${backs[$j]}.jpg"
   ((j++))
 done
