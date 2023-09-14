@@ -1,0 +1,20 @@
+#resize
+for i in {Mewtwo,Caterpie,Weedle,Dratini,Machop,Charmander,Gastly,Bellsprout,Bulbasaur,Oddish,Pidgey,NidoranF,NidoranM,Abra,Geodude,Poliwag,Squirtle,Mareep,Cyndaquil,Chikorita,Hoppip,Larvitar,Totodile}
+do
+	filename="$(basename "$i")"
+	echo "Extending $filename"
+	convert -background black -gravity west "$filename.jpg" -extent 750x523 "$filename.jpg"
+done
+
+#addingDFC
+backs=("MewtwoRedeemed" "MetapodDFC" "KakunaDFC" "DragonairDFC" "MachokeDFC" "CharmeleonDFC" "HaunterDFC" "WeepinbellDFC" "IvysaurDFC" "GloomDFC" "PidgeottoDFC" "NidorinaDFC" "NidorinoDFC" "KadabraDFC" "GravelerDFC" "PoliwhirlDFC" "WartortleDFC" "FlaaffyDFC" "QuilavaDFC" "BayleefDFC" "SkiploomDFC" "PupitarDFC" "CroconawDFC")
+declare -i j=0
+
+for i in {Mewtwo,Caterpie,Weedle,Dratini,Machop,Charmander,Gastly,Bellsprout,Bulbasaur,Oddish,Pidgey,NidoranF,NidoranM,Abra,Geodude,Poliwag,Squirtle,Mareep,Cyndaquil,Chikorita,Hoppip,Larvitar,Totodile}
+do
+  filename="$(basename "$i")"
+  echo "Combining $filename"
+  sudo composite -geometry +375+0 "${backs[$j]}.jpg" "$filename.jpg" "$filename.jpg"
+  rm "${backs[$j]}.jpg"
+  ((j++))
+done
