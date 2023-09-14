@@ -1,0 +1,1 @@
+mogrify -resize 375x523 -quality 100 -path ../small *.jpg
