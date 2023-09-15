@@ -45,6 +45,92 @@ foreach($node in $cardNodes)
 
     $rarity = $node | Select @{n='rarity'; e={$_.set.rarity}}
     $picUrl = $node | Select @{n='picUrl'; e={$_.set.picUrl}}
+
+    if ($node.type -like "Legendary Pok*")
+    {
+        $initialType = $node.type
+        $typeWords = $initialType.Split(" ")
+        $node.type = "Legendary Creature"
+        
+        $count = 0
+        $subtypes = @()
+        foreach ($word in $typewords)
+        {
+            if ($count -gt 2)
+            {
+                $subtypes += $word
+            }
+            $count++
+        }
+    }
+    elseif ($node.type -like "Pok*")
+    {
+        $initialType = $node.type
+        $typeWords = $initialType.Split(" ")
+        $node.type = "Creature"
+
+        $count = 0
+        $subtypes = @()
+        foreach ($word in $typewords)
+        {
+            if ($count -gt 1)
+            {
+                $subtypes += $word
+            }
+            $count++
+        }
+    }
+    elseif ($node.type -like "Artifact Pok*")
+    {
+        $initialType = $node.type
+        $typeWords = $initialType.Split(" ")
+        $node.type = "Artifact Creature"
+
+        $count = 0
+        $subtypes = @()
+        foreach ($word in $typewords)
+        {
+            if ($count -gt 2)
+            {
+                $subtypes += $word
+            }
+            $count++
+        }
+    }
+    elseif ($node.type -like "Legendary Trainer*")
+    {
+        $initialType = $node.type
+        $typeWords = $initialType.Split(" ")
+        $node.type = "Legendary Planeswalker"
+
+        $count = 0
+        $subtypes = @()
+        foreach ($word in $typewords)
+        {
+            if ($count -gt 2)
+            {
+                $subtypes += $word
+            }
+            $count++
+        }
+    }
+    else
+    {
+        $initialType = $node.type
+        $typeWords = $initialType.Split(" ")
+        $node.type = $typeWords[0]
+        
+        $count = 0
+        $subtypes = @()
+        foreach ($word in $typewords)
+        {
+            if ($count -gt 1)
+            {
+                $subtypes += $word
+            }
+            $count++
+        }
+    }
         
     $rarityElement = $node.AppendChild($xml.CreateElement("rarity"))
     $rarityText = $xml.CreateTextNode($rarity.rarity)
@@ -54,6 +140,20 @@ foreach($node in $cardNodes)
     $enElement = $picUrlElement.AppendChild($xml.CreateElement("en"))
     $enText = $xml.CreateTextNode($picUrl.picUrl)
     [void]$enElement.AppendChild($enText);
+
+    if ($subtypes.Count -eq 1)
+    {
+        $subtypes += ""
+    }
+    if ($subtypes.Count -gt 0)
+    {
+        foreach ($subtypeItem in $subtypes)
+        {
+            $subtypesElement = $node.AppendChild($xml.CreateElement("subtypes"))
+            $subtypesText = $xml.CreateTextNode($subtypeItem)
+            [void]$subtypesElement.AppendChild($subtypesText);
+        }
+    }
 
     if ($node.type -like "PokÃ©mon*" -and $rarity.rarity -eq "common")
     {
@@ -82,22 +182,81 @@ foreach($node in $cardNodes)
                 $backEnText = $xml.CreateTextNode($picUrl.picUrl)
                 [void]$backEnElement.AppendChild($backEnText);
 
+                if ($dfc.type -like "Legendary*")
+                {
+                    $initialType = $dfc.type
+                    $typeWords = $initialType.Split(" ")
+                    $dfc.type = "Legendary " + $typeWords[1]
+
+                    $count = 0
+                    $subtypes = @()
+                    foreach ($word in $typewords)
+                    {
+                        if ($count -gt 2)
+                        {
+                            $subtypes += $word
+                        }
+                        $count++
+                    }
+                }
+                if ($dfc.type -like "Artifact Pok*")
+                {
+                    $initialType = $dfc.type
+                    $typeWords = $initialType.Split(" ")
+                    $dfc.type = "Artifact " + $typeWords[1]
+
+                    $count = 0
+                    $subtypes = @()
+                    foreach ($word in $typewords)
+                    {
+                        if ($count -gt 2)
+                        {
+                            $subtypes += $word
+                        }
+                        $count++
+                    }
+                }
+                else
+                {
+                    $initialType = $dfc.type
+                    $typeWords = $initialType.Split(" ")
+                    $dfc.type = $typeWords[0]
+
+                    $count = 0
+                    $subtypes = @()
+                    foreach ($word in $typewords)
+                    {
+                        if ($count -gt 1)
+                        {
+                            $subtypes += $word
+                        }
+                        $count++
+                    }
+                }
+                
                 $typeElement = $backElement.AppendChild($xml.CreateElement("type"))
                 $typeText = $xml.CreateTextNode($dfc.type)
                 [void]$typeElement.AppendChild($typeText);
+
+                if ($subtypes.Count -eq 1)
+                {
+                    $subtypes += ""
+                }
+                if ($subtypes.Count -gt 0)
+                {
+                    foreach ($subtypeItem in $subtypes)
+                    {
+                        $subtypesElement = $backElement.AppendChild($xml.CreateElement("subtypes"))
+                        $subtypesText = $xml.CreateTextNode($subtypeItem)
+                        [void]$subtypesElement.AppendChild($subtypesText);
+                    }
+                }
             }
         }   
     }
 }
 
-foreach($node in $setNodes){$node.ParentNode.RemoveChild($node) | Out-Null}
-foreach($node in $setsNodes){$node.ParentNode.RemoveChild($node) | Out-Null}
-foreach($node in $colorNodes){$node.ParentNode.RemoveChild($node) | Out-Null}
-foreach($node in $ptNodes){$node.ParentNode.RemoveChild($node) | Out-Null}
-foreach($node in $tablerowNodes){$node.ParentNode.RemoveChild($node) | Out-Null}
-foreach($node in $sideNodes){$node.ParentNode.RemoveChild($node) | Out-Null}
-foreach($node in $relatedNodes){$node.ParentNode.RemoveChild($node) | Out-Null}
-foreach($node in $textNodes){$node.ParentNode.RemoveChild($node) | Out-Null}
+#$xml.Save(".\test.xml")
 
 $array = foreach ($card in $xml.cockatrice_carddatabase.cards.card)
 {
@@ -107,6 +266,7 @@ $array = foreach ($card in $xml.cockatrice_carddatabase.cards.card)
             'name' = $card.name
             'mana_cost' = $card.manacost
             'type' = $card.type
+            'subtypes' = $card.subtypes
             'rarity' = $card.rarity
             'image_uris' = @{
                 'en' = $card.picUrl.en
@@ -114,9 +274,23 @@ $array = foreach ($card in $xml.cockatrice_carddatabase.cards.card)
             'back' = @{ 
                 'name' = $card.back.name
                 'type' = $card.back.type
+                'subtypes' = $card.back.subtypes
                 'image_uris' = @{
                     'en' = $card.back.backPicUrl.BackEn
                 }
+            }
+        }
+    }
+    elseif ($card.subtypes)
+    {
+        $prop = [ordered]@{
+            'name' = $card.name
+            'mana_cost' = $card.manacost
+            'type' = $card.type
+            'subtypes' = $card.subtypes
+            'rarity' = $card.rarity
+            'image_uris' = @{
+                'en' = $card.picUrl.en
             }
         }
     }

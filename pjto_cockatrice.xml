@@ -1913,7 +1913,7 @@ When you cycle Mew, shuffle it into your library.</text>
 			<type>Legendary Trainer - Green</type>
 			<loyalty>4</loyalty>
 			<text>You may spend mana as though it were mana of any color to evolve Pokémon.
-[+1]: Reveal the top card of your library. If it's an artifact card, put it onto the battlefield. Otherwise, put it into your hand.
+[+1]: Reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put it into your hand.
 [−3]: Search your library for a Pokémon card with Evolve From, reveal it, and put it into your hand. You may evolve it without paying its mana cost this turn. Then shuffle.</text>
 		</card>
 		<card>
@@ -2798,7 +2798,7 @@ Whenever enchanted Pokémon attacks, tap target permanent and put a stun counter
 			<type>Enchantment - Aura</type>
 			<tablerow>1</tablerow>
 			<text>Enchant Pokémon without Evolve
-Enchanted Pokémon has "{T}: Destroy target nonland permanent, then put a stun counter on this Pokémon. Activate only as a sorcery."</text>
+Enchanted Pokémon has "{T}: Destroy target nonland permanent. This Pokémon doesn't untap during its controller's next untap step. Activate only as a sorcery."</text>
 		</card>
 		<card>
 			<name>Swords Dance</name>
@@ -4214,7 +4214,7 @@ Whenever Quagsire attacks, return target land card from your graveyard to the ba
 			<pt>5/4</pt>
 			<tablerow>2</tablerow>
 			<text>Evolve From Eevee {3}{U/B}
-Whenever a Pokémon you control evolves, target opponent discards two cards. Scry X, where X is the highest mana value of cards discarded this way.</text>
+Whenever a Pokémon you control evolves, target opponent discards a card. Scry X, where X is the mana value of the discarded card.</text>
 		</card>
 		<card>
 			<name>Umbreon</name>
@@ -4226,7 +4226,7 @@ Whenever a Pokémon you control evolves, target opponent discards two cards. Scr
 			<tablerow>2</tablerow>
 			<related>Treasure Token</related>
 			<text>Evolve From Eevee {3}{B}
-Whenever a Pokémon you control evolves, each opponent loses twice X life, where X is the amount of mana from Treasures spent to evolve it. Create a Treasure token.</text>
+Whenever a Pokémon you control evolves, create a Treasure token. Each opponent loses life equal to twice the number of Treasures you control.</text>
 		</card>
 		<card>
 			<name>Murkrow</name>
