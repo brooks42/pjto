@@ -1,0 +1,6319 @@
+[CustomCards]
+[
+    {
+        "name":  "Bulbasaur",
+        "mana_cost":  "G",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         "Poison"
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Bulbasaur.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Grass",
+                                      "Poison"
+                                  ],
+                     "name":  "Ivysaur (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pkto/cards/IvysaurDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Ivysaur",
+        "mana_cost":  "1GG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         "Poison"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Ivysaur.png"
+                       }
+    },
+    {
+        "name":  "Venusaur",
+        "mana_cost":  "3GG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         "Poison"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Venusaur.png"
+                       }
+    },
+    {
+        "name":  "Squirtle",
+        "mana_cost":  "U",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Squirtle.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Water",
+                                      ""
+                                  ],
+                     "name":  "Wartortle (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pkto/cards/WartortleDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Wartortle",
+        "mana_cost":  "1UU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Wartortle.png"
+                       }
+    },
+    {
+        "name":  "Blastoise",
+        "mana_cost":  "3UU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Blastoise.png"
+                       }
+    },
+    {
+        "name":  "Charmander",
+        "mana_cost":  "R",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fire",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Charmander.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Fire",
+                                      ""
+                                  ],
+                     "name":  "Charmeleon (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pkto/cards/CharmeleonDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Charmeleon",
+        "mana_cost":  "1RR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fire",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Charmeleon.png"
+                       }
+    },
+    {
+        "name":  "Charizard",
+        "mana_cost":  "3RR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fire",
+                         "Flying"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Charizard.png"
+                       }
+    },
+    {
+        "name":  "Caterpie",
+        "mana_cost":  "G",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Caterpie.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Bug",
+                                      ""
+                                  ],
+                     "name":  "Metapod (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pkto/cards/MetapodDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Metapod",
+        "mana_cost":  "1G",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Metapod.png"
+                       }
+    },
+    {
+        "name":  "Butterfree",
+        "mana_cost":  "1GG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         "Flying"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Butterfree.png"
+                       }
+    },
+    {
+        "name":  "Weedle",
+        "mana_cost":  "B",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         "Poison"
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Weedle.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Bug",
+                                      "Poison"
+                                  ],
+                     "name":  "Kakuna (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pkto/cards/KakunaDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Kakuna",
+        "mana_cost":  "1B",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         "Poison"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Kakuna.png"
+                       }
+    },
+    {
+        "name":  "Beedrill",
+        "mana_cost":  "1BB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         "Poison"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Beedrill.png"
+                       }
+    },
+    {
+        "name":  "Pidgey",
+        "mana_cost":  "W",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         "Flying"
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Pidgey.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Normal",
+                                      "Flying"
+                                  ],
+                     "name":  "Pidgeotto (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pkto/cards/PidgeottoDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Pidgeotto",
+        "mana_cost":  "3W",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         "Flying"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Pidgeotto.png"
+                       }
+    },
+    {
+        "name":  "Pidgeot",
+        "mana_cost":  "3WW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         "Flying"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Pidgeot.png"
+                       }
+    },
+    {
+        "name":  "Rattata",
+        "mana_cost":  "W",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Rattata.png"
+                       }
+    },
+    {
+        "name":  "Raticate",
+        "mana_cost":  "1WW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Raticate.png"
+                       }
+    },
+    {
+        "name":  "Spearow",
+        "mana_cost":  "1{W/B}{W/B}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         "Flying"
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Spearow.png"
+                       }
+    },
+    {
+        "name":  "Fearow",
+        "mana_cost":  "{4}{W/B}{W/B}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         "Flying"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Fearow.png"
+                       }
+    },
+    {
+        "name":  "Ekans",
+        "mana_cost":  "1B",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Poison",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Ekans.png"
+                       }
+    },
+    {
+        "name":  "Arbok",
+        "mana_cost":  "3B",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Poison",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Arbok.png"
+                       }
+    },
+    {
+        "name":  "Pikachu",
+        "mana_cost":  "1RW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Electric",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Pikachu.png"
+                       }
+    },
+    {
+        "name":  "Raichu",
+        "mana_cost":  "2RW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Electric",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Raichu.png"
+                       }
+    },
+    {
+        "name":  "Sandshrew",
+        "mana_cost":  "2G",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ground",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Sandshrew.png"
+                       }
+    },
+    {
+        "name":  "Sandslash",
+        "mana_cost":  "4G",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ground",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Sandslash.png"
+                       }
+    },
+    {
+        "name":  "Nidoran♀",
+        "mana_cost":  "1G",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Poison",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/NidoranF.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Poison",
+                                      ""
+                                  ],
+                     "name":  "Nidorina (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pkto/cards/NidorinaDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Nidorina",
+        "mana_cost":  "2G",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Poison",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Nidorina.png"
+                       }
+    },
+    {
+        "name":  "Nidoqueen",
+        "mana_cost":  "5GG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Poison",
+                         "Ground"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Nidoqueen.png"
+                       }
+    },
+    {
+        "name":  "Nidoran♂",
+        "mana_cost":  "2B",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Poison",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/NidoranM.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Poison",
+                                      ""
+                                  ],
+                     "name":  "Nidorino (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pkto/cards/NidorinoDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Nidorino",
+        "mana_cost":  "3B",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Poison",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Nidorino.png"
+                       }
+    },
+    {
+        "name":  "Nidoking",
+        "mana_cost":  "5BB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Poison",
+                         "Ground"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Nidoking.png"
+                       }
+    },
+    {
+        "name":  "Clefairy",
+        "mana_cost":  "1WB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fairy",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Clefairy.png"
+                       }
+    },
+    {
+        "name":  "Clefable",
+        "mana_cost":  "2WB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fairy",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Clefable.png"
+                       }
+    },
+    {
+        "name":  "Vulpix",
+        "mana_cost":  "2R",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fire",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Vulpix.png"
+                       }
+    },
+    {
+        "name":  "Ninetales",
+        "mana_cost":  "3RR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fire",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Ninetales.png"
+                       }
+    },
+    {
+        "name":  "Jigglypuff",
+        "mana_cost":  "1W",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         "Fairy"
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Jigglypuff.png"
+                       }
+    },
+    {
+        "name":  "Wigglytuff",
+        "mana_cost":  "2WW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         "Fairy"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Wigglytuff.png"
+                       }
+    },
+    {
+        "name":  "Zubat",
+        "mana_cost":  "1B",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Poison",
+                         "Flying"
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Zubat.png"
+                       }
+    },
+    {
+        "name":  "Golbat",
+        "mana_cost":  "1BB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Poison",
+                         "Flying"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Golbat.png"
+                       }
+    },
+    {
+        "name":  "Oddish",
+        "mana_cost":  "G",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         "Poison"
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Oddish.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Grass",
+                                      "Poison"
+                                  ],
+                     "name":  "Gloom (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pkto/cards/GloomDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Gloom PKTO",
+        "mana_cost":  "1{B/G}{B/G}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         "Poison"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Gloom.png"
+                       }
+    },
+    {
+        "name":  "Vileplume",
+        "mana_cost":  "1{B/G}{B/G}{B/G}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         "Poison"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Vileplume.png"
+                       }
+    },
+    {
+        "name":  "Paras",
+        "mana_cost":  "1G",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         "Grass"
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Paras.png"
+                       }
+    },
+    {
+        "name":  "Parasect",
+        "mana_cost":  "3G",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         "Grass"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Parasect.png"
+                       }
+    },
+    {
+        "name":  "Venonat",
+        "mana_cost":  "GU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         "Poison"
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Venonat.png"
+                       }
+    },
+    {
+        "name":  "Venomoth",
+        "mana_cost":  "2GU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         "Poison"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Venomoth.png"
+                       }
+    },
+    {
+        "name":  "Diglett",
+        "mana_cost":  "R",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ground",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Diglett.png"
+                       }
+    },
+    {
+        "name":  "Dugtrio",
+        "mana_cost":  "1RR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ground",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Dugtrio.png"
+                       }
+    },
+    {
+        "name":  "Meowth",
+        "mana_cost":  "WB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Meowth.png"
+                       }
+    },
+    {
+        "name":  "Persian",
+        "mana_cost":  "3WB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Persian.png"
+                       }
+    },
+    {
+        "name":  "Psyduck",
+        "mana_cost":  "1U",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Psyduck.png"
+                       }
+    },
+    {
+        "name":  "Golduck",
+        "mana_cost":  "2UU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Golduck.png"
+                       }
+    },
+    {
+        "name":  "Mankey",
+        "mana_cost":  "1R",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fighting",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Mankey.png"
+                       }
+    },
+    {
+        "name":  "Primeape",
+        "mana_cost":  "3RR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fighting",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Primeape.png"
+                       }
+    },
+    {
+        "name":  "Growlithe",
+        "mana_cost":  "1{R/W}{R/W}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fire",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Growlithe.png"
+                       }
+    },
+    {
+        "name":  "Arcanine",
+        "mana_cost":  "5{R/W}{R/W}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fire",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Arcanine.png"
+                       }
+    },
+    {
+        "name":  "Poliwag",
+        "mana_cost":  "U",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Poliwag.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Water",
+                                      ""
+                                  ],
+                     "name":  "Poliwhirl (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pkto/cards/PoliwhirlDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Poliwhirl",
+        "mana_cost":  "2UU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Poliwhirl.png"
+                       }
+    },
+    {
+        "name":  "Poliwrath",
+        "mana_cost":  "3UU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Fighting"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Poliwrath.png"
+                       }
+    },
+    {
+        "name":  "Abra",
+        "mana_cost":  "U",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Psychic",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Abra.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Psychic",
+                                      ""
+                                  ],
+                     "name":  "Kadabra (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pkto/cards/KadabraDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Kadabra",
+        "mana_cost":  "2UB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Psychic",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Kadabra.png"
+                       }
+    },
+    {
+        "name":  "Alakazam",
+        "mana_cost":  "3UB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Psychic",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Alakazam.png"
+                       }
+    },
+    {
+        "name":  "Machop",
+        "mana_cost":  "{R/G}{R/G}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fighting",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Machop.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Fighting",
+                                      ""
+                                  ],
+                     "name":  "Machoke (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pkto/cards/MachokeDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Machoke",
+        "mana_cost":  "2{R/G}{R/G}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fighting",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Machoke.png"
+                       }
+    },
+    {
+        "name":  "Machamp",
+        "mana_cost":  "4{R/G}{R/G}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fighting",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Machamp.png"
+                       }
+    },
+    {
+        "name":  "Bellsprout",
+        "mana_cost":  "G",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         "Poison"
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Bellsprout.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Grass",
+                                      "Poison"
+                                  ],
+                     "name":  "Weepinbell (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pkto/cards/WeepinbellDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Weepinbell",
+        "mana_cost":  "2GG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         "Poison"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Weepinbell.png"
+                       }
+    },
+    {
+        "name":  "Victreebel",
+        "mana_cost":  "4GG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         "Poison"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Victreebel.png"
+                       }
+    },
+    {
+        "name":  "Tentacool",
+        "mana_cost":  "1UB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Poison"
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Tentacool.png"
+                       }
+    },
+    {
+        "name":  "Tentacruel",
+        "mana_cost":  "4UB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Poison"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Tentacruel.png"
+                       }
+    },
+    {
+        "name":  "Geodude",
+        "mana_cost":  "1G",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Rock",
+                         "Ground"
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Geodude.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Rock",
+                                      "Ground"
+                                  ],
+                     "name":  "Graveler (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pkto/cards/GravelerDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Graveler",
+        "mana_cost":  "2GG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Rock",
+                         "Ground"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Graveler.png"
+                       }
+    },
+    {
+        "name":  "Golem PKTO",
+        "mana_cost":  "4GG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Rock",
+                         "Ground"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Golem.png"
+                       }
+    },
+    {
+        "name":  "Ponyta",
+        "mana_cost":  "2R",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fire",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Ponyta.png"
+                       }
+    },
+    {
+        "name":  "Rapidash",
+        "mana_cost":  "4R",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fire",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Rapidash.png"
+                       }
+    },
+    {
+        "name":  "Slowpoke",
+        "mana_cost":  "1U",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Psychic"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Slowpoke.png"
+                       }
+    },
+    {
+        "name":  "Slowbro",
+        "mana_cost":  "2UB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Psychic"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Slowbro.png"
+                       }
+    },
+    {
+        "name":  "Magnemite",
+        "mana_cost":  "1",
+        "type":  "Artifact Creature",
+        "subtypes":  [
+                         "Electric",
+                         "Steel"
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Magnemite.png"
+                       }
+    },
+    {
+        "name":  "Magneton",
+        "mana_cost":  "3",
+        "type":  "Artifact Creature",
+        "subtypes":  [
+                         "Electric",
+                         "Steel"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Magneton.png"
+                       }
+    },
+    {
+        "name":  "Farfetch'd",
+        "mana_cost":  "2GW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         "Flying"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Farfetchd.png"
+                       }
+    },
+    {
+        "name":  "Doduo",
+        "mana_cost":  "BR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         "Flying"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Doduo.png"
+                       }
+    },
+    {
+        "name":  "Dodrio",
+        "mana_cost":  "3BR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         "Flying"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Dodrio.png"
+                       }
+    },
+    {
+        "name":  "Seel",
+        "mana_cost":  "WW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Seel.png"
+                       }
+    },
+    {
+        "name":  "Dewgong",
+        "mana_cost":  "2WU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Ice"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Dewgong.png"
+                       }
+    },
+    {
+        "name":  "Grimer",
+        "mana_cost":  "1B",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Poison",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Grimer.png"
+                       }
+    },
+    {
+        "name":  "Muk",
+        "mana_cost":  "2BB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Poison",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Muk.png"
+                       }
+    },
+    {
+        "name":  "Shellder",
+        "mana_cost":  "1U",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Shellder.png"
+                       }
+    },
+    {
+        "name":  "Cloyster",
+        "mana_cost":  "2UR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Ice"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Cloyster.png"
+                       }
+    },
+    {
+        "name":  "Gastly",
+        "mana_cost":  "B",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ghost",
+                         "Poison"
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Gastly.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Ghost",
+                                      "Poison"
+                                  ],
+                     "name":  "Haunter (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pkto/cards/HaunterDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Haunter",
+        "mana_cost":  "2BB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ghost",
+                         "Poison"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Haunter.png"
+                       }
+    },
+    {
+        "name":  "Gengar",
+        "mana_cost":  "3BB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ghost",
+                         "Poison"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Gengar.png"
+                       }
+    },
+    {
+        "name":  "Onix",
+        "mana_cost":  "3R",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Rock",
+                         "Ground"
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Onix.png"
+                       }
+    },
+    {
+        "name":  "Drowzee",
+        "mana_cost":  "1UB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Psychic",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Drowzee.png"
+                       }
+    },
+    {
+        "name":  "Hypno",
+        "mana_cost":  "2UB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Psychic",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Hypno.png"
+                       }
+    },
+    {
+        "name":  "Krabby",
+        "mana_cost":  "1UR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Krabby.png"
+                       }
+    },
+    {
+        "name":  "Kingler",
+        "mana_cost":  "3UR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Kingler.png"
+                       }
+    },
+    {
+        "name":  "Voltorb",
+        "mana_cost":  "R",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Electric",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Voltorb.png"
+                       }
+    },
+    {
+        "name":  "Electrode",
+        "mana_cost":  "2RW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Electric",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Electrode.png"
+                       }
+    },
+    {
+        "name":  "Exeggcute",
+        "mana_cost":  "BG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         "Psychic"
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Exeggcute.png"
+                       }
+    },
+    {
+        "name":  "Exeggutor",
+        "mana_cost":  "2BGG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         "Psychic"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Exeggutor.png"
+                       }
+    },
+    {
+        "name":  "Cubone",
+        "mana_cost":  "1GW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ground",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Cubone.png"
+                       }
+    },
+    {
+        "name":  "Marowak",
+        "mana_cost":  "2GW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ground",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Marowak.png"
+                       }
+    },
+    {
+        "name":  "Hitmonlee",
+        "mana_cost":  "2RG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fighting",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Hitmonlee.png"
+                       }
+    },
+    {
+        "name":  "Hitmonchan",
+        "mana_cost":  "2GW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fighting",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Hitmonchan.png"
+                       }
+    },
+    {
+        "name":  "Lickitung",
+        "mana_cost":  "4W",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Lickitung.png"
+                       }
+    },
+    {
+        "name":  "Koffing",
+        "mana_cost":  "1B",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Poison",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Koffing.png"
+                       }
+    },
+    {
+        "name":  "Weezing",
+        "mana_cost":  "XXBB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Poison",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Weezing.png"
+                       }
+    },
+    {
+        "name":  "Rhyhorn",
+        "mana_cost":  "3G",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ground",
+                         "Rock"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Rhyhorn.png"
+                       }
+    },
+    {
+        "name":  "Rhydon",
+        "mana_cost":  "4RG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ground",
+                         "Rock"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Rhydon.png"
+                       }
+    },
+    {
+        "name":  "Chansey",
+        "mana_cost":  "3WW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Chansey.png"
+                       }
+    },
+    {
+        "name":  "Tangela",
+        "mana_cost":  "1G",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Tangela.png"
+                       }
+    },
+    {
+        "name":  "Kangaskhan",
+        "mana_cost":  "2WW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Kangaskhan.png"
+                       }
+    },
+    {
+        "name":  "Horsea",
+        "mana_cost":  "1UU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Horsea.png"
+                       }
+    },
+    {
+        "name":  "Seadra",
+        "mana_cost":  "3U",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Seadra.png"
+                       }
+    },
+    {
+        "name":  "Goldeen",
+        "mana_cost":  "{W/U}{W/U}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Goldeen.png"
+                       }
+    },
+    {
+        "name":  "Seaking",
+        "mana_cost":  "3{W/U}{W/U}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Seaking.png"
+                       }
+    },
+    {
+        "name":  "Staryu",
+        "mana_cost":  "1U",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Staryu.png"
+                       }
+    },
+    {
+        "name":  "Starmie",
+        "mana_cost":  "3U",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Psychic"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Starmie.png"
+                       }
+    },
+    {
+        "name":  "Mr. Mime",
+        "mana_cost":  "2WW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Psychic",
+                         "Fairy"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Mr.%20Mime.png"
+                       }
+    },
+    {
+        "name":  "Scyther",
+        "mana_cost":  "2RG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         "Flying"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Scyther.png"
+                       }
+    },
+    {
+        "name":  "Jynx",
+        "mana_cost":  "3UB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ice",
+                         "Psychic"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Jynx.png"
+                       }
+    },
+    {
+        "name":  "Electabuzz",
+        "mana_cost":  "3RW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Electric",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Electabuzz.png"
+                       }
+    },
+    {
+        "name":  "Magmar",
+        "mana_cost":  "4R",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fire",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Magmar.png"
+                       }
+    },
+    {
+        "name":  "Pinsir",
+        "mana_cost":  "4GG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Pinsir.png"
+                       }
+    },
+    {
+        "name":  "Tauros",
+        "mana_cost":  "3{R/G}{R/G}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Tauros.png"
+                       }
+    },
+    {
+        "name":  "Magikarp",
+        "mana_cost":  "U",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Magikarp.png"
+                       }
+    },
+    {
+        "name":  "Gyarados",
+        "mana_cost":  "5URR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Flying"
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Gyarados.png"
+                       }
+    },
+    {
+        "name":  "Lapras",
+        "mana_cost":  "2WU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Ice"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Lapras.png"
+                       }
+    },
+    {
+        "name":  "Ditto",
+        "mana_cost":  "2",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Ditto.png"
+                       }
+    },
+    {
+        "name":  "Eevee",
+        "mana_cost":  "1W",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Eevee.png"
+                       }
+    },
+    {
+        "name":  "Vaporeon",
+        "mana_cost":  "2UU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Vaporeon.png"
+                       }
+    },
+    {
+        "name":  "Jolteon",
+        "mana_cost":  "2RW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Electric",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Jolteon.png"
+                       }
+    },
+    {
+        "name":  "Flareon",
+        "mana_cost":  "2RR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fire",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Flareon.png"
+                       }
+    },
+    {
+        "name":  "Porygon",
+        "mana_cost":  "3",
+        "type":  "Artifact Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Porygon.png"
+                       }
+    },
+    {
+        "name":  "Omanyte",
+        "mana_cost":  "1UR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Rock",
+                         "Water"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Omanyte.png"
+                       }
+    },
+    {
+        "name":  "Omastar",
+        "mana_cost":  "2URR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Rock",
+                         "Water"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Omastar.png"
+                       }
+    },
+    {
+        "name":  "Kabuto",
+        "mana_cost":  "1GU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Rock",
+                         "Water"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Kabuto.png"
+                       }
+    },
+    {
+        "name":  "Kabutops",
+        "mana_cost":  "2GGU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Rock",
+                         "Water"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Kabutops.png"
+                       }
+    },
+    {
+        "name":  "Aerodactyl",
+        "mana_cost":  "1RG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Rock",
+                         "Flying"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Aerodactyl.png"
+                       }
+    },
+    {
+        "name":  "Snorlax",
+        "mana_cost":  "1WW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Snorlax.png"
+                       }
+    },
+    {
+        "name":  "Articuno",
+        "mana_cost":  "{W/U}{W/U}{W/U}{W/U}",
+        "type":  "Legendary Creature",
+        "subtypes":  [
+                         "Ice",
+                         "Flying"
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Articuno.png"
+                       }
+    },
+    {
+        "name":  "Zapdos",
+        "mana_cost":  "{R/W}{R/W}{R/W}{R/W}",
+        "type":  "Legendary Creature",
+        "subtypes":  [
+                         "Electric",
+                         "Flying"
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Zapdos.png"
+                       }
+    },
+    {
+        "name":  "Moltres",
+        "mana_cost":  "{B/R}{B/R}{B/R}{B/R}",
+        "type":  "Legendary Creature",
+        "subtypes":  [
+                         "Fire",
+                         "Flying"
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Moltres.png"
+                       }
+    },
+    {
+        "name":  "Dratini",
+        "mana_cost":  "RGW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Dragon",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Dratini.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Dragon",
+                                      ""
+                                  ],
+                     "name":  "Dragonair (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pkto/cards/DragonairDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Dragonair",
+        "mana_cost":  "2RGW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Dragon",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Dragonair.png"
+                       }
+    },
+    {
+        "name":  "Dragonite",
+        "mana_cost":  "4RRGGWW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Dragon",
+                         "Flying"
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Dragonite.png"
+                       }
+    },
+    {
+        "name":  "Mewtwo",
+        "mana_cost":  "5UBR",
+        "type":  "Legendary Creature",
+        "subtypes":  [
+                         "Psychic",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Mewtwo.png"
+                       },
+        "back":  {
+                     "subtypes":  null,
+                     "name":  "Mewtwo, Redeemed",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pkto/cards/MewtwoRedeemed.png"
+                                    },
+                     "type":  "Legendary"
+                 }
+    },
+    {
+        "name":  "Mew",
+        "mana_cost":  "GWU",
+        "type":  "Legendary Creature",
+        "subtypes":  [
+                         "Psychic",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Mew.png"
+                       }
+    },
+    {
+        "name":  "Red",
+        "mana_cost":  "3R{R/W}W",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Red",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Red.png"
+                       }
+    },
+    {
+        "name":  "Blue",
+        "mana_cost":  "2UR",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Blue",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Blue.png"
+                       }
+    },
+    {
+        "name":  "Green",
+        "mana_cost":  "2GU",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Green",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Green.png"
+                       }
+    },
+    {
+        "name":  "Brock",
+        "mana_cost":  "2RG",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Brock",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Brock.png"
+                       }
+    },
+    {
+        "name":  "Misty",
+        "mana_cost":  "2UU",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Misty",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Misty.png"
+                       }
+    },
+    {
+        "name":  "Lt. Surge",
+        "mana_cost":  "2RW",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Surge",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Lt.%20Surge.png"
+                       }
+    },
+    {
+        "name":  "Erika",
+        "mana_cost":  "2GG",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Erika",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Erika.png"
+                       }
+    },
+    {
+        "name":  "Koga",
+        "mana_cost":  "1BB",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Koga",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Koga.png"
+                       }
+    },
+    {
+        "name":  "Sabrina",
+        "mana_cost":  "2{U/B}U",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Sabrina",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Sabrina.png"
+                       }
+    },
+    {
+        "name":  "Blaine",
+        "mana_cost":  "2R",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Blaine",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Blaine.png"
+                       }
+    },
+    {
+        "name":  "Giovanni",
+        "mana_cost":  "3BB",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Giovanni",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Giovanni.png"
+                       }
+    },
+    {
+        "name":  "Professor Oak",
+        "mana_cost":  "3WW",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Oak",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Professor%20Oak.png"
+                       }
+    },
+    {
+        "name":  "Lorelei",
+        "mana_cost":  "1{W/U}{W/U}",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Lorelei",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Lorelei.png"
+                       }
+    },
+    {
+        "name":  "Bruno",
+        "mana_cost":  "1{R/G}{R/G}",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Bruno",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Bruno.png"
+                       }
+    },
+    {
+        "name":  "Agatha",
+        "mana_cost":  "2{U/B}B",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Agatha",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Agatha.png"
+                       }
+    },
+    {
+        "name":  "Lance PKTO",
+        "mana_cost":  "4RGW",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Lance",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Lance.png"
+                       }
+    },
+    {
+        "name":  "Bill",
+        "mana_cost":  "2U",
+        "type":  "Sorcery",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Bill.png"
+                       }
+    },
+    {
+        "name":  "Poké Ball",
+        "mana_cost":  "R",
+        "type":  "Sorcery",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Pok%C3%A9%20Ball.png"
+                       }
+    },
+    {
+        "name":  "Great Ball",
+        "mana_cost":  "1U",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Great%20Ball.png"
+                       }
+    },
+    {
+        "name":  "Safari Ball",
+        "mana_cost":  "2G",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Safari%20Ball.png"
+                       }
+    },
+    {
+        "name":  "Ultra Ball",
+        "mana_cost":  "3W",
+        "type":  "Sorcery",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Ultra%20Ball.png"
+                       }
+    },
+    {
+        "name":  "Master Ball",
+        "mana_cost":  "1B",
+        "type":  "Sorcery",
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Master%20Ball.png"
+                       }
+    },
+    {
+        "name":  "Switch",
+        "mana_cost":  "G",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Switch.png"
+                       }
+    },
+    {
+        "name":  "Poké Flute",
+        "mana_cost":  "1W",
+        "type":  "Instant",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Pok%C3%A9%20Flute.png"
+                       }
+    },
+    {
+        "name":  "Old Rod",
+        "mana_cost":  "XU",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Old%20Rod.png"
+                       }
+    },
+    {
+        "name":  "Revive PKTO",
+        "mana_cost":  "B",
+        "type":  "Sorcery",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Revive.png"
+                       }
+    },
+    {
+        "name":  "Max Revive",
+        "mana_cost":  "3{W/B}{W/B}",
+        "type":  "Sorcery",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Max%20Revive.png"
+                       }
+    },
+    {
+        "name":  "Energy Search",
+        "mana_cost":  "1G",
+        "type":  "Sorcery",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Energy%20Search.png"
+                       }
+    },
+    {
+        "name":  "Mysterious Fossil",
+        "mana_cost":  "1",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Mysterious%20Fossil.png"
+                       }
+    },
+    {
+        "name":  "Explore",
+        "mana_cost":  "1G",
+        "type":  "Sorcery",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Explore.png"
+                       }
+    },
+    {
+        "name":  "Revitalize",
+        "mana_cost":  "1W",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Revitalize.png"
+                       }
+    },
+    {
+        "name":  "Show of Force",
+        "mana_cost":  "1R",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Show%20of%20Force.png"
+                       }
+    },
+    {
+        "name":  "Investigate",
+        "mana_cost":  "1U",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Investigate.png"
+                       }
+    },
+    {
+        "name":  "Potion",
+        "mana_cost":  "W",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Potion.png"
+                       }
+    },
+    {
+        "name":  "Lemonade",
+        "mana_cost":  "WW",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Lemonade.png"
+                       }
+    },
+    {
+        "name":  "Growth",
+        "mana_cost":  "2G",
+        "type":  "Sorcery",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Growth.png"
+                       }
+    },
+    {
+        "name":  "X Attack",
+        "mana_cost":  "R",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/X%20Attack.png"
+                       }
+    },
+    {
+        "name":  "X Defense",
+        "mana_cost":  "U",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/X%20Defense.png"
+                       }
+    },
+    {
+        "name":  "Guard Spec.",
+        "mana_cost":  "G",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Guard%20Spec.png"
+                       }
+    },
+    {
+        "name":  "Antidote",
+        "mana_cost":  "W",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Antidote.png"
+                       }
+    },
+    {
+        "name":  "Turn to Stone",
+        "mana_cost":  "1BB",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Turn%20to%20Stone.png"
+                       }
+    },
+    {
+        "name":  "Dowsing Machine",
+        "mana_cost":  "2",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Dowsing%20Machine.png"
+                       }
+    },
+    {
+        "name":  "Body Slam",
+        "mana_cost":  "1G",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Body%20Slam.png"
+                       }
+    },
+    {
+        "name":  "Slash",
+        "mana_cost":  "R",
+        "type":  "Sorcery",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Slash.png"
+                       }
+    },
+    {
+        "name":  "Whirlwind PKTO",
+        "mana_cost":  "{W/U}",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Whirlwind.png"
+                       }
+    },
+    {
+        "name":  "Sing",
+        "mana_cost":  "2UU",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Sing.png"
+                       }
+    },
+    {
+        "name":  "Swift",
+        "mana_cost":  "1WB",
+        "type":  "Instant",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Swift.png"
+                       }
+    },
+    {
+        "name":  "Disable",
+        "mana_cost":  "U{U/B}",
+        "type":  "Instant",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Disable.png"
+                       }
+    },
+    {
+        "name":  "Ember",
+        "mana_cost":  "R",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Ember.png"
+                       }
+    },
+    {
+        "name":  "Gust",
+        "mana_cost":  "{G/W}",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Gust.png"
+                       }
+    },
+    {
+        "name":  "Slam",
+        "mana_cost":  "2W",
+        "type":  "Sorcery",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Slam.png"
+                       }
+    },
+    {
+        "name":  "Poison Sting",
+        "mana_cost":  "1B",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Poison%20Sting.png"
+                       }
+    },
+    {
+        "name":  "Glare",
+        "mana_cost":  "R",
+        "type":  "Sorcery",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Glare.png"
+                       }
+    },
+    {
+        "name":  "Flash PKTO",
+        "mana_cost":  "W",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Flash.png"
+                       }
+    },
+    {
+        "name":  "Night Shade",
+        "mana_cost":  "1B",
+        "type":  "Instant",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Night%20Shade.png"
+                       }
+    },
+    {
+        "name":  "Aurora Beam",
+        "mana_cost":  "W",
+        "type":  "Instant",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Aurora%20Beam.png"
+                       }
+    },
+    {
+        "name":  "Tackle",
+        "mana_cost":  "3W",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Tackle.png"
+                       }
+    },
+    {
+        "name":  "Toxic",
+        "mana_cost":  "2BB",
+        "type":  "Sorcery",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Toxic.png"
+                       }
+    },
+    {
+        "name":  "Blizzard PKTO",
+        "mana_cost":  "1WWU",
+        "type":  "Sorcery",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Blizzard.png"
+                       }
+    },
+    {
+        "name":  "Reflect",
+        "mana_cost":  "1U",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Reflect.png"
+                       }
+    },
+    {
+        "name":  "Fire Blast",
+        "mana_cost":  "2RR",
+        "type":  "Sorcery",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Fire%20Blast.png"
+                       }
+    },
+    {
+        "name":  "Solar Beam",
+        "mana_cost":  "2GG",
+        "type":  "Sorcery",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Solar%20Beam.png"
+                       }
+    },
+    {
+        "name":  "Hydro Pump",
+        "mana_cost":  "2UU",
+        "type":  "Sorcery",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Hydro%20Pump.png"
+                       }
+    },
+    {
+        "name":  "Release",
+        "mana_cost":  "1U",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Release.png"
+                       }
+    },
+    {
+        "name":  "Vine Whip",
+        "mana_cost":  "1G",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Vine%20Whip.png"
+                       }
+    },
+    {
+        "name":  "Guillotine",
+        "mana_cost":  "1BG",
+        "type":  "Instant",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Guillotine.png"
+                       }
+    },
+    {
+        "name":  "Substitute",
+        "mana_cost":  "W",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Substitute.png"
+                       }
+    },
+    {
+        "name":  "Pilfer",
+        "mana_cost":  "1B",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Pilfer.png"
+                       }
+    },
+    {
+        "name":  "Mirror Move",
+        "mana_cost":  "1R",
+        "type":  "Instant",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Mirror%20Move.png"
+                       }
+    },
+    {
+        "name":  "Double Kick",
+        "mana_cost":  "G",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Double Kick.png"
+                       }
+    },
+    {
+        "name":  "Prepare for Trouble",
+        "mana_cost":  "BB",
+        "type":  "Sorcery",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Prepare%20for%20Trouble.png"
+                       }
+    },
+    {
+        "name":  "Razor Leaf",
+        "mana_cost":  "1G",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Razor%20Leaf.png"
+                       }
+    },
+    {
+        "name":  "Water Gun",
+        "mana_cost":  "XU",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Water%20Gun.png"
+                       }
+    },
+    {
+        "name":  "Petal Dance",
+        "mana_cost":  "3G",
+        "type":  "Enchantment",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Petal%20Dance.png"
+                       }
+    },
+    {
+        "name":  "Dig",
+        "mana_cost":  "3R",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Dig.png"
+                       }
+    },
+    {
+        "name":  "Skull Bash",
+        "mana_cost":  "2B",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Skull%20Bash.png"
+                       }
+    },
+    {
+        "name":  "Psychic",
+        "mana_cost":  "3BB",
+        "type":  "Instant",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Psychic.png"
+                       }
+    },
+    {
+        "name":  "Thunder Stone",
+        "mana_cost":  "3",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Thunder%20Stone.png"
+                       }
+    },
+    {
+        "name":  "Leaf Stone",
+        "mana_cost":  "3",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Leaf%20Stone.png"
+                       }
+    },
+    {
+        "name":  "Water Stone",
+        "mana_cost":  "3",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Water%20Stone.png"
+                       }
+    },
+    {
+        "name":  "Fire Stone",
+        "mana_cost":  "3",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Fire%20Stone.png"
+                       }
+    },
+    {
+        "name":  "Moon Stone",
+        "mana_cost":  "3",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Moon%20Stone.png"
+                       }
+    },
+    {
+        "name":  "Ancient Slab",
+        "mana_cost":  "2",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Ancient%20Slab.png"
+                       }
+    },
+    {
+        "name":  "Pokémon Storage System",
+        "mana_cost":  "4",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Pok%C3%A9mon%20Storage%20System.png"
+                       }
+    },
+    {
+        "name":  "Town Map",
+        "mana_cost":  "1",
+        "type":  "Artifact",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Town%20Map.png"
+                       }
+    },
+    {
+        "name":  "Super Repel",
+        "mana_cost":  "2W",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Super%20Repel.png"
+                       }
+    },
+    {
+        "name":  "Nugget",
+        "mana_cost":  "1",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Nugget.png"
+                       }
+    },
+    {
+        "name":  "Mysterious Feather",
+        "mana_cost":  "0",
+        "type":  "Artifact",
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Mysterious%20Feather.png"
+                       }
+    },
+    {
+        "name":  "Rage",
+        "mana_cost":  "RR",
+        "type":  "Enchantment",
+        "subtypes":  [
+                         "Aura",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Rage.png"
+                       }
+    },
+    {
+        "name":  "Ice Beam",
+        "mana_cost":  "UU",
+        "type":  "Enchantment",
+        "subtypes":  [
+                         "Aura",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Ice%20Beam.png"
+                       }
+    },
+    {
+        "name":  "Hyper Beam",
+        "mana_cost":  "7",
+        "type":  "Enchantment",
+        "subtypes":  [
+                         "Aura",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Hyper%20Beam.png"
+                       }
+    },
+    {
+        "name":  "Swords Dance",
+        "mana_cost":  "GG",
+        "type":  "Enchantment",
+        "subtypes":  [
+                         "Aura",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Swords%20Dance.png"
+                       }
+    },
+    {
+        "name":  "Mega Kick",
+        "mana_cost":  "WW",
+        "type":  "Enchantment",
+        "subtypes":  [
+                         "Aura",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Mega%20Kick.png"
+                       }
+    },
+    {
+        "name":  "Dream Eater PKTO",
+        "mana_cost":  "BB",
+        "type":  "Enchantment",
+        "subtypes":  [
+                         "Aura",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Dream%20Eater.png"
+                       }
+    },
+    {
+        "name":  "Frozen",
+        "mana_cost":  "1UU",
+        "type":  "Enchantment",
+        "subtypes":  [
+                         "Aura",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Frozen.png"
+                       }
+    },
+    {
+        "name":  "Pewter Gym",
+        "mana_cost":  "RG",
+        "type":  "Enchantment",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Pewter%20Gym.png"
+                       }
+    },
+    {
+        "name":  "Cerulean Gym",
+        "mana_cost":  "WU",
+        "type":  "Enchantment",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Cerulean%20Gym.png"
+                       }
+    },
+    {
+        "name":  "Vermilion Gym",
+        "mana_cost":  "RW",
+        "type":  "Enchantment",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Vermilion%20Gym.png"
+                       }
+    },
+    {
+        "name":  "Celadon Gym",
+        "mana_cost":  "1G",
+        "type":  "Enchantment",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Celadon%20Gym.png"
+                       }
+    },
+    {
+        "name":  "Saffron Gym",
+        "mana_cost":  "UB",
+        "type":  "Enchantment",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Saffron%20Gym.png"
+                       }
+    },
+    {
+        "name":  "Fuchsia Gym",
+        "mana_cost":  "BG",
+        "type":  "Enchantment",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Fuchsia%20Gym.png"
+                       }
+    },
+    {
+        "name":  "Cinnabar Gym",
+        "mana_cost":  "1R",
+        "type":  "Enchantment",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Cinnabar%20Gym.png"
+                       }
+    },
+    {
+        "name":  "Viridian Gym",
+        "mana_cost":  "1B",
+        "type":  "Enchantment",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Viridian%20Gym.png"
+                       }
+    },
+    {
+        "name":  "Bill's Grassland",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Bills%20Grassland.png"
+                       }
+    },
+    {
+        "name":  "Bill's Volcano",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Bills%20Volcano.png"
+                       }
+    },
+    {
+        "name":  "Bill's Rainforest",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Bills%20Rainforest.png"
+                       }
+    },
+    {
+        "name":  "Bill's Marsh",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Bills%20Marsh.png"
+                       }
+    },
+    {
+        "name":  "Bill's Coastline",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Bills%20Coastline.png"
+                       }
+    },
+    {
+        "name":  "Celadon City",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Celadon%20City.png"
+                       }
+    },
+    {
+        "name":  "Cerulean Cave",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Cerulean%20Cave.png"
+                       }
+    },
+    {
+        "name":  "Cerulean City",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Cerulean%20City.png"
+                       }
+    },
+    {
+        "name":  "Cinnabar Island",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Cinnabar%20Island.png"
+                       }
+    },
+    {
+        "name":  "Cinnabar Lab",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Cinnabar%20Lab.png"
+                       }
+    },
+    {
+        "name":  "Cycling Road",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Cycling%20Road.png"
+                       }
+    },
+    {
+        "name":  "Diglett's Cave",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Digletts%20Cave.png"
+                       }
+    },
+    {
+        "name":  "Fuchsia City",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Fuchsia%20City.png"
+                       }
+    },
+    {
+        "name":  "Game Corner",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Game%20Corner.png"
+                       }
+    },
+    {
+        "name":  "Indigo Plateau",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Indigo%20Plateau.png"
+                       }
+    },
+    {
+        "name":  "Lavender Town",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Lavender%20Town.png"
+                       }
+    },
+    {
+        "name":  "Mt. Moon",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Mt.%20Moon.png"
+                       }
+    },
+    {
+        "name":  "Pallet Town",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Pallet%20Town.png"
+                       }
+    },
+    {
+        "name":  "Pewter City",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Pewter%20City.png"
+                       }
+    },
+    {
+        "name":  "Pewter Museum",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Pewter%20Museum.png"
+                       }
+    },
+    {
+        "name":  "Pokémon Mansion",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Pok%C3%A9mon%20Mansion.png"
+                       }
+    },
+    {
+        "name":  "Power Plant",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Power%20Plant.png"
+                       }
+    },
+    {
+        "name":  "Rock Tunnel",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Rock%20Tunnel.png"
+                       }
+    },
+    {
+        "name":  "Safari Zone",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Safari%20Zone.png"
+                       }
+    },
+    {
+        "name":  "Saffron City",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Saffron%20City.png"
+                       }
+    },
+    {
+        "name":  "S.S. Anne",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/S.S.%20Anne.png"
+                       }
+    },
+    {
+        "name":  "Silph Co.",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Silph%20Co.png"
+                       }
+    },
+    {
+        "name":  "Vermilion City",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Vermilion%20City.png"
+                       }
+    },
+    {
+        "name":  "Seafoam Islands",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Seafoam%20Islands.png"
+                       }
+    },
+    {
+        "name":  "Viridian City",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Viridian%20City.png"
+                       }
+    },
+    {
+        "name":  "Viridian Forest",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pkto/cards/Viridian%20Forest.png"
+                       }
+    },
+    {
+        "name":  "Chikorita",
+        "mana_cost":  "GW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Chikorita.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Grass",
+                                      ""
+                                  ],
+                     "name":  "Bayleef (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pjto/cards/BayleefDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Bayleef",
+        "mana_cost":  "2GW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Bayleef.png"
+                       }
+    },
+    {
+        "name":  "Meganium",
+        "mana_cost":  "4GW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Meganium.png"
+                       }
+    },
+    {
+        "name":  "Cyndaquil",
+        "mana_cost":  "BR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fire",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Cyndaquil.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Fire",
+                                      ""
+                                  ],
+                     "name":  "Quilava (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pjto/cards/QuilavaDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Quilava",
+        "mana_cost":  "2BR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fire",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Quilava.png"
+                       }
+    },
+    {
+        "name":  "Typhlosion",
+        "mana_cost":  "4BR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fire",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Typhlosion.png"
+                       }
+    },
+    {
+        "name":  "Totodile",
+        "mana_cost":  "GU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Totodile.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Water",
+                                      ""
+                                  ],
+                     "name":  "Croconaw (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pjto/cards/CroconawDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Croconaw",
+        "mana_cost":  "2GU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Croconaw.png"
+                       }
+    },
+    {
+        "name":  "Feraligatr",
+        "mana_cost":  "4GU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Feraligatr.png"
+                       }
+    },
+    {
+        "name":  "Sentret",
+        "mana_cost":  "W",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Sentret.png"
+                       }
+    },
+    {
+        "name":  "Furret",
+        "mana_cost":  "2WW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Furret.png"
+                       }
+    },
+    {
+        "name":  "Hoothoot",
+        "mana_cost":  "{W/B}{W/B}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         "Flying"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Hoothoot.png"
+                       }
+    },
+    {
+        "name":  "Noctowl",
+        "mana_cost":  "2{W/B}{W/B}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         "Flying"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Noctowl.png"
+                       }
+    },
+    {
+        "name":  "Ledyba",
+        "mana_cost":  "GW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         "Flying"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Ledyba.png"
+                       }
+    },
+    {
+        "name":  "Ledian",
+        "mana_cost":  "2GW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         "Flying"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Ledian.png"
+                       }
+    },
+    {
+        "name":  "Spinarak",
+        "mana_cost":  "{B/G}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         "Poison"
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Spinarak.png"
+                       }
+    },
+    {
+        "name":  "Ariados",
+        "mana_cost":  "1BG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         "Poison"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Ariados.png"
+                       }
+    },
+    {
+        "name":  "Crobat",
+        "mana_cost":  "3{B/G}{B/G}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Poison",
+                         "Flying"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Crobat.png"
+                       }
+    },
+    {
+        "name":  "Chinchou",
+        "mana_cost":  "UR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Electric"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Chinchou.png"
+                       }
+    },
+    {
+        "name":  "Lanturn",
+        "mana_cost":  "3UR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Electric"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Lanturn.png"
+                       }
+    },
+    {
+        "name":  "Pichu",
+        "mana_cost":  "{R/W}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Electric",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Pichu.png"
+                       }
+    },
+    {
+        "name":  "Cleffa",
+        "mana_cost":  "{W/B}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fairy",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Cleffa.png"
+                       }
+    },
+    {
+        "name":  "Igglybuff",
+        "mana_cost":  "W",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         "Fairy"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Igglybuff.png"
+                       }
+    },
+    {
+        "name":  "Togepi",
+        "mana_cost":  "W",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fairy",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Togepi.png"
+                       }
+    },
+    {
+        "name":  "Togetic",
+        "mana_cost":  "2WW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fairy",
+                         "Flying"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Togetic.png"
+                       }
+    },
+    {
+        "name":  "Natu",
+        "mana_cost":  "1B",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Psychic",
+                         "Flying"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Natu.png"
+                       }
+    },
+    {
+        "name":  "Xatu",
+        "mana_cost":  "2BB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Psychic",
+                         "Flying"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Xatu.png"
+                       }
+    },
+    {
+        "name":  "Mareep",
+        "mana_cost":  "1R",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Electric",
+                         ""
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Mareep.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Electric",
+                                      ""
+                                  ],
+                     "name":  "Flaaffy (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pjto/cards/FlaaffyDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Flaaffy",
+        "mana_cost":  "3R",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Electric",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Flaaffy.png"
+                       }
+    },
+    {
+        "name":  "Ampharos",
+        "mana_cost":  "5R",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Electric",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Ampharos.png"
+                       }
+    },
+    {
+        "name":  "Bellossom",
+        "mana_cost":  "1GGG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Bellossom.png"
+                       }
+    },
+    {
+        "name":  "Marill",
+        "mana_cost":  "2U",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Fairy"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Marill.png"
+                       }
+    },
+    {
+        "name":  "Azumarill",
+        "mana_cost":  "3UU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Fairy"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Azumarill.png"
+                       }
+    },
+    {
+        "name":  "Sudowoodo",
+        "mana_cost":  "",
+        "type":  "Land",
+        "subtypes":  [
+                         "-",
+                         "Mountain",
+                         "Rock"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Sudowoodo.png"
+                       }
+    },
+    {
+        "name":  "Politoed",
+        "mana_cost":  "3GU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Politoed.png"
+                       }
+    },
+    {
+        "name":  "Hoppip",
+        "mana_cost":  "1G",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         "Flying"
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Hoppip.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Grass",
+                                      "Flying"
+                                  ],
+                     "name":  "Skiploom (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pjto/cards/SkiploomDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Skiploom",
+        "mana_cost":  "1GW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         "Flying"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Skiploom.png"
+                       }
+    },
+    {
+        "name":  "Jumpluff",
+        "mana_cost":  "3GW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         "Flying"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Jumpluff.png"
+                       }
+    },
+    {
+        "name":  "Aipom",
+        "mana_cost":  "R",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Aipom.png"
+                       }
+    },
+    {
+        "name":  "Sunkern",
+        "mana_cost":  "G",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Sunkern.png"
+                       }
+    },
+    {
+        "name":  "Sunflora",
+        "mana_cost":  "1GG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Grass",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Sunflora.png"
+                       }
+    },
+    {
+        "name":  "Yanma",
+        "mana_cost":  "1UR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         "Flying"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Yanma.png"
+                       }
+    },
+    {
+        "name":  "Wooper",
+        "mana_cost":  "{G/U}{G/U}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Ground"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Wooper.png"
+                       }
+    },
+    {
+        "name":  "Quagsire",
+        "mana_cost":  "2{G/U}{G/U}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Ground"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Quagsire.png"
+                       }
+    },
+    {
+        "name":  "Espeon",
+        "mana_cost":  "2UB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Psychic",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Espeon.png"
+                       }
+    },
+    {
+        "name":  "Umbreon",
+        "mana_cost":  "2BB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Dark",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Umbreon.png"
+                       }
+    },
+    {
+        "name":  "Murkrow",
+        "mana_cost":  "2B",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Dark",
+                         "Flying"
+                     ],
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Murkrow.png"
+                       }
+    },
+    {
+        "name":  "Slowking",
+        "mana_cost":  "3{U/B}{U/B}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Psychic"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Slowking.png"
+                       }
+    },
+    {
+        "name":  "Misdreavus",
+        "mana_cost":  "1B",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ghost",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Misdreavus.png"
+                       }
+    },
+    {
+        "name":  "Unown",
+        "mana_cost":  "{U/B}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Psychic",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Unown.png"
+                       }
+    },
+    {
+        "name":  "Wobbuffet",
+        "mana_cost":  "4B",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Psychic",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Wobbuffet.png"
+                       }
+    },
+    {
+        "name":  "Girafarig",
+        "mana_cost":  "2WB",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         "Psychic"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Girafarig.png"
+                       }
+    },
+    {
+        "name":  "Pineco",
+        "mana_cost":  "1R",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Pineco.png"
+                       }
+    },
+    {
+        "name":  "Forretress",
+        "mana_cost":  "3R",
+        "type":  "Artifact Creature",
+        "subtypes":  [
+                         "Bug",
+                         "Steel"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Forretress.png"
+                       }
+    },
+    {
+        "name":  "Dunsparce",
+        "mana_cost":  "BG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Dunsparce.png"
+                       }
+    },
+    {
+        "name":  "Gligar",
+        "mana_cost":  "3BG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ground",
+                         "Flying"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Gligar.png"
+                       }
+    },
+    {
+        "name":  "Steelix",
+        "mana_cost":  "4R",
+        "type":  "Artifact Creature",
+        "subtypes":  [
+                         "Steel",
+                         "Ground"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Steelix.png"
+                       }
+    },
+    {
+        "name":  "Snubbull",
+        "mana_cost":  "2W",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fairy",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Snubbull.png"
+                       }
+    },
+    {
+        "name":  "Granbull",
+        "mana_cost":  "3W",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fairy",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Granbull.png"
+                       }
+    },
+    {
+        "name":  "Qwilfish",
+        "mana_cost":  "3GU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Poison"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Qwilfish.png"
+                       }
+    },
+    {
+        "name":  "Scizor",
+        "mana_cost":  "3RG",
+        "type":  "Artifact Creature",
+        "subtypes":  [
+                         "Bug",
+                         "Steel"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Scizor.png"
+                       }
+    },
+    {
+        "name":  "Shuckle",
+        "mana_cost":  "1GU",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         "Rock"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Shuckle.png"
+                       }
+    },
+    {
+        "name":  "Heracross",
+        "mana_cost":  "4RG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Bug",
+                         "Fighting"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Heracross.png"
+                       }
+    },
+    {
+        "name":  "Sneasel",
+        "mana_cost":  "2B",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Dark",
+                         "Ice"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Sneasel.png"
+                       }
+    },
+    {
+        "name":  "Teddiursa",
+        "mana_cost":  "1W",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Teddiursa.png"
+                       }
+    },
+    {
+        "name":  "Ursaring",
+        "mana_cost":  "3WW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Ursaring.png"
+                       }
+    },
+    {
+        "name":  "Slugma",
+        "mana_cost":  "1RR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fire",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Slugma.png"
+                       }
+    },
+    {
+        "name":  "Magcargo",
+        "mana_cost":  "2{B/R}{B/R}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fire",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Magcargo.png"
+                       }
+    },
+    {
+        "name":  "Swinub",
+        "mana_cost":  "{W/U}{W/U}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ice",
+                         "Ground"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Swinub.png"
+                       }
+    },
+    {
+        "name":  "Piloswine",
+        "mana_cost":  "2{W/U}{W/U}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ice",
+                         "Ground"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Piloswine.png"
+                       }
+    },
+    {
+        "name":  "Corsola",
+        "mana_cost":  "U",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Rock"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Corsola.png"
+                       }
+    },
+    {
+        "name":  "Remoraid",
+        "mana_cost":  "1U",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Remoraid.png"
+                       }
+    },
+    {
+        "name":  "Octillery",
+        "mana_cost":  "2UR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Octillery.png"
+                       }
+    },
+    {
+        "name":  "Delibird",
+        "mana_cost":  "3W",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ice",
+                         "Flying"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Delibird.png"
+                       }
+    },
+    {
+        "name":  "Mantine",
+        "mana_cost":  "2U",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Flying"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Mantine.png"
+                       }
+    },
+    {
+        "name":  "Skarmory",
+        "mana_cost":  "4U",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Steel",
+                         "Flying"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Skarmory.png"
+                       }
+    },
+    {
+        "name":  "Houndour",
+        "mana_cost":  "1{B/R}{B/R}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Dark",
+                         "Fire"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Houndour.png"
+                       }
+    },
+    {
+        "name":  "Houndoom",
+        "mana_cost":  "3{B/R}{B/R}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Dark",
+                         "Fire"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Houndoom.png"
+                       }
+    },
+    {
+        "name":  "Kingdra",
+        "mana_cost":  "3UR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Water",
+                         "Dragon"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Kingdra.png"
+                       }
+    },
+    {
+        "name":  "Phanpy",
+        "mana_cost":  "2R",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ground",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Phanpy.png"
+                       }
+    },
+    {
+        "name":  "Donphan",
+        "mana_cost":  "4RG",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ground",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Donphan.png"
+                       }
+    },
+    {
+        "name":  "Porygon2",
+        "mana_cost":  "5",
+        "type":  "Artifact Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Porygon2.png"
+                       }
+    },
+    {
+        "name":  "Stantler",
+        "mana_cost":  "GGWW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Stantler.png"
+                       }
+    },
+    {
+        "name":  "Smeargle",
+        "mana_cost":  "3W",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Smeargle.png"
+                       }
+    },
+    {
+        "name":  "Tyrogue",
+        "mana_cost":  "RGW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fighting",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Tyrogue.png"
+                       }
+    },
+    {
+        "name":  "Hitmontop",
+        "mana_cost":  "1RGW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fighting",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Hitmontop.png"
+                       }
+    },
+    {
+        "name":  "Smoochum",
+        "mana_cost":  "B",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Ice",
+                         "Psychic"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Smoochum.png"
+                       }
+    },
+    {
+        "name":  "Elekid",
+        "mana_cost":  "{R/W}",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Electric",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Elekid.png"
+                       }
+    },
+    {
+        "name":  "Magby",
+        "mana_cost":  "R",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Fire",
+                         ""
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Magby.png"
+                       }
+    },
+    {
+        "name":  "Miltank",
+        "mana_cost":  "3WW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Miltank.png"
+                       }
+    },
+    {
+        "name":  "Blissey",
+        "mana_cost":  "4WW",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Normal",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Blissey.png"
+                       }
+    },
+    {
+        "name":  "Raikou",
+        "mana_cost":  "RW",
+        "type":  "Legendary Creature",
+        "subtypes":  [
+                         "Electric",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Raikou.png"
+                       }
+    },
+    {
+        "name":  "Entei",
+        "mana_cost":  "RG",
+        "type":  "Legendary Creature",
+        "subtypes":  [
+                         "Fire",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Entei.png"
+                       }
+    },
+    {
+        "name":  "Suicune",
+        "mana_cost":  "WU",
+        "type":  "Legendary Creature",
+        "subtypes":  [
+                         "Water",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Suicune.png"
+                       }
+    },
+    {
+        "name":  "Larvitar",
+        "mana_cost":  "3B",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Rock",
+                         "Ground"
+                     ],
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Larvitar.png"
+                       },
+        "back":  {
+                     "subtypes":  [
+                                      "Rock",
+                                      "Ground"
+                                  ],
+                     "name":  "Pupitar (DFC)",
+                     "image_uris":  {
+                                        "en":  "https://brooks42.github.io/pjto/cards/PupitarDFC.png"
+                                    },
+                     "type":  "Pokémon"
+                 }
+    },
+    {
+        "name":  "Pupitar",
+        "mana_cost":  "4BR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Rock",
+                         "Ground"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Pupitar.png"
+                       }
+    },
+    {
+        "name":  "Tyranitar",
+        "mana_cost":  "6BR",
+        "type":  "Creature",
+        "subtypes":  [
+                         "Rock",
+                         "Dark"
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Tyranitar.png"
+                       }
+    },
+    {
+        "name":  "Lugia",
+        "mana_cost":  "2CCC",
+        "type":  "Legendary Creature",
+        "subtypes":  [
+                         "Psychic",
+                         "Flying"
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Lugia.png"
+                       }
+    },
+    {
+        "name":  "Ho-Oh",
+        "mana_cost":  "WUBRG",
+        "type":  "Legendary Creature",
+        "subtypes":  [
+                         "Fire",
+                         "Flying"
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Ho-Oh.png"
+                       }
+    },
+    {
+        "name":  "Celebi",
+        "mana_cost":  "1WBG",
+        "type":  "Legendary Creature",
+        "subtypes":  [
+                         "Psychic",
+                         "Grass"
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Celebi.png"
+                       }
+    },
+    {
+        "name":  "Falkner",
+        "mana_cost":  "WB",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Falkner",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Falkner.png"
+                       }
+    },
+    {
+        "name":  "Bugsy",
+        "mana_cost":  "GG",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Bugsy",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Bugsy.png"
+                       }
+    },
+    {
+        "name":  "Whitney",
+        "mana_cost":  "3WW",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Whitney",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Whitney.png"
+                       }
+    },
+    {
+        "name":  "Morty",
+        "mana_cost":  "3{W/B}{W/B}",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Morty",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Morty.png"
+                       }
+    },
+    {
+        "name":  "Chuck",
+        "mana_cost":  "3RR",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Chuck",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Chuck.png"
+                       }
+    },
+    {
+        "name":  "Jasmine",
+        "mana_cost":  "3GW",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Jasmine",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Jasmine.png"
+                       }
+    },
+    {
+        "name":  "Pryce",
+        "mana_cost":  "2WU",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Pryce",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Pryce.png"
+                       }
+    },
+    {
+        "name":  "Clair",
+        "mana_cost":  "4{U/R}{U/R}",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Clair",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Clair.png"
+                       }
+    },
+    {
+        "name":  "Janine",
+        "mana_cost":  "3BG",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Janine",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Janine.png"
+                       }
+    },
+    {
+        "name":  "Will",
+        "mana_cost":  "2UU",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Will",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Will.png"
+                       }
+    },
+    {
+        "name":  "Karen",
+        "mana_cost":  "1BR",
+        "type":  "Legendary Planeswalker",
+        "subtypes":  [
+                         "Karen",
+                         ""
+                     ],
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Karen.png"
+                       }
+    },
+    {
+        "name":  "Bubble",
+        "mana_cost":  "U",
+        "type":  "Instant",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Bubble.png"
+                       }
+    },
+    {
+        "name":  "Foresight PJTO",
+        "mana_cost":  "1UU",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Foresight.png"
+                       }
+    },
+    {
+        "name":  "Icy Wind",
+        "mana_cost":  "WUU",
+        "type":  "Instant",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Icy%20Wind.png"
+                       }
+    },
+    {
+        "name":  "Kinesis",
+        "mana_cost":  "1U",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Kinesis.png"
+                       }
+    },
+    {
+        "name":  "Megahorn",
+        "mana_cost":  "1G",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Megahorn.png"
+                       }
+    },
+    {
+        "name":  "Powder Snow",
+        "mana_cost":  "WU",
+        "type":  "Instant",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Powder%20Snow.png"
+                       }
+    },
+    {
+        "name":  "Prepare to Fight",
+        "mana_cost":  "1B",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Prepare%20to%20Fight.png"
+                       }
+    },
+    {
+        "name":  "Psych Up",
+        "mana_cost":  "RW",
+        "type":  "Instant",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Psych%20Up.png"
+                       }
+    },
+    {
+        "name":  "Rapid Spin",
+        "mana_cost":  "4U",
+        "type":  "Instant",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Rapid%20Spin.png"
+                       }
+    },
+    {
+        "name":  "Reversal",
+        "mana_cost":  "2BG",
+        "type":  "Instant",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Reversal.png"
+                       }
+    },
+    {
+        "name":  "Spite",
+        "mana_cost":  "BR",
+        "type":  "Instant",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Spite.png"
+                       }
+    },
+    {
+        "name":  "Sweet Scent",
+        "mana_cost":  "1GGW",
+        "type":  "Instant",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Sweet%20Scent.png"
+                       }
+    },
+    {
+        "name":  "Whirlpool",
+        "mana_cost":  "3UU",
+        "type":  "Instant",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Whirlpool.png"
+                       }
+    },
+    {
+        "name":  "Zap Cannon",
+        "mana_cost":  "UR",
+        "type":  "Instant",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Zap%20Cannon.png"
+                       }
+    },
+    {
+        "name":  "Aeroblast",
+        "mana_cost":  "2CUU",
+        "type":  "Sorcery",
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Aeroblast.png"
+                       }
+    },
+    {
+        "name":  "Baton Pass",
+        "mana_cost":  "2R",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Baton%20Pass.png"
+                       }
+    },
+    {
+        "name":  "Beat Up",
+        "mana_cost":  "2R",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Beat%20Up.png"
+                       }
+    },
+    {
+        "name":  "Bone Rush",
+        "mana_cost":  "BR",
+        "type":  "Sorcery",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Bone%20Rush.png"
+                       }
+    },
+    {
+        "name":  "Combined Forces",
+        "mana_cost":  "XW",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Combined%20Forces.png"
+                       }
+    },
+    {
+        "name":  "Crunch",
+        "mana_cost":  "BB",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Crunch.png"
+                       }
+    },
+    {
+        "name":  "Destiny Bond",
+        "mana_cost":  "2BB",
+        "type":  "Sorcery",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Destiny%20Bond.png"
+                       }
+    },
+    {
+        "name":  "Flame Wheel",
+        "mana_cost":  "BR",
+        "type":  "Sorcery",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Flame%20Wheel.png"
+                       }
+    },
+    {
+        "name":  "Giga Drain",
+        "mana_cost":  "XBG",
+        "type":  "Sorcery",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Giga%20Drain.png"
+                       }
+    },
+    {
+        "name":  "Hidden Power",
+        "mana_cost":  "2GU",
+        "type":  "Sorcery",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Hidden%20Power.png"
+                       }
+    },
+    {
+        "name":  "Moonlight",
+        "mana_cost":  "2WW",
+        "type":  "Sorcery",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Moonlight.png"
+                       }
+    },
+    {
+        "name":  "Sacred Fire PJTO",
+        "mana_cost":  "8R",
+        "type":  "Sorcery",
+        "rarity":  "mythic",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Sacred%20Fire.png"
+                       }
+    },
+    {
+        "name":  "Scary Face",
+        "mana_cost":  "1R",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Scary%20Face.png"
+                       }
+    },
+    {
+        "name":  "Shadow Ball",
+        "mana_cost":  "XBB",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Shadow%20Ball.png"
+                       }
+    },
+    {
+        "name":  "Sketch",
+        "mana_cost":  "2W",
+        "type":  "Instant",
+        "rarity":  "common",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Sketch.png"
+                       }
+    },
+    {
+        "name":  "Snore",
+        "mana_cost":  "3WW",
+        "type":  "Sorcery",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Snore.png"
+                       }
+    },
+    {
+        "name":  "Spikes",
+        "mana_cost":  "1R",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Spikes.png"
+                       }
+    },
+    {
+        "name":  "Surrender Now",
+        "mana_cost":  "R",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Surrender%20Now.png"
+                       }
+    },
+    {
+        "name":  "Twister",
+        "mana_cost":  "2R",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Twister.png"
+                       }
+    },
+    {
+        "name":  "Berry",
+        "mana_cost":  "3",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Berry.png"
+                       }
+    },
+    {
+        "name":  "Clear Bell",
+        "mana_cost":  "3",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Clear%20Bell.png"
+                       }
+    },
+    {
+        "name":  "Dragon Fang",
+        "mana_cost":  "3",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Dragon%20Fang.png"
+                       }
+    },
+    {
+        "name":  "Dragon Scale",
+        "mana_cost":  "3",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Dragon%20Scale.png"
+                       }
+    },
+    {
+        "name":  "Everstone",
+        "mana_cost":  "3",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Everstone.png"
+                       }
+    },
+    {
+        "name":  "Focus Band",
+        "mana_cost":  "3",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Focus%20Band.png"
+                       }
+    },
+    {
+        "name":  "Miracle Seed",
+        "mana_cost":  "3",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Miracle%20Seed.png"
+                       }
+    },
+    {
+        "name":  "Old Amber",
+        "mana_cost":  "3",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Old%20Amber.png"
+                       }
+    },
+    {
+        "name":  "Squirt Bottle",
+        "mana_cost":  "3",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Squirt%20Bottle.png"
+                       }
+    },
+    {
+        "name":  "Sun Stone",
+        "mana_cost":  "2",
+        "type":  "Artifact",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Sun%20Stone.png"
+                       }
+    },
+    {
+        "name":  "Sunglasses",
+        "mana_cost":  "UR",
+        "type":  "Artifact",
+        "subtypes":  [
+                         "Equipment",
+                         ""
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Sunglasses.png"
+                       }
+    },
+    {
+        "name":  "Twisted Spoon",
+        "mana_cost":  "3",
+        "type":  "Artifact",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Twisted%20Spoon.png"
+                       }
+    },
+    {
+        "name":  "Pay Day",
+        "mana_cost":  "3WB",
+        "type":  "Enchantment",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Pay%20Day.png"
+                       }
+    },
+    {
+        "name":  "Rain Dance",
+        "mana_cost":  "1U",
+        "type":  "Enchantment",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Rain%20Dance.png"
+                       }
+    },
+    {
+        "name":  "Sunny Day",
+        "mana_cost":  "WR",
+        "type":  "Enchantment",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Sunny%20Day.png"
+                       }
+    },
+    {
+        "name":  "Azalea Town",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Azalea%20Town.png"
+                       }
+    },
+    {
+        "name":  "Battle Tower",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Battle%20Tower.png"
+                       }
+    },
+    {
+        "name":  "Bell Tower",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Bell%20Tower.png"
+                       }
+    },
+    {
+        "name":  "Bike Shop",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Bike%20Shop.png"
+                       }
+    },
+    {
+        "name":  "Blackthorn City",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Blackthorn%20City.png"
+                       }
+    },
+    {
+        "name":  "Burned Tower",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Burned%20Tower.png"
+                       }
+    },
+    {
+        "name":  "Celadon Mansion",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Celadon%20Mansion.png"
+                       }
+    },
+    {
+        "name":  "Celadon University",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Celadon%20University.png"
+                       }
+    },
+    {
+        "name":  "Cherrygrove City",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Cherrygrove%20City.png"
+                       }
+    },
+    {
+        "name":  "Cianwood City",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Cianwood%20City.png"
+                       }
+    },
+    {
+        "name":  "Cliff Cave",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Cliff%20Cave.png"
+                       }
+    },
+    {
+        "name":  "Dark Cave",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Dark%20Cave.png"
+                       }
+    },
+    {
+        "name":  "Daycare Center",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Daycare%20Center.png"
+                       }
+    },
+    {
+        "name":  "Department Store",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Department%20Store.png"
+                       }
+    },
+    {
+        "name":  "Dragon's Den",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Dragons%20Den.png"
+                       }
+    },
+    {
+        "name":  "Ecruteak City",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Ecruteak%20City.png"
+                       }
+    },
+    {
+        "name":  "Fighting Dojo",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Fighting%20Dojo.png"
+                       }
+    },
+    {
+        "name":  "Goldenrod City",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Goldenrod%20City.png"
+                       }
+    },
+    {
+        "name":  "Goldenrod National Park",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Goldenrod%20National%20Park.png"
+                       }
+    },
+    {
+        "name":  "Goldenrod Radio Tower",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Goldenrod%20Radio%20Tower.png"
+                       }
+    },
+    {
+        "name":  "Goldenrod Tunnel",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Goldenrod%20Tunnel.png"
+                       }
+    },
+    {
+        "name":  "Herb Shop",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Herb%20Shop.png"
+                       }
+    },
+    {
+        "name":  "House of Memories",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/House%20of%20Memories.png"
+                       }
+    },
+    {
+        "name":  "Ice Path",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Ice%20Path.png"
+                       }
+    },
+    {
+        "name":  "Ilex Forest",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Ilex%20Forest.png"
+                       }
+    },
+    {
+        "name":  "Ilex Forest Shrine",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Ilex%20Forest%20Shrine.png"
+                       }
+    },
+    {
+        "name":  "Kimono Dance Theater",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Kimono%20Dance%20Theater.png"
+                       }
+    },
+    {
+        "name":  "Lake of Rage",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Lake%20of%20Rage.png"
+                       }
+    },
+    {
+        "name":  "Magnet Train Station",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Magnet%20Train%20Station.png"
+                       }
+    },
+    {
+        "name":  "Mahogany Town",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Mahogany%20Town.png"
+                       }
+    },
+    {
+        "name":  "Moomoo Farm",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Moomoo%20Farm.png"
+                       }
+    },
+    {
+        "name":  "Mountain Road",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Mountain%20Road.png"
+                       }
+    },
+    {
+        "name":  "Mt. Mortar",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Mt.%20Mortar.png"
+                       }
+    },
+    {
+        "name":  "Mt. Silver",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Mt.%20Silver.png"
+                       }
+    },
+    {
+        "name":  "New Bark Town",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/New%20Bark%20Town.png"
+                       }
+    },
+    {
+        "name":  "Olivine City",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Olivine%20City.png"
+                       }
+    },
+    {
+        "name":  "Olivine Lighthouse",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Olivine%20Lighthouse.png"
+                       }
+    },
+    {
+        "name":  "Pokémon Center",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Pok%C3%A9mon%20Center.png"
+                       }
+    },
+    {
+        "name":  "Research Facility",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Research%20Facility.png"
+                       }
+    },
+    {
+        "name":  "Ruins of Alph",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Ruins%20of%20Alph.png"
+                       }
+    },
+    {
+        "name":  "Slowpoke Well",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Slowpoke%20Well.png"
+                       }
+    },
+    {
+        "name":  "Souvenir Shop",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Souvenir%20Shop.png"
+                       }
+    },
+    {
+        "name":  "Sprout Tower",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Sprout%20Tower.png"
+                       }
+    },
+    {
+        "name":  "Tohjo Falls",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Tohjo%20Falls.png"
+                       }
+    },
+    {
+        "name":  "Union Cave",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Union%20Cave.png"
+                       }
+    },
+    {
+        "name":  "Victory Road",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Victory%20Road.png"
+                       }
+    },
+    {
+        "name":  "Violet City",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Violet%20City.png"
+                       }
+    },
+    {
+        "name":  "Whirl Islands",
+        "mana_cost":  "",
+        "type":  "Land",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Whirl%20Islands.png"
+                       }
+    }
+]
+[MainSlot(15)]
+1 Bulbasaur
+1 Ivysaur
+1 Venusaur
+1 Squirtle
+1 Wartortle
+1 Blastoise
+1 Charmander
+1 Charmeleon
+1 Charizard
+1 Caterpie
+1 Metapod
+1 Butterfree
+1 Weedle
+1 Kakuna
+1 Beedrill
+1 Pidgey
+1 Pidgeotto
+1 Pidgeot
+1 Rattata
+1 Raticate
+1 Spearow
+1 Fearow
+1 Ekans
+1 Arbok
+1 Pikachu
+1 Raichu
+1 Sandshrew
+1 Sandslash
+1 Nidoran♀
+1 Nidorina
+1 Nidoqueen
+1 Nidoran♂
+1 Nidorino
+1 Nidoking
+1 Clefairy
+1 Clefable
+1 Vulpix
+1 Ninetales
+1 Jigglypuff
+1 Wigglytuff
+1 Zubat
+1 Golbat
+1 Oddish
+1 Gloom PKTO
+1 Vileplume
+1 Paras
+1 Parasect
+1 Venonat
+1 Venomoth
+1 Diglett
+1 Dugtrio
+1 Meowth
+1 Persian
+1 Psyduck
+1 Golduck
+1 Mankey
+1 Primeape
+1 Growlithe
+1 Arcanine
+1 Poliwag
+1 Poliwhirl
+1 Poliwrath
+1 Abra
+1 Kadabra
+1 Alakazam
+1 Machop
+1 Machoke
+1 Machamp
+1 Bellsprout
+1 Weepinbell
+1 Victreebel
+1 Tentacool
+1 Tentacruel
+1 Geodude
+1 Graveler
+1 Golem PKTO
+1 Ponyta
+1 Rapidash
+1 Slowpoke
+1 Slowbro
+1 Magnemite
+1 Magneton
+1 Farfetch'd
+1 Doduo
+1 Dodrio
+1 Seel
+1 Dewgong
+1 Grimer
+1 Muk
+1 Shellder
+1 Cloyster
+1 Gastly
+1 Haunter
+1 Gengar
+1 Onix
+1 Drowzee
+1 Hypno
+1 Krabby
+1 Kingler
+1 Voltorb
+1 Electrode
+1 Exeggcute
+1 Exeggutor
+1 Cubone
+1 Marowak
+1 Hitmonlee
+1 Hitmonchan
+1 Lickitung
+1 Koffing
+1 Weezing
+1 Rhyhorn
+1 Rhydon
+1 Chansey
+1 Tangela
+1 Kangaskhan
+1 Horsea
+1 Seadra
+1 Goldeen
+1 Seaking
+1 Staryu
+1 Starmie
+1 Mr. Mime
+1 Scyther
+1 Jynx
+1 Electabuzz
+1 Magmar
+1 Pinsir
+1 Tauros
+1 Magikarp
+1 Gyarados
+1 Lapras
+1 Ditto
+1 Eevee
+1 Vaporeon
+1 Jolteon
+1 Flareon
+1 Porygon
+1 Omanyte
+1 Omastar
+1 Kabuto
+1 Kabutops
+1 Aerodactyl
+1 Snorlax
+1 Articuno
+1 Zapdos
+1 Moltres
+1 Dratini
+1 Dragonair
+1 Dragonite
+1 Mewtwo
+1 Mew
+1 Red
+1 Blue
+1 Green
+1 Brock
+1 Misty
+1 Lt. Surge
+1 Erika
+1 Koga
+1 Sabrina
+1 Blaine
+1 Giovanni
+1 Professor Oak
+1 Lorelei
+1 Bruno
+1 Agatha
+1 Lance PKTO
+1 Bill
+1 Poké Ball
+1 Great Ball
+1 Safari Ball
+1 Ultra Ball
+1 Master Ball
+1 Switch
+1 Poké Flute
+1 Old Rod
+1 Revive PKTO
+1 Max Revive
+1 Energy Search
+1 Mysterious Fossil
+1 Explore
+1 Revitalize
+1 Show of Force
+1 Investigate
+1 Potion
+1 Lemonade
+1 Growth
+1 X Attack
+1 X Defense
+1 Guard Spec.
+1 Antidote
+1 Turn to Stone
+1 Dowsing Machine
+1 Body Slam
+1 Slash
+1 Whirlwind PKTO
+1 Sing
+1 Swift
+1 Disable
+1 Ember
+1 Gust
+1 Slam
+1 Poison Sting
+1 Glare
+1 Flash PKTO
+1 Night Shade
+1 Aurora Beam
+1 Tackle
+1 Toxic
+1 Blizzard PKTO
+1 Reflect
+1 Fire Blast
+1 Solar Beam
+1 Hydro Pump
+1 Release
+1 Vine Whip
+1 Guillotine
+1 Substitute
+1 Pilfer
+1 Mirror Move
+1 Double Kick
+1 Prepare for Trouble
+1 Razor Leaf
+1 Water Gun
+1 Petal Dance
+1 Dig
+1 Skull Bash
+1 Psychic
+1 Thunder Stone
+1 Leaf Stone
+1 Water Stone
+1 Fire Stone
+1 Moon Stone
+1 Ancient Slab
+1 Pokémon Storage System
+1 Town Map
+1 Super Repel
+1 Nugget
+1 Mysterious Feather
+1 Rage
+1 Ice Beam
+1 Hyper Beam
+1 Swords Dance
+1 Mega Kick
+1 Dream Eater PKTO
+1 Frozen
+1 Pewter Gym
+1 Cerulean Gym
+1 Vermilion Gym
+1 Celadon Gym
+1 Saffron Gym
+1 Fuchsia Gym
+1 Cinnabar Gym
+1 Viridian Gym
+1 Bill's Grassland
+1 Bill's Volcano
+1 Bill's Rainforest
+1 Bill's Marsh
+1 Bill's Coastline
+1 Celadon City
+1 Cerulean Cave
+1 Cerulean City
+1 Cinnabar Island
+1 Cinnabar Lab
+1 Cycling Road
+1 Diglett's Cave
+1 Fuchsia City
+1 Game Corner
+1 Indigo Plateau
+1 Lavender Town
+1 Mt. Moon
+1 Pallet Town
+1 Pewter City
+1 Pewter Museum
+1 Pokémon Mansion
+1 Power Plant
+1 Rock Tunnel
+1 Safari Zone
+1 Saffron City
+1 S.S. Anne
+1 Silph Co.
+1 Vermilion City
+1 Seafoam Islands
+1 Viridian City
+1 Viridian Forest
+1 Chikorita
+1 Bayleef
+1 Meganium
+1 Cyndaquil
+1 Quilava
+1 Typhlosion
+1 Totodile
+1 Croconaw
+1 Feraligatr
+1 Sentret
+1 Furret
+1 Hoothoot
+1 Noctowl
+1 Ledyba
+1 Ledian
+1 Spinarak
+1 Ariados
+1 Crobat
+1 Chinchou
+1 Lanturn
+1 Pichu
+1 Cleffa
+1 Igglybuff
+1 Togepi
+1 Togetic
+1 Natu
+1 Xatu
+1 Mareep
+1 Flaaffy
+1 Ampharos
+1 Bellossom
+1 Marill
+1 Azumarill
+1 Sudowoodo
+1 Politoed
+1 Hoppip
+1 Skiploom
+1 Jumpluff
+1 Aipom
+1 Sunkern
+1 Sunflora
+1 Yanma
+1 Wooper
+1 Quagsire
+1 Espeon
+1 Umbreon
+1 Murkrow
+1 Slowking
+1 Misdreavus
+1 Unown
+1 Wobbuffet
+1 Girafarig
+1 Pineco
+1 Forretress
+1 Dunsparce
+1 Gligar
+1 Steelix
+1 Snubbull
+1 Granbull
+1 Qwilfish
+1 Scizor
+1 Shuckle
+1 Heracross
+1 Sneasel
+1 Teddiursa
+1 Ursaring
+1 Slugma
+1 Magcargo
+1 Swinub
+1 Piloswine
+1 Corsola
+1 Remoraid
+1 Octillery
+1 Delibird
+1 Mantine
+1 Skarmory
+1 Houndour
+1 Houndoom
+1 Kingdra
+1 Phanpy
+1 Donphan
+1 Porygon2
+1 Stantler
+1 Smeargle
+1 Tyrogue
+1 Hitmontop
+1 Smoochum
+1 Elekid
+1 Magby
+1 Miltank
+1 Blissey
+1 Raikou
+1 Entei
+1 Suicune
+1 Larvitar
+1 Pupitar
+1 Tyranitar
+1 Lugia
+1 Ho-Oh
+1 Celebi
+1 Falkner
+1 Bugsy
+1 Whitney
+1 Morty
+1 Chuck
+1 Jasmine
+1 Pryce
+1 Clair
+1 Janine
+1 Will
+1 Karen
+1 Bubble
+1 Foresight PJTO
+1 Icy Wind
+1 Kinesis
+1 Megahorn
+1 Powder Snow
+1 Prepare to Fight
+1 Psych Up
+1 Rapid Spin
+1 Reversal
+1 Spite
+1 Sweet Scent
+1 Whirlpool
+1 Zap Cannon
+1 Aeroblast
+1 Baton Pass
+1 Beat Up
+1 Bone Rush
+1 Combined Forces
+1 Crunch
+1 Destiny Bond
+1 Flame Wheel
+1 Giga Drain
+1 Hidden Power
+1 Moonlight
+1 Sacred Fire PJTO
+1 Scary Face
+1 Shadow Ball
+1 Sketch
+1 Snore
+1 Spikes
+1 Surrender Now
+1 Twister
+1 Berry
+1 Clear Bell
+1 Dragon Fang
+1 Dragon Scale
+1 Everstone
+1 Focus Band
+1 Miracle Seed
+1 Old Amber
+1 Squirt Bottle
+1 Sun Stone
+1 Sunglasses
+1 Twisted Spoon
+1 Pay Day
+1 Rain Dance
+1 Sunny Day
+1 Azalea Town
+1 Battle Tower
+1 Bell Tower
+1 Bike Shop
+1 Blackthorn City
+1 Burned Tower
+1 Celadon Mansion
+1 Celadon University
+1 Cherrygrove City
+1 Cianwood City
+1 Cliff Cave
+1 Dark Cave
+1 Daycare Center
+1 Department Store
+1 Dragon's Den
+1 Ecruteak City
+1 Fighting Dojo
+1 Goldenrod City
+1 Goldenrod National Park
+1 Goldenrod Radio Tower
+1 Goldenrod Tunnel
+1 Herb Shop
+1 House of Memories
+1 Ice Path
+1 Ilex Forest
+1 Ilex Forest Shrine
+1 Kimono Dance Theater
+1 Lake of Rage
+1 Magnet Train Station
+1 Mahogany Town
+1 Moomoo Farm
+1 Mountain Road
+1 Mt. Mortar
+1 Mt. Silver
+1 New Bark Town
+1 Olivine City
+1 Olivine Lighthouse
+1 Pokémon Center
+1 Research Facility
+1 Ruins of Alph
+1 Slowpoke Well
+1 Souvenir Shop
+1 Sprout Tower
+1 Tohjo Falls
+1 Union Cave
+1 Victory Road
+1 Violet City
+1 Whirl Islands
