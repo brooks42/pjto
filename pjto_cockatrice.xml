@@ -33,7 +33,8 @@
     <card>
       <name>Ivysaur (DFC)</name>
       <set picURL="https://brooks42.github.io/pkto/cards/IvysaurDFC.png" rarity="common">PKTO</set>
-      <tablerow>2</tablerow>
+      <tablerow>2</tablerow
+	  <related attach="transform">Bulbasaur</related>
       <text>{T}: Add {G}.</text>
       <prop>
         <type>Pokémon - Grass Poison</type>
@@ -107,6 +108,7 @@ If one or more counters would be put on a Pokémon you control, you may put that
       <name>Wartortle</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Wartortle.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Squirtle</related>
       <text>Evolve From Squirtle {U}
 Hexproof</text>
       <prop>
@@ -154,6 +156,7 @@ You may have each Pokémon you control assign combat damage equal to its toughne
       <name>Charmeleon (DFC)</name>
       <set picURL="https://brooks42.github.io/pkto/cards/CharmeleonDFC.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Charmander</related>
       <text>{1}{R}: Charmeleon gets +1/+0 until end of turn.</text>
       <prop>
         <type>Pokémon - Fire</type>
@@ -215,6 +218,7 @@ Whenever a Pokémon you control attacks, Charizard deals 1 damage to the player 
       <name>Metapod (DFC)</name>
       <set picURL="https://brooks42.github.io/pkto/cards/MetapodDFC.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Caterpie</related>
       <text>{1}{G}, {T}: Tap target Pokémon.</text>
       <prop>
         <type>Pokémon - Bug</type>
@@ -277,6 +281,7 @@ Whenever Butterfree attacks or blocks, put a stun counter on target Pokémon you
       <name>Kakuna (DFC)</name>
       <set picURL="https://brooks42.github.io/pkto/cards/KakunaDFC.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Weedle</related>
       <text>Deathtouch</text>
       <prop>
         <type>Pokémon - Bug Poison</type>
@@ -340,6 +345,7 @@ Whenever Beedrill evolves, create two 1/1 black Bug Poison Pokémon tokens with 
       <name>Pidgeotto (DFC)</name>
       <set picURL="https://brooks42.github.io/pkto/cards/PidgeottoDFC.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Pidgey</related>
       <text>Flying</text>
       <prop>
         <type>Pokémon - Normal Flying</type>
@@ -550,6 +556,7 @@ As long as Sandslash is tapped, it has protection from each odd mana value.</tex
       <name>Nidorina (DFC)</name>
       <set picURL="https://brooks42.github.io/pkto/cards/NidorinaDFC.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Nidoran♀</related>
       <text>Whenever Nidorina enters the battlefield or evolves, mill three cards, then return a land card from your graveyard to your hand.</text>
       <prop>
         <type>Pokémon - Poison</type>
@@ -610,6 +617,7 @@ Whenever Nidoqueen evolves or attacks, return target Pokémon card or land card 
       <name>Nidorino (DFC)</name>
       <set picURL="https://brooks42.github.io/pkto/cards/NidorinoDFC.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Nidoran♂</related>
       <text>Whenever Nidorino attacks, it gains first strike until end of turn.</text>
       <prop>
         <type>Pokémon - Poison</type>
@@ -793,6 +801,7 @@ Whenever Golbat evolves, target player loses X life and you gain X life.</text>
       <name>Gloom (DFC)</name>
       <set picURL="https://brooks42.github.io/pkto/cards/GloomDFC.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Oddish</related>
       <text>Lifelink</text>
       <prop>
         <type>Pokémon - Grass Poison</type>
@@ -1060,6 +1069,7 @@ Whenever Arcanine attacks, attacking red Pokémon get +2/+0 and attacking white 
       <name>Poliwhirl (DFC)</name>
       <set picURL="https://brooks42.github.io/pkto/cards/PoliwhirlDFC.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Poliwag</related>
       <text>Whenever Poliwhirl evolves, gain control of target Pokémon with equal or lesser mana value until Poliwhirl leaves the battlefield.</text>
       <prop>
         <type>Pokémon - Water</type>
@@ -1120,6 +1130,7 @@ Whenever a Pokémon becomes the target of a spell or ability, you may change a t
       <name>Kadabra (DFC)</name>
       <set picURL="https://brooks42.github.io/pkto/cards/KadabraDFC.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Abra</related>
       <text>Whenever Kadabra enters the battlefield or evolves, scry 1.</text>
       <prop>
         <type>Pokémon - Psychic</type>
@@ -1181,6 +1192,7 @@ If you would scry a number of cards, scry that many cards plus one instead.</tex
       <name>Machoke (DFC)</name>
       <set picURL="https://brooks42.github.io/pkto/cards/MachokeDFC.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Machop</related>
       <text>{3}{R/G}{R/G}, {T}: Machoke fights target Pokémon you don't control. Machoke doesn't untap during your next untap step.</text>
       <prop>
         <type>Pokémon - Fighting</type>
@@ -1243,6 +1255,7 @@ As long as Machamp is evolved, it must be blocked if able.</text>
       <name>Weepinbell (DFC)</name>
       <set picURL="https://brooks42.github.io/pkto/cards/WeepinbellDFC.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Bellsprout</related>
       <text>Reach
 {1}{G}: Weepinbell gets +1/+1 until end of turn.</text>
       <prop>
@@ -1336,6 +1349,7 @@ Whenever you scry, you may draw a card. If you do, discard a card.</text>
       <name>Graveler (DFC)</name>
       <set picURL="https://brooks42.github.io/pkto/cards/GravelerDFC.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Geodude</related>
       <text>Hexproof from instants</text>
       <prop>
         <type>Pokémon - Rock Ground</type>
@@ -1615,6 +1629,7 @@ Whenever Cloyster becomes tapped, it deals 1 damage to each of up to three targe
       <name>Haunter (DFC)</name>
       <set picURL="https://brooks42.github.io/pkto/cards/HaunterDFC.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Gastly</related>
       <text>Whenever Haunter becomes the target of a spell or ability an opponent controls, exile that spell or ability unless its controller discards a card.</text>
       <prop>
         <type>Pokémon - Ghost Poison</type>
@@ -2440,6 +2455,7 @@ As long as you have no cards in hand, Moltres is obedient.</text>
       <name>Dragonair (DFC)</name>
       <set picURL="https://brooks42.github.io/pkto/cards/DragonairDFC.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Dratini</related>
       <text>Whenever Dragonair becomes the target of a spell, put a +1/+1 counter on it and you gain 2 life.</text>
       <prop>
         <type>Pokémon - Dragon</type>
@@ -2494,6 +2510,7 @@ When Mewtwo dies, return it to the battlfield transformed.</text>
         <type>Legendary Pokémon - Psychic</type>
         <maintype>Pokémon</maintype>
         <cmc>8</cmc>
+		<side>front</side>
         <colors>UBR</colors>
         <manacost>5UBR</manacost>
         <pt>7/4</pt>
@@ -2503,12 +2520,14 @@ When Mewtwo dies, return it to the battlfield transformed.</text>
       <name>Mewtwo, Redeemed</name>
       <set picURL="https://brooks42.github.io/pkto/cards/MewtwoRedeemed.png" rarity="mythic">PKTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Mewtwo</related>
       <text>Flying
 Each other Pokémon you control gets +2/+2 if it shares a color with a Pokémon an opponent controls.</text>
       <prop>
         <type>Legendary Pokémon - Psychic</type>
         <maintype>Pokémon</maintype>
         <cmc>0</cmc>
+		<side>back</side>
         <colors>WUR</colors>
         <pt>4/4</pt>
       </prop>
@@ -4847,6 +4866,7 @@ Cycling {2}</text>
       <name>Bayleef (DFC)</name>
       <set picURL="https://brooks42.github.io/pjto/cards/BayleefDFC.png" rarity="common">PJTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Chikorita</related>
       <text>{3}{G}{W}: Populate. This ability costs {1} less to activate for each time Bayleef has evolved.</text>
       <prop>
         <type>Pokémon - Grass</type>
@@ -4910,6 +4930,7 @@ Whenever Meganium enters the battlefield or evolves, create a 5/5 green and whit
       <name>Quilava (DFC)</name>
       <set picURL="https://brooks42.github.io/pjto/cards/QuilavaDFC.png" rarity="common">PJTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Cyndaquil</related>
       <text>Whenever a player sacrifices a permanent, Quilava deals 1 damage to any target.</text>
       <prop>
         <type>Pokémon - Fire</type>
@@ -4971,6 +4992,7 @@ Whenever Typhlosion enters the battlefield or evolves, target opponent sacrifice
       <name>Croconaw (DFC)</name>
       <set picURL="https://brooks42.github.io/pjto/cards/CroconawDFC.png" rarity="common">PJTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Totodile</related>
       <text>{1}{G}{U}, {T}: Draw a card. You may put a land card from your hand onto the battlefield.</text>
       <prop>
         <type>Pokémon - Water</type>
@@ -5315,6 +5337,7 @@ At the beginning of your end step, if you sacrificed a permanent this turn, each
       <name>Flaaffy (DFC)</name>
       <set picURL="https://brooks42.github.io/pjto/cards/FlaaffyDFC.png" rarity="common">PJTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Mareep</related>
       <text>{R}: Exile target instant or sorcery card from your graveyard. Flaaffy gets +2/+0 and gains haste until end of turn.</text>
       <prop>
         <type>Pokémon - Electric</type>
@@ -5451,6 +5474,7 @@ Whenever Politoed evolves, search your library for up to two land cards, put the
       <name>Skiploom (DFC)</name>
       <set picURL="https://brooks42.github.io/pjto/cards/SkiploomDFC.png" rarity="common">PJTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Hoppip</related>
       <related>Hoppip Token</related>
       <text>Whenever Skiploom enters the battlefield or evolves, create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.</text>
       <prop>
@@ -6392,6 +6416,7 @@ Sacrifice a land: Evolve</text>
       <name>Pupitar (DFC)</name>
       <set picURL="https://brooks42.github.io/pjto/cards/PupitarDFC.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
+	  <related attach="transform">Larvitar</related>
       <text>Menace
 Whenever you sacrifice a permanent, target opponent discards a card.</text>
       <prop>
