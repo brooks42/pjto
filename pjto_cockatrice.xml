@@ -33,7 +33,7 @@
     <card>
       <name>Ivysaur (DFC)</name>
       <set picURL="https://brooks42.github.io/pkto/cards/IvysaurDFC.png" rarity="common">PKTO</set>
-      <tablerow>2</tablerow
+      <tablerow>2</tablerow>
 	  <related attach="transform">Bulbasaur</related>
       <text>{T}: Add {G}.</text>
       <prop>
