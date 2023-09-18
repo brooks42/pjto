@@ -11,12 +11,11 @@ $tablerowNodes = $xml.SelectNodes("//tablerow")
 $sideNodes = $xml.SelectNodes("//side")
 $relatedNodes = $xml.SelectNodes("//related")
 $textNodes = $xml.SelectNodes("//text")
-$cardNodes = $xml.SelectNodes("//card")
 
 $dfcArray = @()
 foreach($node in $cardNodes)
 {
-    if ($node.type -like "Basic*" -or $node.Name -like "*Token*" -or $node.Name -like "*Emblem" -or $node.Name -eq "Red Gyarados" -or $node.Name -eq "Red's Pikachu")
+    if ($node.prop.type -like "Basic*" -or $node.Name -like "*Token*" -or $node.Name -like "*Emblem" -or $node.Name -eq "Red Gyarados" -or $node.Name -eq "Red's Pikachu")
     {
         $node.ParentNode.RemoveChild($node) | Out-Null
     }
@@ -32,25 +31,33 @@ $cardNodes = $xml.SelectNodes("//card")
 $cubeList = @()
 foreach($node in $cardNodes)
 {
+    if ($node.name -like "Nidoran*" -and $node.prop.colors -eq "G")
+    {
+        $node.name = $node.name.Replace("♀", "F")
+    }
+    if ($node.name -like "Nidoran*" -and $node.prop.colors -eq "B")
+    {
+        $node.name = $node.name.Replace("♂", "M")
+    }
     if ($node.name -like "*(PKTO)" -or $node.name -like "*(PJTO)")
     {
         $node.name = $node.name.Replace("(", "")
         $node.name = $node.name.Replace(")", "")
     }
 
-    if ($node.manacost -eq "{R/G/W}")
+    if ($node.prop.manacost -eq "{R/G/W}")
     {
-        $node.manacost = "RGW"
+        $node.prop.manacost = "RGW"
     }
 
     $rarity = $node | Select @{n='rarity'; e={$_.set.rarity}}
     $picUrl = $node | Select @{n='picUrl'; e={$_.set.picUrl}}
 
-    if ($node.type -like "Legendary Pok*")
+    if ($node.prop.type -like "Legendary Pok*")
     {
-        $initialType = $node.type
+        $initialType = $node.prop.type
         $typeWords = $initialType.Split(" ")
-        $node.type = "Legendary Creature"
+        $node.prop.type = "Legendary Creature"
         
         $count = 0
         $subtypes = @()
@@ -63,11 +70,11 @@ foreach($node in $cardNodes)
             $count++
         }
     }
-    elseif ($node.type -like "Pok*")
+    elseif ($node.prop.type -like "Pok*")
     {
-        $initialType = $node.type
+        $initialType = $node.prop.type
         $typeWords = $initialType.Split(" ")
-        $node.type = "Creature"
+        $node.prop.type = "Creature"
 
         $count = 0
         $subtypes = @()
@@ -80,11 +87,11 @@ foreach($node in $cardNodes)
             $count++
         }
     }
-    elseif ($node.type -like "Artifact Pok*")
+    elseif ($node.prop.type -like "Artifact Pok*")
     {
-        $initialType = $node.type
+        $initialType = $node.prop.type
         $typeWords = $initialType.Split(" ")
-        $node.type = "Artifact Creature"
+        $node.prop.type = "Artifact Creature"
 
         $count = 0
         $subtypes = @()
@@ -97,11 +104,28 @@ foreach($node in $cardNodes)
             $count++
         }
     }
-    elseif ($node.type -like "Legendary Trainer*")
+    elseif ($node.prop.type -like "Land Pok*")
     {
-        $initialType = $node.type
+        $initialType = $node.prop.type
         $typeWords = $initialType.Split(" ")
-        $node.type = "Legendary Planeswalker"
+        $node.prop.type = "Land Creature"
+
+        $count = 0
+        $subtypes = @()
+        foreach ($word in $typewords)
+        {
+            if ($count -gt 2)
+            {
+                $subtypes += $word
+            }
+            $count++
+        }
+    }
+    elseif ($node.prop.type -like "Legendary Trainer*")
+    {
+        $initialType = $node.prop.type
+        $typeWords = $initialType.Split(" ")
+        $node.prop.type = "Legendary Planeswalker"
 
         $count = 0
         $subtypes = @()
@@ -116,9 +140,9 @@ foreach($node in $cardNodes)
     }
     else
     {
-        $initialType = $node.type
+        $initialType = $node.prop.type
         $typeWords = $initialType.Split(" ")
-        $node.type = $typeWords[0]
+        $node.prop.type = $typeWords[0]
         
         $count = 0
         $subtypes = @()
@@ -155,7 +179,7 @@ foreach($node in $cardNodes)
         }
     }
 
-    if ($node.type -like "PokÃ©mon*" -and $rarity.rarity -eq "common")
+    if ($node.prop.type -like "PokÃ©mon*" -and $rarity.rarity -eq "common")
     {
         $cubeList += "2 " + $node.name
     }
@@ -182,11 +206,11 @@ foreach($node in $cardNodes)
                 $backEnText = $xml.CreateTextNode($picUrl.picUrl)
                 [void]$backEnElement.AppendChild($backEnText);
 
-                if ($dfc.type -like "Legendary*")
+                if ($dfc.prop.type -like "Legendary*")
                 {
-                    $initialType = $dfc.type
+                    $initialType = $dfc.prop.type
                     $typeWords = $initialType.Split(" ")
-                    $dfc.type = "Legendary " + $typeWords[1]
+                    $dfc.prop.type = "Legendary Creature"
 
                     $count = 0
                     $subtypes = @()
@@ -198,12 +222,13 @@ foreach($node in $cardNodes)
                         }
                         $count++
                     }
+
                 }
-                if ($dfc.type -like "Artifact Pok*")
+                elseif ($dfc.prop.type -like "Artifact Pok*")
                 {
-                    $initialType = $dfc.type
+                    $initialType = $dfc.prop.type
                     $typeWords = $initialType.Split(" ")
-                    $dfc.type = "Artifact " + $typeWords[1]
+                    $dfc.prop.type = "Artifact Creature"
 
                     $count = 0
                     $subtypes = @()
@@ -218,9 +243,9 @@ foreach($node in $cardNodes)
                 }
                 else
                 {
-                    $initialType = $dfc.type
+                    $initialType = $dfc.prop.type
                     $typeWords = $initialType.Split(" ")
-                    $dfc.type = $typeWords[0]
+                    $dfc.prop.type = "Creature"
 
                     $count = 0
                     $subtypes = @()
@@ -233,10 +258,12 @@ foreach($node in $cardNodes)
                         $count++
                     }
                 }
-                
+
+
                 $typeElement = $backElement.AppendChild($xml.CreateElement("type"))
-                $typeText = $xml.CreateTextNode($dfc.type)
+                $typeText = $xml.CreateTextNode($dfc.prop.type)
                 [void]$typeElement.AppendChild($typeText);
+
 
                 if ($subtypes.Count -eq 1)
                 {
@@ -246,6 +273,7 @@ foreach($node in $cardNodes)
                 {
                     foreach ($subtypeItem in $subtypes)
                     {
+
                         $subtypesElement = $backElement.AppendChild($xml.CreateElement("subtypes"))
                         $subtypesText = $xml.CreateTextNode($subtypeItem)
                         [void]$subtypesElement.AppendChild($subtypesText);
@@ -256,7 +284,7 @@ foreach($node in $cardNodes)
     }
 }
 
-#$xml.Save(".\test.xml")
+$xml.Save(".\test.xml")
 
 $array = foreach ($card in $xml.cockatrice_carddatabase.cards.card)
 {
@@ -264,8 +292,8 @@ $array = foreach ($card in $xml.cockatrice_carddatabase.cards.card)
         {   
         $prop = [ordered]@{
             'name' = $card.name
-            'mana_cost' = $card.manacost
-            'type' = $card.type
+            'mana_cost' = $card.prop.manacost
+            'type' = $card.prop.type
             'subtypes' = $card.subtypes
             'rarity' = $card.rarity
             'image_uris' = @{
@@ -281,13 +309,38 @@ $array = foreach ($card in $xml.cockatrice_carddatabase.cards.card)
             }
         }
     }
-    elseif ($card.subtypes)
+    elseif ($card.subtypes -and $card.prop.manacost)
     {
         $prop = [ordered]@{
             'name' = $card.name
-            'mana_cost' = $card.manacost
-            'type' = $card.type
+            'mana_cost' = $card.prop.manacost
+            'type' = $card.prop.type
             'subtypes' = $card.subtypes
+            'rarity' = $card.rarity
+            'image_uris' = @{
+                'en' = $card.picUrl.en
+            }
+        }
+    }
+    elseif ($card.subtypes)
+    {
+            $prop = [ordered]@{
+            'name' = $card.name
+            'mana_cost' = ""
+            'type' = $card.prop.type
+            'subtypes' = $card.subtypes
+            'rarity' = $card.rarity
+            'image_uris' = @{
+                'en' = $card.picUrl.en
+            }
+        }
+    }
+    elseif ($card.manacost)
+    {
+        $prop = [ordered]@{
+            'name' = $card.name
+            'mana_cost' = $card.prop.manacost
+            'type' = $card.prop.type
             'rarity' = $card.rarity
             'image_uris' = @{
                 'en' = $card.picUrl.en
@@ -298,8 +351,8 @@ $array = foreach ($card in $xml.cockatrice_carddatabase.cards.card)
     {
         $prop = [ordered]@{
             'name' = $card.name
-            'mana_cost' = $card.manacost
-            'type' = $card.type
+            'mana_cost' = ""
+            'type' = $card.prop.type
             'rarity' = $card.rarity
             'image_uris' = @{
                 'en' = $card.picUrl.en
