@@ -166,6 +166,16 @@ ForEach ($line in $linenumbers)
         $types = $type.Substring(18)
         $combined[$line.LineNumber-1] = "Legendary Creature" + $types
     }
+    elseif ($line.Line -like "Land*")
+    {
+        $types = $type.Substring(13)
+        $combined[$line.LineNumber-1] = "Land Creature" + $types
+    }
+    elseif ($line.Line -like "Artifact*")
+    {
+        $types = $type.Substring(17)
+        $combined[$line.LineNumber-1] = "Artifact Creature" + $types
+    }
     else
     {
         $types = $type.Substring(8)

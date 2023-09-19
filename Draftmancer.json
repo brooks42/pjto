@@ -21,7 +21,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pkto/cards/IvysaurDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -71,7 +71,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pkto/cards/WartortleDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -121,7 +121,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pkto/cards/CharmeleonDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -171,7 +171,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pkto/cards/MetapodDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -221,7 +221,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pkto/cards/KakunaDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -271,7 +271,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pkto/cards/PidgeottoDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -431,7 +431,7 @@
                        }
     },
     {
-        "name":  "Nidoran♀",
+        "name":  "NidoranF",
         "mana_cost":  "1G",
         "type":  "Creature",
         "subtypes":  [
@@ -451,7 +451,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pkto/cards/NidorinaDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -481,7 +481,7 @@
                        }
     },
     {
-        "name":  "Nidoran♂",
+        "name":  "NidoranM",
         "mana_cost":  "2B",
         "type":  "Creature",
         "subtypes":  [
@@ -501,7 +501,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pkto/cards/NidorinoDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -655,7 +655,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pkto/cards/GloomDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -887,7 +887,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pkto/cards/PoliwhirlDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -937,7 +937,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pkto/cards/KadabraDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -987,7 +987,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pkto/cards/MachokeDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -1037,7 +1037,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pkto/cards/WeepinbellDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -1113,7 +1113,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pkto/cards/GravelerDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -1358,7 +1358,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pkto/cards/HaunterDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -2084,7 +2084,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pkto/cards/DragonairDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -2126,12 +2126,15 @@
                            "en":  "https://brooks42.github.io/pkto/cards/Mewtwo.png"
                        },
         "back":  {
-                     "subtypes":  null,
+                     "subtypes":  [
+                                      "Psychic",
+                                      ""
+                                  ],
                      "name":  "Mewtwo, Redeemed",
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pkto/cards/MewtwoRedeemed.png"
                                     },
-                     "type":  "Legendary"
+                     "type":  "Legendary Creature"
                  }
     },
     {
@@ -2357,7 +2360,7 @@
     },
     {
         "name":  "Bill",
-        "mana_cost":  "2U",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "common",
         "image_uris":  {
@@ -2365,8 +2368,8 @@
                        }
     },
     {
-        "name":  "Poké Ball",
-        "mana_cost":  "R",
+        "name":  "Pok� Ball",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "common",
         "image_uris":  {
@@ -2375,7 +2378,7 @@
     },
     {
         "name":  "Great Ball",
-        "mana_cost":  "1U",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2384,7 +2387,7 @@
     },
     {
         "name":  "Safari Ball",
-        "mana_cost":  "2G",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2393,7 +2396,7 @@
     },
     {
         "name":  "Ultra Ball",
-        "mana_cost":  "3W",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "rare",
         "image_uris":  {
@@ -2402,7 +2405,7 @@
     },
     {
         "name":  "Master Ball",
-        "mana_cost":  "1B",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "mythic",
         "image_uris":  {
@@ -2411,7 +2414,7 @@
     },
     {
         "name":  "Switch",
-        "mana_cost":  "G",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2419,8 +2422,8 @@
                        }
     },
     {
-        "name":  "Poké Flute",
-        "mana_cost":  "1W",
+        "name":  "Pok� Flute",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2429,7 +2432,7 @@
     },
     {
         "name":  "Old Rod",
-        "mana_cost":  "XU",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2438,7 +2441,7 @@
     },
     {
         "name":  "Revive PKTO",
-        "mana_cost":  "B",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "common",
         "image_uris":  {
@@ -2447,7 +2450,7 @@
     },
     {
         "name":  "Max Revive",
-        "mana_cost":  "3{W/B}{W/B}",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "rare",
         "image_uris":  {
@@ -2456,7 +2459,7 @@
     },
     {
         "name":  "Energy Search",
-        "mana_cost":  "1G",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "common",
         "image_uris":  {
@@ -2465,7 +2468,7 @@
     },
     {
         "name":  "Mysterious Fossil",
-        "mana_cost":  "1",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2474,7 +2477,7 @@
     },
     {
         "name":  "Explore",
-        "mana_cost":  "1G",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "common",
         "image_uris":  {
@@ -2483,7 +2486,7 @@
     },
     {
         "name":  "Revitalize",
-        "mana_cost":  "1W",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2492,7 +2495,7 @@
     },
     {
         "name":  "Show of Force",
-        "mana_cost":  "1R",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2501,7 +2504,7 @@
     },
     {
         "name":  "Investigate",
-        "mana_cost":  "1U",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2510,7 +2513,7 @@
     },
     {
         "name":  "Potion",
-        "mana_cost":  "W",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2519,7 +2522,7 @@
     },
     {
         "name":  "Lemonade",
-        "mana_cost":  "WW",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2528,7 +2531,7 @@
     },
     {
         "name":  "Growth",
-        "mana_cost":  "2G",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "common",
         "image_uris":  {
@@ -2537,7 +2540,7 @@
     },
     {
         "name":  "X Attack",
-        "mana_cost":  "R",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2546,7 +2549,7 @@
     },
     {
         "name":  "X Defense",
-        "mana_cost":  "U",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2555,7 +2558,7 @@
     },
     {
         "name":  "Guard Spec.",
-        "mana_cost":  "G",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2564,7 +2567,7 @@
     },
     {
         "name":  "Antidote",
-        "mana_cost":  "W",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2573,7 +2576,7 @@
     },
     {
         "name":  "Turn to Stone",
-        "mana_cost":  "1BB",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2582,7 +2585,7 @@
     },
     {
         "name":  "Dowsing Machine",
-        "mana_cost":  "2",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2591,7 +2594,7 @@
     },
     {
         "name":  "Body Slam",
-        "mana_cost":  "1G",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2600,7 +2603,7 @@
     },
     {
         "name":  "Slash",
-        "mana_cost":  "R",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "common",
         "image_uris":  {
@@ -2609,7 +2612,7 @@
     },
     {
         "name":  "Whirlwind PKTO",
-        "mana_cost":  "{W/U}",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2618,7 +2621,7 @@
     },
     {
         "name":  "Sing",
-        "mana_cost":  "2UU",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2627,7 +2630,7 @@
     },
     {
         "name":  "Swift",
-        "mana_cost":  "1WB",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "rare",
         "image_uris":  {
@@ -2636,7 +2639,7 @@
     },
     {
         "name":  "Disable",
-        "mana_cost":  "U{U/B}",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2645,7 +2648,7 @@
     },
     {
         "name":  "Ember",
-        "mana_cost":  "R",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2654,7 +2657,7 @@
     },
     {
         "name":  "Gust",
-        "mana_cost":  "{G/W}",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2663,7 +2666,7 @@
     },
     {
         "name":  "Slam",
-        "mana_cost":  "2W",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "common",
         "image_uris":  {
@@ -2672,7 +2675,7 @@
     },
     {
         "name":  "Poison Sting",
-        "mana_cost":  "1B",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2681,7 +2684,7 @@
     },
     {
         "name":  "Glare",
-        "mana_cost":  "R",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "common",
         "image_uris":  {
@@ -2690,7 +2693,7 @@
     },
     {
         "name":  "Flash PKTO",
-        "mana_cost":  "W",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2699,7 +2702,7 @@
     },
     {
         "name":  "Night Shade",
-        "mana_cost":  "1B",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2708,7 +2711,7 @@
     },
     {
         "name":  "Aurora Beam",
-        "mana_cost":  "W",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "rare",
         "image_uris":  {
@@ -2717,7 +2720,7 @@
     },
     {
         "name":  "Tackle",
-        "mana_cost":  "3W",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2726,7 +2729,7 @@
     },
     {
         "name":  "Toxic",
-        "mana_cost":  "2BB",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "rare",
         "image_uris":  {
@@ -2735,7 +2738,7 @@
     },
     {
         "name":  "Blizzard PKTO",
-        "mana_cost":  "1WWU",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "rare",
         "image_uris":  {
@@ -2744,7 +2747,7 @@
     },
     {
         "name":  "Reflect",
-        "mana_cost":  "1U",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2753,7 +2756,7 @@
     },
     {
         "name":  "Fire Blast",
-        "mana_cost":  "2RR",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "rare",
         "image_uris":  {
@@ -2762,7 +2765,7 @@
     },
     {
         "name":  "Solar Beam",
-        "mana_cost":  "2GG",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "rare",
         "image_uris":  {
@@ -2771,7 +2774,7 @@
     },
     {
         "name":  "Hydro Pump",
-        "mana_cost":  "2UU",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "rare",
         "image_uris":  {
@@ -2780,7 +2783,7 @@
     },
     {
         "name":  "Release",
-        "mana_cost":  "1U",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2789,7 +2792,7 @@
     },
     {
         "name":  "Vine Whip",
-        "mana_cost":  "1G",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2798,7 +2801,7 @@
     },
     {
         "name":  "Guillotine",
-        "mana_cost":  "1BG",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2807,7 +2810,7 @@
     },
     {
         "name":  "Substitute",
-        "mana_cost":  "W",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2816,7 +2819,7 @@
     },
     {
         "name":  "Pilfer",
-        "mana_cost":  "1B",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2825,7 +2828,7 @@
     },
     {
         "name":  "Mirror Move",
-        "mana_cost":  "1R",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2834,7 +2837,7 @@
     },
     {
         "name":  "Double Kick",
-        "mana_cost":  "G",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2843,7 +2846,7 @@
     },
     {
         "name":  "Prepare for Trouble",
-        "mana_cost":  "BB",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "common",
         "image_uris":  {
@@ -2852,7 +2855,7 @@
     },
     {
         "name":  "Razor Leaf",
-        "mana_cost":  "1G",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2861,7 +2864,7 @@
     },
     {
         "name":  "Water Gun",
-        "mana_cost":  "XU",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2870,7 +2873,7 @@
     },
     {
         "name":  "Petal Dance",
-        "mana_cost":  "3G",
+        "mana_cost":  "",
         "type":  "Enchantment",
         "rarity":  "rare",
         "image_uris":  {
@@ -2879,7 +2882,7 @@
     },
     {
         "name":  "Dig",
-        "mana_cost":  "3R",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2888,7 +2891,7 @@
     },
     {
         "name":  "Skull Bash",
-        "mana_cost":  "2B",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2897,7 +2900,7 @@
     },
     {
         "name":  "Psychic",
-        "mana_cost":  "3BB",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "rare",
         "image_uris":  {
@@ -2906,7 +2909,7 @@
     },
     {
         "name":  "Thunder Stone",
-        "mana_cost":  "3",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2915,7 +2918,7 @@
     },
     {
         "name":  "Leaf Stone",
-        "mana_cost":  "3",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2924,7 +2927,7 @@
     },
     {
         "name":  "Water Stone",
-        "mana_cost":  "3",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2933,7 +2936,7 @@
     },
     {
         "name":  "Fire Stone",
-        "mana_cost":  "3",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2942,7 +2945,7 @@
     },
     {
         "name":  "Moon Stone",
-        "mana_cost":  "3",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2951,7 +2954,7 @@
     },
     {
         "name":  "Ancient Slab",
-        "mana_cost":  "2",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2959,8 +2962,8 @@
                        }
     },
     {
-        "name":  "Pokémon Storage System",
-        "mana_cost":  "4",
+        "name":  "Pok�mon Storage System",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2969,7 +2972,7 @@
     },
     {
         "name":  "Town Map",
-        "mana_cost":  "1",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "common",
         "image_uris":  {
@@ -2978,7 +2981,7 @@
     },
     {
         "name":  "Super Repel",
-        "mana_cost":  "2W",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2987,7 +2990,7 @@
     },
     {
         "name":  "Nugget",
-        "mana_cost":  "1",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -2996,7 +2999,7 @@
     },
     {
         "name":  "Mysterious Feather",
-        "mana_cost":  "0",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "mythic",
         "image_uris":  {
@@ -3096,7 +3099,7 @@
     },
     {
         "name":  "Pewter Gym",
-        "mana_cost":  "RG",
+        "mana_cost":  "",
         "type":  "Enchantment",
         "rarity":  "rare",
         "image_uris":  {
@@ -3105,7 +3108,7 @@
     },
     {
         "name":  "Cerulean Gym",
-        "mana_cost":  "WU",
+        "mana_cost":  "",
         "type":  "Enchantment",
         "rarity":  "rare",
         "image_uris":  {
@@ -3114,7 +3117,7 @@
     },
     {
         "name":  "Vermilion Gym",
-        "mana_cost":  "RW",
+        "mana_cost":  "",
         "type":  "Enchantment",
         "rarity":  "rare",
         "image_uris":  {
@@ -3123,7 +3126,7 @@
     },
     {
         "name":  "Celadon Gym",
-        "mana_cost":  "1G",
+        "mana_cost":  "",
         "type":  "Enchantment",
         "rarity":  "rare",
         "image_uris":  {
@@ -3132,7 +3135,7 @@
     },
     {
         "name":  "Saffron Gym",
-        "mana_cost":  "UB",
+        "mana_cost":  "",
         "type":  "Enchantment",
         "rarity":  "rare",
         "image_uris":  {
@@ -3141,7 +3144,7 @@
     },
     {
         "name":  "Fuchsia Gym",
-        "mana_cost":  "BG",
+        "mana_cost":  "",
         "type":  "Enchantment",
         "rarity":  "rare",
         "image_uris":  {
@@ -3150,7 +3153,7 @@
     },
     {
         "name":  "Cinnabar Gym",
-        "mana_cost":  "1R",
+        "mana_cost":  "",
         "type":  "Enchantment",
         "rarity":  "rare",
         "image_uris":  {
@@ -3159,7 +3162,7 @@
     },
     {
         "name":  "Viridian Gym",
-        "mana_cost":  "1B",
+        "mana_cost":  "",
         "type":  "Enchantment",
         "rarity":  "rare",
         "image_uris":  {
@@ -3347,7 +3350,7 @@
                        }
     },
     {
-        "name":  "Pokémon Mansion",
+        "name":  "Pok�mon Mansion",
         "mana_cost":  "",
         "type":  "Land",
         "rarity":  "uncommon",
@@ -3466,7 +3469,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pjto/cards/BayleefDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -3516,7 +3519,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pjto/cards/QuilavaDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -3566,7 +3569,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pjto/cards/CroconawDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -3850,7 +3853,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pjto/cards/FlaaffyDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -3921,9 +3924,8 @@
     {
         "name":  "Sudowoodo",
         "mana_cost":  "",
-        "type":  "Land",
+        "type":  "Land Creature",
         "subtypes":  [
-                         "-",
                          "Mountain",
                          "Rock"
                      ],
@@ -3966,7 +3968,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pjto/cards/SkiploomDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -4744,7 +4746,7 @@
                      "image_uris":  {
                                         "en":  "https://brooks42.github.io/pjto/cards/PupitarDFC.png"
                                     },
-                     "type":  "Pokémon"
+                     "type":  "Creature"
                  }
     },
     {
@@ -4957,7 +4959,7 @@
     },
     {
         "name":  "Bubble",
-        "mana_cost":  "U",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -4966,7 +4968,7 @@
     },
     {
         "name":  "Foresight PJTO",
-        "mana_cost":  "1UU",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -4975,7 +4977,7 @@
     },
     {
         "name":  "Icy Wind",
-        "mana_cost":  "WUU",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "rare",
         "image_uris":  {
@@ -4984,7 +4986,7 @@
     },
     {
         "name":  "Kinesis",
-        "mana_cost":  "1U",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -4993,7 +4995,7 @@
     },
     {
         "name":  "Megahorn",
-        "mana_cost":  "1G",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5002,7 +5004,7 @@
     },
     {
         "name":  "Powder Snow",
-        "mana_cost":  "WU",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5011,7 +5013,7 @@
     },
     {
         "name":  "Prepare to Fight",
-        "mana_cost":  "1B",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -5020,7 +5022,7 @@
     },
     {
         "name":  "Psych Up",
-        "mana_cost":  "RW",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "rare",
         "image_uris":  {
@@ -5029,7 +5031,7 @@
     },
     {
         "name":  "Rapid Spin",
-        "mana_cost":  "4U",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5038,7 +5040,7 @@
     },
     {
         "name":  "Reversal",
-        "mana_cost":  "2BG",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5047,7 +5049,7 @@
     },
     {
         "name":  "Spite",
-        "mana_cost":  "BR",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5056,7 +5058,7 @@
     },
     {
         "name":  "Sweet Scent",
-        "mana_cost":  "1GGW",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "rare",
         "image_uris":  {
@@ -5065,7 +5067,7 @@
     },
     {
         "name":  "Whirlpool",
-        "mana_cost":  "3UU",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "rare",
         "image_uris":  {
@@ -5074,7 +5076,7 @@
     },
     {
         "name":  "Zap Cannon",
-        "mana_cost":  "UR",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "rare",
         "image_uris":  {
@@ -5083,7 +5085,7 @@
     },
     {
         "name":  "Aeroblast",
-        "mana_cost":  "2CUU",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "mythic",
         "image_uris":  {
@@ -5092,7 +5094,7 @@
     },
     {
         "name":  "Baton Pass",
-        "mana_cost":  "2R",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5101,7 +5103,7 @@
     },
     {
         "name":  "Beat Up",
-        "mana_cost":  "2R",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5110,7 +5112,7 @@
     },
     {
         "name":  "Bone Rush",
-        "mana_cost":  "BR",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "rare",
         "image_uris":  {
@@ -5119,7 +5121,7 @@
     },
     {
         "name":  "Combined Forces",
-        "mana_cost":  "XW",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5128,7 +5130,7 @@
     },
     {
         "name":  "Crunch",
-        "mana_cost":  "BB",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5137,7 +5139,7 @@
     },
     {
         "name":  "Destiny Bond",
-        "mana_cost":  "2BB",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "rare",
         "image_uris":  {
@@ -5146,7 +5148,7 @@
     },
     {
         "name":  "Flame Wheel",
-        "mana_cost":  "BR",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "rare",
         "image_uris":  {
@@ -5155,7 +5157,7 @@
     },
     {
         "name":  "Giga Drain",
-        "mana_cost":  "XBG",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "rare",
         "image_uris":  {
@@ -5164,7 +5166,7 @@
     },
     {
         "name":  "Hidden Power",
-        "mana_cost":  "2GU",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "rare",
         "image_uris":  {
@@ -5173,7 +5175,7 @@
     },
     {
         "name":  "Moonlight",
-        "mana_cost":  "2WW",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "rare",
         "image_uris":  {
@@ -5182,7 +5184,7 @@
     },
     {
         "name":  "Sacred Fire PJTO",
-        "mana_cost":  "8R",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "mythic",
         "image_uris":  {
@@ -5191,7 +5193,7 @@
     },
     {
         "name":  "Scary Face",
-        "mana_cost":  "1R",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5200,7 +5202,7 @@
     },
     {
         "name":  "Shadow Ball",
-        "mana_cost":  "XBB",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5209,7 +5211,7 @@
     },
     {
         "name":  "Sketch",
-        "mana_cost":  "2W",
+        "mana_cost":  "",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -5218,7 +5220,7 @@
     },
     {
         "name":  "Snore",
-        "mana_cost":  "3WW",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "rare",
         "image_uris":  {
@@ -5227,7 +5229,7 @@
     },
     {
         "name":  "Spikes",
-        "mana_cost":  "1R",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5236,7 +5238,7 @@
     },
     {
         "name":  "Surrender Now",
-        "mana_cost":  "R",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5245,7 +5247,7 @@
     },
     {
         "name":  "Twister",
-        "mana_cost":  "2R",
+        "mana_cost":  "",
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5254,7 +5256,7 @@
     },
     {
         "name":  "Berry",
-        "mana_cost":  "3",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5263,7 +5265,7 @@
     },
     {
         "name":  "Clear Bell",
-        "mana_cost":  "3",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5272,7 +5274,7 @@
     },
     {
         "name":  "Dragon Fang",
-        "mana_cost":  "3",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5281,7 +5283,7 @@
     },
     {
         "name":  "Dragon Scale",
-        "mana_cost":  "3",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5290,7 +5292,7 @@
     },
     {
         "name":  "Everstone",
-        "mana_cost":  "3",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5299,7 +5301,7 @@
     },
     {
         "name":  "Focus Band",
-        "mana_cost":  "3",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5308,7 +5310,7 @@
     },
     {
         "name":  "Miracle Seed",
-        "mana_cost":  "3",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5317,7 +5319,7 @@
     },
     {
         "name":  "Old Amber",
-        "mana_cost":  "3",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5326,7 +5328,7 @@
     },
     {
         "name":  "Squirt Bottle",
-        "mana_cost":  "3",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5335,7 +5337,7 @@
     },
     {
         "name":  "Sun Stone",
-        "mana_cost":  "2",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "rare",
         "image_uris":  {
@@ -5357,7 +5359,7 @@
     },
     {
         "name":  "Twisted Spoon",
-        "mana_cost":  "3",
+        "mana_cost":  "",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5366,7 +5368,7 @@
     },
     {
         "name":  "Pay Day",
-        "mana_cost":  "3WB",
+        "mana_cost":  "",
         "type":  "Enchantment",
         "rarity":  "rare",
         "image_uris":  {
@@ -5375,7 +5377,7 @@
     },
     {
         "name":  "Rain Dance",
-        "mana_cost":  "1U",
+        "mana_cost":  "",
         "type":  "Enchantment",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -5384,7 +5386,7 @@
     },
     {
         "name":  "Sunny Day",
-        "mana_cost":  "WR",
+        "mana_cost":  "",
         "type":  "Enchantment",
         "rarity":  "rare",
         "image_uris":  {
@@ -5725,7 +5727,7 @@
                        }
     },
     {
-        "name":  "Pokémon Center",
+        "name":  "Pok�mon Center",
         "mana_cost":  "",
         "type":  "Land",
         "rarity":  "rare",
@@ -5853,10 +5855,10 @@
 1 Raichu
 1 Sandshrew
 1 Sandslash
-1 Nidoran♀
+1 NidoranF
 1 Nidorina
 1 Nidoqueen
-1 Nidoran♂
+1 NidoranM
 1 Nidorino
 1 Nidoking
 1 Clefairy
@@ -5993,13 +5995,13 @@
 1 Agatha
 1 Lance PKTO
 1 Bill
-1 Poké Ball
+1 Pok� Ball
 1 Great Ball
 1 Safari Ball
 1 Ultra Ball
 1 Master Ball
 1 Switch
-1 Poké Flute
+1 Pok� Flute
 1 Old Rod
 1 Revive PKTO
 1 Max Revive
@@ -6059,7 +6061,7 @@
 1 Fire Stone
 1 Moon Stone
 1 Ancient Slab
-1 Pokémon Storage System
+1 Pok�mon Storage System
 1 Town Map
 1 Super Repel
 1 Nugget
@@ -6099,7 +6101,7 @@
 1 Pallet Town
 1 Pewter City
 1 Pewter Museum
-1 Pokémon Mansion
+1 Pok�mon Mansion
 1 Power Plant
 1 Rock Tunnel
 1 Safari Zone
@@ -6306,7 +6308,7 @@
 1 New Bark Town
 1 Olivine City
 1 Olivine Lighthouse
-1 Pokémon Center
+1 Pok�mon Center
 1 Research Facility
 1 Ruins of Alph
 1 Slowpoke Well
