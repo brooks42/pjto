@@ -2368,7 +2368,7 @@
                        }
     },
     {
-        "name":  "Poké Ball",
+        "name":  "Poke Ball",
         "mana_cost":  "R",
         "type":  "Sorcery",
         "rarity":  "common",
@@ -2422,7 +2422,7 @@
                        }
     },
     {
-        "name":  "Poké Flute",
+        "name":  "Poke Flute",
         "mana_cost":  "1W",
         "type":  "Instant",
         "rarity":  "uncommon",
@@ -2962,7 +2962,7 @@
                        }
     },
     {
-        "name":  "Pokémon Storage System",
+        "name":  "Pokemon Storage System",
         "mana_cost":  "4",
         "type":  "Artifact",
         "rarity":  "uncommon",
@@ -3350,7 +3350,7 @@
                        }
     },
     {
-        "name":  "Pokémon Mansion",
+        "name":  "Pokemon Mansion",
         "mana_cost":  "",
         "type":  "Land",
         "rarity":  "uncommon",
@@ -5727,7 +5727,7 @@
                        }
     },
     {
-        "name":  "Pokémon Center",
+        "name":  "Pokemon Center",
         "mana_cost":  "",
         "type":  "Land",
         "rarity":  "rare",
@@ -5995,13 +5995,13 @@
 1 Agatha
 1 Lance PKTO
 1 Bill
-1 Poké Ball
+1 Poke Ball
 1 Great Ball
 1 Safari Ball
 1 Ultra Ball
 1 Master Ball
 1 Switch
-1 Poké Flute
+1 Poke Flute
 1 Old Rod
 1 Revive PKTO
 1 Max Revive
@@ -6061,7 +6061,7 @@
 1 Fire Stone
 1 Moon Stone
 1 Ancient Slab
-1 Pokémon Storage System
+1 Pokemon Storage System
 1 Town Map
 1 Super Repel
 1 Nugget
@@ -6101,7 +6101,7 @@
 1 Pallet Town
 1 Pewter City
 1 Pewter Museum
-1 Pokémon Mansion
+1 Pokemon Mansion
 1 Power Plant
 1 Rock Tunnel
 1 Safari Zone
@@ -6308,7 +6308,7 @@
 1 New Bark Town
 1 Olivine City
 1 Olivine Lighthouse
-1 Pokémon Center
+1 Pokemon Center
 1 Research Facility
 1 Ruins of Alph
 1 Slowpoke Well

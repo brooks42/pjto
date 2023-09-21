@@ -31,6 +31,10 @@ $cardNodes = $xml.SelectNodes("//card")
 $cubeList = @()
 foreach($node in $cardNodes)
 {
+    if ($node.name -like "*é*")
+    {
+        $node.name = $node.name.Replace("é", "e")
+    }
     if ($node.name -like "Nidoran*" -and $node.prop.colors -eq "G")
     {
         $node.name = $node.name.Replace("♀", "F")
