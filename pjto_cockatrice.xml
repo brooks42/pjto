@@ -6630,7 +6630,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
       <set picURL="https://brooks42.github.io/pjto/cards/Pryce.png" rarity="mythic">PJTO</set>
       <tablerow>1</tablerow>
       <loyalty>4</loyalty>
-      <text>[0]: Tap target Pokémon and put a stun counter on it. Put a loyalty counter on each Trainer you control.
+      <text>[0]: Put a stun counter on up to one target permanent. Put a loyalty counter on each Trainer you control.
 [−8]: Tap all permanents you don't control and put a stun counter on each of them. You gain 1 life for each tapped permanent your opponents control.</text>
       <prop>
         <type>Legendary Trainer - Pryce</type>
