@@ -366,7 +366,7 @@ $array = foreach ($card in $xml.cockatrice_carddatabase.cards.card)
     New-Object -Type PSCustomObject -Property $prop
 }
 
-$array | ConvertTo-Json -Depth 3 | % { [System.Text.RegularExpressions.Regex]::Unescape($_) } | Set-Content -Path ".\Draftmancer.json"
-Add-Content .\Draftmancer.json "[MainSlot(15)]"
-Add-Content .\Draftmancer.json $cubeList
-@("[CustomCards]") + (Get-Content .\Draftmancer.json) | Set-Content .\Draftmancer.json
+$array | ConvertTo-Json -Depth 3 | % { [System.Text.RegularExpressions.Regex]::Unescape($_) } | Set-Content -Path ".\Draftmancer.txt"
+Add-Content ".\Draftmancer.txt" "[MainSlot(15)]"
+Add-Content ".\Draftmancer.txt" $cubeList
+@("[CustomCards]") + (Get-Content ".\Draftmancer.txt") | Set-Content ".\Draftmancer.txt"
