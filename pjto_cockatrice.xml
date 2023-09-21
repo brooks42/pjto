@@ -6488,8 +6488,8 @@ Protection from instants</text>
       <prop>
         <type>Legendary Pokémon - Psychic Flying</type>
         <maintype>Pokémon</maintype>
-        <cmc>5</cmc>
-        <manacost>2CCC</manacost>
+        <cmc>8</cmc>
+        <manacost>8</manacost>
         <pt>6/6</pt>
       </prop>
     </card>
