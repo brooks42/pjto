@@ -6895,7 +6895,9 @@ Landfall — If you had a land enter the battlefield under your control this tur
       <name>Zap Cannon</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Zap%20Cannon.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Choose a Pokémon you don't control at random. Zap Cannon deals damage to that Pokémon equal to the number of cards you own in exile. If excess damage is dealt this way, draw a card.Choose a Pokémon you don't control at random. Zap Cannon deals damage to that Pokémon equal to 2 plus the number of cards you own in exile. If excess damage is dealt this way, draw a card. Exile Zap Cannon.</text>
+      <text>This spell costs {1} less to cast for each card you own in exile.
+Choose a Pokémon you don't control at random. Zap Cannon deals X damage to that Pokémon. If excess damage is dealt this way, draw a card.
+Flashback {X}{U}{R}</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
