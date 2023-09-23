@@ -6093,7 +6093,6 @@ Activated abilities of evolved Pokémon you control cost {1} less to activate.
       <tablerow>2</tablerow>
       <related>Food Token</related>
       <related>Treasure Token</related>
-      <related>Hoppip Token</related>
       <text>Whenever you cast a spell, choose one at random.
 • Create a Food token.
 • Create a Treasure token.
@@ -6489,8 +6488,8 @@ Protection from instants</text>
       <prop>
         <type>Legendary Pokémon - Psychic Flying</type>
         <maintype>Pokémon</maintype>
-        <cmc>5</cmc>
-        <manacost>2CCC</manacost>
+        <cmc>8</cmc>
+        <manacost>8</manacost>
         <pt>6/6</pt>
       </prop>
     </card>
@@ -6498,8 +6497,9 @@ Protection from instants</text>
       <name>Ho-Oh</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Ho-Oh.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Flying
-Whenever Ho-Oh deals combat damage to a player, you may return target permanent card from your graveyard to the battlefield.</text>
+      <text>When you cast this spell, return target Pokémon card from a graveyard to the battlefield under your control.
+Flying
+Whenever Ho-Oh deals combat damage to a player, return target Pokémon card from a graveyard to the battlefield under your control.</text>
       <prop>
         <type>Legendary Pokémon - Fire Flying</type>
         <maintype>Pokémon</maintype>
@@ -6631,7 +6631,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
       <set picURL="https://brooks42.github.io/pjto/cards/Pryce.png" rarity="mythic">PJTO</set>
       <tablerow>1</tablerow>
       <loyalty>4</loyalty>
-      <text>[0]: Tap target Pokémon and put a stun counter on it. Put a loyalty counter on each Trainer you control.
+      <text>[0]: Put a stun counter on up to one target permanent. Put a loyalty counter on each Trainer you control.
 [−8]: Tap all permanents you don't control and put a stun counter on each of them. You gain 1 life for each tapped permanent your opponents control.</text>
       <prop>
         <type>Legendary Trainer - Pryce</type>
@@ -6895,7 +6895,9 @@ Landfall — If you had a land enter the battlefield under your control this tur
       <name>Zap Cannon</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Zap%20Cannon.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Choose a Pokémon you don't control at random. Zap Cannon deals damage to that Pokémon equal to the number of cards you own in exile. If excess damage is dealt this way, draw a card.Choose a Pokémon you don't control at random. Zap Cannon deals damage to that Pokémon equal to 2 plus the number of cards you own in exile. If excess damage is dealt this way, draw a card. Exile Zap Cannon.</text>
+      <text>This spell costs {1} less to cast for each card you own in exile.
+Choose a Pokémon you don't control at random. Zap Cannon deals X damage to that Pokémon. If excess damage is dealt this way, draw a card.
+Flashback {X}{U}{R}</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
