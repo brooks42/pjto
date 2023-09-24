@@ -6911,17 +6911,17 @@ Flashback {X}{U}{R}</text>
       <name>Aeroblast</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Aeroblast.png" rarity="mythic">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Multikicker—Put three cards you own in exile on the bottom of your library in any order.
+      <text>Multikicker {1}{U}, Put three cards you own in exile on the bottom of your library.
 Choose one, then choose another one for each time Aeroblast was kicked.
 • Draw three cards.
-• Exile target nonland permanent. Its controller draws a card.
+• Put target nonland permanent into its owner's library third from the top.
 • Take an extra turn after this one.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
         <cmc>5</cmc>
         <colors>U</colors>
-        <manacost>2CUU</manacost>
+        <manacost>3UU</manacost>
       </prop>
     </card>
     <card>
