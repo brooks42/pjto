@@ -6141,6 +6141,7 @@ When Skarmory enters the battlefield, reveal the top X cards of your library, wh
       <set picURL="https://brooks42.github.io/pjto/cards/Houndour.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Menace
+Whenever another creature enters the battlefield, Houndour deals 1 damage to that creature's controller.
 Whenever Houndour evolves, it deals 1 damage to each Pokémon you don't control.</text>
       <prop>
         <type>Pokémon - Dark Fire</type>
@@ -6488,8 +6489,8 @@ Protection from instants</text>
       <prop>
         <type>Legendary Pokémon - Psychic Flying</type>
         <maintype>Pokémon</maintype>
-        <cmc>8</cmc>
-        <manacost>8</manacost>
+        <cmc>9</cmc>
+        <manacost>9</manacost>
         <pt>6/6</pt>
       </prop>
     </card>
@@ -6911,17 +6912,17 @@ Flashback {X}{U}{R}</text>
       <name>Aeroblast</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Aeroblast.png" rarity="mythic">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Multikicker—Put three cards you own in exile on the bottom of your library in any order.
+      <text>Multikicker {1}{U}, Put three cards you own in exile on the bottom of your library.
 Choose one, then choose another one for each time Aeroblast was kicked.
 • Draw three cards.
-• Exile target nonland permanent. Its controller draws a card.
+• Put target nonland permanent into its owner's library third from the top.
 • Take an extra turn after this one.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
         <cmc>5</cmc>
         <colors>U</colors>
-        <manacost>2CUU</manacost>
+        <manacost>3UU</manacost>
       </prop>
     </card>
     <card>
@@ -7312,7 +7313,8 @@ Whenever a Pokémon you control evolves, draw a card.</text>
       <name>Sunglasses</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Sunglasses.png" rarity="rare">PJTO</set>
       <tablerow>1</tablerow>
-      <text>Whenever equipped Pokémon attacks, you may pay {1} and discard a card. If you do, draw a card.
+      <text>Equipped Pokémon gets +2/+0.
+Whenever equipped Pokémon attacks, you may pay {1} and discard a card. If you do, draw a card.
 Whenever you discard one or more nonland cards, you may exile one of them from your graveyard. If you do, you may cast it this turn.
 Equip {1}</text>
       <prop>
