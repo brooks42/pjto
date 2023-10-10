@@ -6173,7 +6173,7 @@ Whenever a Pokémon or trainer is dealt damage, its controller sacrifices it.</t
       <set picURL="https://brooks42.github.io/pjto/cards/Kingdra.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve From Seadra {U/R}
-{U}{R}, {T}: Exile the top card of your library. Kingdra deals damage to any target equal to the mana value of the exiled card. If a land card was exiled this way, draw a card.</text>
+{U}{R}, {T}: Exile the top card of your library. When you do, Kingdra deals damage to any target equal to the mana value of the exiled card. If a land card was exiled this way, draw a card.</text>
       <prop>
         <type>Pokémon - Water Dragon</type>
         <maintype>Pokémon</maintype>
