@@ -7137,9 +7137,9 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
       <set picURL="https://brooks42.github.io/pjto/cards/Spikes.png" rarity="uncommon">PJTO</set>
       <tablerow>3</tablerow>
       <text>Choose one —
-• Target player sacrifices an artifact.
-• Target player sacrifices a trainer that was dealt damage this turn.
-• Spikes deals 1 damage to each Pokémon your opponents control.</text>
+• Until your next turn, whenever an opponent taps a land for mana, that land deals 1 damage to its controller.
+• Spikes deals 1 damage to each Pokémon and each trainer your opponents control.
+• Target player sacrifices a trainer that was dealt damage this turn.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
