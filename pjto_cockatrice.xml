@@ -7068,13 +7068,13 @@ Overload {2}{W}{W}, Reveal a white Pokémon card from your hand.</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Sacred%20Fire.png" rarity="mythic">PJTO</set>
       <tablerow>3</tablerow>
       <text>This spell costs {1} less to cast for each card you own in exile.
-Sacred Fire deals 8 damage to each Pokémon and each trainer. If a permanent dealt damage this way would die this turn, exile it instead.</text>
+Exile the top X cards of your library. When you do, Sacred Fire deals damage to any target equal to the highest mana value among cards exiled this way. You may play those cards for as long as they remain exiled.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
-        <cmc>9</cmc>
+        <cmc>2</cmc>
         <colors>R</colors>
-        <manacost>8R</manacost>
+        <manacost>XRR</manacost>
       </prop>
     </card>
     <card>
