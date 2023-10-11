@@ -6811,8 +6811,7 @@ Draw two cards and create a Treasure token.</text>
       <tablerow>3</tablerow>
       <text>Choose one — 
 • Psych up deals 4 damage to target trainer.
-• Permanents you control gain indestructible until end of turn.
-• Up to two target Pokémon gain first strike until end of turn.
+• Pokémon you control gain first strike until end of turn.
 • Destroy target artifact or enchantment.</text>
       <prop>
         <type>Instant</type>
