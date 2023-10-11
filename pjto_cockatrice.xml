@@ -6913,7 +6913,7 @@ Flashback {X}{X}{U}{R}</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Aeroblast.png" rarity="mythic">PJTO</set>
       <tablerow>3</tablerow>
       <text>Multikicker {1}{U}, Put three cards you own in exile on the bottom of your library.
-Choose one, then choose another one for each time Aeroblast was kicked.
+Choose one, then choose another one for each time this spell was kicked.
 • Draw three cards.
 • Put target nonland permanent into its owner's library third from the top.
 • Take an extra turn after this one.</text>
