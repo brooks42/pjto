@@ -6723,6 +6723,22 @@ If another Pokémon you control would die, instead remove all counters from it, 
         <manacost>U</manacost>
       </prop>
     </card>
+	<card>
+      <name>Amnesia</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Amnesia.png" rarity="rare">PJTO</set>
+      <tablerow>3</tablerow>
+      <text>Choose one —
+• Scry 2, then draw a card.
+• Return target Pokémon to its owner’s hand.
+• Destroy target trainer.</text>
+      <prop>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+        <cmc>3</cmc>
+        <colors>UB</colors>
+        <manacost>1UB</manacost>
+      </prop>
+    </card>
     <card>
       <name>Foresight (PJTO)</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Foresight.png" rarity="common">PJTO</set>
@@ -6873,6 +6889,33 @@ Landfall — If you had a land enter the battlefield under your control this tur
         <cmc>4</cmc>
         <colors>GW</colors>
         <manacost>1GGW</manacost>
+      </prop>
+    </card>
+	<card>
+      <name>Take Down</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Take%20Down.png" rarity="uncommon">PJTO</set>
+      <tablerow>3</tablerow>
+      <text>Destroy target blocking Pokémon. Pokémon that were blocked by that Pokémon this combat gain trample until end of turn.</text>
+      <prop>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+        <cmc>2</cmc>
+        <colors>RW</colors>
+        <manacost>RW</manacost>
+      </prop>
+    </card>
+	<card>
+      <name>Thunder Wave</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Thunder%20Wave.png" rarity="uncommon">PJTO</set>
+      <tablerow>3</tablerow>
+      <text>Thunder Wave deals 2 damage divided as you choose among one or two targets.
+Draw a card.</text>
+      <prop>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+        <cmc>3</cmc>
+        <colors>UR</colors>
+        <manacost>1UR</manacost>
       </prop>
     </card>
     <card>
@@ -7063,6 +7106,22 @@ Overload {2}{W}{W}, Reveal a white Pokémon card from your hand.</text>
       </prop>
     </card>
     <card>
+      <name>Rock Smash</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Rock%20Smash.png" rarity="uncommon">PJTO</set>
+      <tablerow>3</tablerow>
+      <text>Put a +1/+1 counter on target Pokémon you control. When you do, choose one —
+• That Pokémon deals damage equal to its power to target trainer.
+• Destroy target artifact.
+• Destroy target enchantment.</text>
+      <prop>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+        <cmc>2</cmc>
+        <colors>RG</colors>
+        <manacost>RG</manacost>
+      </prop>
+    </card>
+    <card>
       <name>Sacred Fire (PJTO)</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Sacred%20Fire.png" rarity="mythic">PJTO</set>
       <tablerow>3</tablerow>
@@ -7158,6 +7217,37 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
         <cmc>1</cmc>
         <colors>R</colors>
         <manacost>R</manacost>
+      </prop>
+    </card>
+    <card>
+      <name>Synthesis</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Synthesis.png" rarity="rare">PJTO</set>
+      <tablerow>3</tablerow>
+      <related>Hoppip Token</related>
+      <text>Draw a card. You may put a land card from your hand onto the battlefield. Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip. Put X +1/+1 counters on it, where X is the number of lands you control.</text>
+      <prop>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+        <cmc>6</cmc>
+        <colors>UG</colors>
+        <manacost>4UG</manacost>
+      </prop>
+    </card>
+    <card>
+      <name>Twineedle</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Twineedle.png" rarity="rare">PJTO</set>
+      <tablerow>3</tablerow>
+      <text>Choose two —
+• Remove two loyalty counters from target trainer.
+• Destroy target non-Pokémon, nonland permanent with mana value 2 or less.
+• Put a -1/-1 counter on target Pokémon.
+• Target opponent loses 2 life and you gain 2 life.</text>
+      <prop>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+        <cmc>2</cmc>
+        <colors>BG</colors>
+        <manacost>BG</manacost>
       </prop>
     </card>
     <card>
@@ -7338,6 +7428,50 @@ Equip {1}</text>
       </prop>
     </card>
     <!-- enchantments -->
+	<card>
+      <name>Call for Family</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Call%20for%20Family.png" rarity="uncommon">PJTO</set>
+      <tablerow>1</tablerow>
+      <related>Hoppip Token</related>
+      <text>Call for Family enters the battlefield with three egg counters on it.
+{1}, {T}, Remove an egg counter from Call for Family: Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.
+{1}{G}{W}, {T}, Remove an egg counter from Call for Family: Populate.</text>
+      <prop>
+        <type>Enchantment</type>
+        <maintype>Enchantment</maintype>
+        <cmc>2</cmc>
+        <colors>GW</colors>
+        <manacost>GW</manacost>
+      </prop>
+    </card>
+	<card>
+      <name>Curse</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Curse.png" rarity="rare">PJTO</set>
+      <tablerow>1</tablerow>
+      <text>Enchant player
+Pokémon enchanted player controls get -1/-1 and attack each combat if able. 
+At the beginning of combat on each of enchanted player's turns, that player may sacrifice a permanent. If they do, Curse phases out.</text>
+      <prop>
+        <type>Enchantment - Aura Curse</type>
+        <maintype>Enchantment</maintype>
+        <cmc>6</cmc>
+        <colors>BR</colors>
+        <manacost>4BR</manacost>
+      </prop>
+    </card>
+	<card>
+      <name>Morning Sun</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Morning%20Sun.png" rarity="uncommon">PJTO</set>
+      <tablerow>1</tablerow>
+      <text>Whenever a player casts a spell, you may pay {W}{B}. If you do, create a tapped Treasure token and you lose 1 life.</text>
+      <prop>
+        <type>Enchantment</type>
+        <maintype>Enchantment</maintype>
+        <cmc>2</cmc>
+        <colors>WB</colors>
+        <manacost>WB</manacost>
+      </prop>
+    </card>
     <card>
       <name>Pay Day</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Pay%20Day.png" rarity="rare">PJTO</set>
@@ -7364,6 +7498,21 @@ At the beginning of your upkeep, if you control ten or more Treasures, you win t
         <cmc>2</cmc>
         <colors>U</colors>
         <manacost>1U</manacost>
+      </prop>
+    </card>
+	<card>
+      <name>Rest</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Rest.png" rarity="uncommon">PJTO</set>
+      <tablerow>1</tablerow>
+      <text>If you would gain life, you gain that much life plus 1 instead.
+At the beginning of each end step, if you gained 4 or more life this turn, draw a card.
+Sacrifice Rest: You gain 4 life.</text>
+      <prop>
+        <type>Enchantment</type>
+        <maintype>Enchantment</maintype>
+        <cmc>2</cmc>
+        <colors>WU</colors>
+        <manacost>WU</manacost>
       </prop>
     </card>
     <card>
