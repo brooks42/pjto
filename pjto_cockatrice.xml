@@ -7543,23 +7543,12 @@ Sacrifice Rest: You gain 4 life.</text>
       </prop>
     </card>
     <card>
-      <name>Battle Tower</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Battle%20Tower.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{R/W}, {T}: Add {R}{R}, {R}{W}, or {W}{W}.</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
       <name>Bell Tower</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Bell%20Tower.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{R/G}, {T}: Add {R}{R}, {R}{G}, or {G}{G}.</text>
+      <text>{T}: Add {G} or {W}. You lose 1 life.
+{1}, {T}, Sacrifice Bell Tower: 
+Draw a card.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -7598,17 +7587,6 @@ Cycling {2}</text>
       <cipt>1</cipt>
       <text>As Burned Tower enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
 {T}: Add {B} or {R}.</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
-      <name>Celadon Mansion</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Celadon%20Mansion.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <text>{T}, Sacrifice Celadon Mansion: Search your library for a basic Forest or basic Plains card, put it onto the battlefield, then shuffle.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -7679,35 +7657,11 @@ Cycling {2}</text>
       </prop>
     </card>
     <card>
-      <name>Daycare Center</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Daycare%20Center.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <text>{T}: Add {G} or {W}. You lose 1 life.
-{1}, {T}, Sacrifice Daycare Center: Draw a card.</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
-      <name>Department Store</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Department%20Store.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <text>{T}: Add {U} or {R}. You lose 1 life.
-{1}, {T}, Sacrifice Daycare Center: Draw a card.</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
       <name>Dragon's Den</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Dragons%20Den.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{U/B}, {T}: Add {U}{U}, {U}{B}, or {B}{B}.</text>
+      <text>As Dragon's Den enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
+{T}: Add {U} or {R}.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -7742,8 +7696,9 @@ Cycling {2}</text>
       <name>Goldenrod City</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Goldenrod%20City.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{U/R}, {T}: Add {U}{U}, {U}{R}, or {R}{R}.</text>
+      <text>{T}: Add {U} or {R}. You lose 1 life.
+{1}, {T}, Sacrifice Goldenrod City: 
+Draw a card.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -7763,48 +7718,10 @@ Cycling {2}</text>
       </prop>
     </card>
     <card>
-      <name>Goldenrod Radio Tower</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Goldenrod%20Radio%20Tower.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{G/U}, {T}: Add {G}{G}, {G}{U}, or {U}{U}.</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
       <name>Goldenrod Tunnel</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Goldenrod%20Tunnel.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
       <text>{T}, Sacrifice Goldenrod Tunnel: Search your library for a basic Plains or basic Swamp card, put it onto the battlefield, then shuffle.</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
-      <name>Herb Shop</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Herb%20Shop.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <cipt>1</cipt>
-      <text>Herb Shop enters the battlefield tapped.
-{T}: Add {B} or {G}.
-Cycling {2}</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
-      <name>House of Memories</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/House%20of%20Memories.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{W/B}, {T}: Add {W}{W}, {W}{B}, or {B}{B}.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -7838,18 +7755,6 @@ Cycling {2}</text>
       </prop>
     </card>
     <card>
-      <name>Ilex Forest Shrine</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Ilex%20Forest%20Shrine.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{B/G}, {T}: Add {B}{B}, {B}{G}, or {G}{G}.</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
       <name>Kimono Dance Theater</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Kimono%20Dance%20Theater.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
@@ -7876,10 +7781,10 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
       </prop>
     </card>
     <card>
-      <name>Magnet Train Station</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Magnet%20Train%20Station.png" rarity="rare">PJTO</set>
+      <name>Magnet Train</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Magnet%20Train.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
-      <text>{T}, Sacrifice Magnet Train Station: Search your library for a basic Mountain or basic Plains card, put it onto the battlefield, then shuffle.</text>
+      <text>{T}, Sacrifice Magnet Train: Search your library for a basic Mountain or basic Plains card, put it onto the battlefield, then shuffle.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -7911,23 +7816,12 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
       </prop>
     </card>
     <card>
-      <name>Mountain Road</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Mountain%20Road.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <text>{T}: Add {B} or {R}. You lose 1 life.
-{1}, {T}, Sacrifice Mountain Road: Draw a card.</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
       <name>Mt. Mortar</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Mt.%20Mortar.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{B/R}, {T}: Add {B}{B}, {B}{R}, or {R}{R}.</text>
+      <text>{T}: Add {B} or {R}. You lose 1 life.
+{1}, {T}, Sacrifice Mt. Mortar:
+Draw a card.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -7950,7 +7844,7 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
       <name>New Bark Town</name>
       <set picURL="https://brooks42.github.io/pjto/cards/New%20Bark%20Town.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
-      <text>{T}, Sacrifice New Bark Town: Search your library for a basic Plains or basic Island card, put it onto the battlefield, then shuffle.</text>
+      <text>{T}, Sacrifice New Bark Town: Search your library for a basic Forest or basic Plains card, put it onto the battlefield, then shuffle.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -7983,21 +7877,7 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
       <name>Pokémon Center</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Pok%C3%A9mon%20Center.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{W/U}, {T}: Add {W}{W}, {W}{U}, or {U}{U}.</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
-      <name>Research Facility</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Research%20Facility.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <cipt>1</cipt>
-      <text>As Research Facility enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
-{T}: Add {U} or {R}.</text>
+      <text>{T}, Sacrifice Pokémon Center: Search your library for a basic Plains or basic Island card, put it onto the battlefield, then shuffle.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -8043,8 +7923,9 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
       <name>Sprout Tower</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Sprout%20Tower.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{G/W}, {T}: Add {G}{G}, {G}{W}, or {W}{W}.</text>
+      <text>Sprout Tower enters the battlefield tapped.
+{T}: Add {B} or {G}.
+Cycling {2}</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
