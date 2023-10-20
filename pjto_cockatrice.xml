@@ -7909,10 +7909,10 @@ Draw a card.</text>
       </prop>
     </card>
     <card>
-      <name>Souvenir Shop</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Souvenir%20Shop.png" rarity="rare">PJTO</set>
+      <name>Team Rocket HQ</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Team%20Rocket%20HQ.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
-      <text>{T}, Sacrifice Souvenir Shop: Search your library for a basic Swamp or basic Mountain card, put it onto the battlefield, then shuffle.</text>
+      <text>{T}, Sacrifice Team Rocket HQ: Search your library for a basic Swamp or basic Mountain card, put it onto the battlefield, then shuffle.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
