@@ -6,7 +6,7 @@ do
   convert "./$filename.png" -gravity North -chop 0x976 "./$filename.png"
 done
 
-#Run this in folder with hires art, a subfolder named cropped with all crops from above, and an empty subfolder named composite to hold the result.
+#Run this in folder with hires cards, a subfolder named cropped with all crops from above, and an empty subfolder named composite to hold the result.
 for i in *.png
 do
   filename="$(basename -- "$i" .png)"
