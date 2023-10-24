@@ -5057,7 +5057,7 @@ Whenever Feraligatr enters the battlefield or evolves, draw X cards, where X is 
       <set picURL="https://brooks42.github.io/pjto/cards/Sentret.png" rarity="common">PJTO</set>
       <tablerow>2</tablerow>
       <text>Vigilance
-Whenever one or more Pokémon attack you or a trainer you control, Pokémon you control get +0/+1 until end of turn.</text>
+Whenever a Pokémon enters the battlefield under your control, you gain 1 life.</text>
       <prop>
         <type>Pokémon - Normal</type>
         <maintype>Pokémon</maintype>
@@ -6173,7 +6173,7 @@ Whenever a Pokémon or trainer is dealt damage, its controller sacrifices it.</t
       <set picURL="https://brooks42.github.io/pjto/cards/Kingdra.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve From Seadra {U/R}
-{U}{R}, {T}: Exile the top card of your library. Kingdra deals damage to any target equal to the mana value of the exiled card. If a land card was exiled this way, draw a card.</text>
+{U}{R}, {T}: Exile the top card of your library. When you do, Kingdra deals damage to any target equal to the mana value of the exiled card. If a land card was exiled this way, draw a card.</text>
       <prop>
         <type>Pokémon - Water Dragon</type>
         <maintype>Pokémon</maintype>
@@ -6723,6 +6723,22 @@ If another Pokémon you control would die, instead remove all counters from it, 
         <manacost>U</manacost>
       </prop>
     </card>
+	<card>
+      <name>Amnesia</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Amnesia.png" rarity="rare">PJTO</set>
+      <tablerow>3</tablerow>
+      <text>Choose one —
+• Scry 2, then draw a card.
+• Return target Pokémon to its owner’s hand.
+• Destroy target trainer.</text>
+      <prop>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+        <cmc>3</cmc>
+        <colors>UB</colors>
+        <manacost>1UB</manacost>
+      </prop>
+    </card>
     <card>
       <name>Foresight (PJTO)</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Foresight.png" rarity="common">PJTO</set>
@@ -6811,8 +6827,7 @@ Draw two cards and create a Treasure token.</text>
       <tablerow>3</tablerow>
       <text>Choose one — 
 • Psych up deals 4 damage to target trainer.
-• Permanents you control gain indestructible until end of turn.
-• Up to two target Pokémon gain first strike until end of turn.
+• Pokémon you control gain first strike until end of turn.
 • Destroy target artifact or enchantment.</text>
       <prop>
         <type>Instant</type>
@@ -6876,6 +6891,33 @@ Landfall — If you had a land enter the battlefield under your control this tur
         <manacost>1GGW</manacost>
       </prop>
     </card>
+	<card>
+      <name>Take Down</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Take%20Down.png" rarity="uncommon">PJTO</set>
+      <tablerow>3</tablerow>
+      <text>Destroy target blocking Pokémon. Pokémon that were blocked by that Pokémon this combat gain trample until end of turn.</text>
+      <prop>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+        <cmc>2</cmc>
+        <colors>RW</colors>
+        <manacost>RW</manacost>
+      </prop>
+    </card>
+	<card>
+      <name>Thunder Wave</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Thunder%20Wave.png" rarity="uncommon">PJTO</set>
+      <tablerow>3</tablerow>
+      <text>Thunder Wave deals 2 damage divided as you choose among one or two targets.
+Draw a card.</text>
+      <prop>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+        <cmc>3</cmc>
+        <colors>UR</colors>
+        <manacost>1UR</manacost>
+      </prop>
+    </card>
     <card>
       <name>Whirlpool</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Whirlpool.png" rarity="rare">PJTO</set>
@@ -6897,14 +6939,14 @@ Landfall — If you had a land enter the battlefield under your control this tur
       <set picURL="https://brooks42.github.io/pjto/cards/Zap%20Cannon.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
       <text>This spell costs {1} less to cast for each card you own in exile.
-Choose a Pokémon you don't control at random. Zap Cannon deals X damage to that Pokémon. If excess damage is dealt this way, draw a card.
-Flashback {X}{U}{R}</text>
+Choose target Pokémon you don't control at random. Zap Cannon deals X damage to that Pokémon. If excess damage is dealt this way, draw a card.
+Flashback {X}{X}{U}{R}</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
         <cmc>2</cmc>
         <colors>UR</colors>
-        <manacost>UR</manacost>
+        <manacost>XUR</manacost>
       </prop>
     </card>
     <!-- sorceries -->
@@ -6913,7 +6955,7 @@ Flashback {X}{U}{R}</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Aeroblast.png" rarity="mythic">PJTO</set>
       <tablerow>3</tablerow>
       <text>Multikicker {1}{U}, Put three cards you own in exile on the bottom of your library.
-Choose one, then choose another one for each time Aeroblast was kicked.
+Choose one, then choose another one for each time this spell was kicked.
 • Draw three cards.
 • Put target nonland permanent into its owner's library third from the top.
 • Take an extra turn after this one.</text>
@@ -7064,17 +7106,33 @@ Overload {2}{W}{W}, Reveal a white Pokémon card from your hand.</text>
       </prop>
     </card>
     <card>
+      <name>Rock Smash</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Rock%20Smash.png" rarity="uncommon">PJTO</set>
+      <tablerow>3</tablerow>
+      <text>Put a +1/+1 counter on target Pokémon you control. When you do, choose one —
+• That Pokémon deals damage equal to its power to target trainer.
+• Destroy target artifact.
+• Destroy target enchantment.</text>
+      <prop>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+        <cmc>2</cmc>
+        <colors>RG</colors>
+        <manacost>RG</manacost>
+      </prop>
+    </card>
+    <card>
       <name>Sacred Fire (PJTO)</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Sacred%20Fire.png" rarity="mythic">PJTO</set>
       <tablerow>3</tablerow>
       <text>This spell costs {1} less to cast for each card you own in exile.
-Sacred Fire deals 8 damage to each Pokémon and each trainer. If a permanent dealt damage this way would die this turn, exile it instead.</text>
+Exile the top X cards of your library. When you do, Sacred Fire deals damage to any target equal to the highest mana value among cards exiled this way. You may play those cards for as long as they remain exiled.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
-        <cmc>9</cmc>
+        <cmc>2</cmc>
         <colors>R</colors>
-        <manacost>8R</manacost>
+        <manacost>XRR</manacost>
       </prop>
     </card>
     <card>
@@ -7137,9 +7195,9 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
       <set picURL="https://brooks42.github.io/pjto/cards/Spikes.png" rarity="uncommon">PJTO</set>
       <tablerow>3</tablerow>
       <text>Choose one —
-• Target player sacrifices an artifact.
-• Target player sacrifices a trainer that was dealt damage this turn.
-• Spikes deals 1 damage to each Pokémon your opponents control.</text>
+• Until your next turn, whenever an opponent taps a land for mana, that land deals 1 damage to its controller.
+• Spikes deals 1 damage to each Pokémon and each trainer your opponents control.
+• Target player sacrifices a trainer that was dealt damage this turn.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
@@ -7159,6 +7217,37 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
         <cmc>1</cmc>
         <colors>R</colors>
         <manacost>R</manacost>
+      </prop>
+    </card>
+    <card>
+      <name>Synthesis</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Synthesis.png" rarity="rare">PJTO</set>
+      <tablerow>3</tablerow>
+      <related>Hoppip Token</related>
+      <text>Draw a card. You may put a land card from your hand onto the battlefield. Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip. Put X +1/+1 counters on it, where X is the number of lands you control.</text>
+      <prop>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+        <cmc>6</cmc>
+        <colors>UG</colors>
+        <manacost>4UG</manacost>
+      </prop>
+    </card>
+    <card>
+      <name>Twineedle</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Twineedle.png" rarity="rare">PJTO</set>
+      <tablerow>3</tablerow>
+      <text>Choose two —
+• Remove two loyalty counters from target trainer.
+• Destroy target non-Pokémon, nonland permanent with mana value 2 or less.
+• Put a -1/-1 counter on target Pokémon.
+• Target opponent loses 2 life and you gain 2 life.</text>
+      <prop>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+        <cmc>2</cmc>
+        <colors>BG</colors>
+        <manacost>BG</manacost>
       </prop>
     </card>
     <card>
@@ -7339,6 +7428,50 @@ Equip {1}</text>
       </prop>
     </card>
     <!-- enchantments -->
+	<card>
+      <name>Call for Family</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Call%20for%20Family.png" rarity="uncommon">PJTO</set>
+      <tablerow>1</tablerow>
+      <related>Hoppip Token</related>
+      <text>Call for Family enters the battlefield with three egg counters on it.
+{1}, {T}, Remove an egg counter from Call for Family: Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.
+{1}{G}{W}, {T}, Remove an egg counter from Call for Family: Populate.</text>
+      <prop>
+        <type>Enchantment</type>
+        <maintype>Enchantment</maintype>
+        <cmc>2</cmc>
+        <colors>GW</colors>
+        <manacost>GW</manacost>
+      </prop>
+    </card>
+	<card>
+      <name>Curse</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Curse.png" rarity="rare">PJTO</set>
+      <tablerow>1</tablerow>
+      <text>Enchant player
+Pokémon enchanted player controls get -1/-1 and attack each combat if able. 
+At the beginning of combat on each of enchanted player's turns, that player may sacrifice a permanent. If they do, Curse phases out.</text>
+      <prop>
+        <type>Enchantment - Aura Curse</type>
+        <maintype>Enchantment</maintype>
+        <cmc>6</cmc>
+        <colors>BR</colors>
+        <manacost>4BR</manacost>
+      </prop>
+    </card>
+	<card>
+      <name>Morning Sun</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Morning%20Sun.png" rarity="uncommon">PJTO</set>
+      <tablerow>1</tablerow>
+      <text>Whenever a player casts a spell, you may pay {W}{B}. If you do, create a tapped Treasure token and you lose 1 life.</text>
+      <prop>
+        <type>Enchantment</type>
+        <maintype>Enchantment</maintype>
+        <cmc>2</cmc>
+        <colors>WB</colors>
+        <manacost>WB</manacost>
+      </prop>
+    </card>
     <card>
       <name>Pay Day</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Pay%20Day.png" rarity="rare">PJTO</set>
@@ -7365,6 +7498,21 @@ At the beginning of your upkeep, if you control ten or more Treasures, you win t
         <cmc>2</cmc>
         <colors>U</colors>
         <manacost>1U</manacost>
+      </prop>
+    </card>
+	<card>
+      <name>Rest</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Rest.png" rarity="uncommon">PJTO</set>
+      <tablerow>1</tablerow>
+      <text>If you would gain life, you gain that much life plus 1 instead.
+At the beginning of each end step, if you gained 4 or more life this turn, draw a card.
+Sacrifice Rest: You gain 4 life.</text>
+      <prop>
+        <type>Enchantment</type>
+        <maintype>Enchantment</maintype>
+        <cmc>2</cmc>
+        <colors>WU</colors>
+        <manacost>WU</manacost>
       </prop>
     </card>
     <card>
@@ -7395,23 +7543,12 @@ At the beginning of your upkeep, if you control ten or more Treasures, you win t
       </prop>
     </card>
     <card>
-      <name>Battle Tower</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Battle%20Tower.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{R/W}, {T}: Add {R}{R}, {R}{W}, or {W}{W}.</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
       <name>Bell Tower</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Bell%20Tower.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{R/G}, {T}: Add {R}{R}, {R}{G}, or {G}{G}.</text>
+      <text>{T}: Add {G} or {W}. You lose 1 life.
+{1}, {T}, Sacrifice Bell Tower: 
+Draw a card.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -7450,17 +7587,6 @@ Cycling {2}</text>
       <cipt>1</cipt>
       <text>As Burned Tower enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
 {T}: Add {B} or {R}.</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
-      <name>Celadon Mansion</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Celadon%20Mansion.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <text>{T}, Sacrifice Celadon Mansion: Search your library for a basic Forest or basic Plains card, put it onto the battlefield, then shuffle.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -7531,35 +7657,11 @@ Cycling {2}</text>
       </prop>
     </card>
     <card>
-      <name>Daycare Center</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Daycare%20Center.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <text>{T}: Add {G} or {W}. You lose 1 life.
-{1}, {T}, Sacrifice Daycare Center: Draw a card.</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
-      <name>Department Store</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Department%20Store.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <text>{T}: Add {U} or {R}. You lose 1 life.
-{1}, {T}, Sacrifice Daycare Center: Draw a card.</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
       <name>Dragon's Den</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Dragons%20Den.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{U/B}, {T}: Add {U}{U}, {U}{B}, or {B}{B}.</text>
+      <text>As Dragon's Den enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
+{T}: Add {U} or {R}.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -7594,8 +7696,9 @@ Cycling {2}</text>
       <name>Goldenrod City</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Goldenrod%20City.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{U/R}, {T}: Add {U}{U}, {U}{R}, or {R}{R}.</text>
+      <text>{T}: Add {U} or {R}. You lose 1 life.
+{1}, {T}, Sacrifice Goldenrod City: 
+Draw a card.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -7615,48 +7718,10 @@ Cycling {2}</text>
       </prop>
     </card>
     <card>
-      <name>Goldenrod Radio Tower</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Goldenrod%20Radio%20Tower.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{G/U}, {T}: Add {G}{G}, {G}{U}, or {U}{U}.</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
       <name>Goldenrod Tunnel</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Goldenrod%20Tunnel.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
       <text>{T}, Sacrifice Goldenrod Tunnel: Search your library for a basic Plains or basic Swamp card, put it onto the battlefield, then shuffle.</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
-      <name>Herb Shop</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Herb%20Shop.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <cipt>1</cipt>
-      <text>Herb Shop enters the battlefield tapped.
-{T}: Add {B} or {G}.
-Cycling {2}</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
-      <name>House of Memories</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/House%20of%20Memories.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{W/B}, {T}: Add {W}{W}, {W}{B}, or {B}{B}.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -7690,18 +7755,6 @@ Cycling {2}</text>
       </prop>
     </card>
     <card>
-      <name>Ilex Forest Shrine</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Ilex%20Forest%20Shrine.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{B/G}, {T}: Add {B}{B}, {B}{G}, or {G}{G}.</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
       <name>Kimono Dance Theater</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Kimono%20Dance%20Theater.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
@@ -7728,10 +7781,10 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
       </prop>
     </card>
     <card>
-      <name>Magnet Train Station</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Magnet%20Train%20Station.png" rarity="rare">PJTO</set>
+      <name>Magnet Train</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Magnet%20Train.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
-      <text>{T}, Sacrifice Magnet Train Station: Search your library for a basic Mountain or basic Plains card, put it onto the battlefield, then shuffle.</text>
+      <text>{T}, Sacrifice Magnet Train: Search your library for a basic Mountain or basic Plains card, put it onto the battlefield, then shuffle.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -7763,23 +7816,12 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
       </prop>
     </card>
     <card>
-      <name>Mountain Road</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Mountain%20Road.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <text>{T}: Add {B} or {R}. You lose 1 life.
-{1}, {T}, Sacrifice Mountain Road: Draw a card.</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
       <name>Mt. Mortar</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Mt.%20Mortar.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{B/R}, {T}: Add {B}{B}, {B}{R}, or {R}{R}.</text>
+      <text>{T}: Add {B} or {R}. You lose 1 life.
+{1}, {T}, Sacrifice Mt. Mortar:
+Draw a card.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -7802,7 +7844,7 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
       <name>New Bark Town</name>
       <set picURL="https://brooks42.github.io/pjto/cards/New%20Bark%20Town.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
-      <text>{T}, Sacrifice New Bark Town: Search your library for a basic Plains or basic Island card, put it onto the battlefield, then shuffle.</text>
+      <text>{T}, Sacrifice New Bark Town: Search your library for a basic Forest or basic Plains card, put it onto the battlefield, then shuffle.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -7835,21 +7877,7 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
       <name>Pokémon Center</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Pok%C3%A9mon%20Center.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{W/U}, {T}: Add {W}{W}, {W}{U}, or {U}{U}.</text>
-      <prop>
-        <type>Land</type>
-        <maintype>Land</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
-      <name>Research Facility</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Research%20Facility.png" rarity="rare">PJTO</set>
-      <tablerow>0</tablerow>
-      <cipt>1</cipt>
-      <text>As Research Facility enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
-{T}: Add {U} or {R}.</text>
+      <text>{T}, Sacrifice Pokémon Center: Search your library for a basic Plains or basic Island card, put it onto the battlefield, then shuffle.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -7881,10 +7909,10 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
       </prop>
     </card>
     <card>
-      <name>Souvenir Shop</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Souvenir%20Shop.png" rarity="rare">PJTO</set>
+      <name>Team Rocket HQ</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Team%20Rocket%20HQ.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
-      <text>{T}, Sacrifice Souvenir Shop: Search your library for a basic Swamp or basic Mountain card, put it onto the battlefield, then shuffle.</text>
+      <text>{T}, Sacrifice Team Rocket HQ: Search your library for a basic Swamp or basic Mountain card, put it onto the battlefield, then shuffle.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -7895,8 +7923,9 @@ When Lake of Rage has no peace counters on it, sacrifice it. If you do, create R
       <name>Sprout Tower</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Sprout%20Tower.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{G/W}, {T}: Add {G}{G}, {G}{W}, or {W}{W}.</text>
+      <text>Sprout Tower enters the battlefield tapped.
+{T}: Add {B} or {G}.
+Cycling {2}</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
