@@ -5213,7 +5213,7 @@ Pokémon you control can't be blocked by Pokémon with -1/-1 counters on them.</
       <set picURL="https://brooks42.github.io/pjto/cards/Lanturn.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve From Chinchou {U/R}
-Whenever you exile a card from your hand, you may cast it until your next turn. If Lanturn is evolved, you may cast that spell as though it had flash.</text>
+Whenever you exile a non-Pokémon card from your hand, you may cast it until your next turn. If Lanturn is evolved, you may cast that spell as though it had flash.</text>
       <prop>
         <type>Pokémon - Water Electric</type>
         <maintype>Pokémon</maintype>
@@ -5460,7 +5460,7 @@ Each instant and sorcery card in your graveyard has flashback. The flashback cos
       <name>Politoed</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Politoed.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Evolve From Poliwhirl {G}{U}
+      <text>Evolve From Poliwhirl {2}{G}{U}
 Landfall — Whenever a land enters the battlefield under your control, draw a card.
 Whenever Politoed evolves, search your library for up to two land cards, put them onto the battlefield tapped, then shuffle.</text>
       <prop>
@@ -5841,7 +5841,7 @@ Whenever Steelix deals combat damage to a player, exile the top card of your lib
       <set picURL="https://brooks42.github.io/pjto/cards/Snubbull.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Snubbull gets +1/+0 for each Treasure you control.
-{3}{W}: Reveal the top card of your library. If it's a Pokémon card and mana from a Treasure was spent to activate this ability, you may cast that card. Otherwise, put it into your hand.</text>
+{3}{W}: Look at the top X cards of your library, where X is the number of Treasures you control. You may reveal a Pokémon card from among them and put it into your hand. If you don't, create a Treasure token.</text>
       <prop>
         <type>Pokémon - Fairy</type>
         <maintype>Pokémon</maintype>
@@ -6374,7 +6374,7 @@ Whenever Blissey enters the battlefield or evolves, exile up to one target encha
       <name>Raikou</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Raikou.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Roam — When you cast this spell, if it's the first time you've cast a spell named Raikou this game, at the beginning of the next end step, shuffle it into its owner's library and draw a card.
+      <text>Roam — When you cast this spell, if it's the first time you’ve cast a spell named Raikou this game, Raikou deals 3 damage to target player or trainer. Raikou gains "At the beginning of the end step, shuffle Raikou into its owner's library."
 Pokémon you control have first strike.</text>
       <prop>
         <type>Legendary Pokémon - Electric</type>
@@ -6389,7 +6389,7 @@ Pokémon you control have first strike.</text>
       <name>Entei</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Entei.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Roam — When you cast this spell, if it's the first time you've cast a spell named Entei this game, at the beginning of the next end step, shuffle it into its owner's library and draw a card.
+      <text>Roam — When you cast this spell, if it's the first time you've cast a spell named Entei this game, target Pokémon you control fights target Pokémon you don't control. Entei gains "At the beginning of the end step, shuffle Entei into its owner's library."
 Pokémon you control have trample.</text>
       <prop>
         <type>Legendary Pokémon - Fire</type>
@@ -6404,8 +6404,8 @@ Pokémon you control have trample.</text>
       <name>Suicune</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Suicune.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Roam — When you cast this spell, if it's the first time you've cast a spell named Suicune this game, at the beginning of the next end step, shuffle it into its owner's library and draw a card.
-Pokémon you control have ward {2}.</text>
+      <text>Roam — When you cast this spell, if it’s the first time you've cast a spell named Suicune this game, return up to one target nonland permanent to its owner's hand. Suicune gains "At the beginning of the end step, shuffle Suicune into its owner's library."
+Pokémon you control have ward 2.</text>
       <prop>
         <type>Legendary Pokémon - Water</type>
         <maintype>Pokémon</maintype>
@@ -7388,8 +7388,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
       <name>Sun Stone</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Sun%20Stone.png" rarity="rare">PJTO</set>
       <tablerow>1</tablerow>
-      <text>You may evolve Pokémon any time you could cast an instant.
-{T}: Add three mana in any combination of colors. Spend this mana only to evolve Pokémon.
+      <text>{T}: Add three mana in any combination of colors. Spend this mana only to evolve Pokémon.
 Whenever a Pokémon you control evolves, draw a card.</text>
       <prop>
         <type>Artifact</type>
