@@ -25,6 +25,25 @@ def main():
     Eevee 
     """
 
+    
+#     <card>
+#       <name>Bulbasaur</name>
+#       <set picURL="https://brooks42.github.io/pkto/cards/Bulbasaur.png" rarity="common">PKTO</set>
+#       <tablerow>2</tablerow>
+#       <related attach="transform">Ivysaur (DFC)</related>
+#       <text>{T}: Add {G}.
+# {1}{G}: Evolve</text>
+#       <prop>
+#         <type>Pokémon - Grass Poison</type>
+#         <maintype>Pokémon</maintype>
+#         <cmc>1</cmc>
+#         <side>front</side>
+#         <colors>G</colors>
+#         <manacost>G</manacost>
+#         <pt>1/1</pt>
+#       </prop>
+#     </card>
+
     try:
         # sys.argv[1] is expected to be -f for bash reasons
         filename = sys.argv[2]
@@ -41,9 +60,6 @@ def main():
 
             print("Going through all of the cards: ", len(all_cards))
 
-            all_card_types = dict()
-            all_card_colors = dict()
-
             for index in range(len(all_cards)):
 
                 # grab the info and transform this into the Card instance format above
@@ -53,7 +69,6 @@ def main():
                     if name_tag.name == 'name':
                         card_name = name_tag.string
                         card_type = ''
-                        card_color = 'colorless'
 
                         if card_name == 'Mewtwo, Redeemed':
                             continue
@@ -65,19 +80,19 @@ def main():
                         basicland = False
                         pokemon = False
                         emblemOrToken = False
-                        for type_tag in cockatrice_card:
-                            if type_tag.name == 'type':
-                                card_type = type_tag.string
+                        for prop_tag in cockatrice_card:
+                            if prop_tag.name == 'prop':
+                                for type_tag in prop_tag:
+                                    if type_tag.name == 'type':
+                                        card_type = type_tag.string
 
-                                if 'Basic Land' in card_type:
-                                    basicland = True
-                                if 'Pokémon' in card_type:
-                                    pokemon = True
-                                if 'Emblem' in card_type or 'Token' in card_type:
-                                    emblemOrToken = True
-
-                                all_card_types[card_type] = all_card_types.get(
-                                    card_type, 0) + 1
+                                        print(f'{card_name}: {card_type}')
+                                        if 'Basic Land' in card_type:
+                                            basicland = True
+                                        if 'Pokémon' in card_type:
+                                            pokemon = True
+                                        if 'Emblem' in card_type or 'Token' in card_type:
+                                            emblemOrToken = True
 
                         if basicland:
                             continue
@@ -87,37 +102,20 @@ def main():
                             if set_tag.name == 'set':
                                 card_name = f'{card_name} ({set_tag.string})'
 
-                        if not emblemOrToken:
-                            for color_tag in cockatrice_card:
-                                if color_tag.name == 'color':
-                                    if color_tag.string == "null" or color_tag.string == None:
-                                        card_color = 'colorless'
-                                    else:
-                                        card_color = color_tag.string
-
                         # only append non-token rarities, and append twice if rarity is common
                         for rarity_tag in cockatrice_card:
                             if rarity_tag.name == 'set':
 
-                                if rarity_tag.string == 'PKTO':
-                                    continue
-
                                 if rarity_tag['rarity'] == 'token':
                                     continue
 
-                                cube_list.append(card_name)
-                                all_card_colors[card_color] = all_card_colors.get(
-                                    card_color, 0) + 1
-
-                                if rarity_tag['rarity'] == 'common' and pokemon:
+                                if not emblemOrToken:
                                     cube_list.append(card_name)
-                                    all_card_colors[card_color] = all_card_colors.get(
-                                        card_color, 0) + 1
+
+                                    if rarity_tag['rarity'] == 'common' and pokemon:
+                                        cube_list.append(card_name)
 
         cube_list.sort()
-
-        print(f'Writing {len(all_card_colors)} cards to cube file...')
-        print(f'{json.dumps(all_card_colors)}')
 
         print(f'Writing {len(cube_list)} cards to cube file...')
         with open('pjto_cube.txt', 'w') as f:
