@@ -6374,7 +6374,8 @@ Whenever Blissey enters the battlefield or evolves, exile up to one target encha
       <name>Raikou</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Raikou.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Roam — When you cast this spell, if it's the first time you’ve cast a spell named Raikou this game, Raikou deals 3 damage to target player or trainer. Raikou gains "At the beginning of the end step, shuffle Raikou into its owner's library."
+      <text>Roam — When you cast this spell, if it's the first time you've cast a spell named Raikou this game, it gains "At the beginning of the end step, shuffle Raikou into its owner's library."
+When Raikou enters the battlefield, it deals 3 damage to target player or trainer.
 Pokémon you control have first strike.</text>
       <prop>
         <type>Legendary Pokémon - Electric</type>
@@ -6389,7 +6390,8 @@ Pokémon you control have first strike.</text>
       <name>Entei</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Entei.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Roam — When you cast this spell, if it's the first time you've cast a spell named Entei this game, target Pokémon you control fights target Pokémon you don't control. Entei gains "At the beginning of the end step, shuffle Entei into its owner's library."
+      <text>Roam — When you cast this spell, if it's the first time you've cast a spell named Entei this game, it gains "At the beginning of the end step, shuffle Entei into its owner's library."
+When Entei enters the battlefield, another target Pokémon you control fights target Pokémon you don't control.
 Pokémon you control have trample.</text>
       <prop>
         <type>Legendary Pokémon - Fire</type>
@@ -6404,8 +6406,9 @@ Pokémon you control have trample.</text>
       <name>Suicune</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Suicune.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Roam — When you cast this spell, if it’s the first time you've cast a spell named Suicune this game, return up to one target nonland permanent to its owner's hand. Suicune gains "At the beginning of the end step, shuffle Suicune into its owner's library."
-Pokémon you control have ward 2.</text>
+      <text>Roam — When you cast this spell, if it's the first time you've cast a spell named Suicune this game, it gains "At the beginning of the end step, shuffle Suicune into its owner's library."
+When Suicune enters the battlefield, another target permanent phases out.
+Pokémon you control have ward {2}.</text>
       <prop>
         <type>Legendary Pokémon - Water</type>
         <maintype>Pokémon</maintype>
