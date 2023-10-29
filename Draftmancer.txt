@@ -4777,7 +4777,7 @@
     },
     {
         "name":  "Lugia",
-        "mana_cost":  "8",
+        "mana_cost":  "9",
         "type":  "Legendary Creature",
         "subtypes":  [
                          "Psychic",
@@ -4967,6 +4967,15 @@
                        }
     },
     {
+        "name":  "Amnesia",
+        "mana_cost":  "1UB",
+        "type":  "Instant",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Amnesia.png"
+                       }
+    },
+    {
         "name":  "Foresight PJTO",
         "mana_cost":  "1UU",
         "type":  "Instant",
@@ -5066,6 +5075,24 @@
                        }
     },
     {
+        "name":  "Take Down",
+        "mana_cost":  "RW",
+        "type":  "Instant",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Take%20Down.png"
+                       }
+    },
+    {
+        "name":  "Thunder Wave",
+        "mana_cost":  "1UR",
+        "type":  "Instant",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Thunder%20Wave.png"
+                       }
+    },
+    {
         "name":  "Whirlpool",
         "mana_cost":  "3UU",
         "type":  "Instant",
@@ -5076,7 +5103,7 @@
     },
     {
         "name":  "Zap Cannon",
-        "mana_cost":  "UR",
+        "mana_cost":  "XUR",
         "type":  "Instant",
         "rarity":  "rare",
         "image_uris":  {
@@ -5085,7 +5112,7 @@
     },
     {
         "name":  "Aeroblast",
-        "mana_cost":  "2CUU",
+        "mana_cost":  "3UU",
         "type":  "Sorcery",
         "rarity":  "mythic",
         "image_uris":  {
@@ -5183,8 +5210,17 @@
                        }
     },
     {
+        "name":  "Rock Smash",
+        "mana_cost":  "RG",
+        "type":  "Sorcery",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Rock%20Smash.png"
+                       }
+    },
+    {
         "name":  "Sacred Fire PJTO",
-        "mana_cost":  "8R",
+        "mana_cost":  "XRR",
         "type":  "Sorcery",
         "rarity":  "mythic",
         "image_uris":  {
@@ -5243,6 +5279,24 @@
         "rarity":  "uncommon",
         "image_uris":  {
                            "en":  "https://brooks42.github.io/pjto/cards/Surrender%20Now.png"
+                       }
+    },
+    {
+        "name":  "Synthesis",
+        "mana_cost":  "4UG",
+        "type":  "Sorcery",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Synthesis.png"
+                       }
+    },
+    {
+        "name":  "Twineedle",
+        "mana_cost":  "BG",
+        "type":  "Sorcery",
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Twineedle.png"
                        }
     },
     {
@@ -5367,6 +5421,37 @@
                        }
     },
     {
+        "name":  "Call for Family",
+        "mana_cost":  "GW",
+        "type":  "Enchantment",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Call%20for%20Family.png"
+                       }
+    },
+    {
+        "name":  "Curse",
+        "mana_cost":  "4BR",
+        "type":  "Enchantment",
+        "subtypes":  [
+                         "Aura",
+                         "Curse"
+                     ],
+        "rarity":  "rare",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Curse.png"
+                       }
+    },
+    {
+        "name":  "Morning Sun",
+        "mana_cost":  "WB",
+        "type":  "Enchantment",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Morning%20Sun.png"
+                       }
+    },
+    {
         "name":  "Pay Day",
         "mana_cost":  "3WB",
         "type":  "Enchantment",
@@ -5385,6 +5470,15 @@
                        }
     },
     {
+        "name":  "Rest",
+        "mana_cost":  "WU",
+        "type":  "Enchantment",
+        "rarity":  "uncommon",
+        "image_uris":  {
+                           "en":  "https://brooks42.github.io/pjto/cards/Rest.png"
+                       }
+    },
+    {
         "name":  "Sunny Day",
         "mana_cost":  "WR",
         "type":  "Enchantment",
@@ -5400,15 +5494,6 @@
         "rarity":  "rare",
         "image_uris":  {
                            "en":  "https://brooks42.github.io/pjto/cards/Azalea%20Town.png"
-                       }
-    },
-    {
-        "name":  "Battle Tower",
-        "mana_cost":  "",
-        "type":  "Land",
-        "rarity":  "rare",
-        "image_uris":  {
-                           "en":  "https://brooks42.github.io/pjto/cards/Battle%20Tower.png"
                        }
     },
     {
@@ -5445,15 +5530,6 @@
         "rarity":  "rare",
         "image_uris":  {
                            "en":  "https://brooks42.github.io/pjto/cards/Burned%20Tower.png"
-                       }
-    },
-    {
-        "name":  "Celadon Mansion",
-        "mana_cost":  "",
-        "type":  "Land",
-        "rarity":  "rare",
-        "image_uris":  {
-                           "en":  "https://brooks42.github.io/pjto/cards/Celadon%20Mansion.png"
                        }
     },
     {
@@ -5502,24 +5578,6 @@
                        }
     },
     {
-        "name":  "Daycare Center",
-        "mana_cost":  "",
-        "type":  "Land",
-        "rarity":  "rare",
-        "image_uris":  {
-                           "en":  "https://brooks42.github.io/pjto/cards/Daycare%20Center.png"
-                       }
-    },
-    {
-        "name":  "Department Store",
-        "mana_cost":  "",
-        "type":  "Land",
-        "rarity":  "rare",
-        "image_uris":  {
-                           "en":  "https://brooks42.github.io/pjto/cards/Department%20Store.png"
-                       }
-    },
-    {
         "name":  "Dragon's Den",
         "mana_cost":  "",
         "type":  "Land",
@@ -5565,39 +5623,12 @@
                        }
     },
     {
-        "name":  "Goldenrod Radio Tower",
-        "mana_cost":  "",
-        "type":  "Land",
-        "rarity":  "rare",
-        "image_uris":  {
-                           "en":  "https://brooks42.github.io/pjto/cards/Goldenrod%20Radio%20Tower.png"
-                       }
-    },
-    {
         "name":  "Goldenrod Tunnel",
         "mana_cost":  "",
         "type":  "Land",
         "rarity":  "rare",
         "image_uris":  {
                            "en":  "https://brooks42.github.io/pjto/cards/Goldenrod%20Tunnel.png"
-                       }
-    },
-    {
-        "name":  "Herb Shop",
-        "mana_cost":  "",
-        "type":  "Land",
-        "rarity":  "rare",
-        "image_uris":  {
-                           "en":  "https://brooks42.github.io/pjto/cards/Herb%20Shop.png"
-                       }
-    },
-    {
-        "name":  "House of Memories",
-        "mana_cost":  "",
-        "type":  "Land",
-        "rarity":  "rare",
-        "image_uris":  {
-                           "en":  "https://brooks42.github.io/pjto/cards/House%20of%20Memories.png"
                        }
     },
     {
@@ -5619,15 +5650,6 @@
                        }
     },
     {
-        "name":  "Ilex Forest Shrine",
-        "mana_cost":  "",
-        "type":  "Land",
-        "rarity":  "rare",
-        "image_uris":  {
-                           "en":  "https://brooks42.github.io/pjto/cards/Ilex%20Forest%20Shrine.png"
-                       }
-    },
-    {
         "name":  "Kimono Dance Theater",
         "mana_cost":  "",
         "type":  "Land",
@@ -5646,12 +5668,12 @@
                        }
     },
     {
-        "name":  "Magnet Train Station",
+        "name":  "Magnet Train",
         "mana_cost":  "",
         "type":  "Land",
         "rarity":  "rare",
         "image_uris":  {
-                           "en":  "https://brooks42.github.io/pjto/cards/Magnet%20Train%20Station.png"
+                           "en":  "https://brooks42.github.io/pjto/cards/Magnet%20Train.png"
                        }
     },
     {
@@ -5670,15 +5692,6 @@
         "rarity":  "rare",
         "image_uris":  {
                            "en":  "https://brooks42.github.io/pjto/cards/Moomoo%20Farm.png"
-                       }
-    },
-    {
-        "name":  "Mountain Road",
-        "mana_cost":  "",
-        "type":  "Land",
-        "rarity":  "rare",
-        "image_uris":  {
-                           "en":  "https://brooks42.github.io/pjto/cards/Mountain%20Road.png"
                        }
     },
     {
@@ -5736,15 +5749,6 @@
                        }
     },
     {
-        "name":  "Research Facility",
-        "mana_cost":  "",
-        "type":  "Land",
-        "rarity":  "rare",
-        "image_uris":  {
-                           "en":  "https://brooks42.github.io/pjto/cards/Research%20Facility.png"
-                       }
-    },
-    {
         "name":  "Ruins of Alph",
         "mana_cost":  "",
         "type":  "Land",
@@ -5763,12 +5767,12 @@
                        }
     },
     {
-        "name":  "Souvenir Shop",
+        "name":  "Team Rocket HQ",
         "mana_cost":  "",
         "type":  "Land",
         "rarity":  "rare",
         "image_uris":  {
-                           "en":  "https://brooks42.github.io/pjto/cards/Souvenir%20Shop.png"
+                           "en":  "https://brooks42.github.io/pjto/cards/Team%20Rocket%20HQ.png"
                        }
     },
     {
@@ -6224,6 +6228,7 @@
 1 Will
 1 Karen
 1 Bubble
+1 Amnesia
 1 Foresight PJTO
 1 Icy Wind
 1 Kinesis
@@ -6235,6 +6240,8 @@
 1 Reversal
 1 Spite
 1 Sweet Scent
+1 Take Down
+1 Thunder Wave
 1 Whirlpool
 1 Zap Cannon
 1 Aeroblast
@@ -6248,6 +6255,7 @@
 1 Giga Drain
 1 Hidden Power
 1 Moonlight
+1 Rock Smash
 1 Sacred Fire PJTO
 1 Scary Face
 1 Shadow Ball
@@ -6255,6 +6263,8 @@
 1 Snore
 1 Spikes
 1 Surrender Now
+1 Synthesis
+1 Twineedle
 1 Twister
 1 Berry
 1 Clear Bell
@@ -6268,51 +6278,45 @@
 1 Sun Stone
 1 Sunglasses
 1 Twisted Spoon
+1 Call for Family
+1 Curse
+1 Morning Sun
 1 Pay Day
 1 Rain Dance
+1 Rest
 1 Sunny Day
 1 Azalea Town
-1 Battle Tower
 1 Bell Tower
 1 Bike Shop
 1 Blackthorn City
 1 Burned Tower
-1 Celadon Mansion
 1 Celadon University
 1 Cherrygrove City
 1 Cianwood City
 1 Cliff Cave
 1 Dark Cave
-1 Daycare Center
-1 Department Store
 1 Dragon's Den
 1 Ecruteak City
 1 Fighting Dojo
 1 Goldenrod City
 1 Goldenrod National Park
-1 Goldenrod Radio Tower
 1 Goldenrod Tunnel
-1 Herb Shop
-1 House of Memories
 1 Ice Path
 1 Ilex Forest
-1 Ilex Forest Shrine
 1 Kimono Dance Theater
 1 Lake of Rage
-1 Magnet Train Station
+1 Magnet Train
 1 Mahogany Town
 1 Moomoo Farm
-1 Mountain Road
 1 Mt. Mortar
 1 Mt. Silver
 1 New Bark Town
 1 Olivine City
 1 Olivine Lighthouse
 1 Pokemon Center
-1 Research Facility
 1 Ruins of Alph
 1 Slowpoke Well
-1 Souvenir Shop
+1 Team Rocket HQ
 1 Sprout Tower
 1 Tohjo Falls
 1 Union Cave
