@@ -5765,7 +5765,7 @@ When Girafarig enters the battlefield, target opponent reveals their hand and yo
       <set picURL="https://brooks42.github.io/pjto/cards/Pineco.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>{2}{R}, Sacrifice Pineco: It deals 4 damage to target Pokémon.
-Whenever Pineco deals damage to a player, for each counter on Pineco, put a counter of that kind on up to one target Pokémon.</text>
+If Pineco would leave the battlefield while it has counters on it, you may exile it instead. If you do, put those counters on target Pokémon.</text>
       <prop>
         <type>Pokémon - Bug</type>
         <maintype>Pokémon</maintype>
