@@ -5873,7 +5873,7 @@ Whenever a Pokémon with toughness 5 or greater enters the battlefield or evolve
       <set picURL="https://brooks42.github.io/pjto/cards/Qwilfish.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Deathtouch
-Whenever Qwilfish attacks, return up to one target land you control to its owner's hand. You may play an additional land this turn.
+Whenever Qwilfish attacks, you may return a land you control to its owner's hand. You may play an additional land this turn.
 Landfall — Whenever a land enters the battlefield under your control, up to one target Pokémon gets -1/-1 until end of turn.</text>
       <prop>
         <type>Pokémon - Water Poison</type>
@@ -6156,7 +6156,7 @@ Whenever Houndour evolves, it deals 1 damage to each Pokémon you don't control.
       <name>Houndoom</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Houndoom.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Evolve From Houndour {B/R}
+      <text>Evolve From Houndour {2}{B/R}{B/R}
 Players can't gain life.
 Whenever a Pokémon or trainer is dealt damage, its controller sacrifices it.</text>
       <prop>
