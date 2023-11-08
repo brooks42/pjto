@@ -5765,7 +5765,7 @@ When Girafarig enters the battlefield, target opponent reveals their hand and yo
       <set picURL="https://brooks42.github.io/pjto/cards/Pineco.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>{2}{R}, Sacrifice Pineco: It deals 4 damage to target Pokémon.
-Whenever Pineco deals damage to a player, for each counter on Pineco, put a counter of that kind on up to one target Pokémon.</text>
+If Pineco would leave the battlefield while it has counters on it, you may exile it instead. If you do, put those counters on target Pokémon.</text>
       <prop>
         <type>Pokémon - Bug</type>
         <maintype>Pokémon</maintype>
@@ -5873,7 +5873,7 @@ Whenever a Pokémon with toughness 5 or greater enters the battlefield or evolve
       <set picURL="https://brooks42.github.io/pjto/cards/Qwilfish.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Deathtouch
-Whenever Qwilfish attacks, return up to one target land you control to its owner's hand. You may play an additional land this turn.
+Whenever Qwilfish attacks, you may return a land you control to its owner's hand. You may play an additional land this turn.
 Landfall — Whenever a land enters the battlefield under your control, up to one target Pokémon gets -1/-1 until end of turn.</text>
       <prop>
         <type>Pokémon - Water Poison</type>
@@ -6156,7 +6156,7 @@ Whenever Houndour evolves, it deals 1 damage to each Pokémon you don't control.
       <name>Houndoom</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Houndoom.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Evolve From Houndour {B/R}
+      <text>Evolve From Houndour {2}{B/R}{B/R}
 Players can't gain life.
 Whenever a Pokémon or trainer is dealt damage, its controller sacrifices it.</text>
       <prop>
@@ -6501,9 +6501,8 @@ Protection from instants</text>
       <name>Ho-Oh</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Ho-Oh.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
-      <text>When you cast this spell, return target Pokémon card from a graveyard to the battlefield under your control.
-Flying
-Whenever Ho-Oh deals combat damage to a player, return target Pokémon card from a graveyard to the battlefield under your control.</text>
+      <text>Flying
+Whenever Ho-Oh enters the battlefield or deals combat damage to a player, return target Pokémon card from a graveyard to the battlefield under your control.</text>
       <prop>
         <type>Legendary Pokémon - Fire Flying</type>
         <maintype>Pokémon</maintype>
