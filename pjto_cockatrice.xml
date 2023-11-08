@@ -6501,9 +6501,8 @@ Protection from instants</text>
       <name>Ho-Oh</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Ho-Oh.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
-      <text>When you cast this spell, return target Pokémon card from a graveyard to the battlefield under your control.
-Flying
-Whenever Ho-Oh deals combat damage to a player, return target Pokémon card from a graveyard to the battlefield under your control.</text>
+      <text>Flying
+Whenever Ho-Oh enters the battlefield or deals combat damage to a player, return target Pokémon card from a graveyard to the battlefield under your control.</text>
       <prop>
         <type>Legendary Pokémon - Fire Flying</type>
         <maintype>Pokémon</maintype>
