@@ -6001,7 +6001,7 @@ Whenever a Pokémon enters the battlefield from your graveyard, return Slugma fr
       <text>Evolve From Slugma {R}
 When Magcargo dies, return another target Pokémon card from your graveyard to your hand. If Magcargo was evolved, return that card to the battlefield instead.</text>
       <prop>
-        <type>Pokémon - Fire</type>
+        <type>Pokémon - Fire Rock</type>
         <maintype>Pokémon</maintype>
         <cmc>4</cmc>
         <colors>BR</colors>
