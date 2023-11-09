@@ -6522,8 +6522,8 @@ If another Pokémon you control would die, instead remove all counters from it, 
         <type>Legendary Pokémon - Psychic Grass</type>
         <maintype>Pokémon</maintype>
         <cmc>4</cmc>
-        <colors>WBG</colors>
-        <manacost>1WBG</manacost>
+        <colors>GWU</colors>
+        <manacost>1GWU</manacost>
         <pt>4/4</pt>
       </prop>
     </card>
