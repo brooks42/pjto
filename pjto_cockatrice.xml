@@ -5291,8 +5291,7 @@ Whenever you cast a spell, if mana from a Treasure was spent to cast it, reveal 
       <set picURL="https://brooks42.github.io/pjto/cards/Togetic.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <related>Treasure Token</related>
-      <text>Evolve From Togepi {W}
-Flash
+      <text>Flash
 Flying
 Whenever Togetic evolves, create a Treasure token for each different mana value among cards in your graveyard.</text>
       <prop>
