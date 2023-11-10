@@ -5138,6 +5138,7 @@ Whenever you sacrifice a Treasure for the first time each turn, target player lo
       <set picURL="https://brooks42.github.io/pjto/cards/Ledian.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve From Ledyba {G}
+Vigilance
 Pokémon you control get +1/+1 for each other Pokémon you control with the same name as that Pokémon.</text>
       <prop>
         <type>Pokémon - Bug Flying</type>
