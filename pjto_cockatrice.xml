@@ -5842,7 +5842,7 @@ Whenever Steelix deals combat damage to a player, exile the top card of your lib
       <set picURL="https://brooks42.github.io/pjto/cards/Snubbull.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Snubbull gets +1/+0 for each Treasure you control.
-{3}{W}: Look at the top X cards of your library, where X is the number of Treasures you control. You may reveal a Pokémon card from among them and put it into your hand. If you don't, create a Treasure token.</text>
+{3}{W}: Reveal the top X cards of your library, where X is the number of Treasures you control. You may put a Pokémon card from among them into your hand. If you don't, create a Treasure token. Put the rest of the revealed cards on the bottom of your library in any order.</text>
       <prop>
         <type>Pokémon - Fairy</type>
         <maintype>Pokémon</maintype>
