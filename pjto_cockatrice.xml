@@ -6503,7 +6503,7 @@ Protection from instants</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Ho-Oh.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
       <text>Flying
-Whenever Ho-Oh enters the battlefield or deals combat damage to a player, return target Pokémon card from a graveyard to the battlefield under your control.</text>
+When Ho-Oh enters the battlefield, for each color of mana spent to cast it, return up to one target card of that color from your graveyard to your hand.</text>
       <prop>
         <type>Legendary Pokémon - Fire Flying</type>
         <maintype>Pokémon</maintype>
