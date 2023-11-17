@@ -5077,7 +5077,7 @@ Whenever a Pokémon enters the battlefield under your control, you gain 1 life.<
       <related>Sentret Token</related>
       <text>Evolve from Sentret {W}
 First strike
-Whenever Furret attacks or evolves, create a 1/1 white Normal Pokémon token with vigilance named Sentret.</text>
+Whenever Furret evolves or attacks, create a 1/1 white Normal Pokémon token with vigilance named Sentret.</text>
       <prop>
         <type>Pokémon - Normal</type>
         <maintype>Pokémon</maintype>
