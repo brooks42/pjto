@@ -5513,7 +5513,7 @@ Whenever Politoed evolves, search your library for up to two land cards, put the
       <name>Skiploom</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Skiploom.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Evolve from Hoppip {G/W}
+      <text>Evolve from Hoppip {W}
 {2}{G}{W}: Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.
 Whenever Skiploom evolves, put a flying counter on each Pokémon token you control.</text>
       <prop>
@@ -6001,7 +6001,7 @@ Whenever a Pokémon enters the battlefield from your graveyard, return Slugma fr
       <name>Magcargo</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Magcargo.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Evolve from Slugma {R}
+      <text>Evolve from Slugma {B/R}
 When Magcargo dies, return another target Pokémon card from your graveyard to your hand. If Magcargo was evolved, return that card to the battlefield instead.</text>
       <prop>
         <type>Pokémon - Fire Rock</type>
@@ -6175,7 +6175,7 @@ Whenever a Pokémon or trainer is dealt damage, its controller sacrifices it.</t
       <name>Kingdra</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Kingdra.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Evolve from Seadra {U/R}
+      <text>Evolve from Seadra {R}
 {U}{R}, {T}: Exile the top card of your library. When you do, Kingdra deals damage to any target equal to the mana value of the exiled card. If a land card was exiled this way, draw a card.</text>
       <prop>
         <type>Pokémon - Water Dragon</type>
@@ -6205,7 +6205,7 @@ Remove all +1/+1 counters from Phanpy: If one or more counters are removed this 
       <name>Donphan</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Donphan.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Evolve from Phanpy {R/G}
+      <text>Evolve from Phanpy {G}
 Trample
 Whenever Donphan attacks, put a +1/+1 counter on it.</text>
       <prop>
