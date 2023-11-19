@@ -7043,7 +7043,7 @@ Choose one, then choose another one for each time this spell was kicked.
       <tablerow>3</tablerow>
       <text>If you control a Dark, Ghost, or Psychic Pokémon, you may pay 2 life rather than pay this spell's mana cost.
 Target Pokémon's controller sacrifices it unless they pay life equal to 1 plus its mana value.
-Overload {2}{B}{B}, Reveal a black Pokémon card from your hand.</text>
+Overload {4}{B}{B}</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
