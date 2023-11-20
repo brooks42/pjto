@@ -5160,8 +5160,8 @@ Whenever Spinarak evolves, destroy up to one target Flying Pokémon or Pokémon 
         <type>Pokémon - Bug Poison</type>
         <maintype>Pokémon</maintype>
         <cmc>1</cmc>
-        <colors>BG</colors>
-        <manacost>{B/G}</manacost>
+        <colors>G</colors>
+        <manacost>G</manacost>
         <pt>1/1</pt>
       </prop>
     </card>
@@ -5169,7 +5169,7 @@ Whenever Spinarak evolves, destroy up to one target Flying Pokémon or Pokémon 
       <name>Ariados</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Ariados.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Evolve from Spinarak {B/G}
+      <text>Evolve from Spinarak {B}
 {3}{B}, {T}: Exile target Pokémon card from your graveyard. Put a number of -1/-1 counters equal to that card’s power on target Pokémon.</text>
       <prop>
         <type>Pokémon - Bug Poison</type>
