@@ -7,9 +7,9 @@ A repo for the MTG Pokemon TCG cockatrice XML and supporting materials but for G
 
 **A**: No, paying life to cast Destiny Bond is an alternate casting cost, as is overload. You can only choose one alternate casting cost.
 
-**Q: Can I use Hidden Power to cast a spell using its Evolve From cost?**
+**Q: Can I use Hidden Power to cast a spell using its Evolve from cost?**
 
-**A**: No, casting a spell without paying its mana cost is an alternate cost, as is Evolve From. You can only choose one alternate casting cost.
+**A**: No, casting a spell without paying its mana cost is an alternate cost, as is Evolve from. You can only choose one alternate casting cost.
 
 **Q: If I have Magcargo evolved onto Slugma, and Magcargo dies, can I return Slugma to the battlefield with the death trigger?**
 

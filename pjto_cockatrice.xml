@@ -237,8 +237,8 @@ Whenever a Pokémon you control attacks, Charizard deals 1 damage to the player 
       <set picURL="https://brooks42.github.io/pkto/cards/Metapod.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Caterpie {G}
-Defender
-Whenever Metapod evolves, it loses defender and you draw a card.</text>
+Metapod has defender unless it's evolved.
+Whenever Metapod enters the battlefield or evolves, draw a card.</text>
       <prop>
         <type>Pokémon - Bug</type>
         <maintype>Pokémon</maintype>
@@ -301,8 +301,8 @@ Whenever Butterfree attacks or blocks, put a stun counter on target Pokémon you
       <set picURL="https://brooks42.github.io/pkto/cards/Kakuna.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Weedle {B}
-Defender
-Whenever Kakuna evolves, it loses defender and target player discards a card.</text>
+Kakuna has defender unless it's evolved.
+Whenever Kakuna enters the battlefield or evolves, target player discards a card.</text>
       <prop>
         <type>Pokémon - Bug Poison</type>
         <maintype>Pokémon</maintype>
@@ -677,9 +677,9 @@ As long as Nidoking has first strike, it has trample.</text>
       <prop>
         <type>Pokémon - Fairy</type>
         <maintype>Pokémon</maintype>
-        <cmc>3</cmc>
+        <cmc>2</cmc>
         <colors>WB</colors>
-        <manacost>1WB</manacost>
+        <manacost>WB</manacost>
         <pt>2/3</pt>
       </prop>
     </card>
@@ -801,8 +801,8 @@ Whenever Golbat evolves, target player loses X life and you gain X life.</text>
         <maintype>Pokémon</maintype>
         <cmc>1</cmc>
         <side>front</side>
-        <colors>G</colors>
-        <manacost>G</manacost>
+        <colors>BG</colors>
+        <manacost>{B/G}</manacost>
         <pt>1/1</pt>
       </prop>
     </card>
@@ -817,7 +817,7 @@ Whenever Golbat evolves, target player loses X life and you gain X life.</text>
         <maintype>Pokémon</maintype>
 		<cmc>1</cmc>
         <side>back</side>
-        <colors>G</colors>
+        <colors>BG</colors>
         <pt>2/2</pt>
       </prop>
     </card>
@@ -833,7 +833,7 @@ Whenever Golbat evolves, target player loses X life and you gain X life.</text>
         <cmc>3</cmc>
         <colors>BG</colors>
         <manacost>1{B/G}{B/G}</manacost>
-        <pt>2/3</pt>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -848,7 +848,7 @@ Whenever Vileplume becomes tapped, put a -1/-1 counter on target Pokémon.</text
         <cmc>4</cmc>
         <colors>BG</colors>
         <manacost>1{B/G}{B/G}{B/G}</manacost>
-        <pt>3/5</pt>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -2669,7 +2669,7 @@ When you cycle Mew, shuffle it into your library.</text>
       <set picURL="https://brooks42.github.io/pkto/cards/Erika.png" rarity="mythic">PKTO</set>
       <tablerow>1</tablerow>
       <loyalty>2</loyalty>
-      <text>[+1]: Create a 1/1 green Grass Poison Pokémon token with lifelink named Oddish.
+      <text>[+1]: Create a 1/1 black and green Grass Poison Pokémon token with lifelink named Oddish.
 [-1]: Destroy target artifact or enchantment.
 [−4]: Pokémon you control get +3/+3 and gain trample until end of turn.</text>
       <related>Oddish Token</related>
@@ -3429,8 +3429,8 @@ Overload {4}{R}{R}</text>
       <set picURL="https://brooks42.github.io/pkto/cards/Solar%20Beam.png" rarity="rare">PKTO</set>
       <tablerow>3</tablerow>
       <text>This spell costs {G} less to cast as long as you control a Grass Pokémon.
-Destroy target artifact, target enchantment, target trainer, or target token.
-Overload {2}{G}{G}</text>
+Until end of turn, target Pokémon you control gains trample and "Whenever this Pokémon attacks, put four +1/+1 counters on it."
+Overload {5}{G}{G}</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
@@ -4737,7 +4737,7 @@ Cycling {2}</text>
         <type>Token Pokémon - Grass Poison</type>
         <maintype>Pokémon</maintype>
         <cmc>0</cmc>
-        <colors>G</colors>
+        <colors>BG</colors>
         <pt>1/1</pt>
       </prop>
     </card>
@@ -5160,8 +5160,8 @@ Whenever Spinarak evolves, destroy up to one target Flying Pokémon or Pokémon 
         <type>Pokémon - Bug Poison</type>
         <maintype>Pokémon</maintype>
         <cmc>1</cmc>
-        <colors>BG</colors>
-        <manacost>{B/G}</manacost>
+        <colors>G</colors>
+        <manacost>G</manacost>
         <pt>1/1</pt>
       </prop>
     </card>
@@ -5169,7 +5169,7 @@ Whenever Spinarak evolves, destroy up to one target Flying Pokémon or Pokémon 
       <name>Ariados</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Ariados.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Evolve from Spinarak {B/G}
+      <text>Evolve from Spinarak {B}
 {3}{B}, {T}: Exile target Pokémon card from your graveyard. Put a number of -1/-1 counters equal to that card’s power on target Pokémon.</text>
       <prop>
         <type>Pokémon - Bug Poison</type>
@@ -5404,14 +5404,14 @@ Whenever Ampharos deals excess damage, you may cast an instant or sorcery card y
       <tablerow>2</tablerow>
       <related>Oddish Token</related>
       <text>Evolve from Gloom {G/W}
-Whenever Bellosom becomes untapped, create a 1/1 green Grass Poison Pokémon token with lifelink named Oddish.</text>
+Whenever Bellosom becomes untapped, create a 1/1 black and green Grass Poison Pokémon token with lifelink named Oddish.</text>
       <prop>
         <type>Pokémon - Grass</type>
         <maintype>Pokémon</maintype>
         <cmc>4</cmc>
         <colors>G</colors>
         <manacost>1GGG</manacost>
-        <pt>5/3</pt>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -7243,7 +7243,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
       <text>Choose two —
 • Remove two loyalty counters from target trainer.
 • Destroy target non-Pokémon, nonland permanent with mana value 2 or less.
-• Put a -1/-1 counter on target Pokémon.
+• Put a -1/-1 counter on each of up to two target Pokémon.
 • Target opponent loses 2 life and you gain 2 life.</text>
       <prop>
         <type>Sorcery</type>
