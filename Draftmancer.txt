@@ -341,7 +341,7 @@
     },
     {
         "name":  "Fearow",
-        "mana_cost":  "{4}{W/B}{W/B}",
+        "mana_cost":  "{3}{W/B}{W/B}",
         "type":  "Creature",
         "subtypes":  [
                          "Normal",
@@ -942,7 +942,7 @@
     },
     {
         "name":  "Kadabra",
-        "mana_cost":  "2UB",
+        "mana_cost":  "1UB",
         "type":  "Creature",
         "subtypes":  [
                          "Psychic",
@@ -1662,7 +1662,7 @@
     },
     {
         "name":  "Horsea",
-        "mana_cost":  "1UU",
+        "mana_cost":  "UU",
         "type":  "Creature",
         "subtypes":  [
                          "Water",
@@ -2102,7 +2102,7 @@
     },
     {
         "name":  "Dragonite",
-        "mana_cost":  "4RRGGWW",
+        "mana_cost":  "4RGW",
         "type":  "Creature",
         "subtypes":  [
                          "Dragon",
@@ -2256,7 +2256,7 @@
     },
     {
         "name":  "Sabrina",
-        "mana_cost":  "2{U/B}U",
+        "mana_cost":  "1{U/B}U",
         "type":  "Legendary Planeswalker",
         "subtypes":  [
                          "Sabrina",
@@ -2720,7 +2720,7 @@
     },
     {
         "name":  "Tackle",
-        "mana_cost":  "3W",
+        "mana_cost":  "2W",
         "type":  "Instant",
         "rarity":  "common",
         "image_uris":  {
@@ -2841,7 +2841,7 @@
         "type":  "Sorcery",
         "rarity":  "uncommon",
         "image_uris":  {
-                           "en":  "https://brooks42.github.io/pkto/cards/Double Kick.png"
+                           "en":  "https://brooks42.github.io/pkto/cards/Double%20Kick.png"
                        }
     },
     {
@@ -2954,7 +2954,7 @@
     },
     {
         "name":  "Ancient Slab",
-        "mana_cost":  "2",
+        "mana_cost":  "3",
         "type":  "Artifact",
         "rarity":  "uncommon",
         "image_uris":  {
@@ -4380,7 +4380,7 @@
         "type":  "Creature",
         "subtypes":  [
                          "Fire",
-                         ""
+                         "Rock"
                      ],
         "rarity":  "rare",
         "image_uris":  {
@@ -4803,7 +4803,7 @@
     },
     {
         "name":  "Celebi",
-        "mana_cost":  "1WBG",
+        "mana_cost":  "1GWU",
         "type":  "Legendary Creature",
         "subtypes":  [
                          "Psychic",
@@ -5194,7 +5194,7 @@
     {
         "name":  "Hidden Power",
         "mana_cost":  "2GU",
-        "type":  "Sorcery",
+        "type":  "Instant",
         "rarity":  "rare",
         "image_uris":  {
                            "en":  "https://brooks42.github.io/pjto/cards/Hidden%20Power.png"
