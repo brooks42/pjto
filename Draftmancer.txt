@@ -532,7 +532,7 @@
     },
     {
         "name":  "Clefairy",
-        "mana_cost":  "1WB",
+        "mana_cost":  "WB",
         "type":  "Creature",
         "subtypes":  [
                          "Fairy",
@@ -636,7 +636,7 @@
     },
     {
         "name":  "Oddish",
-        "mana_cost":  "G",
+        "mana_cost":  "{B/G}",
         "type":  "Creature",
         "subtypes":  [
                          "Grass",
@@ -3678,7 +3678,7 @@
     },
     {
         "name":  "Spinarak",
-        "mana_cost":  "{B/G}",
+        "mana_cost":  "G",
         "type":  "Creature",
         "subtypes":  [
                          "Bug",
@@ -5831,126 +5831,126 @@
     }
 ]
 [MainSlot(15)]
-1 Bulbasaur
+2 Bulbasaur
 1 Ivysaur
 1 Venusaur
-1 Squirtle
+2 Squirtle
 1 Wartortle
 1 Blastoise
-1 Charmander
+2 Charmander
 1 Charmeleon
 1 Charizard
-1 Caterpie
+2 Caterpie
 1 Metapod
 1 Butterfree
-1 Weedle
+2 Weedle
 1 Kakuna
 1 Beedrill
-1 Pidgey
+2 Pidgey
 1 Pidgeotto
 1 Pidgeot
-1 Rattata
+2 Rattata
 1 Raticate
-1 Spearow
+2 Spearow
 1 Fearow
-1 Ekans
+2 Ekans
 1 Arbok
 1 Pikachu
 1 Raichu
 1 Sandshrew
 1 Sandslash
-1 NidoranF
+2 NidoranF
 1 Nidorina
 1 Nidoqueen
-1 NidoranM
+2 NidoranM
 1 Nidorino
 1 Nidoking
 1 Clefairy
 1 Clefable
 1 Vulpix
 1 Ninetales
-1 Jigglypuff
+2 Jigglypuff
 1 Wigglytuff
-1 Zubat
+2 Zubat
 1 Golbat
-1 Oddish
+2 Oddish
 1 Gloom PKTO
 1 Vileplume
-1 Paras
+2 Paras
 1 Parasect
-1 Venonat
+2 Venonat
 1 Venomoth
-1 Diglett
+2 Diglett
 1 Dugtrio
 1 Meowth
 1 Persian
-1 Psyduck
+2 Psyduck
 1 Golduck
-1 Mankey
+2 Mankey
 1 Primeape
 1 Growlithe
 1 Arcanine
-1 Poliwag
+2 Poliwag
 1 Poliwhirl
 1 Poliwrath
-1 Abra
+2 Abra
 1 Kadabra
 1 Alakazam
-1 Machop
+2 Machop
 1 Machoke
 1 Machamp
-1 Bellsprout
+2 Bellsprout
 1 Weepinbell
 1 Victreebel
-1 Tentacool
+2 Tentacool
 1 Tentacruel
-1 Geodude
+2 Geodude
 1 Graveler
 1 Golem PKTO
 1 Ponyta
 1 Rapidash
 1 Slowpoke
 1 Slowbro
-1 Magnemite
+2 Magnemite
 1 Magneton
 1 Farfetch'd
 1 Doduo
 1 Dodrio
-1 Seel
+2 Seel
 1 Dewgong
-1 Grimer
+2 Grimer
 1 Muk
-1 Shellder
+2 Shellder
 1 Cloyster
-1 Gastly
+2 Gastly
 1 Haunter
 1 Gengar
-1 Onix
+2 Onix
 1 Drowzee
 1 Hypno
-1 Krabby
+2 Krabby
 1 Kingler
-1 Voltorb
+2 Voltorb
 1 Electrode
-1 Exeggcute
+2 Exeggcute
 1 Exeggutor
 1 Cubone
 1 Marowak
 1 Hitmonlee
 1 Hitmonchan
 1 Lickitung
-1 Koffing
+2 Koffing
 1 Weezing
 1 Rhyhorn
 1 Rhydon
 1 Chansey
 1 Tangela
 1 Kangaskhan
-1 Horsea
+2 Horsea
 1 Seadra
-1 Goldeen
+2 Goldeen
 1 Seaking
-1 Staryu
+2 Staryu
 1 Starmie
 1 Mr. Mime
 1 Scyther
@@ -5959,11 +5959,11 @@
 1 Magmar
 1 Pinsir
 1 Tauros
-1 Magikarp
+2 Magikarp
 1 Gyarados
 1 Lapras
 1 Ditto
-1 Eevee
+2 Eevee
 1 Vaporeon
 1 Jolteon
 1 Flareon
@@ -6116,22 +6116,22 @@
 1 Seafoam Islands
 1 Viridian City
 1 Viridian Forest
-1 Chikorita
+2 Chikorita
 1 Bayleef
 1 Meganium
-1 Cyndaquil
+2 Cyndaquil
 1 Quilava
 1 Typhlosion
-1 Totodile
+2 Totodile
 1 Croconaw
 1 Feraligatr
-1 Sentret
+2 Sentret
 1 Furret
 1 Hoothoot
 1 Noctowl
 1 Ledyba
 1 Ledian
-1 Spinarak
+2 Spinarak
 1 Ariados
 1 Crobat
 1 Chinchou
@@ -6143,7 +6143,7 @@
 1 Togetic
 1 Natu
 1 Xatu
-1 Mareep
+2 Mareep
 1 Flaaffy
 1 Ampharos
 1 Bellossom
@@ -6151,7 +6151,7 @@
 1 Azumarill
 1 Sudowoodo
 1 Politoed
-1 Hoppip
+2 Hoppip
 1 Skiploom
 1 Jumpluff
 1 Aipom
@@ -6162,7 +6162,7 @@
 1 Quagsire
 1 Espeon
 1 Umbreon
-1 Murkrow
+2 Murkrow
 1 Slowking
 1 Misdreavus
 1 Unown
