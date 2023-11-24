@@ -7044,7 +7044,7 @@ Choose one, then choose another one for each time this spell was kicked.
       <name>Destiny Bond</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Destiny%20Bond.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
-      <text>As an additional cost to cast this spell, if you control a Dark, Ghost, or Psychic Pokémon, you may pay 4 life. If you do, this spell costs {B}{B} less to cast.
+      <text>If you control a Dark, Ghost, or Psychic Pokémon, you may pay 4 life instead of paying this spell’s mana cost.
 The controller of target Pokémon or target trainer sacrifices it unless they pay life equal to 1 plus its mana value.
 Overload {4}{B}{B}</text>
       <prop>
