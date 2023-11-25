@@ -6255,9 +6255,9 @@ When Stantler dies, create two 2/2 green and white Normal Pokémon tokens with v
       <name>Smeargle</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Smeargle.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
-      <text>{3}, {T}: Copy target instant or sorcery spell you control. You may choose new targets for the copy.
-{4}, {T}: Copy target token you control.
-{5}, {T}: Copy target permanent spell you control.</text>
+      <text>{2}{R}, {T}: Copy target instant or sorcery spell you control. You may choose new targets for the copy.
+{3}{G}, {T}: Copy target token you control.
+{4}{U}, {T}: Copy target permanent spell you control.</text>
       <prop>
         <type>Pokémon - Normal</type>
         <maintype>Pokémon</maintype>
