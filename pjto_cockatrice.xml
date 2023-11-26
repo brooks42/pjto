@@ -7468,7 +7468,8 @@ At the beginning of combat on each of enchanted player's turns, that player may 
       <name>Morning Sun</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Morning%20Sun.png" rarity="uncommon">PJTO</set>
       <tablerow>1</tablerow>
-      <text>Whenever a player casts a spell, you may pay {W}{B}. If you do, create a tapped Treasure token and you lose 1 life.</text>
+      <text>When Morning Sun enters the battlefield, create a Treasure token.
+Whenever a player casts a spell, you may pay {W/B}{W/B}. If you do, create a Treasure token.</text>
       <prop>
         <type>Enchantment</type>
         <maintype>Enchantment</maintype>
