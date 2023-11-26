@@ -5313,7 +5313,7 @@ Whenever Togetic evolves, create a Treasure token for each different mana value 
       <name>Natu</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Natu.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>At the beginning of your upkeep, you may sacrifice a permanent or pay 2 life. If you do, draw a card.
+      <text>Whenever Natu or another Pokémon dies, target player loses 1 life and you gain 1 life.
 Whenever Natu evolves, each opponent sacrifices a Pokémon with the greatest mana value among Pokémon they control.</text>
       <prop>
         <type>Pokémon - Psychic Flying</type>
