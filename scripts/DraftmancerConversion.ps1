@@ -35,20 +35,11 @@ foreach($node in $cardNodes)
     {
         $node.name = $node.name.Replace("é", "e")
     }
-    if ($node.name -like "Nidoran*" -and $node.prop.colors -eq "G")
-    {
-        $node.name = $node.name.Replace("♀", "F")
-    }
-    if ($node.name -like "Nidoran*" -and $node.prop.colors -eq "B")
-    {
-        $node.name = $node.name.Replace("♂", "M")
-    }
     if ($node.name -like "*(PKTO)" -or $node.name -like "*(PJTO)")
     {
         $node.name = $node.name.Replace("(", "")
         $node.name = $node.name.Replace(")", "")
     }
-
     if ($node.prop.manacost -eq "{R/G/W}")
     {
         $node.prop.manacost = "RGW"
@@ -183,7 +174,7 @@ foreach($node in $cardNodes)
         }
     }
 
-    if ($node.prop.type -like "PokÃ©mon*" -and $rarity.rarity -eq "common")
+    if ($node.prop.type -like "*Creature*" -and $rarity.rarity -eq "common")
     {
         $cubeList += "2 " + $node.name
     }
@@ -366,7 +357,7 @@ $array = foreach ($card in $xml.cockatrice_carddatabase.cards.card)
     New-Object -Type PSCustomObject -Property $prop
 }
 
-$array | ConvertTo-Json -Depth 3 | % { [System.Text.RegularExpressions.Regex]::Unescape($_) } | Set-Content -Path ".\Draftmancer.txt"
+$array | ConvertTo-Json -Depth 3 | % { [System.Text.RegularExpressions.Regex]::Unescape($_) } | Set-Content -Path ".\Draftmancer.txt" -Encoding Unicode
 Add-Content ".\Draftmancer.txt" "[MainSlot(15)]"
 Add-Content ".\Draftmancer.txt" $cubeList
-@("[CustomCards]") + (Get-Content ".\Draftmancer.txt") | Set-Content ".\Draftmancer.txt"
+@("[CustomCards]") + (Get-Content ".\Draftmancer.txt") | Set-Content ".\Draftmancer.txt" -Encoding Unicode
