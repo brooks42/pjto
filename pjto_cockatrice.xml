@@ -7317,7 +7317,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
       <set picURL="https://brooks42.github.io/pjto/cards/Dragon%20Scale.png" rarity="uncommon">PJTO</set>
       <tablerow>1</tablerow>
       <text>{T}: Add {U} or {R}.
-{1}{U}{R}, {T}, Sacrifice Dragon Scale: Until the end of your next turn, if a card would be put into your graveyard from anywhere, you may exile that card instead. Draw a card.</text>
+{1}{U}{R}, {T}, Sacrifice Dragon Scale: Sacrifice Dragon Scale: Exile the top card of your library. Until the end of your next turn, you may play that card. Draw a card.</text>
       <prop>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
