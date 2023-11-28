@@ -5062,7 +5062,7 @@ Whenever Feraligatr enters the battlefield or evolves, draw X cards, where X is 
       <set picURL="https://brooks42.github.io/pjto/cards/Sentret.png" rarity="common">PJTO</set>
       <tablerow>2</tablerow>
       <text>Vigilance
-Whenever a Pokémon enters the battlefield under your control, you gain 1 life.</text>
+Whenever another Pokémon enters the battlefield under your control, you gain 1 life.</text>
       <prop>
         <type>Pokémon - Normal</type>
         <maintype>Pokémon</maintype>
