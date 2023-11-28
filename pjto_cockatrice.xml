@@ -7765,7 +7765,7 @@ Cycling {2}</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Kimono%20Dance%20Theater.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
-{2}, {T}: Kimono Dance Theater becomes a copy of target land and gains this ability.</text>
+{2}, {T}: Kimono Dance Theater becomes a copy of target land, except it has this ability.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
