@@ -2839,8 +2839,8 @@ When Mew is put into your graveyard from anywhere, shuffle it into your library.
       <tablerow>3</tablerow>
       <text>Draw two cards.</text>
       <prop>
-        <type>Sorcery</type>
-        <maintype>Sorcery</maintype>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
         <cmc>3</cmc>
         <colors>U</colors>
         <manacost>2U</manacost>
@@ -7318,7 +7318,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
       <set picURL="https://brooks42.github.io/pjto/cards/Dragon%20Scale.png" rarity="uncommon">PJTO</set>
       <tablerow>1</tablerow>
       <text>{T}: Add {U} or {R}.
-{1}{U}{R}, {T}, Sacrifice Dragon Scale: Sacrifice Dragon Scale: Exile the top card of your library. Until the end of your next turn, you may play that card. Draw a card.</text>
+{1}{U}{R}, {T}, Sacrifice Dragon Scale: Sacrifice Dragon Scale: Exile the top card of your library. You may play that card this turn. Draw a card.</text>
       <prop>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
