@@ -1441,7 +1441,7 @@ First strike, haste</text>
       <name>Slowpoke</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Slowpoke.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
-      <text>If combat damage would be dealt to Slowpoke, prevent that damage. If damage was prevented this way, deal that much damage to Slowpoke at the beginning of the next turn's end step.
+      <text>If combat damage would be dealt to Slowpoke, prevent that damage. If damage was prevented this way, Slowpoke deals that much damage to itself at the beginning of the next turn's end step.
 Remove three counters from Slowpoke: Return it to its owner's hand.</text>
       <prop>
         <type>Pokémon - Water Psychic</type>
@@ -2231,7 +2231,7 @@ When Lapras dies, you gain 3 life.</text>
       <name>Ditto</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Ditto.png" rarity="rare">PKTO</set>
       <tablerow>2</tablerow>
-      <text>{3}: Ditto becomes a copy of target permanent, except its name is Ditto.</text>
+      <text>{2/U}{2/U}{2/U}: Ditto becomes a copy of another target Pokémon or artifact, except its name is Ditto and it has this ability.</text>
       <prop>
         <type>Pokémon - Normal</type>
         <maintype>Pokémon</maintype>
@@ -2557,9 +2557,9 @@ Each other Pokémon you control gets +2/+2 if it shares a color with a Pokémon 
       <name>Mew</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Mew.png" rarity="mythic">PKTO</set>
       <tablerow>2</tablerow>
-      <text>Flying
+      <text>Flying, ward {3}
 Pokémoncycling {3}
-When you cycle Mew, shuffle it into your library.</text>
+When Mew is put into your graveyard from anywhere, shuffle it into your library. If you cycled it and you've cycled a card named Mew two or more times this game, put it onto the battlefield instead.</text>
       <prop>
         <type>Legendary Pokémon - Psychic</type>
         <maintype>Pokémon</maintype>
@@ -2839,8 +2839,8 @@ When you cycle Mew, shuffle it into your library.</text>
       <tablerow>3</tablerow>
       <text>Draw two cards.</text>
       <prop>
-        <type>Sorcery</type>
-        <maintype>Sorcery</maintype>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
         <cmc>3</cmc>
         <colors>U</colors>
         <manacost>2U</manacost>
@@ -5062,7 +5062,7 @@ Whenever Feraligatr enters the battlefield or evolves, draw X cards, where X is 
       <set picURL="https://brooks42.github.io/pjto/cards/Sentret.png" rarity="common">PJTO</set>
       <tablerow>2</tablerow>
       <text>Vigilance
-Whenever a Pokémon enters the battlefield under your control, you gain 1 life.</text>
+Whenever another Pokémon enters the battlefield under your control, you gain 1 life.</text>
       <prop>
         <type>Pokémon - Normal</type>
         <maintype>Pokémon</maintype>
@@ -5250,7 +5250,8 @@ Whenever Pichu evolves, up to two target Pokémon must block this turn if able. 
       <set picURL="https://brooks42.github.io/pjto/cards/Cleffa.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Baby — Cards named Clefairy have "Evolve from Cleffa {W/B}."
-Pokémon you control have all other abilities of Cleffa.</text>
+Cleffa can't be blocked by Pokémon with greater power.
+{Q}: Create a Treasure token. Activate only once each turn.</text>
       <prop>
         <type>Pokémon - Fairy</type>
         <maintype>Pokémon</maintype>
@@ -6720,7 +6721,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
       <name>Bubble</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Bubble.png" rarity="uncommon">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Scry 1, then you may reveal the top card of your library. Counter up to one target spell if it shares a card type with the revealed card, if it was cast from exile, or if no mana was spent to cast it.</text>
+      <text>Scry 1, then you may reveal the top card of your library. When you do, counter target spell if it shares a card type with the revealed card, if it wasn’t cast from its owner's hand, or if no mana was spent to cast it.</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
@@ -7317,7 +7318,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
       <set picURL="https://brooks42.github.io/pjto/cards/Dragon%20Scale.png" rarity="uncommon">PJTO</set>
       <tablerow>1</tablerow>
       <text>{T}: Add {U} or {R}.
-{1}{U}{R}, {T}, Sacrifice Dragon Scale: Until the end of your next turn, if a card would be put into your graveyard from anywhere, you may exile that card instead. Draw a card.</text>
+{1}{U}{R}, {T}, Sacrifice Dragon Scale: Sacrifice Dragon Scale: Exile the top card of your library. You may play that card this turn. Draw a card.</text>
       <prop>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
@@ -7765,7 +7766,7 @@ Cycling {2}</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Kimono%20Dance%20Theater.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
-{2}, {T}: Kimono Dance Theater becomes a copy of target land and gains this ability.</text>
+{2}, {T}: Kimono Dance Theater becomes a copy of target land, except it has this ability.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
