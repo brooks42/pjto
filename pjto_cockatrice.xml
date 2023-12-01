@@ -5249,6 +5249,7 @@ Whenever Pichu evolves, up to two target Pokémon must block this turn if able. 
       <name>Cleffa</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Cleffa.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
+	  <related>Treasure Token</related>
       <text>Baby — Cards named Clefairy have "Evolve from Cleffa {W/B}."
 Cleffa can't be blocked by Pokémon with greater power.
 {Q}: Create a Treasure token. Activate only once each turn.</text>
@@ -7330,6 +7331,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
       <name>Everstone</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Everstone.png" rarity="uncommon">PJTO</set>
       <tablerow>1</tablerow>
+	  <related>Treasure Token</related>
       <text>{T}: Add {W} or {B}.
 {1}{W}{B}, {T}, Sacrifice Everstone: Create a Treasure token. Draw a card.</text>
       <prop>
@@ -7469,6 +7471,7 @@ At the beginning of combat on each of enchanted player's turns, that player may 
       <name>Morning Sun</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Morning%20Sun.png" rarity="uncommon">PJTO</set>
       <tablerow>1</tablerow>
+	  <related>Treasure Token</related>
       <text>When Morning Sun enters the battlefield, create a Treasure token.
 Whenever a player casts a spell, you may pay {W/B}{W/B}. If you do, create a Treasure token.</text>
       <prop>
