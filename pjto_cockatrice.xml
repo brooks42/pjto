@@ -7667,6 +7667,7 @@ Cycling {2}</text>
       <name>Dragon's Den</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Dragons%20Den.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
+	  <cipt>1</cipt>
       <text>As Dragon's Den enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
 {T}: Add {U} or {R}.</text>
       <prop>
@@ -7930,6 +7931,7 @@ Draw a card.</text>
       <name>Sprout Tower</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Sprout%20Tower.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
+	  <cipt>1</cipt>
       <text>Sprout Tower enters the battlefield tapped.
 {T}: Add {B} or {G}.
 Cycling {2}</text>
