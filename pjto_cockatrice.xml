@@ -6521,7 +6521,7 @@ When Ho-Oh enters the battlefield, for each color of mana spent to cast it, retu
       <name>Celebi</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Celebi.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Flying, lifelink
+      <text>Flying
 If another Pokémon you control would die, instead remove all counters from it, then it phases out with three time counters on it. If that Pokémon would phase in while it has a time counter on it, remove a time counter from it instead.</text>
       <prop>
         <type>Legendary Pokémon - Psychic Grass</type>
