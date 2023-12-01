@@ -6429,7 +6429,7 @@ Pokémon you control have ward {2}.</text>
       <tablerow>2</tablerow>
       <related attach="transform">Pupitar (DFC)</related>
       <text>Menace
-Whenever you sacrifice a permanent, target opponent discards a card.
+Whenever you sacrifice a nontoken permanent, target opponent discards a card.
 Sacrifice a land: Evolve</text>
       <prop>
         <type>Pokémon - Rock Ground</type>
@@ -6447,7 +6447,7 @@ Sacrifice a land: Evolve</text>
       <tablerow>2</tablerow>
 	  <related attach="transform">Larvitar</related>
       <text>Menace
-Whenever you sacrifice a permanent, target opponent discards a card.</text>
+Whenever you sacrifice a nontoken permanent, target opponent discards a card.</text>
       <prop>
         <type>Pokémon - Rock Ground</type>
         <maintype>Pokémon</maintype>
