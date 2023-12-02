@@ -5221,7 +5221,7 @@ Pokémon you control can't be blocked by Pokémon with -1/-1 counters on them.</
       <set picURL="https://brooks42.github.io/pjto/cards/Lanturn.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Chinchou {U/R}
-Whenever you exile a non-Pokémon card from your hand, you may cast it until your next turn. If Lanturn is evolved, you may cast that spell as though it had flash.</text>
+If you would draw a card, exile the top two cards of your library instead. You may play one of those cards this turn. If Lanturn is evolved, you may play both.</text>
       <prop>
         <type>Pokémon - Water Electric</type>
         <maintype>Pokémon</maintype>
