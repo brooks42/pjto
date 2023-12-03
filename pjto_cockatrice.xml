@@ -5206,14 +5206,14 @@ Pokémon you control can't be blocked by Pokémon with -1/-1 counters on them.</
       <name>Chinchou</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Chinchou.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Whenever Chinchou enters the battlefield or evolves, draw a card. If you do, exile a card from your hand unless Chinchou is evolved.</text>
+      <text>Whenever Chinchou enters the battlefield or evolves, draw a card. Then Chinchou deals X damage to any target, where X is the number of cards you own that were put into exile this turn.</text>
       <prop>
         <type>Pokémon - Water Electric</type>
         <maintype>Pokémon</maintype>
         <cmc>2</cmc>
         <colors>UR</colors>
         <manacost>UR</manacost>
-        <pt>2/2</pt>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
