@@ -1471,7 +1471,8 @@ If noncombat damage would be dealt to Slowbro, prevent that damage. If damage wa
       <name>Magnemite</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Magnemite.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
-      <text>If one or more counters would be put on Magnemite, you may put those counters on another target permanent instead.</text>
+      <text>If one or more counters would be put on Magnemite, you may put those counters on another permanent instead.
+Whenever Magnemite enters the battlefield or evolves, if {C} was spent to cast or evolve it, put a stun counter on it.</text>
       <prop>
         <type>Artifact Pokémon - Electric Steel</type>
         <maintype>Pokémon</maintype>
@@ -1484,7 +1485,7 @@ If noncombat damage would be dealt to Slowbro, prevent that damage. If damage wa
       <name>Magneton</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Magneton.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
-      <text>Evolve from Magnemite {1}
+      <text>Evolve from Magnemite {2}
 {T}: Move up to three counters from another target permanent onto Magneton.</text>
       <prop>
         <type>Artifact Pokémon - Electric Steel</type>
@@ -1700,7 +1701,7 @@ Whenever Onix attacks, you may discard a card. If you do, Onix gets +1/+1 until 
         <cmc>4</cmc>
         <colors>R</colors>
         <manacost>3R</manacost>
-        <pt>5/3</pt>
+        <pt>4/3</pt>
       </prop>
     </card>
     <card>
@@ -3611,7 +3612,8 @@ Target Pokémon or trainer loses indestructible until end of turn. Destroy it. I
       <name>Dig</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Dig.png" rarity="uncommon">PKTO</set>
       <tablerow>3</tablerow>
-      <text>Create two 2/1 red Ground Pokémon tokens named Diglett.</text>
+      <text>Create two 2/1 red Ground Pokémon tokens named Diglett.
+{2}: Exile Dig from your hand. For as long as it remains exiled, may cast it on a later turn for {1}{R}. If you do, those tokens gain haste.</text></text>
       <related count="2">Diglett Token</related>
       <prop>
         <type>Sorcery</type>
@@ -3986,7 +3988,7 @@ If one or more -1/-1 counters would be put on a Pokémon you don't control, that
       <name>Cinnabar Gym</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Cinnabar%20Gym.png" rarity="rare">PKTO</set>
       <tablerow>1</tablerow>
-      <text>Whenever you attack, choose odd or even, then reveal the top card of your library. If it's a nonland card with mana value of the chosen quality, exile it.
+      <text>Whenever you attack, you may choose odd or even. If you do, exile cards from the top of your library until you exile a nonland card. If it has mana value of the chosen quality, you may cast that card until you exile another card with Cinnabar Gym.
 You may cast cards exiled with Cinnabar Gym.</text>
       <prop>
         <type>Enchantment</type>
@@ -5204,14 +5206,14 @@ Pokémon you control can't be blocked by Pokémon with -1/-1 counters on them.</
       <name>Chinchou</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Chinchou.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Whenever Chinchou enters the battlefield or evolves, draw a card. If you do, exile a card from your hand.</text>
+      <text>Whenever Chinchou enters the battlefield or evolves, draw a card. Then Chinchou deals X damage to any target, where X is the number of cards you own that were put into exile this turn.</text>
       <prop>
         <type>Pokémon - Water Electric</type>
         <maintype>Pokémon</maintype>
         <cmc>2</cmc>
         <colors>UR</colors>
         <manacost>UR</manacost>
-        <pt>2/2</pt>
+        <pt>2/1</pt>
       </prop>
     </card>
     <card>
@@ -5219,7 +5221,7 @@ Pokémon you control can't be blocked by Pokémon with -1/-1 counters on them.</
       <set picURL="https://brooks42.github.io/pjto/cards/Lanturn.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Chinchou {U/R}
-Whenever you exile a non-Pokémon card from your hand, you may cast it until your next turn. If Lanturn is evolved, you may cast that spell as though it had flash.</text>
+If you would draw a card, exile the top two cards of your library instead. You may play one of those cards this turn. If Lanturn is evolved, you may play both.</text>
       <prop>
         <type>Pokémon - Water Electric</type>
         <maintype>Pokémon</maintype>
@@ -5249,6 +5251,7 @@ Whenever Pichu evolves, up to two target Pokémon must block this turn if able. 
       <name>Cleffa</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Cleffa.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
+	  <related>Treasure Token</related>
       <text>Baby — Cards named Clefairy have "Evolve from Cleffa {W/B}."
 Cleffa can't be blocked by Pokémon with greater power.
 {Q}: Create a Treasure token. Activate only once each turn.</text>
@@ -6429,7 +6432,7 @@ Pokémon you control have ward {2}.</text>
       <tablerow>2</tablerow>
       <related attach="transform">Pupitar (DFC)</related>
       <text>Menace
-Whenever you sacrifice a permanent, target opponent discards a card.
+Whenever you sacrifice a nontoken permanent, target opponent discards a card.
 Sacrifice a land: Evolve</text>
       <prop>
         <type>Pokémon - Rock Ground</type>
@@ -6447,7 +6450,7 @@ Sacrifice a land: Evolve</text>
       <tablerow>2</tablerow>
 	  <related attach="transform">Larvitar</related>
       <text>Menace
-Whenever you sacrifice a permanent, target opponent discards a card.</text>
+Whenever you sacrifice a nontoken permanent, target opponent discards a card.</text>
       <prop>
         <type>Pokémon - Rock Ground</type>
         <maintype>Pokémon</maintype>
@@ -7330,6 +7333,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
       <name>Everstone</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Everstone.png" rarity="uncommon">PJTO</set>
       <tablerow>1</tablerow>
+	  <related>Treasure Token</related>
       <text>{T}: Add {W} or {B}.
 {1}{W}{B}, {T}, Sacrifice Everstone: Create a Treasure token. Draw a card.</text>
       <prop>
@@ -7469,6 +7473,7 @@ At the beginning of combat on each of enchanted player's turns, that player may 
       <name>Morning Sun</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Morning%20Sun.png" rarity="uncommon">PJTO</set>
       <tablerow>1</tablerow>
+	  <related>Treasure Token</related>
       <text>When Morning Sun enters the battlefield, create a Treasure token.
 Whenever a player casts a spell, you may pay {W/B}{W/B}. If you do, create a Treasure token.</text>
       <prop>
