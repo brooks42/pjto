@@ -6932,7 +6932,7 @@ Draw a card.</text>
       <name>Whirlpool</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Whirlpool.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Choose three. You may choose the same mode more than once.
+      <text>Choose two. You may choose the same mode more than once.
 • Counter target spell unless its controller pays 3.
 • Tap all Pokémon your opponents control.
 • Draw a card.</text>
