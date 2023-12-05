@@ -7785,8 +7785,7 @@ Cycling {2}</text>
       <tablerow>0</tablerow>
       <related>Red Gyarados</related>
       <text>Lake of Rage enters the battlefield with ten peace counters on it.
-{3}: Remove a peace counter from Lake of Rage.
-When Lake of Rage has no peace counters on it, sacrifice it. If you do, create Red Gyarados, a legendary 20/20 red Water Flying Pokémon token with menace and indestructible.</text>
+{3}: Remove a peace counter from Lake of Rage. Then if there are no peace counters on it, sacrifice it. If you do, create Red Gyarados, a legendary 20/20 red Water Flying Pokémon token with menace and indestructible.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
