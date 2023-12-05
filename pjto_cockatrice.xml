@@ -7503,7 +7503,7 @@ At the beginning of your upkeep, if you control ten or more Treasures, you win t
       <name>Rain Dance</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Rain%20Dance.png" rarity="uncommon">PJTO</set>
       <tablerow>1</tablerow>
-      <text>Landfall — Whenever a land enters the battlefield under your control, target player mills two cards. If a Pokémon card is milled this way, draw a card.</text>
+      <text>Landfall — Whenever a land enters the battlefield under your control, each player mills a card. If a nonland, non-Pokémon card is milled this way, you draw a card.</text>
       <prop>
         <type>Enchantment</type>
         <maintype>Enchantment</maintype>
