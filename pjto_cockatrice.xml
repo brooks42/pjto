@@ -7151,7 +7151,7 @@ Exile the top X cards of your library. When you do, Sacred Fire deals damage to 
       <set picURL="https://brooks42.github.io/pjto/cards/Scary%20Face.png" rarity="uncommon">PJTO</set>
       <tablerow>3</tablerow>
       <text>As an additional cost to cast this spell, you may sacrifice a permanent.
-Up to two target Pokémon can't block this turn. If this spell's additional cost was paid, tap those Pokémon and put a stun counter on each of them.</text>
+Up to two target Pokémon can’t block this turn. If this spell's additional cost was paid, Scary Face deals 1 damage to each of those Pokémon.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
