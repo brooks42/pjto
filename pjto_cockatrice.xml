@@ -5382,7 +5382,7 @@ At the beginning of your end step, if you sacrificed a permanent this turn, each
       <set picURL="https://brooks42.github.io/pjto/cards/Flaaffy.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Mareep {R}
-Flaaffy has first strike as long as you own three or more cards in exile, and has double strike as long as you own seven or more cards in exile.</text>
+Whenever Flaaffy attacks, exile the top card of your library. Then if you own three or more cards in exile, Flaaffy gains first strike until end of turn.</text>
       <prop>
         <type>Pokémon - Electric</type>
         <maintype>Pokémon</maintype>
