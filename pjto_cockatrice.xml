@@ -5820,8 +5820,7 @@ Forretress can't attack or block unless a player sacrificed a permanent this tur
       <set picURL="https://brooks42.github.io/pjto/cards/Gligar.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Flying
-Whenever a Pokémon card is put into a graveyard from anywhere, put a -1/-1 counter on up to one target Pokémon.
-Whenever Gligar attacks, each player mills a card.</text>
+Whenever a card is put into an opponent's graveyard from the battlefield, put a -1/-1 counter on up to one target Pokémon.</text>
       <prop>
         <type>Pokémon - Ground Flying</type>
         <maintype>Pokémon</maintype>
