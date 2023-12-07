@@ -579,7 +579,7 @@ As long as Sandslash is tapped, it has protection from each odd mana value.</tex
       <set picURL="https://brooks42.github.io/pkto/cards/Nidorina.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Nidoran♀ {G}
-Whenever Nidorina becomes blocked, put a -1/-1 counter on target Pokémon blocking it.</text>
+Whenever Nidorina deals combat damage to a player, you may return target permanent card from your graveyard to your hand.</text>
       <prop>
         <type>Pokémon - Poison</type>
         <maintype>Pokémon</maintype>
@@ -594,7 +594,7 @@ Whenever Nidorina becomes blocked, put a -1/-1 counter on target Pokémon blocki
       <set picURL="https://brooks42.github.io/pkto/cards/Nidoqueen.png" rarity="rare">PKTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Nidorina {1}{G}{G}
-Whenever Nidoqueen evolves or attacks, return target Pokémon card or land card from your graveyard to your hand. If it has mana value 3 or less, put it onto the battlefield instead.</text>
+Whenever Nidoqueen evolves or attacks, return target permanent card from your graveyard to your hand. If it's a land or Pokémon card with mana value 3 or less, put it onto the battlefield instead.</text>
       <prop>
         <type>Pokémon - Poison Ground</type>
         <maintype>Pokémon</maintype>
@@ -763,8 +763,9 @@ At the beginning of your end step, if you gained 5 or more life this turn, draw 
       <name>Zubat</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Zubat.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
-      <text>Flying, lifelink
-Wither</text>
+      <text>Flying
+Wither
+Whenever Zubat deals combat damage, you gain that much life.</text>
       <prop>
         <type>Pokémon - Poison Flying</type>
         <maintype>Pokémon</maintype>
@@ -780,7 +781,7 @@ Wither</text>
       <tablerow>2</tablerow>
       <text>Evolve from Zubat {X}{B}
 Flying
-Whenever Golbat evolves, target player loses X life and you gain X life.</text>
+Whenever Golbat evolves, it deals X damage to target Pokémon or player and you gain X life.</text>
       <prop>
         <type>Pokémon - Poison Flying</type>
         <maintype>Pokémon</maintype>
@@ -3586,13 +3587,14 @@ Target Pokémon or trainer loses indestructible until end of turn. Destroy it. I
       <name>Water Gun</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Water%20Gun.png" rarity="common">PKTO</set>
       <tablerow>3</tablerow>
-      <text>Counter target spell with mana value X.</text>
+      <text>You may exile any number of cards from your graveyard as you cast this spell. It costs {1} less to cast for each card exiled this way.
+Counter target spell unless its controller pays {X}.</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
         <cmc>2</cmc>
         <colors>U</colors>
-        <manacost>XU</manacost>
+        <manacost>XUU</manacost>
       </prop>
     </card>
     <card>
@@ -5349,7 +5351,7 @@ At the beginning of your end step, if you sacrificed a permanent this turn, each
       <set picURL="https://brooks42.github.io/pjto/cards/Mareep.png" rarity="common">PJTO</set>
       <tablerow>2</tablerow>
       <related attach="transform">Flaaffy (DFC)</related>
-      <text>{R}: Exile target instant or sorcery card from your graveyard. Mareep gets +2/+0 and gains haste until end of turn.
+      <text>{R}: Exile target instant or sorcery card from a graveyard. Mareep gets +2/+0 and gains haste until end of turn.
 {R}: Evolve</text>
       <prop>
         <type>Pokémon - Electric</type>
@@ -5366,7 +5368,7 @@ At the beginning of your end step, if you sacrificed a permanent this turn, each
       <set picURL="https://brooks42.github.io/pjto/cards/FlaaffyDFC.png" rarity="common">PJTO</set>
       <tablerow>2</tablerow>
 	  <related attach="transform">Mareep</related>
-      <text>{R}: Exile target instant or sorcery card from your graveyard. Flaaffy gets +2/+0 and gains haste until end of turn.</text>
+      <text>{R}: Exile target instant or sorcery card from a graveyard. Flaaffy gets +2/+0 and gains haste until end of turn.</text>
       <prop>
         <type>Pokémon - Electric</type>
         <maintype>Pokémon</maintype>
@@ -5381,7 +5383,7 @@ At the beginning of your end step, if you sacrificed a permanent this turn, each
       <set picURL="https://brooks42.github.io/pjto/cards/Flaaffy.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Mareep {R}
-Flaaffy has first strike as long as you own three or more cards in exile, and has double strike as long as you own seven or more cards in exile.</text>
+Whenever Flaaffy attacks, exile the top card of your library. Then if you own three or more cards in exile, Flaaffy gains first strike until end of turn.</text>
       <prop>
         <type>Pokémon - Electric</type>
         <maintype>Pokémon</maintype>
@@ -5396,7 +5398,7 @@ Flaaffy has first strike as long as you own three or more cards in exile, and ha
       <set picURL="https://brooks42.github.io/pjto/cards/Ampharos.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Flaaffy {R}
-Whenever Ampharos deals excess damage, you may cast an instant or sorcery card you own in exile with mana value equal to the excess without paying its mana cost.</text>
+Whenever Ampharos deals damage, you may cast an instant or sorcery card you own in exile with mana value equal to the damage dealt without paying its mana cost.</text>
       <prop>
         <type>Pokémon - Electric</type>
         <maintype>Pokémon</maintype>
@@ -5819,7 +5821,7 @@ Forretress can't attack or block unless a player sacrificed a permanent this tur
       <set picURL="https://brooks42.github.io/pjto/cards/Gligar.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Flying
-Whenever a card is put into an opponent's graveyard from anywhere, put a -1/-1 counter on target Pokémon.</text>
+Whenever a card is put into an opponent's graveyard from the battlefield, put a -1/-1 counter on up to one target Pokémon.</text>
       <prop>
         <type>Pokémon - Ground Flying</type>
         <maintype>Pokémon</maintype>
@@ -6068,8 +6070,8 @@ Whenever Piloswine evolves, mill four, then put any number of instant and/or sor
       <set picURL="https://brooks42.github.io/pjto/cards/Remoraid.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>As long as you control a Pokémon with flying, Remoraid has flying.
-You may look at the top card of your library any time.
-{2}: Exile the top card of your library.</text>
+Abilities of evolved Pokémon you control cost {1} less to activate.
+{1}{U}{R}: Draw a card, then exile a card from your hand.</text>
       <prop>
         <type>Pokémon - Water</type>
         <maintype>Pokémon</maintype>
@@ -6084,8 +6086,8 @@ You may look at the top card of your library any time.
       <set picURL="https://brooks42.github.io/pjto/cards/Octillery.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Remoraid {R}
-Activated abilities of evolved Pokémon you control cost {1} less to activate.
-{1}{U}{R}: Draw a card, then exile a card from your hand.</text>
+Menace
+{8}, {T}: Octillery deals 4 damage to any target. This ability costs {1} less to activate for each card you own in exile.</text>
       <prop>
         <type>Pokémon - Water</type>
         <maintype>Pokémon</maintype>
@@ -6118,7 +6120,7 @@ Activated abilities of evolved Pokémon you control cost {1} less to activate.
       <name>Mantine</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Mantine.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
-      <text>At the beginning of your upkeep, if there are five or more card types among cards you own in exile, you win the game.
+      <text>At the beginning of your upkeep, if there no cards in your library or five or more card types among cards you own in exile, you win the game.
 {U}: Mantine gains flying until end of turn.</text>
       <prop>
         <type>Pokémon - Water Flying</type>
@@ -6932,7 +6934,7 @@ Draw a card.</text>
       <name>Whirlpool</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Whirlpool.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Choose three. You may choose the same mode more than once.
+      <text>Choose two. You may choose the same mode more than once.
 • Counter target spell unless its controller pays 3.
 • Tap all Pokémon your opponents control.
 • Draw a card.</text>
@@ -6964,7 +6966,7 @@ Flashback {X}{X}{U}{R}</text>
       <name>Aeroblast</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Aeroblast.png" rarity="mythic">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Multikicker {1}{U}, Put three cards you own in exile on the bottom of your library.
+      <text>Multikicker {1}{U}, Exile three cards from your graveyard.
 Choose one, then choose another one for each time this spell was kicked.
 • Draw three cards.
 • Put target nonland permanent into its owner's library third from the top.
@@ -7150,7 +7152,7 @@ Exile the top X cards of your library. When you do, Sacred Fire deals damage to 
       <set picURL="https://brooks42.github.io/pjto/cards/Scary%20Face.png" rarity="uncommon">PJTO</set>
       <tablerow>3</tablerow>
       <text>As an additional cost to cast this spell, you may sacrifice a permanent.
-Up to two target Pokémon can't block this turn. If this spell's additional cost was paid, tap those Pokémon and put a stun counter on each of them.</text>
+Up to two target Pokémon can’t block this turn. If this spell's additional cost was paid, Scary Face deals 1 damage to each of those Pokémon.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
@@ -7234,7 +7236,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
       <set picURL="https://brooks42.github.io/pjto/cards/Synthesis.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
       <related>Hoppip Token</related>
-      <text>Draw a card. You may put a land card from your hand onto the battlefield. Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip. Put X +1/+1 counters on it, where X is the number of lands you control.</text>
+      <text>Draw a card. You may put a land card from your hand or graveyard onto the battlefield. Then create X 1/1 green Grass Flying Pokémon tokens with reach named Hoppip, where X is the number of lands that entered the battlefield under your control this turn. Put X +1/+1 counters on each of them.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
@@ -7503,7 +7505,7 @@ At the beginning of your upkeep, if you control ten or more Treasures, you win t
       <name>Rain Dance</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Rain%20Dance.png" rarity="uncommon">PJTO</set>
       <tablerow>1</tablerow>
-      <text>Landfall — Whenever a land enters the battlefield under your control, target player mills two cards. If a Pokémon card is milled this way, draw a card.</text>
+      <text>Landfall — Whenever a land enters the battlefield under your control, each player mills a card. If a nonland, non-Pokémon card is milled this way, you draw a card.</text>
       <prop>
         <type>Enchantment</type>
         <maintype>Enchantment</maintype>
@@ -7785,8 +7787,7 @@ Cycling {2}</text>
       <tablerow>0</tablerow>
       <related>Red Gyarados</related>
       <text>Lake of Rage enters the battlefield with ten peace counters on it.
-{3}: Remove a peace counter from Lake of Rage.
-When Lake of Rage has no peace counters on it, sacrifice it. If you do, create Red Gyarados, a legendary 20/20 red Water Flying Pokémon token with menace and indestructible.</text>
+{3}: Remove a peace counter from Lake of Rage. Then if there are no peace counters on it, sacrifice it. If you do, create Red Gyarados, a legendary 20/20 red Water Flying Pokémon token with menace and indestructible.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
