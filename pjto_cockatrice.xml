@@ -6070,8 +6070,8 @@ Whenever Piloswine evolves, mill four, then put any number of instant and/or sor
       <set picURL="https://brooks42.github.io/pjto/cards/Remoraid.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>As long as you control a Pokémon with flying, Remoraid has flying.
-You may look at the top card of your library any time.
-{2}: Exile the top card of your library.</text>
+Abilities of evolved Pokémon you control cost {1} less to activate.
+{1}{U}{R}: Draw a card, then exile a card from your hand.</text>
       <prop>
         <type>Pokémon - Water</type>
         <maintype>Pokémon</maintype>
@@ -6086,8 +6086,8 @@ You may look at the top card of your library any time.
       <set picURL="https://brooks42.github.io/pjto/cards/Octillery.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Remoraid {R}
-Activated abilities of evolved Pokémon you control cost {1} less to activate.
-{1}{U}{R}: Draw a card, then exile a card from your hand.</text>
+Menace
+{8}, {T}: Octillery deals 4 damage to any target. This ability costs {1} less to activate for each card you own in exile.</text>
       <prop>
         <type>Pokémon - Water</type>
         <maintype>Pokémon</maintype>
