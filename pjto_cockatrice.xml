@@ -7235,7 +7235,7 @@ Up to two target Pokémon can’t block this turn. If this spell's additional co
       <name>Synthesis</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Synthesis.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
-      <related>Hoppip Token</related>
+      <related>Sunflora Token</related>
       <text>Draw a card. You may put a land card from your hand or graveyard onto the battlefield. Then create a green Grass Pokémon token named Sunflora with "This Pokémon's power and toughness are each equal to the number of lands you control."</text>
       <prop>
         <type>Sorcery</type>
@@ -8184,6 +8184,19 @@ Cycling {2}</text>
         <cmc>0</cmc>
         <colors>G</colors>
         <pt>0/1</pt>
+      </prop>
+    </card>
+	<card>
+      <name>Sunflora Token</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/SunfloraToken.png" rarity="token">PJTO</set>
+      <tablerow>2</tablerow>
+      <text>This Pokémon's power and toughness are each equal to the number of lands you control.</text>
+      <prop>
+        <type>Token Pokémon - Grass</type>
+        <maintype>Pokémon</maintype>
+        <cmc>0</cmc>
+        <colors>G</colors>
+        <pt>*/*</pt>
       </prop>
     </card>
     <card>
