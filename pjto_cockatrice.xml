@@ -7236,7 +7236,7 @@ Up to two target Pokémon can’t block this turn. If this spell's additional co
       <set picURL="https://brooks42.github.io/pjto/cards/Synthesis.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
       <related>Hoppip Token</related>
-      <text>Draw a card. You may put a land card from your hand or graveyard onto the battlefield. Then create X 1/1 green Grass Flying Pokémon tokens with reach named Hoppip, where X is the number of lands that entered the battlefield under your control this turn. Put X +1/+1 counters on each of them.</text>
+      <text>Draw a card. You may put a land card from your hand or graveyard onto the battlefield. Then create a green Grass Pokémon token named Sunflora with "This Pokémon's power and toughness are each equal to the number of lands you control."</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
