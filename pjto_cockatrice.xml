@@ -7237,7 +7237,7 @@ Up to two target Pokémon can’t block this turn. If this spell's additional co
       <set picURL="https://brooks42.github.io/pjto/cards/Synthesis.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
       <related>Sunflora Token</related>
-      <text>Draw a card. You may put a land card from your hand or graveyard onto the battlefield. Then create a green Grass Pokémon token named Sunflora with "This Pokémon's power and toughness are each equal to the number of lands you control."</text>
+      <text>Draw a card. You may put a land card from your hand or graveyard onto the battlefield. Then create a green Grass Pokémon token named Sunflora with "Sunflora's power and toughness are each equal to the number of lands you control" and "Sunflora can't be blocked by Pokémon with power 2 or less."</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
@@ -8191,7 +8191,8 @@ Cycling {2}</text>
       <name>Sunflora Token</name>
       <set picURL="https://brooks42.github.io/pjto/cards/SunfloraToken.png" rarity="token">PJTO</set>
       <tablerow>2</tablerow>
-      <text>This Pokémon's power and toughness are each equal to the number of lands you control.</text>
+      <text>Sunflora's power and toughness are each equal to the number of lands you control.
+Sunflora can't be blocked by Pokémon with power 2 or less.</text>
       <prop>
         <type>Token Pokémon - Grass</type>
         <maintype>Pokémon</maintype>
