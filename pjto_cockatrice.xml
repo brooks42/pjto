@@ -6934,9 +6934,10 @@ Draw a card.</text>
       <name>Whirlpool</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Whirlpool.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Choose two. You may choose the same mode more than once.
-• Counter target spell unless its controller pays 3.
-• Tap all Pokémon your opponents control.
+      <text>Choose two — 
+• Counter target spell.
+• Return target permanent to its owner's hand.
+• Tap all creatures your opponents control.
 • Draw a card.</text>
       <prop>
         <type>Instant</type>
