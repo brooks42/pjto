@@ -7415,10 +7415,9 @@ Whenever a Pokémon you control evolves, draw a card.</text>
       <name>Sunglasses</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Sunglasses.png" rarity="rare">PJTO</set>
       <tablerow>1</tablerow>
-      <text>Equipped Pokémon gets +2/+0.
-Whenever equipped Pokémon attacks, you may pay {1} and discard a card. If you do, draw a card.
-Whenever you discard one or more nonland cards, you may exile one of them from your graveyard. If you do, you may cast it this turn.
-Equip {1}</text>
+      <text>Equip {1}
+Equipped Pokémon gets +2/+0.
+Whenever equipped Pokémon attacks, you may pay {1} and exile a card from your hand. If you do, draw a card. You may play the exiled card this turn.</text>
       <prop>
         <type>Artifact - Equipment</type>
         <maintype>Artifact</maintype>
