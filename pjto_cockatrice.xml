@@ -6920,8 +6920,8 @@ Landfall — If you had a land enter the battlefield under your control this tur
       <name>Thunder Wave</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Thunder%20Wave.png" rarity="uncommon">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Thunder Wave deals 2 damage divided as you choose among one or two targets.
-Draw a card.</text>
+      <text>Tap target creature. Thunder Wave deals 2 damage to that creature's controller.
+Flashback {1}{U}{R}</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
