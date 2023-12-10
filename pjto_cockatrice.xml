@@ -7157,7 +7157,7 @@ Exile the top X cards of your library. When you do, Sacred Fire deals damage to 
         <maintype>Sorcery</maintype>
         <cmc>2</cmc>
         <colors>R</colors>
-        <manacost>XRR</manacost>
+        <manacost>XXRR</manacost>
       </prop>
     </card>
     <card>
