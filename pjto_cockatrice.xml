@@ -6132,8 +6132,7 @@ Menace
       <name>Mantine</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Mantine.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
-      <text>At the beginning of your upkeep, if there are no cards in your library or five or more card types among cards you own in exile, you win the game.
-{U}: Mantine gains flying until end of turn.</text>
+      <text>{U}{U}: Mantine and up to X target Pokémon gain flying until end of  turn, where X is the number of card types among cards you own in exile.</text>
       <prop>
         <type>Pokémon - Water Flying</type>
         <maintype>Pokémon</maintype>
