@@ -7473,14 +7473,14 @@ Whenever equipped Pokémon attacks, you may pay {1} and exile a card from your h
       <set picURL="https://brooks42.github.io/pjto/cards/Curse.png" rarity="rare">PJTO</set>
       <tablerow>1</tablerow>
       <text>Enchant player
-Pokémon enchanted player controls get -1/-1 and attack each combat if able. 
-At the beginning of combat on each of enchanted player's turns, that player may sacrifice a permanent. If they do, Curse phases out.</text>
+Pokémon enchanted player controls get -1/-1 and attack each combat if able.
+At the beginning of combat on enchanted player's turn, that player may sacrifice a Pokémon. If they do, Curse phases out.</text>
       <prop>
         <type>Enchantment - Aura Curse</type>
         <maintype>Enchantment</maintype>
-        <cmc>6</cmc>
+        <cmc>5</cmc>
         <colors>BR</colors>
-        <manacost>4BR</manacost>
+        <manacost>3BR</manacost>
       </prop>
     </card>
 	<card>
