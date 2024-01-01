@@ -6954,9 +6954,9 @@ Flashback {1}{U}{R}</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
-        <cmc>5</cmc>
+        <cmc>4</cmc>
         <colors>U</colors>
-        <manacost>3UU</manacost>
+        <manacost>1UUU</manacost>
       </prop>
     </card>
     <card>
