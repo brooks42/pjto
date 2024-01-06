@@ -1552,7 +1552,7 @@ Whenever you gain life, you may pay {2}. If you do, draw a card.</text>
         <cmc>2</cmc>
         <colors>W</colors>
         <manacost>WW</manacost>
-        <pt>2/3</pt>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
