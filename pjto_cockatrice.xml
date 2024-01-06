@@ -6397,7 +6397,7 @@ Whenever Blissey enters the battlefield or evolves, exile up to one target encha
       <set picURL="https://brooks42.github.io/pjto/cards/Raikou.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
       <text>Roam — When you cast this spell, if it's the first time you've cast a spell named Raikou this game, it gains "At the beginning of the end step, shuffle Raikou into its owner's library."
-When Raikou enters the battlefield, it deals 3 damage to target player or trainer.
+When Raikou enters the battlefield, it deals 3 damage to any target.
 Pokémon you control have first strike.</text>
       <prop>
         <type>Legendary Pokémon - Electric</type>
