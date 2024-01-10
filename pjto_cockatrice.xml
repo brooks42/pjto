@@ -5914,7 +5914,7 @@ Landfall — Whenever a land enters the battlefield under your control, up to on
       <set picURL="https://brooks42.github.io/pjto/cards/Scizor.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Scyther {C/R}{C/G}
-When Scizor enters the battlefield or evolves, if {C} was spent to cast it, put two +1/+1 counters on it. If {R} was spent to cast it, destroy up to one target artifact. If {G} was spent to cast it, destroy up to one target enchantment.</text>
+Whenever Scizor enters the battlefield or evolves, put a +1/+1 counter on it for each {C} spent to cast or evolve it. Then destroy up to one target artifact or enchantment.</text>
       <prop>
         <type>Artifact Pokémon - Bug Steel</type>
         <maintype>Pokémon</maintype>
