@@ -371,10 +371,10 @@ Whenever Pidgeotto evolves, up to one other target Pokémon gains flying until e
       <prop>
         <type>Pokémon - Normal Flying</type>
         <maintype>Pokémon</maintype>
-        <cmc>4</cmc>
+        <cmc>3</cmc>
         <colors>W</colors>
-        <manacost>3W</manacost>
-        <pt>2/3</pt>
+        <manacost>2W</manacost>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
@@ -1022,14 +1022,14 @@ When Psyduck enters the battlefield, you may counter target spell.</text>
       <set picURL="https://brooks42.github.io/pkto/cards/Primeape.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Mankey {1}{R}
-Whenever Primeape attacks, destroy up to one target artifact. If Primeape has reach, it deals 4 damage to that artifact's controller.</text>
+Whenever Primeape is dealt damage, it deals 2 damage to that source's controller unless they sacrifice an artifact. If Primeape has reach, repeat this process.</text>
       <prop>
         <type>Pokémon - Fighting</type>
         <maintype>Pokémon</maintype>
         <cmc>5</cmc>
         <colors>R</colors>
         <manacost>3RR</manacost>
-        <pt>5/3</pt>
+        <pt>5/4</pt>
       </prop>
     </card>
     <card>
@@ -1472,8 +1472,8 @@ If noncombat damage would be dealt to Slowbro, prevent that damage. If damage wa
       <name>Magnemite</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Magnemite.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
-      <text>Whenever Magnemite enters the battlefield or evolves, if {C} was spent to cast or evolve it, put a stun counter on it.
-If one or more counters would be put on Magnemite, you may tap it instead. When you do, put those counters on another target permanent.</text>
+      <text>If one or more -1/-1 counters would be put on Magnemite, add {C} instead.
+Whenever one or more counters are put on Magnemite, you may move those counters onto another target permanent.</text>
       <prop>
         <type>Artifact Pokémon - Electric Steel</type>
         <maintype>Pokémon</maintype>
@@ -1487,7 +1487,8 @@ If one or more counters would be put on Magnemite, you may tap it instead. When 
       <set picURL="https://brooks42.github.io/pkto/cards/Magneton.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Magnemite {2}
-{X}: Move up to X counters from another target permanent onto Magneton.</text>
+{2}: Add {C}.
+{X}, {T}: Move up to X counters from another target permanent onto Magneton.</text>
       <prop>
         <type>Artifact Pokémon - Electric Steel</type>
         <maintype>Pokémon</maintype>
@@ -1544,14 +1545,15 @@ Double strike, haste</text>
       <name>Seel</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Seel.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
-      <text>Whenever you cast a non-Pokémon spell, you gain 2 life.</text>
+      <text>Lifelink
+Whenever you gain life, you may pay {2}. If you do, draw a card.</text>
       <prop>
         <type>Pokémon - Water</type>
         <maintype>Pokémon</maintype>
         <cmc>2</cmc>
         <colors>W</colors>
         <manacost>WW</manacost>
-        <pt>2/3</pt>
+        <pt>2/2</pt>
       </prop>
     </card>
     <card>
@@ -1619,7 +1621,7 @@ Whenever a Pokémon with a -1/-1 counter on it dies, create a 1/2 black Poison P
       <set picURL="https://brooks42.github.io/pkto/cards/Cloyster.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Shellder {U}{R}
-Whenever Cloyster attacks, you may exile a card from your hand. When you do, untap Cloyster and it deals 1 damage to each of up to three target Pokémon and/or trainers. Draw a card.</text>
+Whenever Cloyster attacks, you may exile a card from your hand. If you do, untap Cloyster and it deals 1 damage to each of up to three target Pokémon and/or trainers. Draw a card.</text>
       <prop>
         <type>Pokémon - Water Ice</type>
         <maintype>Pokémon</maintype>
@@ -1681,7 +1683,7 @@ Whenever Haunter evolves or deals combat damage to a player, each opponent disca
       <set picURL="https://brooks42.github.io/pkto/cards/Gengar.png" rarity="rare">PKTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Haunter {B}{B}
-Whenever an opponent discards a Pokémon card, you may pay {3}{B}{B}. If you do, put that card onto the battlefield under your control. If Gengar is evolved, you may pay {B}{B} instead.</text>
+Whenever an opponent discards a card, exile it. You may play that card for as long as you control Gengar. If Gengar is evolved, you may pay life equal to that card's mana value rather than pay its mana cost.</text>
       <prop>
         <type>Pokémon - Ghost Poison</type>
         <maintype>Pokémon</maintype>
@@ -1732,7 +1734,7 @@ Whenever you scry, untap Hypno.</text>
         <cmc>4</cmc>
         <colors>UB</colors>
         <manacost>2UB</manacost>
-        <pt>3/4</pt>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
@@ -2614,9 +2616,9 @@ When Mew is put into your graveyard from anywhere, shuffle it into your library.
       <set picURL="https://brooks42.github.io/pkto/cards/Green.png" rarity="mythic">PKTO</set>
       <tablerow>1</tablerow>
       <loyalty>4</loyalty>
-      <text>You may spend mana as though it were mana of any type to evolve Pokémon.
+      <text>You can spend mana of any type to evolve Pokémon.
 [+1]: Reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put it into your hand.
-[−3]: Search your library for a Pokémon card with Evolve or Evolve from, reveal it, put it into your hand, then shuffle. Add four {C}. Spend this mana only to evolve Pokémon.</text>
+[−3]: Search your library for a Pokémon card with Evolve or Evolve from, reveal it, put it into your hand, then shuffle. Add {C}{C}{C}{C}. Spend this mana only to evolve Pokémon.</text>
       <prop>
         <type>Legendary Trainer - Green</type>
         <maintype>Trainer</maintype>
@@ -2999,7 +3001,8 @@ When Mew is put into your graveyard from anywhere, shuffle it into your library.
       <name>Mysterious Fossil</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Mysterious%20Fossil.png" rarity="uncommon">PKTO</set>
       <tablerow>1</tablerow>
-      <text>{2}, {T}, Sacrifice Mysterious Fossil: Search your library and/or graveyard for a Pokémon card with fossil and put it onto the battlefield. If you search your library this way, shuffle. If you didn't put a card onto the battlefield this way, draw a card.</text>
+      <text>{T}: Add {C}.
+{2}, {T}, Sacrifice Mysterious Fossil: Search your library and/or graveyard for a Pokémon card with fossil and put it onto the battlefield. If you search your library this way, shuffle. If you didn't put a card onto the battlefield this way, draw a card.</text>
       <prop>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
@@ -5881,7 +5884,7 @@ Whenever Steelix deals combat damage to a player, exile the top card of your lib
       <tablerow>2</tablerow>
       <related>Treasure Token</related>
       <text>Evolve from Snubbull {1}{W}
-Whenever a Pokémon with toughness 5 or greater enters the battlefield or evolves, create a Treasure token. When you do, if Granbull has power greater than its base power, create an additional Treasure token.</text>
+Whenever a Pokémon with toughness 5 or greater enters the battlefield or evolves, create a Treasure token. When you do, if Granbull has power greater than its base power, create another Treasure token.</text>
       <prop>
         <type>Pokémon - Fairy</type>
         <maintype>Pokémon</maintype>
@@ -5912,7 +5915,7 @@ Landfall — Whenever a land enters the battlefield under your control, up to on
       <set picURL="https://brooks42.github.io/pjto/cards/Scizor.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Scyther {C/R}{C/G}
-When Scizor enters the battlefield or evolves, if {C} was spent to cast it, put two +1/+1 counters on it. If {R} was spent to cast it, destroy up to one target artifact. If {G} was spent to cast it, destroy up to one target enchantment.</text>
+Whenever Scizor enters the battlefield or evolves, put a +1/+1 counter on it for each {C} spent to cast or evolve it. Then destroy up to one target artifact or enchantment.</text>
       <prop>
         <type>Artifact Pokémon - Bug Steel</type>
         <maintype>Pokémon</maintype>
@@ -6397,7 +6400,7 @@ Whenever Blissey enters the battlefield or evolves, exile up to one target encha
       <set picURL="https://brooks42.github.io/pjto/cards/Raikou.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
       <text>Roam — When you cast this spell, if it's the first time you've cast a spell named Raikou this game, it gains "At the beginning of the end step, shuffle Raikou into its owner's library."
-When Raikou enters the battlefield, it deals 3 damage to target player or trainer.
+When Raikou enters the battlefield, it deals 3 damage to any target.
 Pokémon you control have first strike.</text>
       <prop>
         <type>Legendary Pokémon - Electric</type>
@@ -7206,6 +7209,7 @@ Up to two target Pokémon can’t block this turn. If this spell's additional co
       <name>Snore</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Snore.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
+	  <related count="x">Treasure Token</related>
       <text>Destroy all nontoken Pokémon. Create a tapped Treasure token for each Pokémon destroyed this way.</text>
       <prop>
         <type>Sorcery</type>
