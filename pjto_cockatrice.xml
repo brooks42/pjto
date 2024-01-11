@@ -5884,7 +5884,7 @@ Whenever Steelix deals combat damage to a player, exile the top card of your lib
       <tablerow>2</tablerow>
       <related>Treasure Token</related>
       <text>Evolve from Snubbull {1}{W}
-Whenever a Pokémon with toughness 5 or greater enters the battlefield or evolves, create a Treasure token. When you do, if Granbull has power greater than its base power, create an additional Treasure token.</text>
+Whenever a Pokémon with toughness 5 or greater enters the battlefield or evolves, create a Treasure token. When you do, if Granbull has power greater than its base power, create another Treasure token.</text>
       <prop>
         <type>Pokémon - Fairy</type>
         <maintype>Pokémon</maintype>
