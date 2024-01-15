@@ -4945,9 +4945,9 @@ Whenever Meganium enters the battlefield or evolves, create a 5/5 green and whit
       <prop>
         <type>Pokémon - Grass</type>
         <maintype>Pokémon</maintype>
-        <cmc>6</cmc>
+        <cmc>7</cmc>
         <colors>GW</colors>
-        <manacost>4GW</manacost>
+        <manacost>5GW</manacost>
         <pt>5/5</pt>
       </prop>
     </card>
@@ -7456,23 +7456,23 @@ Whenever equipped Pokémon attacks, you may pay {1} and exile a card from your h
         <manacost>3</manacost>
       </prop>
     </card>
-    <!-- enchantments -->
 	<card>
-      <name>Call for Family</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Call%20for%20Family.png" rarity="uncommon">PJTO</set>
+      <name>Incubator</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Incubator.png" rarity="uncommon">PJTO</set>
       <tablerow>1</tablerow>
       <related>Hoppip Token</related>
-      <text>Call for Family enters the battlefield with three egg counters on it.
-{1}, {T}, Remove an egg counter from Call for Family: Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.
-{1}{G}{W}, {T}, Remove an egg counter from Call for Family: Populate.</text>
+      <text>Incubator enters the battlefield with three egg counters on it.
+{1}, {T}, Remove an egg counter from Incubator: Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.
+{1}{G}{W}, {T}, Remove an egg counter from Incubator: Populate.</text>
       <prop>
-        <type>Enchantment</type>
-        <maintype>Enchantment</maintype>
+        <type>Artifact</type>
+        <maintype>Artifact</maintype>
         <cmc>2</cmc>
         <colors>GW</colors>
         <manacost>GW</manacost>
       </prop>
     </card>
+    <!-- enchantments -->
 	<card>
       <name>Curse</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Curse.png" rarity="rare">PJTO</set>
