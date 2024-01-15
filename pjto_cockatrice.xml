@@ -6246,7 +6246,7 @@ Whenever Donphan attacks, put a +1/+1 counter on it.</text>
       <tablerow>2</tablerow>
       <text>Evolve from Porygon {X}
 Porygon2 enters the battlefield and evolves with a +1/+1 counter on it for each color of mana spent to cast it.
-Remove a counter from Porygon2: It becomes the color or colors of your choice.</text>
+Remove a counter +1/+1 from Porygon2: It becomes the color of your choice.</text>
       <prop>
         <type>Artifact Pokémon - Normal</type>
         <maintype>Pokémon</maintype>
