@@ -7054,7 +7054,7 @@ Choose one, then choose another one for each time this spell was kicked.
       <name>Crunch</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Crunch.png" rarity="uncommon">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Remove all counters from target nonland permanent. If that permanent is a Pokémon, put three -1/-1 counters on it.</text>
+      <text>Remove all counters from target nonland permanent. Then if that permanent is a Pokémon, put three -1/-1 counters on it.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
