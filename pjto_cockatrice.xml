@@ -6167,7 +6167,7 @@ When Skarmory enters the battlefield, reveal the top X cards of your library, wh
       <set picURL="https://brooks42.github.io/pjto/cards/Houndour.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Menace
-Whenever another Pokémon enters the battlefield, Houndour deals 1 damage to that Pokémon's controller.
+Whenever another Pokémon enters the battlefield, its controller loses 1 life.
 Whenever Houndour evolves, it deals 1 damage to each Pokémon you don't control.</text>
       <prop>
         <type>Pokémon - Dark Fire</type>
