@@ -5586,7 +5586,8 @@ Whenever you populate for the first time each turn, populate again.</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Sunkern.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <related>Sunkern Token</related>
-      <text>Whenever Sunkern attacks, populate.
+      <text>{T}: Add {G}.
+Whenever Sunkern attacks, populate.
 Whenever Sunkern evolves, create a  0/1 green Grass Pokémon token named Sunkern with "{T}: Add {G}." Then populate.</text>
       <prop>
         <type>Pokémon - Grass</type>
