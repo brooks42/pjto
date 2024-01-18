@@ -6042,9 +6042,9 @@ When Magcargo dies, return another target Pokémon card from your graveyard to y
       <name>Swinub</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Swinub.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Lifelink
-You may look at the top card of your library any time.
-You may cast instant spells from the top of your library.</text>
+      <text>You may look at the top card of your library any time.
+As long as you control a Plains, Swinub has lifelink.
+As long as you control an Island, you may cast instant and sorcery spells from the top of your library.</text>
       <prop>
         <type>Pokémon - Ice Ground</type>
         <maintype>Pokémon</maintype>
