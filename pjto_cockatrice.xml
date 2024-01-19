@@ -7465,7 +7465,7 @@ Whenever equipped Pokémon attacks, you may pay {1} and exile a card from your h
       <related>Hoppip Token</related>
       <text>Incubator enters the battlefield with three egg counters on it.
 {1}, {T}, Remove an egg counter from Incubator: Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.
-{1}{G}{W}, {T}, Remove an egg counter from Incubator: Populate.</text>
+{1}{G}{W}, {T}: Populate.</text>
       <prop>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
