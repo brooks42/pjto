@@ -6216,8 +6216,8 @@ Whenever a Pokémon or trainer is dealt damage, its controller sacrifices it.</t
       <name>Phanpy</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Phanpy.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Menace
-Remove all +1/+1 counters from Phanpy: If one or more counters are removed this way, Phanpy gains indestructible until end of turn.</text>
+      <text>Pokémon you control with +1/+1 counters on them have menace.
+Whenever Phanpy evolves, create a 3/3 red Ground Pokémon token named Phanpy. Put a +1/+1 counter on that token.</text>
       <prop>
         <type>Pokémon - Ground</type>
         <maintype>Pokémon</maintype>
