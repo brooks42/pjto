@@ -5215,7 +5215,7 @@ Pokémon you control can't be blocked by Pokémon with -1/-1 counters on them.</
       <prop>
         <type>Pokémon - Poison Flying</type>
         <maintype>Pokémon</maintype>
-        <cmc>5</cmc>
+        <cmc>4</cmc>
         <colors>BG</colors>
         <manacost>2{B/G}{B/G}</manacost>
         <pt>4/4</pt>
