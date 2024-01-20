@@ -50,7 +50,8 @@
       <set picURL="https://brooks42.github.io/pkto/cards/Ivysaur.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Bulbasaur {G}
-Whenever you cast a Pokémon spell, if Ivysaur is tapped, untap it and put a +1/+1 counter on it.</text>
+Pokémon you control with +1/+1 counters on them have trample.
+Whenever Ivysaur evolves, untap it and put a +1/+1 counter on each Pokémon you control.</text>
       <prop>
         <type>Pokémon - Grass Poison</type>
         <maintype>Pokémon</maintype>
@@ -65,7 +66,7 @@ Whenever you cast a Pokémon spell, if Ivysaur is tapped, untap it and put a +1/
       <set picURL="https://brooks42.github.io/pkto/cards/Venusaur.png" rarity="rare">PKTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Ivysaur {1}{G}{G}
-If one or more counters would be put on a Pokémon you control, you may put that many plus one of each of those kinds of counters on that Pokémon instead.</text>
+If one or more +1/+1 counters would be put on a Pokémon you control, that many plus one +1/+1 counters are put on it instead.</text>
       <prop>
         <type>Pokémon - Grass Poison</type>
         <maintype>Pokémon</maintype>
@@ -1304,7 +1305,7 @@ Weepinbell has vigilance as long as it has power greater than its base power.</t
       <set picURL="https://brooks42.github.io/pkto/cards/Victreebel.png" rarity="rare">PKTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Weepinbell {G}{G}
-Pokémon with wither get +1/+1.
+Pokémon you control with wither get +1/+1.
 {T}: Put a wither counter on another target Pokémon.</text>
       <prop>
         <type>Pokémon - Grass Poison</type>
@@ -1312,7 +1313,7 @@ Pokémon with wither get +1/+1.
         <cmc>6</cmc>
         <colors>G</colors>
         <manacost>4GG</manacost>
-        <pt>4/4</pt>
+        <pt>5/5</pt>
       </prop>
     </card>
     <card>
@@ -4939,15 +4940,15 @@ Bayleef gets +1/+1 for each token you control.</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Meganium.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <related>Meganium Token</related>
-      <text>Evolve from Bayleef {1}{G}{W}
+      <text>Evolve from Bayleef {3}{G}{W}
 Trample
 Whenever Meganium enters the battlefield or evolves, create a 5/5 green and white Grass Pokémon token with trample named Meganium.</text>
       <prop>
         <type>Pokémon - Grass</type>
         <maintype>Pokémon</maintype>
-        <cmc>6</cmc>
+        <cmc>7</cmc>
         <colors>GW</colors>
-        <manacost>4GW</manacost>
+        <manacost>5GW</manacost>
         <pt>5/5</pt>
       </prop>
     </card>
@@ -5214,9 +5215,9 @@ Pokémon you control can't be blocked by Pokémon with -1/-1 counters on them.</
       <prop>
         <type>Pokémon - Poison Flying</type>
         <maintype>Pokémon</maintype>
-        <cmc>5</cmc>
+        <cmc>4</cmc>
         <colors>BG</colors>
-        <manacost>3{B/G}{B/G}</manacost>
+        <manacost>2{B/G}{B/G}</manacost>
         <pt>4/4</pt>
       </prop>
     </card>
@@ -5505,7 +5506,8 @@ Whenever Politoed evolves, search your library for up to two land cards, put the
       <tablerow>2</tablerow>
       <related>Hoppip Token</related>
       <related attach="transform">Skiploom (DFC)</related>
-      <text>Whenever Hoppip enters the battlefield or evolves, create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.
+      <text>Reach
+Whenever Hoppip enters the battlefield or evolves, create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.
 {1}{G}: Evolve</text>
       <prop>
         <type>Pokémon - Grass Flying</type>
@@ -5523,7 +5525,8 @@ Whenever Politoed evolves, search your library for up to two land cards, put the
       <tablerow>2</tablerow>
 	  <related attach="transform">Hoppip</related>
       <related>Hoppip Token</related>
-      <text>Whenever Skiploom enters the battlefield or evolves, create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.</text>
+      <text>Reach
+Whenever Skiploom enters the battlefield or evolves, create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.</text>
       <prop>
         <type>Pokémon - Grass Flying</type>
         <maintype>Pokémon</maintype>
@@ -5586,7 +5589,8 @@ Whenever you populate for the first time each turn, populate again.</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Sunkern.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <related>Sunkern Token</related>
-      <text>Whenever Sunkern attacks, populate.
+      <text>{T}: Add {G}.
+Whenever Sunkern attacks, populate.
 Whenever Sunkern evolves, create a  0/1 green Grass Pokémon token named Sunkern with "{T}: Add {G}." Then populate.</text>
       <prop>
         <type>Pokémon - Grass</type>
@@ -6039,9 +6043,9 @@ When Magcargo dies, return another target Pokémon card from your graveyard to y
       <name>Swinub</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Swinub.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Lifelink
-You may look at the top card of your library any time.
-You may cast instant spells from the top of your library.</text>
+      <text>You may look at the top card of your library any time.
+As long as you control a Plains, Swinub has lifelink.
+As long as you control an Island, you may cast instant and sorcery spells from the top of your library.</text>
       <prop>
         <type>Pokémon - Ice Ground</type>
         <maintype>Pokémon</maintype>
@@ -6057,7 +6061,7 @@ You may cast instant spells from the top of your library.</text>
       <tablerow>2</tablerow>
       <text>Evolve from Swinub {W/U}
 Vigilance
-Whenever Piloswine evolves, mill four, then put any number of instant and/or sorcery cards from your graveyard on top of your library.</text>
+Whenever Piloswine evolves, mill four, then put any number of instant and/or sorcery cards from your graveyard on top of your library. You gain that much life.</text>
       <prop>
         <type>Pokémon - Ice Ground</type>
         <maintype>Pokémon</maintype>
@@ -6071,7 +6075,7 @@ Whenever Piloswine evolves, mill four, then put any number of instant and/or sor
       <name>Corsola</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Corsola.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>{1}{U}, {T}: Exile a card from your hand face down. You may look at and cast that card for as long as it remains exiled. Spells cast this way cost {2} less to cast.</text>
+      <text>{1}{U}, {T}: Exile a card from your hand face down. You may look at and cast that card for as long as it remains exiled. Spells cast this way cost {2} less to cast. Activate only during your turn.</text>
       <prop>
         <type>Pokémon - Water Rock</type>
         <maintype>Pokémon</maintype>
@@ -6166,7 +6170,7 @@ When Skarmory enters the battlefield, reveal the top X cards of your library, wh
       <set picURL="https://brooks42.github.io/pjto/cards/Houndour.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Menace
-Whenever another Pokémon enters the battlefield, Houndour deals 1 damage to that Pokémon's controller.
+Whenever another Pokémon enters the battlefield, its controller loses 1 life.
 Whenever Houndour evolves, it deals 1 damage to each Pokémon you don't control.</text>
       <prop>
         <type>Pokémon - Dark Fire</type>
@@ -6212,8 +6216,8 @@ Whenever a Pokémon or trainer is dealt damage, its controller sacrifices it.</t
       <name>Phanpy</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Phanpy.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Menace
-Remove all +1/+1 counters from Phanpy: If one or more counters are removed this way, Phanpy gains indestructible until end of turn.</text>
+      <text>Pokémon you control with +1/+1 counters on them have menace.
+Whenever Phanpy evolves, create a 3/3 red Ground Pokémon token named Phanpy. Put a +1/+1 counter on that token.</text>
       <prop>
         <type>Pokémon - Ground</type>
         <maintype>Pokémon</maintype>
@@ -6227,7 +6231,7 @@ Remove all +1/+1 counters from Phanpy: If one or more counters are removed this 
       <name>Donphan</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Donphan.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Evolve from Phanpy {G}
+      <text>Evolve from Phanpy {1}{R}{G}
 Trample
 Whenever Donphan attacks, put a +1/+1 counter on it.</text>
       <prop>
@@ -6245,7 +6249,7 @@ Whenever Donphan attacks, put a +1/+1 counter on it.</text>
       <tablerow>2</tablerow>
       <text>Evolve from Porygon {X}
 Porygon2 enters the battlefield and evolves with a +1/+1 counter on it for each color of mana spent to cast it.
-Remove a counter from Porygon2: It becomes the color or colors of your choice.</text>
+Remove a +1/+1 counter from Porygon2: It becomes the color of your choice.</text>
       <prop>
         <type>Artifact Pokémon - Normal</type>
         <maintype>Pokémon</maintype>
@@ -6512,7 +6516,7 @@ Whenever Tyranitar attacks, defending player sacrifices a nonland permanent. If 
       <set picURL="https://brooks42.github.io/pjto/cards/Lugia.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
       <text>When you cast this spell from your hand, exile target permanent.
-Flying, first strike, vigilance, lifelink
+Flying, first strike, vigilance
 Protection from instants</text>
       <prop>
         <type>Legendary Pokémon - Psychic Flying</type>
@@ -7053,7 +7057,7 @@ Choose one, then choose another one for each time this spell was kicked.
       <name>Crunch</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Crunch.png" rarity="uncommon">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Remove all counters from target nonland permanent. If that permanent is a Pokémon, put three -1/-1 counters on it.</text>
+      <text>Remove all counters from target nonland permanent. Then if that permanent is a Pokémon, put three -1/-1 counters on it.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
@@ -7455,23 +7459,23 @@ Whenever equipped Pokémon attacks, you may pay {1} and exile a card from your h
         <manacost>3</manacost>
       </prop>
     </card>
-    <!-- enchantments -->
 	<card>
-      <name>Call for Family</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Call%20for%20Family.png" rarity="uncommon">PJTO</set>
+      <name>Incubator</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Incubator.png" rarity="uncommon">PJTO</set>
       <tablerow>1</tablerow>
       <related>Hoppip Token</related>
-      <text>Call for Family enters the battlefield with three egg counters on it.
-{1}, {T}, Remove an egg counter from Call for Family: Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.
-{1}{G}{W}, {T}, Remove an egg counter from Call for Family: Populate.</text>
+      <text>Incubator enters the battlefield with three egg counters on it.
+{1}, {T}, Remove an egg counter from Incubator: Create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.
+{1}{G}{W}, {T}: Populate.</text>
       <prop>
-        <type>Enchantment</type>
-        <maintype>Enchantment</maintype>
+        <type>Artifact</type>
+        <maintype>Artifact</maintype>
         <cmc>2</cmc>
         <colors>GW</colors>
         <manacost>GW</manacost>
       </prop>
     </card>
+    <!-- enchantments -->
 	<card>
       <name>Curse</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Curse.png" rarity="rare">PJTO</set>
@@ -8239,6 +8243,20 @@ Whenever this Pokémon deals combat damage to a player, that player loses the ga
         <cmc>0</cmc>
         <colors>B</colors>
         <pt>1/1</pt>
+      </prop>
+    </card>
+	<card>
+      <name>Phanpy Token</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/PhanpyToken.png" rarity="token">PJTO</set>
+      <tablerow>2</tablerow>
+	  <related>Phanpy Token</related>
+      <text />
+      <prop>
+        <type>Token Pokémon - Ground</type>
+        <maintype>Pokémon</maintype>
+        <cmc>0</cmc>
+        <colors>R</colors>
+        <pt>3/3</pt>
       </prop>
     </card>
     <card>
