@@ -4940,7 +4940,7 @@ Bayleef gets +1/+1 for each token you control.</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Meganium.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <related>Meganium Token</related>
-      <text>Evolve from Bayleef {1}{G}{W}
+      <text>Evolve from Bayleef {3}{G}{W}
 Trample
 Whenever Meganium enters the battlefield or evolves, create a 5/5 green and white Grass Pokémon token with trample named Meganium.</text>
       <prop>
