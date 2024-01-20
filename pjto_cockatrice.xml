@@ -8245,6 +8245,20 @@ Whenever this Pokémon deals combat damage to a player, that player loses the ga
         <pt>1/1</pt>
       </prop>
     </card>
+	<card>
+      <name>Phanpy Token</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/PhanpyToken.png" rarity="token">PJTO</set>
+      <tablerow>2</tablerow>
+	  <related>Phanpy Token</related>
+      <text />
+      <prop>
+        <type>Token Pokémon - Ground</type>
+        <maintype>Pokémon</maintype>
+        <cmc>0</cmc>
+        <colors>R</colors>
+        <pt>3/3</pt>
+      </prop>
+    </card>
     <card>
       <name>Chuck Emblem</name>
       <set picURL="https://brooks42.github.io/pjto/cards/ChuckEmblem.png" rarity="token">PJTO</set>
