@@ -5217,7 +5217,7 @@ Pokémon you control can't be blocked by Pokémon with -1/-1 counters on them.</
         <maintype>Pokémon</maintype>
         <cmc>5</cmc>
         <colors>BG</colors>
-        <manacost>3{B/G}{B/G}</manacost>
+        <manacost>2{B/G}{B/G}</manacost>
         <pt>4/4</pt>
       </prop>
     </card>
@@ -6231,7 +6231,7 @@ Whenever Phanpy evolves, create a 3/3 red Ground Pokémon token named Phanpy. Pu
       <name>Donphan</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Donphan.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Evolve from Phanpy {G}
+      <text>Evolve from Phanpy {1}{R}{G}
 Trample
 Whenever Donphan attacks, put a +1/+1 counter on it.</text>
       <prop>
