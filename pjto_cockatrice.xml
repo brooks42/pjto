@@ -6744,7 +6744,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
       <name>Bubble</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Bubble.png" rarity="uncommon">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Scry 1, then you may reveal the top card of your library. Counter target spell if you revealed a card that shares a card type with it, it wasn’t cast from its owner’s hand, or no mana was spent to cast it.</text>
+      <text>Scry 1, then you may reveal the top card of your library. Counter target spell if you revealed a card that shares a card type with it, if it wasn't cast from its owner's hand, or if no mana was spent to cast it.</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
