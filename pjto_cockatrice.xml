@@ -5224,14 +5224,14 @@ Pokémon you control can't be blocked by Pokémon with -1/-1 counters on them.</
       <name>Chinchou</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Chinchou.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Whenever Chinchou enters the battlefield or evolves, draw a card. Then Chinchou deals X damage to any target, where X is the number of cards you own that were put into exile this turn.</text>
+      <text>Whenever Chinchou enters the battlefield or evolves, draw a card. Then Chinchou deals damage to any target equal to the number of cards that were put into exile this turn.</text>
       <prop>
         <type>Pokémon - Water Electric</type>
         <maintype>Pokémon</maintype>
         <cmc>2</cmc>
         <colors>UR</colors>
         <manacost>UR</manacost>
-        <pt>2/1</pt>
+        <pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -5418,9 +5418,9 @@ Whenever Ampharos deals damage, you may cast an instant or sorcery card you own 
       <prop>
         <type>Pokémon - Electric</type>
         <maintype>Pokémon</maintype>
-        <cmc>6</cmc>
+        <cmc>5</cmc>
         <colors>R</colors>
-        <manacost>5R</manacost>
+        <manacost>4R</manacost>
         <pt>5/4</pt>
       </prop>
     </card>
@@ -6679,7 +6679,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
       <loyalty>5</loyalty>
       <related>Clair Emblem</related>
       <text>[+2]: Look at the top two cards of your library. Put one of them into your hand and exile the other.
-[−X]: You may cast target non-Pokémon card in your graveyard with mana value X without paying its mana cost. If that spell would be put into your graveyard, exile it instead.
+[−3]: Exile target Pokémon you control, then reveal cards from the top of your library until you reveal a Pokémon card with higher mana value. Put that card onto the battlefield and the rest on the bottom of your library in a random order.
 [-7]: You get an emblem with "At the beginning of your upkeep, exile your hand and draw two cards."</text>
       <prop>
         <type>Legendary Trainer - Clair</type>
@@ -6744,7 +6744,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
       <name>Bubble</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Bubble.png" rarity="uncommon">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Scry 1, then you may reveal the top card of your library. When you do, counter target spell if it shares a card type with the revealed card, if it wasn’t cast from its owner's hand, or if no mana was spent to cast it.</text>
+      <text>Scry 1, then you may reveal the top card of your library. Counter target spell if you revealed a card that shares a card type with it, if it wasn't cast from its owner's hand, or if no mana was spent to cast it.</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
