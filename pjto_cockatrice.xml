@@ -5418,9 +5418,9 @@ Whenever Ampharos deals damage, you may cast an instant or sorcery card you own 
       <prop>
         <type>Pokémon - Electric</type>
         <maintype>Pokémon</maintype>
-        <cmc>6</cmc>
+        <cmc>5</cmc>
         <colors>R</colors>
-        <manacost>5R</manacost>
+        <manacost>4R</manacost>
         <pt>5/4</pt>
       </prop>
     </card>
