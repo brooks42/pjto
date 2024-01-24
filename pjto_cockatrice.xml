@@ -7806,8 +7806,9 @@ Cycling {2}</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Lake%20of%20Rage.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
       <related>Red Gyarados</related>
-      <text>Lake of Rage enters the battlefield with ten peace counters on it.
-{3}: Remove a peace counter from Lake of Rage. Then if there are no peace counters on it, sacrifice it. If you do, create Red Gyarados, a legendary 20/20 red Water Flying Pokémon token with menace and indestructible.</text>
+      <text>Lake of Rage enters the battlefield tapped with ten peace counters on it.
+{T}: Add {C}.
+{3}: Remove a peace counter from Lake of Rage. Then if there are no peace counters on it, sacrifice it. If you do, create Red Gyarados, a legendary 10/10 red Water Flying Pokémon token with menace and indestructible.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -8151,7 +8152,7 @@ Cycling {2}</text>
         <maintype>Pokémon</maintype>
         <cmc>0</cmc>
         <colors>R</colors>
-        <pt>20/20</pt>
+        <pt>10/10</pt>
       </prop>
     </card>
     <card>
