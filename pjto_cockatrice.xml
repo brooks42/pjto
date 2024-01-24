@@ -6514,9 +6514,9 @@ Whenever Tyranitar attacks, defending player sacrifices a nonland permanent. If 
       <name>Lugia</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Lugia.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
-      <text>When you cast this spell from your hand, exile target permanent.
+      <text>When you cast this spell, exile target permanent.
 Flying, first strike, vigilance
-Protection from instants</text>
+Ward—Discard a nonland card.</text>
       <prop>
         <type>Legendary Pokémon - Psychic Flying</type>
         <maintype>Pokémon</maintype>
