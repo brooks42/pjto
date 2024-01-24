@@ -5271,8 +5271,8 @@ Whenever Pichu evolves, up to two target Pokémon must block this turn if able. 
       <tablerow>2</tablerow>
 	  <related>Treasure Token</related>
       <text>Baby — Cards named Clefairy have "Evolve from Cleffa {W/B}."
-Cleffa can't be blocked by Pokémon with greater power.
-{Q}: Create a Treasure token. Activate only once each turn.</text>
+Cleffa can’t be blocked by Pokémon with power 3 or greater.
+{Q}: Create a Treasure token. Activate only as a sorcery and only once each turn.</text>
       <prop>
         <type>Pokémon - Fairy</type>
         <maintype>Pokémon</maintype>
