@@ -6711,9 +6711,10 @@ If another Pokémon you control would die, instead remove all counters from it, 
       <set picURL="https://brooks42.github.io/pjto/cards/Will.png" rarity="mythic">PJTO</set>
       <tablerow>1</tablerow>
       <loyalty>3</loyalty>
+	  <related>Will Emblem</related>
       <text>[+1]: Up to one target Pokémon gets -3/-0 until your next turn.
-[-1]: Reveal cards from the top of your library until you reveal a land card. Put one of the revealed cards into your hand and the rest on the bottom of your library in any order.
-[-7]: Any number of target players each draw twenty cards.</text>
+[0]: Draw three cards, then put two cards from your hand on top of your library in any order.
+[-6]: Target player gets an emblem with “Whenever you cast a spell, draw seven cards.”</text>
       <prop>
         <type>Legendary Trainer - Will</type>
         <maintype>Trainer</maintype>
@@ -8287,6 +8288,17 @@ Whenever this Pokémon deals combat damage to a player, that player loses the ga
       <text>At the beginning of your upkeep, return target Pokémon card from your graveyard to the battlefield.</text>
       <prop>
         <type>Emblem - Morty</type>
+        <maintype>Pokémon</maintype>
+        <cmc>0</cmc>
+      </prop>
+    </card>
+	<card>
+      <name>Will Emblem</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/WillEmblem.png" rarity="token">PJTO</set>
+      <tablerow>1</tablerow>
+      <text>Whenever you cast a spell, draw seven cards.</text>
+      <prop>
+        <type>Emblem - Will</type>
         <maintype>Pokémon</maintype>
         <cmc>0</cmc>
       </prop>
