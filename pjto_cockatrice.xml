@@ -6529,7 +6529,7 @@ Protection from instants</text>
       <name>Ho-Oh</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Ho-Oh.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Flying
+      <text>Flying, haste
 When Ho-Oh enters the battlefield, for each color of mana spent to cast it, return up to one target card of that color from your graveyard to your hand.</text>
       <prop>
         <type>Legendary Pokémon - Fire Flying</type>
