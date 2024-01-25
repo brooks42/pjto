@@ -6215,6 +6215,7 @@ Whenever a Pokémon or trainer is dealt damage, its controller sacrifices it.</t
       <name>Phanpy</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Phanpy.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
+	  <related>Phanpy Token</related>
       <text>Pokémon you control with +1/+1 counters on them have menace.
 Whenever Phanpy evolves, create a 3/3 red Ground Pokémon token named Phanpy. Put a +1/+1 counter on that token.</text>
       <prop>
@@ -6515,14 +6516,14 @@ Whenever Tyranitar attacks, defending player sacrifices a nonland permanent. If 
       <set picURL="https://brooks42.github.io/pjto/cards/Lugia.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
       <text>When you cast this spell, exile target permanent.
-Flying, first strike, vigilance
+Flying, first strike
 Ward—Discard a nonland card.</text>
       <prop>
         <type>Legendary Pokémon - Psychic Flying</type>
         <maintype>Pokémon</maintype>
         <cmc>9</cmc>
         <manacost>9</manacost>
-        <pt>6/6</pt>
+        <pt>7/7</pt>
       </prop>
     </card>
     <card>
@@ -8250,7 +8251,6 @@ Whenever this Pokémon deals combat damage to a player, that player loses the ga
       <name>Phanpy Token</name>
       <set picURL="https://brooks42.github.io/pjto/cards/PhanpyToken.png" rarity="token">PJTO</set>
       <tablerow>2</tablerow>
-	  <related>Phanpy Token</related>
       <text />
       <prop>
         <type>Token Pokémon - Ground</type>
