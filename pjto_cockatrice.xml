@@ -3006,8 +3006,8 @@ When Mew is put into your graveyard from anywhere, shuffle it into your library.
       <prop>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
-        <cmc>1</cmc>
-        <manacost>1</manacost>
+        <cmc>2</cmc>
+        <manacost>2</manacost>
       </prop>
     </card>
     <card>
