@@ -6579,7 +6579,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
       <tablerow>1</tablerow>
       <loyalty>2</loyalty>
       <text>Whenever a Bug Pokémon enters the battlefield, draw a card.
-[+1]: Untap target land. Until your next turn, whenever that land is tapped for mana, its controller adds an additional {G}.
+[+1]: Untap target land.
 [−2]: Put a +1/+1 counter on each Pokémon you control.</text>
       <prop>
         <type>Legendary Trainer - Bugsy</type>
