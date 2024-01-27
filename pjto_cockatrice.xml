@@ -6687,7 +6687,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
         <maintype>Trainer</maintype>
         <cmc>4</cmc>
         <colors>UR</colors>
-        <manacost>2{U/R}{U/R}</manacost>
+        <manacost>2UR</manacost>
       </prop>
     </card>
     <card>
