@@ -5367,7 +5367,7 @@ At the beginning of your end step, if you sacrificed a permanent this turn, each
       <set picURL="https://brooks42.github.io/pjto/cards/Mareep.png" rarity="common">PJTO</set>
       <tablerow>2</tablerow>
       <related attach="transform">Flaaffy (DFC)</related>
-      <text>{R}: Exile target instant or sorcery card from a graveyard. Mareep gets +2/+0 and gains haste until end of turn.
+      <text>{R}: Exile target instant or sorcery card from a graveyard. Mareep gets +2/+0 and gains first strike until end of turn.
 {R}: Evolve</text>
       <prop>
         <type>Pokémon - Electric</type>
@@ -5384,7 +5384,7 @@ At the beginning of your end step, if you sacrificed a permanent this turn, each
       <set picURL="https://brooks42.github.io/pjto/cards/FlaaffyDFC.png" rarity="common">PJTO</set>
       <tablerow>2</tablerow>
 	  <related attach="transform">Mareep</related>
-      <text>{R}: Exile target instant or sorcery card from a graveyard. Flaaffy gets +2/+0 and gains haste until end of turn.</text>
+      <text>{R}: Exile target instant or sorcery card from a graveyard. Flaaffy gets +2/+0 and gains first strike until end of turn.</text>
       <prop>
         <type>Pokémon - Electric</type>
         <maintype>Pokémon</maintype>
