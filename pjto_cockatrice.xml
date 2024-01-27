@@ -5414,7 +5414,7 @@ Whenever Flaaffy attacks, exile cards from the top of your library until you exi
       <set picURL="https://brooks42.github.io/pjto/cards/Ampharos.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Flaaffy {R}
-Whenever Ampharos deals damage, you may cast an instant or sorcery card you own in exile with mana value equal to the damage dealt without paying its mana cost.</text>
+Whenever Ampharos deals excess damage, you may cast an instant or sorcery card you own in exile with mana value less than or equal to the excess without paying its mana cost.</text>
       <prop>
         <type>Pokémon - Electric</type>
         <maintype>Pokémon</maintype>
