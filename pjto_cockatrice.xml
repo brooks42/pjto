@@ -5399,7 +5399,7 @@ At the beginning of your end step, if you sacrificed a permanent this turn, each
       <set picURL="https://brooks42.github.io/pjto/cards/Flaaffy.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Mareep {R}
-Whenever Flaaffy attacks, exile the top card of your library. Then if you own three or more cards in exile, Flaaffy gains first strike until end of turn.</text>
+Whenever Flaaffy attacks, exile cards from the top of your library until you exile an instant or sorcery card. You may cast that card. Put the rest of the exiled cards on the bottom of your library in any order.</text>
       <prop>
         <type>Pokémon - Electric</type>
         <maintype>Pokémon</maintype>
