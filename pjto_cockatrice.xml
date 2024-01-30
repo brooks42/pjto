@@ -5993,7 +5993,6 @@ Whenever Heracross is dealt damage, put a +1/+1 counter on it and it fights targ
       <set picURL="https://brooks42.github.io/pjto/cards/Teddiursa.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <related>Treasure Token</related>
-      <related count="3">Treasure Token</related>
       <text>Vigilance
 Whenever you cast your second spell each turn, create a Treasure token.
 Whenever Teddiursa evolves, create two Treasure tokens.</text>
@@ -8233,17 +8232,6 @@ Sunflora can't be blocked by Pokémon with power 2 or less.</text>
         <cmc>0</cmc>
         <colors>G</colors>
         <pt>*/*</pt>
-      </prop>
-    </card>
-    <card>
-      <name>Treasure Token(a)</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/TreasureToken(a).png" rarity="token">PJTO</set>
-      <tablerow>1</tablerow>
-      <text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
-      <prop>
-        <type>Token Artifact - Treasure</type>
-        <maintype>Artifact</maintype>
-        <cmc>0</cmc>
       </prop>
     </card>
     <card>
