@@ -319,7 +319,7 @@ Whenever Kakuna enters the battlefield or evolves, target player discards a card
       <tablerow>2</tablerow>
       <text>Evolve from Kakuna {B}{B}
 Flying
-Whenever Beedrill evolves, create two 1/1 black Bug Poison Pokémon tokens with flying named Beedrill.</text>
+Whenever Beedrill evolves, create two 1/1 black Bug Poison Pokémon tokens with flying and deathtouch named Beedrill.</text>
       <related count="2">Beedrill Token</related>
       <prop>
         <type>Pokémon - Bug Poison</type>
@@ -1773,7 +1773,7 @@ Whenever Kingler attacks, draw a card, then exile a card from your hand.</text>
       <set picURL="https://brooks42.github.io/pkto/cards/Voltorb.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
       <text>Haste
-{X}{R}, {T}, Sacrifice Voltorb: It deals X damage to target Pokémon.</text>
+{X}{R}, {T}, Sacrifice Voltorb: It deals X damage to target Pokémon or trainer.</text>
       <prop>
         <type>Pokémon - Electric</type>
         <maintype>Pokémon</maintype>
@@ -2419,8 +2419,8 @@ Whenever you gain life, untap Snorlax.</text>
       <set picURL="https://brooks42.github.io/pkto/cards/Articuno.png" rarity="mythic">PKTO</set>
       <tablerow>2</tablerow>
       <text>Flying
-Articuno can't attack or block unless it's obedient.
-Tap four other untapped nonland permanents you control and put a stun counter on each of them: Articuno becomes obedient.</text>
+Tap four other untapped permanents you control and put a stun counter on each of them: Articuno becomes obedient.
+Articuno can't attack or block unless it's obedient.</text>
       <prop>
         <type>Legendary Pokémon - Ice Flying</type>
         <maintype>Pokémon</maintype>
@@ -2435,8 +2435,8 @@ Tap four other untapped nonland permanents you control and put a stun counter on
       <set picURL="https://brooks42.github.io/pkto/cards/Zapdos.png" rarity="mythic">PKTO</set>
       <tablerow>2</tablerow>
       <text>Flying
-Zapdos can't attack or block unless it's obedient.
-Whenever you attack with three or more Pokémon, Zapdos becomes obedient.</text>
+Whenever a Pokémon you control deals combat damage to a player, Zapdos becomes obedient.
+Zapdos can’t attack or block unless it’s obedient.</text>
       <prop>
         <type>Legendary Pokémon - Electric Flying</type>
         <maintype>Pokémon</maintype>
@@ -2451,8 +2451,8 @@ Whenever you attack with three or more Pokémon, Zapdos becomes obedient.</text>
       <set picURL="https://brooks42.github.io/pkto/cards/Moltres.png" rarity="mythic">PKTO</set>
       <tablerow>2</tablerow>
       <text>Flying
-Moltres can't attack or block unless it's obedient.
-As long as you have no cards in hand, Moltres is obedient.</text>
+As long as you have no cards in hand, Moltres is obedient.
+Moltres can't attack or block unless it's obedient.</text>
       <prop>
         <type>Legendary Pokémon - Fire Flying</type>
         <maintype>Pokémon</maintype>
@@ -2731,7 +2731,7 @@ When Mew is put into your graveyard from anywhere, shuffle it into your library.
       <set picURL="https://brooks42.github.io/pkto/cards/Blaine.png" rarity="mythic">PKTO</set>
       <tablerow>1</tablerow>
       <loyalty>3</loyalty>
-      <text>[+1]: You may discard a card. If you do, draw a card.
+      <text>[+1]: Exile the top card of your library. You may cast that card. If you don't, Blaine deals 2 damage to each opponent.
 [-2]: Blaine deals damage to target Pokémon equal to the number of Mountains you control.
 [-3]: You may cast target instant or sorcery card from your graveyard this turn. If that spell would be put into your graveyard, exile it instead.</text>
       <prop>
@@ -2739,7 +2739,7 @@ When Mew is put into your graveyard from anywhere, shuffle it into your library.
         <maintype>Trainer</maintype>
         <cmc>3</cmc>
         <colors>R</colors>
-        <manacost>2R</manacost>
+        <manacost>1RR</manacost>
       </prop>
     </card>
     <card>
@@ -2748,7 +2748,7 @@ When Mew is put into your graveyard from anywhere, shuffle it into your library.
       <tablerow>1</tablerow>
       <loyalty>4</loyalty>
       <text>[+1]: Target player draws a card and loses 1 life.
-[-2]: Each player sacrifices a Pokémon or trainer.
+[-2]: Target player sacrifices a Pokémon or trainer.
 [-6]: Search target opponent's library for a Pokémon card and put that card onto the battlefield under your control. Then that player shuffles.</text>
       <prop>
         <type>Legendary Trainer - Giovanni</type>
@@ -2811,17 +2811,17 @@ When Mew is put into your graveyard from anywhere, shuffle it into your library.
       <name>Agatha</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Agatha.png" rarity="mythic">PKTO</set>
       <tablerow>1</tablerow>
-      <loyalty>3</loyalty>
+      <loyalty>5</loyalty>
       <text>Whenever a Pokémon with a soulbind counter on it dies, exile it. If you do, create a token copy of it, except it's a 2/2 Ghost.
-[+1]: Put a soulbind counter on up to one target nontoken Pokémon.
-[-2]: You may sacrifice a nontoken Pokémon. If you do, draw two cards.</text>
+[+1]: Scry X, where X is one plus the number of Ghost Pokémon you control. Draw a card.
+[-2]: Put a soulbind counter on target nontoken Pokémon..</text>
       <related>Ghost Token</related>
       <prop>
         <type>Legendary Trainer - Agatha</type>
         <maintype>Trainer</maintype>
-        <cmc>4</cmc>
+        <cmc>6</cmc>
         <colors>UB</colors>
-        <manacost>2{U/B}B</manacost>
+        <manacost>4{U/B}B</manacost>
       </prop>
     </card>
     <card>
@@ -3002,7 +3002,7 @@ When Mew is put into your graveyard from anywhere, shuffle it into your library.
       <set picURL="https://brooks42.github.io/pkto/cards/Mysterious%20Fossil.png" rarity="uncommon">PKTO</set>
       <tablerow>1</tablerow>
       <text>{T}: Add {C}.
-{2}, {T}, Sacrifice Mysterious Fossil: Search your library and/or graveyard for a Pokémon card with fossil and put it onto the battlefield. If you search your library this way, shuffle. If you didn't put a card onto the battlefield this way, draw a card.</text>
+{2}, {T}, Sacrifice Mysterious Fossil: Search your library for a Pokémon card with fossil, put it onto the battlefield, then shuffle. If you didn’t put a card onto the battlefield this way, draw a card.</text>
       <prop>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
@@ -3942,8 +3942,8 @@ Enchanted Pokémon doesn't untap during its controller's untap step.</text>
       <name>Vermilion Gym</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Vermilion%20Gym.png" rarity="rare">PKTO</set>
       <tablerow>1</tablerow>
-      <text>Whenever a Pokémon you control attacks, put a charge counter on Vermilion Gym.
-Remove three charge counters from Vermilion Gym: Put a first strike, vigilance, or haste counter on target Pokémon.</text>
+      <text>Whenever you attack, create a 1/1 red Electric Pokémon token named Voltorb that's tapped and attacking. When you do, target attacking Pokémon gains first strike until end of turn.</text>
+	  <related>Voltorb Token</related>
       <prop>
         <type>Enchantment</type>
         <maintype>Enchantment</maintype>
@@ -4730,7 +4730,7 @@ Cycling {2}</text>
       <name>Beedrill Token</name>
       <set picURL="https://brooks42.github.io/pkto/cards/BeedrillToken.png" rarity="token">PKTO</set>
       <tablerow>2</tablerow>
-      <text>Flying</text>
+      <text>Flying, deathtouch</text>
       <prop>
         <type>Token Pokémon - Bug Poison</type>
         <maintype>Pokémon</maintype>
@@ -4849,6 +4849,20 @@ Cycling {2}</text>
         <type>Token Artifact - Treasure</type>
         <maintype>Artifact</maintype>
         <cmc>0</cmc>
+      </prop>
+    </card>
+	<card>
+      <name>Voltorb Token</name>
+      <set picURL="https://brooks42.github.io/pkto/cards/VoltorbToken.png" rarity="token">PKTO</set>
+      <tablerow>2</tablerow>
+      <text />
+	  <cipt>1</cipt>
+      <prop>
+        <type>Token Pokémon - Electric</type>
+        <maintype>Pokémon</maintype>
+        <cmc>0</cmc>
+		<colors>R</colors>
+		<pt>1/1</pt>
       </prop>
     </card>
     <card>
@@ -5224,7 +5238,7 @@ Pokémon you control can't be blocked by Pokémon with -1/-1 counters on them.</
       <name>Chinchou</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Chinchou.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Whenever Chinchou enters the battlefield or evolves, draw a card. Then Chinchou deals damage to any target equal to the number of cards that were put into exile this turn.</text>
+      <text>Whenever Chinchou enters the battlefield or evolves, draw a card. Then Chinchou deals damage equal to its power to any target if a card was put into exile this turn.</text>
       <prop>
         <type>Pokémon - Water Electric</type>
         <maintype>Pokémon</maintype>
@@ -5367,7 +5381,7 @@ At the beginning of your end step, if you sacrificed a permanent this turn, each
       <set picURL="https://brooks42.github.io/pjto/cards/Mareep.png" rarity="common">PJTO</set>
       <tablerow>2</tablerow>
       <related attach="transform">Flaaffy (DFC)</related>
-      <text>{R}: Exile target instant or sorcery card from a graveyard. Mareep gets +2/+0 and gains haste until end of turn.
+      <text>{R}: Exile target instant or sorcery card from a graveyard. Mareep gets +2/+0 and gains first strike until end of turn.
 {R}: Evolve</text>
       <prop>
         <type>Pokémon - Electric</type>
@@ -5384,7 +5398,7 @@ At the beginning of your end step, if you sacrificed a permanent this turn, each
       <set picURL="https://brooks42.github.io/pjto/cards/FlaaffyDFC.png" rarity="common">PJTO</set>
       <tablerow>2</tablerow>
 	  <related attach="transform">Mareep</related>
-      <text>{R}: Exile target instant or sorcery card from a graveyard. Flaaffy gets +2/+0 and gains haste until end of turn.</text>
+      <text>{R}: Exile target instant or sorcery card from a graveyard. Flaaffy gets +2/+0 and gains first strike until end of turn.</text>
       <prop>
         <type>Pokémon - Electric</type>
         <maintype>Pokémon</maintype>
@@ -5399,7 +5413,7 @@ At the beginning of your end step, if you sacrificed a permanent this turn, each
       <set picURL="https://brooks42.github.io/pjto/cards/Flaaffy.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Mareep {R}
-Whenever Flaaffy attacks, exile the top card of your library. Then if you own three or more cards in exile, Flaaffy gains first strike until end of turn.</text>
+Whenever Flaaffy attacks, exile cards from the top of your library until you exile an instant or sorcery card. You may cast that card. Put the rest of the exiled cards on the bottom of your library in any order.</text>
       <prop>
         <type>Pokémon - Electric</type>
         <maintype>Pokémon</maintype>
@@ -5414,7 +5428,7 @@ Whenever Flaaffy attacks, exile the top card of your library. Then if you own th
       <set picURL="https://brooks42.github.io/pjto/cards/Ampharos.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Flaaffy {R}
-Whenever Ampharos deals damage, you may cast an instant or sorcery card you own in exile with mana value equal to the damage dealt without paying its mana cost.</text>
+Whenever Ampharos deals excess damage, you may cast an instant or sorcery card you own in exile with mana value less than or equal to the excess without paying its mana cost.</text>
       <prop>
         <type>Pokémon - Electric</type>
         <maintype>Pokémon</maintype>
@@ -6579,7 +6593,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
       <tablerow>1</tablerow>
       <loyalty>2</loyalty>
       <text>Whenever a Bug Pokémon enters the battlefield, draw a card.
-[+1]: Untap target land. Until your next turn, whenever that land is tapped for mana, its controller adds an additional {G}.
+[+1]: Untap target land.
 [−2]: Put a +1/+1 counter on each Pokémon you control.</text>
       <prop>
         <type>Legendary Trainer - Bugsy</type>
@@ -6614,8 +6628,8 @@ If another Pokémon you control would die, instead remove all counters from it, 
       <related>Treasure Token</related>
       <related>Morty Emblem</related>
       <text>[+1]: Until your next turn, prevent all damage target permanent would deal. Create a Treasure token.
-[-3]: Exile target nonland permanent.
-[−7]: You get an emblem with "At the beginning of your upkeep, return target Pokémon card from your graveyard to the battlefield."</text>
+[-3]: Target Pokémon or trainer becomes a Treasure artifact with "{T}, Sacrifice this artifact: Add one mana of any color" and loses all other abilities.
+[−7]: You get an emblem with "At the beginning of your upkeep, put target Pokémon card from a graveyard onto the battlefield under your control."</text>
       <prop>
         <type>Legendary Trainer - Morty</type>
         <maintype>Trainer</maintype>
@@ -6679,15 +6693,15 @@ If another Pokémon you control would die, instead remove all counters from it, 
       <tablerow>1</tablerow>
       <loyalty>5</loyalty>
       <related>Clair Emblem</related>
-      <text>[+2]: Look at the top two cards of your library. Put one of them into your hand and exile the other.
+      <text>[+1]: Look at the top two cards of your library. Put one of them into your hand and exile the other.
 [−3]: Exile target Pokémon you control, then reveal cards from the top of your library until you reveal a Pokémon card with higher mana value. Put that card onto the battlefield and the rest on the bottom of your library in a random order.
 [-7]: You get an emblem with "At the beginning of your upkeep, exile your hand and draw two cards."</text>
       <prop>
         <type>Legendary Trainer - Clair</type>
         <maintype>Trainer</maintype>
-        <cmc>6</cmc>
+        <cmc>4</cmc>
         <colors>UR</colors>
-        <manacost>4{U/R}{U/R}</manacost>
+        <manacost>2UR</manacost>
       </prop>
     </card>
     <card>
@@ -8285,7 +8299,7 @@ Whenever this Pokémon deals combat damage to a player, that player loses the ga
       <name>Morty Emblem</name>
       <set picURL="https://brooks42.github.io/pjto/cards/MortyEmblem.png" rarity="token">PJTO</set>
       <tablerow>1</tablerow>
-      <text>At the beginning of your upkeep, return target Pokémon card from your graveyard to the battlefield.</text>
+      <text>At the beginning of your upkeep, put target Pokémon card from a graveyard onto the battlefield under your control.</text>
       <prop>
         <type>Emblem - Morty</type>
         <maintype>Pokémon</maintype>
