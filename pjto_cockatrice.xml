@@ -5743,8 +5743,7 @@ Whenever Slowking is dealt noncombat damage, put that many +1/+1 counters on it 
       <set picURL="https://brooks42.github.io/pjto/cards/Misdreavus.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <related>Treasure Token</related>
-      <text>Flying
-When Misdreavus enters the battlefield, if mana from a Treasure was spent to cast it, you draw a card and you lose 1 life.
+      <text>When Misdreavus enters the battlefield, if mana from a Treasure was spent to cast it, you draw a card and you lose 1 life.
 When Misdreavus dies, create a Treasure Token.</text>
       <prop>
         <type>Pokémon - Ghost</type>
