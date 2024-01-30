@@ -6647,7 +6647,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
       <related>Chuck Emblem</related>
       <text>This spell can't be countered.
 [+1]: Create a 4/4 blue and red Water Fighting Pokémon token with haste named Poliwrath. Sacrifice it at the beginning of the next end step.
-[−6]: You get an emblem with "Whenever a Pokémon you control dies, it deals damage equal to its power to target player."</text>
+[−7]: You get an emblem with "Whenever a Pokémon you control dies, it deals damage equal to its power to target player."</text>
       <prop>
         <type>Legendary Trainer - Chuck</type>
         <maintype>Trainer</maintype>
