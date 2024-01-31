@@ -5945,7 +5945,7 @@ Whenever Scizor enters the battlefield or evolves, put a +1/+1 counter on it for
       <name>Shuckle</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Shuckle.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
-      <related>Food Token(a)</related>
+      <related>Food Token</related>
       <text>Landfall — Whenever a land enters the battlefield under your control, create a Food token.
 Sacrifice two Foods: Target artifact, enchantment, or Pokémon loses all abilities and becomes a green Bug Pokémon with base power and toughness 3/3. Activate only as a sorcery.</text>
       <prop>
@@ -8071,17 +8071,6 @@ Cycling {2}</text>
     <card>
       <name>Food Token</name>
       <set picURL="https://brooks42.github.io/pjto/cards/FoodToken.png" rarity="token">PJTO</set>
-      <tablerow>1</tablerow>
-      <text>{2}, {T}, Sacrifice this artifact: You gain 3 life.</text>
-      <prop>
-        <type>Token Artifact - Food</type>
-        <maintype>Artifact</maintype>
-        <cmc>0</cmc>
-      </prop>
-    </card>
-    <card>
-      <name>Food Token(a)</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/FoodToken(a).png" rarity="token">PJTO</set>
       <tablerow>1</tablerow>
       <text>{2}, {T}, Sacrifice this artifact: You gain 3 life.</text>
       <prop>
