@@ -6399,7 +6399,7 @@ Whenever a Pokémon card is put into exile, untap Magby and add {R}.</text>
       <name>Blissey</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Blissey.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Evolve from Chansey {W}{W}
+      <text>Evolve from Chansey {4}{W}{W}
 Whenever Blissey enters the battlefield or evolves, exile up to one target enchantment.
 {4}{W}{W}: Blissey gets +X/+0 until end of turn, where X is your life total.</text>
       <prop>
