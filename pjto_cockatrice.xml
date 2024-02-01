@@ -2252,7 +2252,7 @@ When Lapras dies, you gain 3 life.</text>
       <name>Eevee</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Eevee.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
-      <text>You may pay {W}{U}{B}{R}{G} less to evolve Pokémon. This effect reduces only the amount of colored mana you pay. This effect can’t reduce the mana in that cost by more than one mana.</text>
+      <text>You may pay {W}{U}{B}{R}{G} less to evolve Pokémon. This effect reduces only the amount of colored mana you pay. This effect can't reduce the mana in that cost by more than one mana.</text>
       <prop>
         <type>Pokémon - Normal</type>
         <maintype>Pokémon</maintype>
@@ -2436,7 +2436,7 @@ Articuno can't attack or block unless it's obedient.</text>
       <tablerow>2</tablerow>
       <text>Flying
 Whenever a Pokémon you control deals combat damage to a player, Zapdos becomes obedient.
-Zapdos can’t attack or block unless it’s obedient.</text>
+Zapdos can't attack or block unless it's obedient.</text>
       <prop>
         <type>Legendary Pokémon - Electric Flying</type>
         <maintype>Pokémon</maintype>
@@ -3002,7 +3002,7 @@ When Mew is put into your graveyard from anywhere, shuffle it into your library.
       <set picURL="https://brooks42.github.io/pkto/cards/Mysterious%20Fossil.png" rarity="uncommon">PKTO</set>
       <tablerow>1</tablerow>
       <text>{T}: Add {C}.
-{2}, {T}, Sacrifice Mysterious Fossil: Search your library for a Pokémon card with fossil, put it onto the battlefield, then shuffle. If you didn’t put a card onto the battlefield this way, draw a card.</text>
+{2}, {T}, Sacrifice Mysterious Fossil: Search your library for a Pokémon card with fossil, put it onto the battlefield, then shuffle. If you didn't put a card onto the battlefield this way, draw a card.</text>
       <prop>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
@@ -3042,7 +3042,7 @@ Draw a card.</text>
       <name>Show of Force</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Show%20of%20Force.png" rarity="common">PKTO</set>
       <tablerow>3</tablerow>
-      <text>Show of Force deals 1 damage to each Pokémon you don’t control.
+      <text>Show of Force deals 1 damage to each Pokémon you don't control.
 You may exile a card from your hand. If you do, draw a card..</text>
       <prop>
         <type>Instant</type>
@@ -3692,7 +3692,7 @@ Sacrifice Leaf Stone: Add {G}{G}.</text>
       <set picURL="https://brooks42.github.io/pkto/cards/Water%20Stone.png" rarity="uncommon">PKTO</set>
       <tablerow>1</tablerow>
       <text>{T}: Add {U}.
-Whenever a Pokémon you control evolves, tap target Pokémon you don’t control and put a stun counter on it.
+Whenever a Pokémon you control evolves, tap target Pokémon you don't control and put a stun counter on it.
 Sacrifice Water Stone: Scry 3.</text>
       <prop>
         <type>Artifact</type>
@@ -4167,7 +4167,7 @@ Cycling {2}</text>
       <name>Diglett's Cave</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Digletts%20Cave.png" rarity="uncommon">PKTO</set>
       <tablerow>0</tablerow>
-      <text>Digett’s Cave enters the battlefield tapped.
+      <text>Digett's Cave enters the battlefield tapped.
 {T}: Add {R}.
 {2}{R}, {T}, Sacrifice Diglett's Cave: Destroy target nonbasic land.</text>
 	  <cipt>1</cipt>
@@ -5207,7 +5207,7 @@ Whenever Spinarak evolves, destroy up to one target Flying Pokémon or Pokémon 
       <set picURL="https://brooks42.github.io/pjto/cards/Ariados.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Spinarak {B}
-{3}{B}, {T}: Exile target Pokémon card from your graveyard. Put a number of -1/-1 counters equal to that card’s power on target Pokémon.</text>
+{3}{B}, {T}: Exile target Pokémon card from your graveyard. Put a number of -1/-1 counters equal to that card's power on target Pokémon.</text>
       <prop>
         <type>Pokémon - Bug Poison</type>
         <maintype>Pokémon</maintype>
@@ -5284,7 +5284,7 @@ Whenever Pichu evolves, up to two target Pokémon must block this turn if able. 
       <tablerow>2</tablerow>
 	  <related>Treasure Token</related>
       <text>Baby — Cards named Clefairy have "Evolve from Cleffa {W/B}."
-Cleffa can’t be blocked by Pokémon with power 3 or greater.
+Cleffa can't be blocked by Pokémon with power 3 or greater.
 {Q}: Create a Treasure token. Activate only as a sorcery and only once each turn.</text>
       <prop>
         <type>Pokémon - Fairy</type>
@@ -5316,7 +5316,7 @@ Whenever Igglybuff attacks, tap up to one target Pokémon.</text>
       <name>Togepi</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Togepi.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Baby — Cards named Togetic have “Evolve from Togepi {W}.” 
+      <text>Baby — Cards named Togetic have "Evolve from Togepi {W}."
 Whenever you cast a spell, if mana from a Treasure was spent to cast it, reveal cards from the top of your library until you reveal a nonland card with lesser mana value. You may cast that card without paying its mana cost. Then shuffle.</text>
       <prop>
         <type>Pokémon - Fairy</type>
@@ -6726,7 +6726,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
 	  <related>Will Emblem</related>
       <text>[+1]: Up to one target Pokémon gets -3/-0 until your next turn.
 [0]: Draw three cards, then put two cards from your hand on top of your library in any order.
-[-6]: Target player gets an emblem with “Whenever you cast a spell, draw seven cards.”</text>
+[-6]: Target player gets an emblem with "Whenever you cast a spell, draw seven cards."</text>
       <prop>
         <type>Legendary Trainer - Will</type>
         <maintype>Trainer</maintype>
@@ -6741,7 +6741,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
       <tablerow>1</tablerow>
       <loyalty>3</loyalty>
       <related>Karen Token</related>
-      <text>As you cast this spell, you may sacrifice a Pokémon. When you do, copy this spell. The copy isn’t legendary and has starting loyalty equal to the sacrificed Pokémon's power.
+      <text>As you cast this spell, you may sacrifice a Pokémon. When you do, copy this spell. The copy isn't legendary and has starting loyalty equal to the sacrificed Pokémon's power.
 [+1]: Each opponent loses 2 life unless they sacrifice a permanent or discard a card.
 [-7]: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of their choice.</text>
       <prop>
@@ -6772,7 +6772,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
       <tablerow>3</tablerow>
       <text>Choose one —
 • Scry 2, then draw a card.
-• Return target Pokémon to its owner’s hand.
+• Return target Pokémon to its owner's hand.
 • Destroy target trainer.</text>
       <prop>
         <type>Instant</type>
@@ -7082,7 +7082,7 @@ Choose one, then choose another one for each time this spell was kicked.
       <name>Destiny Bond</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Destiny%20Bond.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
-      <text>If you control a Dark, Ghost, or Psychic Pokémon, you may pay 4 life instead of paying this spell’s mana cost.
+      <text>If you control a Dark, Ghost, or Psychic Pokémon, you may pay 4 life instead of paying this spell's mana cost.
 The controller of target Pokémon or target trainer sacrifices it unless they pay life equal to 1 plus its mana value.
 Overload {4}{B}{B}</text>
       <prop>
@@ -7124,7 +7124,7 @@ Flame Wheel deals damage equal to the sacrificed Pokémon's power to each Pokém
       <name>Hidden Power</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Hidden%20Power.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Shuffle your library, then reveal the top card. If it’s a nonland card, cast it without paying its mana cost or put it into your hand. If it's a land card, you may put it onto the battlefield and return Hidden Power to its owner's hand.</text>
+      <text>Shuffle your library, then reveal the top card. If it's a nonland card, cast it without paying its mana cost or put it into your hand. If it's a land card, you may put it onto the battlefield and return Hidden Power to its owner's hand.</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
@@ -7184,7 +7184,7 @@ Exile the top X cards of your library. When you do, Sacred Fire deals damage to 
       <set picURL="https://brooks42.github.io/pjto/cards/Scary%20Face.png" rarity="uncommon">PJTO</set>
       <tablerow>3</tablerow>
       <text>As an additional cost to cast this spell, you may sacrifice a permanent.
-Up to two target Pokémon can’t block this turn. If this spell's additional cost was paid, Scary Face deals 1 damage to each of those Pokémon.</text>
+Up to two target Pokémon can't block this turn. If this spell's additional cost was paid, Scary Face deals 1 damage to each of those Pokémon.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
