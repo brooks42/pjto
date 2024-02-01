@@ -666,7 +666,7 @@ As long as Nidoking has first strike, it has trample.</text>
         <cmc>7</cmc>
         <colors>B</colors>
         <manacost>5BB</manacost>
-        <pt>8/6</pt>
+        <pt>8/7</pt>
       </prop>
     </card>
     <card>
@@ -2583,7 +2583,7 @@ When Mew is put into your graveyard from anywhere, shuffle it into your library.
       <set picURL="https://brooks42.github.io/pkto/cards/Red.png" rarity="mythic">PKTO</set>
       <tablerow>1</tablerow>
       <loyalty>4</loyalty>
-      <text>[+1]: Exile the top two cards of your library. Until end of turn, you may cast Pokémon cards exiled this way.
+      <text>[+2]: Exile the top two cards of your library. Until end of turn, you may cast Pokémon cards exiled this way.
 [−3]: Create Red's Pikachu, a legendary 4/4 red and white Electric Pokémon token with first strike, lifelink, and haste.
 [−7]: You may put any number of Pokémon cards from your hand onto the battlefield.</text>
       <related>Red's Pikachu</related>
@@ -3900,7 +3900,7 @@ Whenever enchanted Pokémon deals combat damage to a player, that player discard
       <name>Frozen</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Frozen.png" rarity="uncommon">PKTO</set>
       <tablerow>1</tablerow>
-      <text>Enchant Pokémon you don't control
+      <text>Enchant Pokémon
 When Frozen enters the battlefield, tap enchanted Pokémon.
 Enchanted Pokémon doesn't untap during its controller's untap step.</text>
       <prop>
@@ -3997,8 +3997,7 @@ If one or more -1/-1 counters would be put on a Pokémon you don't control, that
       <name>Cinnabar Gym</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Cinnabar%20Gym.png" rarity="rare">PKTO</set>
       <tablerow>1</tablerow>
-      <text>Whenever you attack, you may choose odd or even. If you do, exile cards from the top of your library until you exile a nonland card. If it has mana value of the chosen quality, you may cast that card until you exile another card with Cinnabar Gym.
-You may cast cards exiled with Cinnabar Gym.</text>
+      <text>Whenever you attack, choose odd or even, then exile the top card of your library. If it's a nonland card with mana value of the chosen quality, create a Treasure token. You may play the exiled card this turn.</text>
       <prop>
         <type>Enchantment</type>
         <maintype>Enchantment</maintype>
