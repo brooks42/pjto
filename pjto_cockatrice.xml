@@ -7042,7 +7042,7 @@ Choose one, then choose another one for each time this spell was kicked.
       <set picURL="https://brooks42.github.io/pjto/cards/Bone%20Rush.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
       <text>Choose one — 
-• Target player reveals their hand. You choose a Pokémon card from it. Exile that card.
+• Target player reveals their hand. You choose a Pokémon or trainer card from it. That player discards that card.
 • Target player sacrifices a Pokémon. If a Pokémon with mana value 2 or less is sacrificed this way, that player sacrifices another Pokémon.</text>
       <prop>
         <type>Sorcery</type>
