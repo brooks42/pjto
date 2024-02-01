@@ -6951,7 +6951,7 @@ Landfall — If you had a land enter the battlefield under your control this tur
       <name>Thunder Wave</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Thunder%20Wave.png" rarity="uncommon">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Tap target creature. Thunder Wave deals 2 damage to that creature's controller.
+      <text>Tap target Pokémon. Thunder Wave deals 2 damage to that Pokémon's controller.
 Flashback {1}{U}{R}</text>
       <prop>
         <type>Instant</type>
