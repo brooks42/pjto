@@ -3176,7 +3176,7 @@ You gain 1 life.</text>
       <tablerow>1</tablerow>
       <text>{T}, Put a charge counter on Dowsing Machine: Scry 1.
 {2}, {T}, Put a charge counter on Dowsing Machine: Draw a card.
-When there are four or more charge counters on Dowsing Machine, sacrifice it.</text>
+When there are four or more charge counters on Dowsing Machine, sacrifice it. If you do, you gain 4 life.</text>
       <prop>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
@@ -3997,8 +3997,9 @@ The first time you would draw a card each turn, scry 1, then draw a card instead
       <name>Cinnabar Gym</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Cinnabar%20Gym.png" rarity="rare">PKTO</set>
       <tablerow>1</tablerow>
-      <text>Whenever you attack, choose odd or even, then exile the top card of your library. If it's a nonland card with mana value of the chosen quality, create a Treasure token. You may play the exiled card this turn.</text>
-      <prop>
+      <text>Whenever you attack, choose odd or even, then exile the top card of your library. You may play that card this turn. If it’s a nonland card with mana value of the chosen quality, create a Treasure token.</text>
+      <related>Treasure Token</related>
+	  <prop>
         <type>Enchantment</type>
         <maintype>Enchantment</maintype>
         <cmc>2</cmc>
@@ -4855,7 +4856,6 @@ Cycling {2}</text>
       <set picURL="https://brooks42.github.io/pkto/cards/VoltorbToken.png" rarity="token">PKTO</set>
       <tablerow>2</tablerow>
       <text />
-	  <cipt>1</cipt>
       <prop>
         <type>Token Pokémon - Electric</type>
         <maintype>Pokémon</maintype>
@@ -5024,7 +5024,7 @@ Whenever Typhlosion enters the battlefield or evolves, target opponent sacrifice
         <cmc>6</cmc>
         <colors>BR</colors>
         <manacost>4BR</manacost>
-        <pt>6/5</pt>
+        <pt>7/5</pt>
       </prop>
     </card>
     <card>
