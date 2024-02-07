@@ -1848,7 +1848,7 @@ Whenever a Pokémon deals damage to Exeggutor, put a -1/-1 counter on that Poké
       <tablerow>2</tablerow>
       <text>Evolve from Cubone {G}{W}
 Vigilance, trample
-{G}{W}, {T}: Choose target attacking or blocking Pokémon. If Marowak has greater power than its base power, it deals damage equal to the difference to the chosen Pokémon.</text>
+{G}{W}, {T}: Choose target attacking or blocking Pokémon. If Marowak has greater power than its own base power, it deals damage equal to the difference to the chosen Pokémon.</text>
       <prop>
         <type>Pokémon - Ground</type>
         <maintype>Pokémon</maintype>
@@ -2104,7 +2104,7 @@ Whenever you scry, tap up to X target nonland permanents, where X is the number 
         <cmc>4</cmc>
         <colors>W</colors>
         <manacost>2WW</manacost>
-        <pt>2/2</pt>
+        <pt>2/4</pt>
       </prop>
     </card>
     <card>
@@ -3176,7 +3176,7 @@ You gain 1 life.</text>
       <tablerow>1</tablerow>
       <text>{T}, Put a charge counter on Dowsing Machine: Scry 1.
 {2}, {T}, Put a charge counter on Dowsing Machine: Draw a card.
-When there are four or more charge counters on Dowsing Machine, sacrifice it.</text>
+When there are four or more charge counters on Dowsing Machine, sacrifice it. If you do, you gain 4 life.</text>
       <prop>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
@@ -3997,8 +3997,9 @@ The first time you would draw a card each turn, scry 1, then draw a card instead
       <name>Cinnabar Gym</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Cinnabar%20Gym.png" rarity="rare">PKTO</set>
       <tablerow>1</tablerow>
-      <text>Whenever you attack, choose odd or even, then exile the top card of your library. If it's a nonland card with mana value of the chosen quality, create a Treasure token. You may play the exiled card this turn.</text>
-      <prop>
+      <text>Whenever you attack, choose odd or even, then exile the top card of your library. You may play that card this turn. If it’s a nonland card with mana value of the chosen quality, create a Treasure token.</text>
+      <related>Treasure Token</related>
+	  <prop>
         <type>Enchantment</type>
         <maintype>Enchantment</maintype>
         <cmc>2</cmc>
@@ -4855,7 +4856,6 @@ Cycling {2}</text>
       <set picURL="https://brooks42.github.io/pkto/cards/VoltorbToken.png" rarity="token">PKTO</set>
       <tablerow>2</tablerow>
       <text />
-	  <cipt>1</cipt>
       <prop>
         <type>Token Pokémon - Electric</type>
         <maintype>Pokémon</maintype>
@@ -4870,7 +4870,7 @@ Cycling {2}</text>
       <tablerow>1</tablerow>
       <text>Whenever a source deals damage to a Pokémon you control, that Pokémon deals that much damage to that source's controller.</text>
       <prop>
-        <type>Emblem - Brock</type>
+        <type>Emblem</type>
         <maintype>Artifact</maintype>
         <cmc>0</cmc>
       </prop>
@@ -4881,7 +4881,7 @@ Cycling {2}</text>
       <tablerow>1</tablerow>
       <text>Pokémon you control have "{B}: This Pokémon can't be blocked this turn."</text>
       <prop>
-        <type>Emblem - Koga</type>
+        <type>Emblem</type>
         <maintype>Artifact</maintype>
         <cmc>0</cmc>
       </prop>
@@ -4892,7 +4892,7 @@ Cycling {2}</text>
       <tablerow>1</tablerow>
       <text>Pokémon you control have indestructible.</text>
       <prop>
-        <type>Emblem - Oak</type>
+        <type>Emblem</type>
         <maintype>Artifact</maintype>
         <cmc>0</cmc>
       </prop>
@@ -5024,7 +5024,7 @@ Whenever Typhlosion enters the battlefield or evolves, target opponent sacrifice
         <cmc>6</cmc>
         <colors>BR</colors>
         <manacost>4BR</manacost>
-        <pt>6/5</pt>
+        <pt>7/5</pt>
       </prop>
     </card>
     <card>
@@ -6782,6 +6782,20 @@ If another Pokémon you control would die, instead remove all counters from it, 
         <manacost>1UB</manacost>
       </prop>
     </card>
+	<card>
+      <name>Flame Wheel</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Flame%20Wheel.png" rarity="rare">PJTO</set>
+      <tablerow>3</tablerow>
+      <text>As an additional cost to cast this spell, sacrifice a Pokémon.
+Flame Wheel deals 3 damage to each Pokémon and each trainer.</text>
+      <prop>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+        <cmc>2</cmc>
+        <colors>BR</colors>
+        <manacost>BR</manacost>
+      </prop>
+    </card>
     <card>
       <name>Foresight (PJTO)</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Foresight.png" rarity="common">PJTO</set>
@@ -7091,20 +7105,6 @@ Overload {4}{B}{B}</text>
         <cmc>4</cmc>
         <colors>B</colors>
         <manacost>2BB</manacost>
-      </prop>
-    </card>
-    <card>
-      <name>Flame Wheel</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Flame%20Wheel.png" rarity="rare">PJTO</set>
-      <tablerow>3</tablerow>
-      <text>As an additional cost to cast this spell, sacrifice a Pokémon.
-Flame Wheel deals damage equal to the sacrificed Pokémon's power to each Pokémon and each trainer.</text>
-      <prop>
-        <type>Sorcery</type>
-        <maintype>Sorcery</maintype>
-        <cmc>2</cmc>
-        <colors>BR</colors>
-        <manacost>BR</manacost>
       </prop>
     </card>
     <card>
@@ -8254,7 +8254,7 @@ Whenever this Pokémon deals combat damage to a player, that player loses the ga
       <tablerow>1</tablerow>
       <text>Whenever a Pokémon you control dies, it deals damage equal to its power to target player.</text>
       <prop>
-        <type>Emblem - Chuck</type>
+        <type>Emblem</type>
         <maintype>Pokémon</maintype>
         <cmc>0</cmc>
       </prop>
@@ -8265,7 +8265,7 @@ Whenever this Pokémon deals combat damage to a player, that player loses the ga
       <tablerow>1</tablerow>
       <text>At the beginning of your upkeep, exile your hand and draw two cards.</text>
       <prop>
-        <type>Emblem - Clair</type>
+        <type>Emblem</type>
         <maintype>Pokémon</maintype>
         <cmc>0</cmc>
       </prop>
@@ -8276,7 +8276,7 @@ Whenever this Pokémon deals combat damage to a player, that player loses the ga
       <tablerow>1</tablerow>
       <text>At the beginning of your upkeep, put target Pokémon card from a graveyard onto the battlefield under your control.</text>
       <prop>
-        <type>Emblem - Morty</type>
+        <type>Emblem</type>
         <maintype>Pokémon</maintype>
         <cmc>0</cmc>
       </prop>
@@ -8287,7 +8287,7 @@ Whenever this Pokémon deals combat damage to a player, that player loses the ga
       <tablerow>1</tablerow>
       <text>Whenever you cast a spell, draw seven cards.</text>
       <prop>
-        <type>Emblem - Will</type>
+        <type>Emblem</type>
         <maintype>Pokémon</maintype>
         <cmc>0</cmc>
       </prop>
