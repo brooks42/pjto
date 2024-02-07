@@ -6782,6 +6782,20 @@ If another Pokémon you control would die, instead remove all counters from it, 
         <manacost>1UB</manacost>
       </prop>
     </card>
+	<card>
+      <name>Flame Wheel</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Flame%20Wheel.png" rarity="rare">PJTO</set>
+      <tablerow>3</tablerow>
+      <text>As an additional cost to cast this spell, sacrifice a Pokémon.
+Flame Wheel deals 3 damage to each Pokémon and each trainer.</text>
+      <prop>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+        <cmc>2</cmc>
+        <colors>BR</colors>
+        <manacost>BR</manacost>
+      </prop>
+    </card>
     <card>
       <name>Foresight (PJTO)</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Foresight.png" rarity="common">PJTO</set>
@@ -7091,20 +7105,6 @@ Overload {4}{B}{B}</text>
         <cmc>4</cmc>
         <colors>B</colors>
         <manacost>2BB</manacost>
-      </prop>
-    </card>
-    <card>
-      <name>Flame Wheel</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Flame%20Wheel.png" rarity="rare">PJTO</set>
-      <tablerow>3</tablerow>
-      <text>As an additional cost to cast this spell, sacrifice a Pokémon.
-Flame Wheel deals damage equal to the sacrificed Pokémon's power to each Pokémon and each trainer.</text>
-      <prop>
-        <type>Sorcery</type>
-        <maintype>Sorcery</maintype>
-        <cmc>2</cmc>
-        <colors>BR</colors>
-        <manacost>BR</manacost>
       </prop>
     </card>
     <card>
