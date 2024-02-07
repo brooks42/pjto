@@ -4870,7 +4870,7 @@ Cycling {2}</text>
       <tablerow>1</tablerow>
       <text>Whenever a source deals damage to a Pokémon you control, that Pokémon deals that much damage to that source's controller.</text>
       <prop>
-        <type>Emblem - Brock</type>
+        <type>Emblem</type>
         <maintype>Artifact</maintype>
         <cmc>0</cmc>
       </prop>
@@ -4881,7 +4881,7 @@ Cycling {2}</text>
       <tablerow>1</tablerow>
       <text>Pokémon you control have "{B}: This Pokémon can't be blocked this turn."</text>
       <prop>
-        <type>Emblem - Koga</type>
+        <type>Emblem</type>
         <maintype>Artifact</maintype>
         <cmc>0</cmc>
       </prop>
@@ -4892,7 +4892,7 @@ Cycling {2}</text>
       <tablerow>1</tablerow>
       <text>Pokémon you control have indestructible.</text>
       <prop>
-        <type>Emblem - Oak</type>
+        <type>Emblem</type>
         <maintype>Artifact</maintype>
         <cmc>0</cmc>
       </prop>
@@ -8254,7 +8254,7 @@ Whenever this Pokémon deals combat damage to a player, that player loses the ga
       <tablerow>1</tablerow>
       <text>Whenever a Pokémon you control dies, it deals damage equal to its power to target player.</text>
       <prop>
-        <type>Emblem - Chuck</type>
+        <type>Emblem</type>
         <maintype>Pokémon</maintype>
         <cmc>0</cmc>
       </prop>
@@ -8265,7 +8265,7 @@ Whenever this Pokémon deals combat damage to a player, that player loses the ga
       <tablerow>1</tablerow>
       <text>At the beginning of your upkeep, exile your hand and draw two cards.</text>
       <prop>
-        <type>Emblem - Clair</type>
+        <type>Emblem</type>
         <maintype>Pokémon</maintype>
         <cmc>0</cmc>
       </prop>
@@ -8276,7 +8276,7 @@ Whenever this Pokémon deals combat damage to a player, that player loses the ga
       <tablerow>1</tablerow>
       <text>At the beginning of your upkeep, put target Pokémon card from a graveyard onto the battlefield under your control.</text>
       <prop>
-        <type>Emblem - Morty</type>
+        <type>Emblem</type>
         <maintype>Pokémon</maintype>
         <cmc>0</cmc>
       </prop>
@@ -8287,7 +8287,7 @@ Whenever this Pokémon deals combat damage to a player, that player loses the ga
       <tablerow>1</tablerow>
       <text>Whenever you cast a spell, draw seven cards.</text>
       <prop>
-        <type>Emblem - Will</type>
+        <type>Emblem</type>
         <maintype>Pokémon</maintype>
         <cmc>0</cmc>
       </prop>
