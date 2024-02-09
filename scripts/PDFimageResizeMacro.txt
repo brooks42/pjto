@@ -1,0 +1,11 @@
+Sub resize()
+Dim i As Long
+With ActiveDocument
+For i = 1 To .InlineShapes.Count
+With .InlineShapes(i)
+.Height = InchesToPoints(3.5)
+.Width = InchesToPoints(2.5)
+End With
+Next i
+End With
+End Sub

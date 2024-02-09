@@ -3333,14 +3333,14 @@ Draw a card.</text>
       <name>Flash (PKTO)</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Flash.png" rarity="common">PKTO</set>
       <tablerow>3</tablerow>
-      <text>Prevent all damage that would be dealt this turn.
+      <text>Prevent all combat damage that would be dealt this turn.
 Draw a card.</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
-        <cmc>1</cmc>
+        <cmc>2</cmc>
         <colors>W</colors>
-        <manacost>W</manacost>
+        <manacost>1W</manacost>
       </prop>
     </card>
     <card>
@@ -7310,6 +7310,19 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
         <manacost>2R</manacost>
       </prop>
     </card>
+	<card>
+      <name>Sunny Day</name>
+      <set picURL="https://brooks42.github.io/pjto/cards/Sunny%20Day.png" rarity="rare">PJTO</set>
+      <tablerow>1</tablerow>
+      <text>Pokémon you control gain first strike and vigilance until end of turn. After this main phase, there is an additional combat phase followed by an additional main phase.</text>
+      <prop>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+        <cmc>5</cmc>
+        <colors>RW</colors>
+        <manacost>3WR</manacost>
+      </prop>
+    </card>
     <!-- artifacts -->
     <card>
       <name>Berry</name>
@@ -7559,20 +7572,6 @@ Sacrifice Rest: You gain 4 life.</text>
         <cmc>2</cmc>
         <colors>WU</colors>
         <manacost>WU</manacost>
-      </prop>
-    </card>
-    <card>
-      <name>Sunny Day</name>
-      <set picURL="https://brooks42.github.io/pjto/cards/Sunny%20Day.png" rarity="rare">PJTO</set>
-      <tablerow>1</tablerow>
-      <text>Attacking Pokémon you control get +1/+0.
-{R/W}{R/W}: Red Pokémon you control gain first strike until end of turn. White Pokémon you control gain vigilance until end of turn.</text>
-      <prop>
-        <type>Enchantment</type>
-        <maintype>Enchantment</maintype>
-        <cmc>2</cmc>
-        <colors>RW</colors>
-        <manacost>WR</manacost>
       </prop>
     </card>
     <!-- lands -->
