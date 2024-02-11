@@ -7313,7 +7313,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
 	<card>
       <name>Sunny Day</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Sunny%20Day.png" rarity="rare">PJTO</set>
-      <tablerow>1</tablerow>
+      <tablerow>3</tablerow>
       <text>Pokémon you control gain first strike and vigilance until end of turn. After this main phase, there is an additional combat phase followed by an additional main phase.</text>
       <prop>
         <type>Sorcery</type>
