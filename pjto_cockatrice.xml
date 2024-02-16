@@ -5650,14 +5650,13 @@ Yanma has hexproof from each mana value among cards you own in exile.</text>
       <name>Wooper</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Wooper.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Landfall — Whenever a land enters the battlefield under your control, Wooper gains deathtouch until end of turn. Untap it.
-When Wooper dies, destroy up to one target artifact or enchantment.</text>
+      <text>Landfall — Whenever a land enters the battlefield under your control, target Pokémon gains your choice of deathtouch or hexproof until end of turn. Untap it.</text>
       <prop>
         <type>Pokémon - Water Ground</type>
         <maintype>Pokémon</maintype>
         <cmc>2</cmc>
         <colors>GU</colors>
-        <manacost>{G/U}{G/U}</manacost>
+        <manacost>GU</manacost>
         <pt>2/3</pt>
       </prop>
     </card>
