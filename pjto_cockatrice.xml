@@ -5065,8 +5065,8 @@ Whenever Typhlosion enters the battlefield or evolves, target opponent sacrifice
       <set picURL="https://brooks42.github.io/pjto/cards/Croconaw.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Totodile {G}{U}
-Landfall — Whenever a land enters the battlefield under your control, untap Croconaw and add one mana of any type that land could produce.
-Sacrifice a land: Croconaw gets +2/+2 and gains hexproof until end of turn.</text>
+Landfall — Whenever a land enters the battlefield under your control, untap Croconaw and add one mana of any type a land you control could produce.
+Sacrifice a land: Return target land card from your graveyard to your hand.</text>
       <prop>
         <type>Pokémon - Water</type>
         <maintype>Pokémon</maintype>
