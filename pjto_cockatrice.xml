@@ -892,7 +892,7 @@ Whenever a permanent leaves the battlefield, for each kind of counter on another
         <maintype>Pokémon</maintype>
         <cmc>2</cmc>
         <colors>GU</colors>
-        <manacost>GU</manacost>
+        <manacost>{G/U}{G/U}</manacost>
         <pt>2/2</pt>
       </prop>
     </card>
@@ -908,7 +908,7 @@ Whenever you draw your second card each turn, you may put a land card from your 
         <maintype>Pokémon</maintype>
         <cmc>4</cmc>
         <colors>GU</colors>
-        <manacost>2GU</manacost>
+        <manacost>2{G/U}{G/U}</manacost>
         <pt>4/3</pt>
       </prop>
     </card>
@@ -2700,7 +2700,7 @@ When Mew is put into your graveyard from anywhere, shuffle it into your library.
       <tablerow>1</tablerow>
       <loyalty>3</loyalty>
       <text>[+1]: Up to one target Pokémon gets +2/+0 and gains wither until end of turn.
-[-2]: Put two -1/-1 counters on target Pokémon. You gain life equal to the number of counters on that Pokémon. 
+[-2]: Put two -1/-1 counters on target Pokémon. Then you gain life equal to the number of -1/-1 counters on that Pokémon.
 [−6]: You get an emblem with "Pokémon you control have '{B}: This Pokémon can't be blocked this turn.'"</text>
       <related>Koga (Emblem)</related>
       <prop>
@@ -3444,7 +3444,7 @@ Overload {4}{R}{R}</text>
       <tablerow>3</tablerow>
       <text>This spell costs {G} less to cast as long as you control a Grass Pokémon.
 Until end of turn, target Pokémon you control gains trample and "Whenever this Pokémon attacks, put four +1/+1 counters on it."
-Overload {5}{G}{G}</text>
+Overload {4}{G}{G}{G}</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
@@ -3845,7 +3845,7 @@ Whenever enchanted Pokémon attacks, tap target permanent and put a stun counter
       <set picURL="https://brooks42.github.io/pkto/cards/Hyper%20Beam.png" rarity="mythic">PKTO</set>
       <tablerow>1</tablerow>
       <text>Enchant Pokémon
-Enchanted Pokémon has "{T}: Destroy target nonland permanent. This Pokémon doesn't untap during its controller's next untap step. Activate only as a sorcery."</text>
+Enchanted Pokémon has "{T}: Destroy target nonland permanent. Put a stun counter on this Pokémon. Activate only as a sorcery."</text>
       <prop>
         <type>Enchantment - Aura</type>
         <maintype>Enchantment</maintype>
