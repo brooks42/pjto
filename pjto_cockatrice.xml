@@ -5665,7 +5665,7 @@ Yanma has hexproof from each mana value among cards you own in exile.</text>
       <tablerow>2</tablerow>
       <text>Evolve from Wooper {U}
 Trample
-Whenever Quagsire attacks, mill a card, then return a land card from your graveyard to the battlefield tapped.</text>
+Whenever Quagsire attacks, draw a card, then discard a card. Then return a land card from your graveyard to the battlefield tapped.</text>
       <prop>
         <type>Pokémon - Water Ground</type>
         <maintype>Pokémon</maintype>
