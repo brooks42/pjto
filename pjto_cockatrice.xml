@@ -5256,9 +5256,9 @@ If you would draw a card, exile the top two cards of your library instead. You m
       <prop>
         <type>Pokémon - Water Electric</type>
         <maintype>Pokémon</maintype>
-        <cmc>5</cmc>
+        <cmc>4</cmc>
         <colors>UR</colors>
-        <manacost>3UR</manacost>
+        <manacost>2UR</manacost>
         <pt>4/4</pt>
       </prop>
     </card>
