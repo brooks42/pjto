@@ -1712,7 +1712,7 @@ Whenever Onix attacks, you may exile a card from your hand. If you do, Onix gets
       <name>Drowzee</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Drowzee.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
-      <text>{T}: Tap target Pokémon.</text>
+      <text>{U}{B}, {T}: Tap target Pokémon. You lose 1 life.</text>
       <prop>
         <type>Pokémon - Psychic</type>
         <maintype>Pokémon</maintype>
@@ -2125,14 +2125,14 @@ Whenever you scry, tap up to X target nonland permanents, where X is the number 
       <name>Jynx</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Jynx.png" rarity="rare">PKTO</set>
       <tablerow>2</tablerow>
-      <text>{2}{U}{B}, {T}: Scry 2, then draw a card. You lose 2 life.</text>
+      <text>During your turn, you may look at the top card of each opponent's library any time, you may play the top card of their library, and you may spend mana as though it were mana of any color to cast spells this way. Whenever you play a card this way, scry 1.</text>
       <prop>
         <type>Pokémon - Ice Psychic</type>
         <maintype>Pokémon</maintype>
         <cmc>5</cmc>
         <colors>UB</colors>
         <manacost>3UB</manacost>
-        <pt>4/3</pt>
+        <pt>4/4</pt>
       </prop>
     </card>
     <card>
