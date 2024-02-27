@@ -7134,8 +7134,8 @@ Overload {4}{B}{B}</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Moonlight.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
       <related count="x">Cleffa Token</related>
-      <text>Moonlight has flashback {W}{W} as long as you control a Fairy or Normal Pokémon.
-Exile target Pokémon. For each Pokémon exiled this way, its controller creates a 1/1 white Fairy Pokémon token named Cleffa.
+      <text>Moonlight has flashback {2}{W}{W} as long as you control a Fairy or Normal Pokémon.
+Exile target Pokémon. For each Pokémon exiled this way, its controller creates a 1/1 white and black Fairy Pokémon token named Cleffa.
 Overload {3}{W}{W}</text>
       <prop>
         <type>Sorcery</type>
