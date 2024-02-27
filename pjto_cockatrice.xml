@@ -6703,7 +6703,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
       <tablerow>1</tablerow>
       <loyalty>5</loyalty>
       <related count="3">Weedle Token</related>
-      <text>[+1]: Put a -1/-1 counter on up to one target Pokémon. Until your next turn, whenever that Pokémon deals damage to Janine, destroy it.
+      <text>[+1]: Put a -1/-1 counter on up to one target Pokémon.
 [−3]: Destroy target nonland permanent.
 [-7]: Create three 1/1 black Bug Poison Pokémon tokens named Weedle with wither and "Whenever this Pokémon deals combat damage to a player, that player loses the game."</text>
       <prop>
