@@ -6688,7 +6688,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
       <tablerow>1</tablerow>
       <loyalty>5</loyalty>
       <related>Clair Emblem</related>
-      <text>[+1]: Look at the top two cards of your library. Put one of them into your hand and exile the other.
+      <text>[+1]: Exile the top two cards of your library. Until the end of your next turn, you may play one of those cards.
 [−3]: Exile target Pokémon you control, then reveal cards from the top of your library until you reveal a Pokémon card with higher mana value. Put that card onto the battlefield and the rest on the bottom of your library in a random order.
 [-7]: You get an emblem with "At the beginning of your upkeep, exile your hand and draw two cards."</text>
       <prop>
