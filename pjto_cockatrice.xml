@@ -6836,13 +6836,13 @@ Counter target spell unless its controller pays {1}.</text>
       <name>Megahorn</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Megahorn.png" rarity="uncommon">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Put a trample counter on target Pokémon you control. Until end of turn, it becomes a green Bug Pokémon with base power and toughness 6/6.</text>
+      <text>Put a trample counter on target Pokémon you control. Until end of turn, it becomes a green Bug Pokémon with base power and toughness 6/6. Whenever that Pokémon is dealt damage this turn, put a +1/+1 counter on it.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
         <cmc>2</cmc>
         <colors>G</colors>
-        <manacost>1G</manacost>
+        <manacost>2G</manacost>
       </prop>
     </card>
     <card>
