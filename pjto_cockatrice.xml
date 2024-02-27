@@ -7107,7 +7107,7 @@ Overload {4}{B}{B}</text>
       <name>Giga Drain</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Giga%20Drain.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Put X -1/-1 counters on target Pokémon. You gain life equal to the number of -1/-1 counters on that Pokémon.</text>
+      <text>Put X -1/-1 counters on target Pokémon. Then you gain life equal to the number of -1/-1 counters on that Pokémon.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
