@@ -5300,7 +5300,7 @@ Cleffa can't be blocked by Pokémon with power 3 or greater.
       <related>Treasure Token</related>
       <text>Baby — Cards named Jigglypuff have "Evolve from Igglybuff {W}."
 Whenever a Pokémon an opponent controls becomes tapped, if it isn't being declared as an attacker, put a stun counter on it.
-Whenever Igglybuff evolves, tap up two target Pokémon.</text>
+Whenever Igglybuff evolves, tap up to two target Pokémon.</text>
       <prop>
         <type>Pokémon - Normal Fairy</type>
         <maintype>Pokémon</maintype>
