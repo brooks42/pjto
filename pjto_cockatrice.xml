@@ -6035,7 +6035,7 @@ When Slugma dies, destroy target artifact or land.</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Magcargo.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Slugma {B/R}
-When Magcargo dies, return target Pokémon card with power 4 or less from your graveyard to your hand. If Magcargo was evolved, return that card to the battlefield instead.</text>
+When Magcargo dies, return target Pokémon card with power 3 or less from your graveyard to the battlefield. If Magcargo was evolved, that Pokémon deals damage equal to its power to target player or trainer.</text>
       <prop>
         <type>Pokémon - Fire Rock</type>
         <maintype>Pokémon</maintype>
