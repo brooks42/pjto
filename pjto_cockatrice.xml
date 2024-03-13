@@ -6020,8 +6020,7 @@ Whenever Teddiursa evolves, create two Treasure tokens.</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Slugma.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Slugma attacks each combat if able.
-When Slugma dies, destroy target artifact or land.
-Whenever a Pokémon enters the battlefield from your graveyard, return Slugma from your graveyard to the battlefield, then sacrifice it.</text>
+When Slugma dies, destroy target artifact or land.</text>
       <prop>
         <type>Pokémon - Fire</type>
         <maintype>Pokémon</maintype>
@@ -6036,7 +6035,7 @@ Whenever a Pokémon enters the battlefield from your graveyard, return Slugma fr
       <set picURL="https://brooks42.github.io/pjto/cards/Magcargo.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Slugma {B/R}
-When Magcargo dies, return another target Pokémon card from your graveyard to your hand. If Magcargo was evolved, return that card to the battlefield instead.</text>
+When Magcargo dies, return target Pokémon card with power 4 or less from your graveyard to your hand. If Magcargo was evolved, return that card to the battlefield instead.</text>
       <prop>
         <type>Pokémon - Fire Rock</type>
         <maintype>Pokémon</maintype>
