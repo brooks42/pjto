@@ -1561,7 +1561,7 @@ Whenever you gain life, you may pay {2}. If you do, draw a card.</text>
       <set picURL="https://brooks42.github.io/pkto/cards/Dewgong.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Seel {U}
-Triggered abilities of evolved Pokémon you control trigger an additional time.</text>
+If an ability of an evolved Pokémon you control triggers, that ability triggers an additional time.</text>
       <prop>
         <type>Pokémon - Water Ice</type>
         <maintype>Pokémon</maintype>
@@ -3915,7 +3915,7 @@ Enchanted Pokémon doesn't untap during its controller's untap step.</text>
       <name>Pewter Gym</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Pewter%20Gym.png" rarity="rare">PKTO</set>
       <tablerow>1</tablerow>
-      <text>Pokémon you control enter the battlefield with an additional +1/+1 counter on them.</text>
+      <text>Pokémon you control enter with an additional +1/+1 counter on them.</text>
       <prop>
         <type>Enchantment</type>
         <maintype>Enchantment</maintype>
@@ -3996,7 +3996,7 @@ The first time you would draw a card each turn, scry 1, then draw a card instead
       <name>Cinnabar Gym</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Cinnabar%20Gym.png" rarity="rare">PKTO</set>
       <tablerow>1</tablerow>
-      <text>Whenever you attack, choose odd or even, then exile the top card of your library. You may play that card this turn. If it’s a nonland card with mana value of the chosen quality, create a Treasure token.</text>
+      <text>Whenever you attack, choose odd or even, then exile the top card of your library. You may play that card this turn. If it's a nonland card with mana value of the chosen quality, create a Treasure token.</text>
       <related>Treasure Token</related>
 	  <prop>
         <type>Enchantment</type>
@@ -6020,8 +6020,7 @@ Whenever Teddiursa evolves, create two Treasure tokens.</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Slugma.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Slugma attacks each combat if able.
-When Slugma dies, destroy target artifact or land.
-Whenever a Pokémon enters the battlefield from your graveyard, return Slugma from your graveyard to the battlefield, then sacrifice it.</text>
+When Slugma dies, destroy target artifact or land.</text>
       <prop>
         <type>Pokémon - Fire</type>
         <maintype>Pokémon</maintype>
@@ -6036,7 +6035,7 @@ Whenever a Pokémon enters the battlefield from your graveyard, return Slugma fr
       <set picURL="https://brooks42.github.io/pjto/cards/Magcargo.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Slugma {B/R}
-When Magcargo dies, return another target Pokémon card from your graveyard to your hand. If Magcargo was evolved, return that card to the battlefield instead.</text>
+When Magcargo dies, return target Pokémon card with power 3 or less from your graveyard to the battlefield. If Magcargo was evolved, that Pokémon deals damage equal to its power to target player or trainer.</text>
       <prop>
         <type>Pokémon - Fire Rock</type>
         <maintype>Pokémon</maintype>
@@ -6897,7 +6896,7 @@ Draw two cards and create a Treasure token.</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Rapid%20Spin.png" rarity="uncommon">PJTO</set>
       <tablerow>3</tablerow>
       <text>Put target nonland permanent on top of its owner's library.
-Landfall — If you had a land enter the battlefield under your control this turn, put that permanent into its owner's library third from the top.</text>
+Landfall — If you had a land enter under your control this turn, put that nonland permanent into its owner's library third from the top instead.</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
