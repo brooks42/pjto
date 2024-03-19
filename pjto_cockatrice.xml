@@ -6797,7 +6797,7 @@ Flame Wheel deals 3 damage to each Pokémon and each trainer.</text>
       <name>Foresight (PJTO)</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Foresight.png" rarity="common">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Counter target spell. Scry X, where X is the that spell's mana value.</text>
+      <text>Counter target spell. Scry X, where X is that spell's mana value.</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
