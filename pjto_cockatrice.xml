@@ -5678,7 +5678,7 @@ Whenever Quagsire attacks, draw a card, then discard a card. Then return a land 
       <set picURL="https://brooks42.github.io/pjto/cards/Espeon.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Eevee {3}{U/B}
-Whenever a Pokémon you control evolves, target opponent discards a card. Scry X, where X is the mana value of the discarded card.</text>
+Whenever a Pokémon you control evolves, target opponent discards a card. Scry X, where X is one plus the mana value of the discarded card.</text>
       <prop>
         <type>Pokémon - Psychic</type>
         <maintype>Pokémon</maintype>
