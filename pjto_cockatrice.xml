@@ -5517,7 +5517,7 @@ Whenever Politoed evolves, search your library for up to two land cards, put the
       <related>Hoppip Token</related>
       <related attach="transform">Skiploom (DFC)</related>
       <text>Reach
-Whenever Hoppip enters or evolves, create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.
+Whenever Hoppip evolves, create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.
 {1}{G}: Evolve</text>
       <prop>
         <type>Pokémon - Grass Flying</type>
@@ -5536,7 +5536,7 @@ Whenever Hoppip enters or evolves, create a 1/1 green Grass Flying Pokémon toke
 	  <related attach="transform">Hoppip</related>
       <related>Hoppip Token</related>
       <text>Reach
-Whenever Skiploom enters or evolves, create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.</text>
+Whenever Skiploom evolves, create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.</text>
       <prop>
         <type>Pokémon - Grass Flying</type>
         <maintype>Pokémon</maintype>
