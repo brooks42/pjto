@@ -5440,7 +5440,7 @@ Whenever Ampharos deals excess damage, you may cast an instant or sorcery card y
       <set picURL="https://brooks42.github.io/pjto/cards/Bellossom.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <related>Oddish Token</related>
-      <text>Evolve from Gloom {G/W}
+      <text>Evolve from Gloom {G}
 Whenever Bellosom becomes untapped, create a 1/1 black and green Grass Poison Pokémon token with lifelink named Oddish.</text>
       <prop>
         <type>Pokémon - Grass</type>
@@ -5517,7 +5517,7 @@ Whenever Politoed evolves, search your library for up to two land cards, put the
       <related>Hoppip Token</related>
       <related attach="transform">Skiploom (DFC)</related>
       <text>Reach
-Whenever Hoppip enters or evolves, create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.
+Whenever Hoppip evolves, create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.
 {1}{G}: Evolve</text>
       <prop>
         <type>Pokémon - Grass Flying</type>
@@ -5536,7 +5536,7 @@ Whenever Hoppip enters or evolves, create a 1/1 green Grass Flying Pokémon toke
 	  <related attach="transform">Hoppip</related>
       <related>Hoppip Token</related>
       <text>Reach
-Whenever Skiploom enters or evolves, create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.</text>
+Whenever Skiploom evolves, create a 1/1 green Grass Flying Pokémon token with reach named Hoppip.</text>
       <prop>
         <type>Pokémon - Grass Flying</type>
         <maintype>Pokémon</maintype>
@@ -5678,7 +5678,7 @@ Whenever Quagsire attacks, draw a card, then discard a card. Then return a land 
       <set picURL="https://brooks42.github.io/pjto/cards/Espeon.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Eevee {3}{U/B}
-Whenever a Pokémon you control evolves, target opponent discards a card. Scry X, where X is the mana value of the discarded card.</text>
+Whenever a Pokémon you control evolves, target opponent discards a card. Scry X, where X is one plus the mana value of the discarded card.</text>
       <prop>
         <type>Pokémon - Psychic</type>
         <maintype>Pokémon</maintype>
@@ -6319,7 +6319,7 @@ Whenever Tyrogue evolves, put three stun counters on up to one target Pokémon.<
       <set picURL="https://brooks42.github.io/pjto/cards/Hitmontop.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Vigilance
-Whenever Hitmontop attacks or blocks, tap target Pokémon.</text>
+Whenever Hitmontop attacks or blocks, tap up to one target Pokémon.</text>
       <prop>
         <type>Pokémon - Fighting</type>
         <maintype>Pokémon</maintype>
@@ -6797,7 +6797,7 @@ Flame Wheel deals 3 damage to each Pokémon and each trainer.</text>
       <name>Foresight (PJTO)</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Foresight.png" rarity="common">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Counter target spell. Scry X, where X is the that spell's mana value.</text>
+      <text>Counter target spell. Scry X, where X is that spell's mana value.</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
