@@ -2225,8 +2225,8 @@ Whenever Gyarados enters or evolves, it deals 6 damage divided as you choose amo
       <name>Lapras</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Lapras.png" rarity="rare">PKTO</set>
       <tablerow>2</tablerow>
-      <text>Sacrifice Lapras: Each opponent sacrifices a Pokémon.
-When Lapras dies, you gain 3 life.</text>
+      <text>When Lapras enters the battlefield, you gain 3 life. 
+{2}{W}{U}, Exile Lapras: Exile target Pokémon. If it's your turn, draw a card.</text>
       <prop>
         <type>Pokémon - Water Ice</type>
         <maintype>Pokémon</maintype>
@@ -5678,7 +5678,7 @@ Whenever Quagsire attacks, draw a card, then discard a card. Then return a land 
       <set picURL="https://brooks42.github.io/pjto/cards/Espeon.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Eevee {3}{U/B}
-Whenever a Pokémon you control evolves, target opponent discards a card. Scry X, where X is one plus the mana value of the discarded card.</text>
+Whenever a Pokémon you control evolves, target opponent discards a card. Scry X, where X is 1 plus the mana value of the discarded card.</text>
       <prop>
         <type>Pokémon - Psychic</type>
         <maintype>Pokémon</maintype>
