@@ -7150,8 +7150,8 @@ Overload {3}{W}{W}</text>
       <name>Rock Smash</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Rock%20Smash.png" rarity="uncommon">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Put a +1/+1 counter on target Pokémon you control. When you do, choose one —
-• That Pokémon deals damage equal to its power to target trainer.
+      <text>Put a +1/+1 counter on target Pokémon you control. When you do, choose up to one —
+• That Pokémon deals damage equal to its power to target Pokémon or trainer.
 • Destroy target artifact.
 • Destroy target enchantment.</text>
       <prop>
