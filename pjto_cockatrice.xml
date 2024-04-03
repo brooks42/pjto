@@ -5001,7 +5001,7 @@ Whenever Meganium enters or evolves, create a 5/5 green and white Grass Pokémon
       <tablerow>2</tablerow>
       <text>Evolve from Cyndaquil {B}{R}
 Whenever you sacrifice a permanent, Quilava gains deathtouch until end of turn.
-Whenever Quilava attacks, you may sacrifice a permanent.</text>
+{1}{R}, Sacrifice a Pokémon: Quilava deals 2 damage to target player.</text>
       <prop>
         <type>Pokémon - Fire</type>
         <maintype>Pokémon</maintype>
