@@ -6349,9 +6349,9 @@ Whenever Smoochum evolves, for each Pokémon you don't control, its controller m
       <name>Elekid</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Elekid.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Baby — Cards named Electabuzz have "Evolve from Elekid {R/W}."
+      <text>Baby — Cards named Electabuzz have "Evolve from Elekid {R}{W}."
 Whenever Elekid attacks, other attacking Pokémon you control gain first strike until end of turn.
-Whenever Elekid evolves, it deals 4 damage to any target.</text>
+Whenever Elekid evolves, it deals 3 damage to any target.</text>
       <prop>
         <type>Pokémon - Electric</type>
         <maintype>Pokémon</maintype>
