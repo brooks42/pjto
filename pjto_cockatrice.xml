@@ -5471,7 +5471,7 @@ Whenever Marill evolves, look at the top five cards of your library. Put up to t
       <set picURL="https://brooks42.github.io/pjto/cards/Azumarill.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Marill {U}
-Each instant and sorcery card in your graveyard has flashback. The flashback cost is equal to that card's mana cost.</text>
+As long as it's your turn, each instant and sorcery card in your graveyard has flashback. The flashback cost is equal to that card's mana cost.</text>
       <prop>
         <type>Pokémon - Water Fairy</type>
         <maintype>Pokémon</maintype>
