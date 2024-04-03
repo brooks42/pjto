@@ -7561,7 +7561,7 @@ At the beginning of your upkeep, if you control ten or more Treasures, you win t
       <set picURL="https://brooks42.github.io/pjto/cards/Rest.png" rarity="uncommon">PJTO</set>
       <tablerow>1</tablerow>
       <text>If you would gain life, you gain that much life plus 1 instead.
-At the beginning of each end step, if you gained 4 or more life this turn, draw a card.
+At the beginning of each end step, draw a card if you gained 4 or more life this turn.
 Sacrifice Rest: You gain 4 life.</text>
       <prop>
         <type>Enchantment</type>
