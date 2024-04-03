@@ -8005,7 +8005,7 @@ Cycling {2}</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Victory%20Road.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
-{1}, {T}: Add one many of any color among Pokémon you control.
+{1}, {T}: For each color among monocolored permanents you control, add one mana of that color.
 {4}, {T}, Sacrifice Victory Road: Search your library for a trainer card, reveal it, put it into your hand, then shuffle.</text>
       <prop>
         <type>Land</type>
