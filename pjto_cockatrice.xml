@@ -6162,7 +6162,7 @@ Menace
       <set picURL="https://brooks42.github.io/pjto/cards/Skarmory.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Flying, first strike
-When Skarmory enters, reveal the top X cards of your library, where X is 1 plus the amount of {C} spent to cast it. Put one of them into your hand and exile the rest.</text>
+When Skarmory enters, reveal the top X cards of your library, where X is one plus the amount of {C} spent to cast it. Put one of them into your hand and exile the rest.</text>
       <prop>
         <type>Pokémon - Steel Flying</type>
         <maintype>Pokémon</maintype>
