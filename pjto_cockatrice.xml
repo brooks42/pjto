@@ -5079,7 +5079,7 @@ Landfall — Whenever a land enters under your control, untap Croconaw and mill 
       <set picURL="https://brooks42.github.io/pjto/cards/Feraligatr.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Croconaw {G}{U}
-Whenever Feraligatr enters or evolves, draw X cards, where X is 1 plus the number of times it has evolved. You may play X additional lands this turn. You may play lands from your graveyard this turn.</text>
+Whenever Feraligatr enters or evolves, draw X cards, where X is one plus the number of times it has evolved. You may play X additional lands this turn. You may play lands from your graveyard this turn.</text>
       <prop>
         <type>Pokémon - Water</type>
         <maintype>Pokémon</maintype>
