@@ -5017,7 +5017,7 @@ Whenever you sacrifice a permanent, Quilava gains deathtouch until end of turn.
       <set picURL="https://brooks42.github.io/pjto/cards/Typhlosion.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Quilava {B}{R}
-Whenever Typhlosion enters or evolves, target opponent sacrifices X nonland permanents, where X is 1 plus the number of times Typhlosion has evolved.</text>
+Whenever Typhlosion enters or evolves, target opponent sacrifices X nonland permanents, where X is one plus the number of times Typhlosion has evolved.</text>
       <prop>
         <type>Pokémon - Fire</type>
         <maintype>Pokémon</maintype>
