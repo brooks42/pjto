@@ -946,7 +946,7 @@ Whenever Dugtrio deals combat damage to a player, you may pay {1}{R}. If you do,
       <name>Meowth</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Meowth.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
-      <text>Whenever Meowth deals combat damage to a player, create a Treasure token. If it has first strike, draw a card.</text>
+      <text>Whenever Meowth evolves or deals combat damage to a player, create a Treasure token. If Meowth has first strike, draw a card.</text>
       <related>Treasure Token</related>
       <prop>
         <type>Pokémon - Normal</type>
@@ -954,7 +954,7 @@ Whenever Dugtrio deals combat damage to a player, you may pay {1}{R}. If you do,
         <cmc>2</cmc>
         <colors>WB</colors>
         <manacost>WB</manacost>
-        <pt>2/2</pt>
+        <pt>3/2</pt>
       </prop>
     </card>
     <card>
@@ -1458,7 +1458,7 @@ Remove three counters from Slowpoke: Return it to its owner's hand.</text>
       <set picURL="https://brooks42.github.io/pkto/cards/Slowbro.png" rarity="rare">PKTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Slowpoke {U}{B}
-If noncombat damage would be dealt to Slowbro, prevent that damage. If damage was prevented this way, put a -1/-1 counter on it, scry 1, then draw a card.</text>
+If noncombat damage would be dealt to Slowbro, prevent that damage. If damage was prevented this way, put a -1/-1 counter on Slowbro, scry 1, then draw a card.</text>
       <prop>
         <type>Pokémon - Water Psychic</type>
         <maintype>Pokémon</maintype>
@@ -2008,7 +2008,8 @@ At the beginning of your upkeep, you gain 2 life. Then if you have 40 or more li
       <name>Horsea</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Horsea.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
-      <text>{1}{U}, {T}: Target Pokémon loses all abilities until end of turn.</text>
+      <text>{1}{U}, {T}: Target Pokémon loses all abilities until end of turn.
+Whenever Horsea evolves, untap it.</text>
       <prop>
         <type>Pokémon - Water</type>
         <maintype>Pokémon</maintype>
@@ -2024,7 +2025,7 @@ At the beginning of your upkeep, you gain 2 life. Then if you have 40 or more li
       <tablerow>2</tablerow>
       <text>Evolve from Horsea {1}{U}
 Flash
-Whenever Seadra evolves, untap it.</text>
+Whenever Seadra enters or evolves, counter target activated or triggered ability.</text>
       <prop>
         <type>Pokémon - Water</type>
         <maintype>Pokémon</maintype>
@@ -3240,7 +3241,7 @@ You may exile a card from your hand. If you do, draw a card..</text>
       <name>Disable</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Disable.png" rarity="uncommon">PKTO</set>
       <tablerow>3</tablerow>
-      <text>Counter target spell. If that spell is countered this way, put it into its owner's hand instead of into that player's graveyard. That player can't cast spells with the same name as that spell until the end of their next turn.</text>
+      <text>Return target spell to its owner's hand. That player can't cast spells with the same name as that spell until the end of their next turn. If {B} was spent to cast this spell, that player loses 2 life.</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
@@ -3253,7 +3254,7 @@ You may exile a card from your hand. If you do, draw a card..</text>
       <name>Ember</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Ember.png" rarity="common">PKTO</set>
       <tablerow>3</tablerow>
-      <text>Ember deals 2 damage to target Pokémon. If that Pokémon would die this turn, exile it instead.</text>
+      <text>Damage can't be prevented this turn. Ember deals 2 damage to any target.</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
@@ -5001,7 +5002,7 @@ Whenever Meganium enters or evolves, create a 5/5 green and white Grass Pokémon
       <tablerow>2</tablerow>
       <text>Evolve from Cyndaquil {B}{R}
 Whenever you sacrifice a permanent, Quilava gains deathtouch until end of turn.
-Whenever Quilava attacks, you may sacrifice a permanent.</text>
+{1}{R}, Sacrifice a Pokémon: Quilava deals 2 damage to target player or trainer.</text>
       <prop>
         <type>Pokémon - Fire</type>
         <maintype>Pokémon</maintype>
@@ -5016,7 +5017,7 @@ Whenever Quilava attacks, you may sacrifice a permanent.</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Typhlosion.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Quilava {B}{R}
-Whenever Typhlosion enters or evolves, target opponent sacrifices X nonland permanents, where X is 1 plus the number of times Typhlosion has evolved.</text>
+Whenever Typhlosion enters or evolves, target opponent sacrifices X nonland permanents, where X is one plus the number of times Typhlosion has evolved.</text>
       <prop>
         <type>Pokémon - Fire</type>
         <maintype>Pokémon</maintype>
@@ -5078,7 +5079,7 @@ Landfall — Whenever a land enters under your control, untap Croconaw and mill 
       <set picURL="https://brooks42.github.io/pjto/cards/Feraligatr.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Croconaw {G}{U}
-Whenever Feraligatr enters or evolves, draw X cards, where X is 1 plus the number of times it has evolved. You may play X additional lands this turn. You may play lands from your graveyard this turn.</text>
+Whenever Feraligatr enters or evolves, draw X cards, where X is one plus the number of times it has evolved. You may play X additional lands this turn. You may play lands from your graveyard this turn.</text>
       <prop>
         <type>Pokémon - Water</type>
         <maintype>Pokémon</maintype>
@@ -5471,7 +5472,7 @@ Whenever Marill evolves, look at the top five cards of your library. Put up to t
       <set picURL="https://brooks42.github.io/pjto/cards/Azumarill.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Marill {U}
-Each instant and sorcery card in your graveyard has flashback. The flashback cost is equal to that card's mana cost.</text>
+As long as it's your turn, each instant and sorcery card in your graveyard has flashback. The flashback cost is equal to that card's mana cost.</text>
       <prop>
         <type>Pokémon - Water Fairy</type>
         <maintype>Pokémon</maintype>
@@ -5731,7 +5732,7 @@ Whenever Slowking is dealt noncombat damage, put that many +1/+1 counters on it 
         <cmc>5</cmc>
         <colors>UB</colors>
         <manacost>3{U/B}{U/B}</manacost>
-        <pt>4/5</pt>
+        <pt>5/6</pt>
       </prop>
     </card>
     <card>
@@ -6161,7 +6162,7 @@ Menace
       <set picURL="https://brooks42.github.io/pjto/cards/Skarmory.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Flying, first strike
-When Skarmory enters, reveal the top X cards of your library, where X is 1 plus the amount of {C} spent to cast it. Put one of them into your hand and exile the rest.</text>
+When Skarmory enters, reveal the top X cards of your library, where X is one plus the amount of {C} spent to cast it. Put one of them into your hand and exile the rest.</text>
       <prop>
         <type>Pokémon - Steel Flying</type>
         <maintype>Pokémon</maintype>
@@ -6349,9 +6350,9 @@ Whenever Smoochum evolves, for each Pokémon you don't control, its controller m
       <name>Elekid</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Elekid.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Baby — Cards named Electabuzz have "Evolve from Elekid {R/W}."
+      <text>Baby — Cards named Electabuzz have "Evolve from Elekid {R}{W}."
 Whenever Elekid attacks, other attacking Pokémon you control gain first strike until end of turn.
-Whenever Elekid evolves, it deals 4 damage to any target.</text>
+Whenever Elekid evolves, it deals 3 damage to any target.</text>
       <prop>
         <type>Pokémon - Electric</type>
         <maintype>Pokémon</maintype>
@@ -6880,7 +6881,7 @@ Draw two cards and create a Treasure token.</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Psych%20Up.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
       <text>Choose one — 
-• Psych up deals 4 damage to target trainer.
+• Psych up deals 4 damage to target player or trainer.
 • Pokémon you control gain first strike until end of turn.
 • Destroy target artifact or enchantment.</text>
       <prop>
@@ -7150,8 +7151,8 @@ Overload {3}{W}{W}</text>
       <name>Rock Smash</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Rock%20Smash.png" rarity="uncommon">PJTO</set>
       <tablerow>3</tablerow>
-      <text>Put a +1/+1 counter on target Pokémon you control. When you do, choose one —
-• That Pokémon deals damage equal to its power to target trainer.
+      <text>Put a +1/+1 counter on target Pokémon you control. When you do, choose up to one —
+• That Pokémon deals damage equal to its power to target Pokémon or trainer.
 • Destroy target artifact.
 • Destroy target enchantment.</text>
       <prop>
@@ -7561,7 +7562,7 @@ At the beginning of your upkeep, if you control ten or more Treasures, you win t
       <set picURL="https://brooks42.github.io/pjto/cards/Rest.png" rarity="uncommon">PJTO</set>
       <tablerow>1</tablerow>
       <text>If you would gain life, you gain that much life plus 1 instead.
-At the beginning of each end step, if you gained 4 or more life this turn, draw a card.
+At the beginning of each end step, draw a card if you gained 4 or more life this turn.
 Sacrifice Rest: You gain 4 life.</text>
       <prop>
         <type>Enchantment</type>
@@ -8005,7 +8006,7 @@ Cycling {2}</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Victory%20Road.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
-{1}, {T}: Add one many of any color among Pokémon you control.
+{1}, {T}: For each color among monocolored permanents you control, add one mana of that color.
 {4}, {T}, Sacrifice Victory Road: Search your library for a trainer card, reveal it, put it into your hand, then shuffle.</text>
       <prop>
         <type>Land</type>
