@@ -50,7 +50,7 @@
       <set picURL="https://brooks42.github.io/pkto/cards/Ivysaur.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Bulbasaur {G}{G}
-Pokémon you control with +1/+1 counters on them have trample.
+Each Pokémon you control with a +1/+1 counter on it has trample.
 Whenever Ivysaur evolves, untap it. Put a +1/+1 counter on it and a +1/+1 counter on another target Pokémon you control.</text>
       <prop>
         <type>Pokémon - Grass Poison</type>
@@ -518,7 +518,7 @@ Whenever Raichu deals combat damage to a Pokémon, it deals damage equal to its 
       <name>Sandshrew</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Sandshrew.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
-      <text>As long as Sandshrew is tapped, it has protection from each even mana value.</text>
+      <text>As long as Sandshrew is tapped, it and Pokémon tokens you control have protection from each even mana value.</text>
       <prop>
         <type>Pokémon - Ground</type>
         <maintype>Pokémon</maintype>
@@ -532,8 +532,8 @@ Whenever Raichu deals combat damage to a Pokémon, it deals damage equal to its 
       <name>Sandslash</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Sandslash.png" rarity="rare">PKTO</set>
       <tablerow>2</tablerow>
-      <text>Evolve from Sandshrew {1}{G}
-As long as Sandslash is tapped, it has protection from each odd mana value.</text>
+      <text>Evolve from Sandshrew {G}
+As long as Sandslash is tapped, it and Pokémon tokens you control have protection from each odd mana value.</text>
       <prop>
         <type>Pokémon - Ground</type>
         <maintype>Pokémon</maintype>
@@ -1022,7 +1022,7 @@ When Psyduck enters, you may counter target spell.</text>
       <set picURL="https://brooks42.github.io/pkto/cards/Primeape.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Mankey {1}{R}
-Whenever Primeape is dealt damage, it deals 2 damage to target opponent unless that player sacrifices an artifact. If Primeape has reach, repeat this process.</text>
+Whenever Primeape is dealt damage, it deals 2 damage to target opponent unless that player sacrifices an artifact. If Primeape has reach, repeat this process once.</text>
       <prop>
         <type>Pokémon - Fighting</type>
         <maintype>Pokémon</maintype>
@@ -2168,28 +2168,30 @@ Whenever you scry, tap up to X target nonland permanents, where X is the number 
       <name>Pinsir</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Pinsir.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
-      <text>Trample</text>
+      <text>Trample
+Whenever Pinsir deals combat damage to a player, put a +1/+1 counter on target Pokémon.</text>
       <prop>
         <type>Pokémon - Bug</type>
         <maintype>Pokémon</maintype>
         <cmc>6</cmc>
         <colors>G</colors>
         <manacost>4GG</manacost>
-        <pt>6/6</pt>
+        <pt>7/7</pt>
       </prop>
     </card>
     <card>
       <name>Tauros</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Tauros.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
-      <text>Trample</text>
+      <text>Trample
+Each Pokémon you control with a +1/+1 counter on it must be blocked if able.</text>
       <prop>
         <type>Pokémon - Normal</type>
         <maintype>Pokémon</maintype>
         <cmc>5</cmc>
         <colors>RG</colors>
         <manacost>3{R/G}{R/G}</manacost>
-        <pt>6/4</pt>
+        <pt>6/5</pt>
       </prop>
     </card>
     <card>
@@ -4029,7 +4031,7 @@ The first time you would draw a card each turn, scry 1, then draw a card instead
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
 {T}: Put a storage counter on Bill's Grassland.
-{T}, Remove all storage counters from Bill's Grassland: Add {W} for each storage counter removed this way.</text>
+{T}, Remove one or more storage counters from Bill's Grassland: Add that much {W}, then add an additional {W}.</text></text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -4042,7 +4044,7 @@ The first time you would draw a card each turn, scry 1, then draw a card instead
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
 {T}: Put a storage counter on Bill's Volcano.
-{T}, Remove all storage counters from Bill's Volcano: Add {R} for each storage counter removed this way.</text>
+{T}, Remove one or more storage counters from Bill's Volcano: Add that much {R}, then add an additional {R}.</text></text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -4055,7 +4057,7 @@ The first time you would draw a card each turn, scry 1, then draw a card instead
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
 {T}: Put a storage counter on Bill's Rainforest.
-{T}, Remove all storage counters from Bill's Rainforest: Add {G} for each storage counter removed this way.</text>
+{T}, Remove one or more storage counters from Bill's Rainforest: Add that much {G}, then add an additional {G}.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -4068,7 +4070,7 @@ The first time you would draw a card each turn, scry 1, then draw a card instead
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
 {T}: Put a storage counter on Bill's Marsh.
-{T}, Remove all storage counters from Bill's Marsh: Add {B} for each storage counter removed this way.</text>
+{T}, Remove one or more storage counters from Bill's Marsh: Add that much {B}, then add an additional {B}.</text></text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -4081,7 +4083,7 @@ The first time you would draw a card each turn, scry 1, then draw a card instead
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
 {T}: Put a storage counter on Bill's Coastline.
-{T}, Remove all storage counters from Bill's Coastline: Add {U} for each storage counter removed this way.</text>
+{T}, Remove one or more storage counters from Bill's Coastline: Add that much {U}, then add an additional {U}.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
@@ -6224,7 +6226,7 @@ Whenever a Pokémon or trainer is dealt damage, its controller sacrifices it.</t
       <set picURL="https://brooks42.github.io/pjto/cards/Phanpy.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
 	  <related>Phanpy Token</related>
-      <text>Pokémon you control with +1/+1 counters on them have menace.
+      <text>Each Pokémon you control with a +1/+1 counter on it has menace.
 Whenever Phanpy evolves, create a 3/3 red Ground Pokémon token named Phanpy. Put a +1/+1 counter on that token.</text>
       <prop>
         <type>Pokémon - Ground</type>
@@ -6657,7 +6659,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
       <tablerow>1</tablerow>
       <loyalty>5</loyalty>
       <related>Steelix Token</related>
-      <text>[0]: Put a loyalty counter on Jasmine for each token Pokémon you control. Add {C} for each Steel Pokémon you control.
+      <text>[0]: Put a loyalty counter on Jasmine for each Pokémon token you control. Add {C} for each Steel Pokémon you control.
 [−4]: Create a 5/5 red Steel Ground artifact Pokémon token named Steelix.</text>
       <prop>
         <type>Legendary Trainer - Jasmine</type>
