@@ -4202,8 +4202,7 @@
       <text>{T}: Add {C}.
         {T}: Put a storage counter on Bill's Grassland.
         {T}, Remove one or more storage counters from Bill's Grassland: Add that much {W}, then add
-        an additional {W}.
-      </text>
+        an additional {W}.</text>
       <prop>
         <type>Land</type>
         <maintype>Land</maintype>
