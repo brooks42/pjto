@@ -6511,7 +6511,8 @@ Whenever Pupitar attacks, defending player sacrifices a nonland permanent. If Pu
       <set picURL="https://brooks42.github.io/pjto/cards/Tyranitar.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Pupitar {B}{R}
-Whenever Tyranitar attacks, defending player sacrifices a nonland permanent. If Tyranitar is evolved, that player also sacrifices a land.</text>
+Trample
+Whenever Tyranitar evolves or deals combat damage to a player, that player sacrifices a Pokémon.</text>
       <prop>
         <type>Pokémon - Rock Dark</type>
         <maintype>Pokémon</maintype>
