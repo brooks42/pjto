@@ -7242,7 +7242,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
       <text>Choose one —
 • Until your next turn, whenever an opponent taps a land for mana, that land deals 1 damage to its controller.
 • Spikes deals 1 damage to each Pokémon and each trainer your opponents control.
-• Target player sacrifices a trainer that was dealt damage this turn.</text>
+• Destroy target artifact.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
