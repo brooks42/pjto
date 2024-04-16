@@ -6496,7 +6496,7 @@ Whenever you sacrifice a nontoken permanent, target opponent discards a card.</t
       <set picURL="https://brooks42.github.io/pjto/cards/Pupitar.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Larvitar {B}{R}
-Whenever Pupitar deals combat damage to a player, you may sacrifice a permanent. If you do, defending player sacrifices two permanents that share a card type with it.</text>
+Whenever Pupitar attacks, defending player sacrifices a nonland permanent. If Pupitar is evolved, repeat this process once.</text>
       <prop>
         <type>Pokémon - Rock Ground</type>
         <maintype>Pokémon</maintype>
