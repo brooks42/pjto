@@ -580,14 +580,14 @@ As long as Sandslash is tapped, it and Pokémon tokens you control have protecti
       <set picURL="https://brooks42.github.io/pkto/cards/Nidorina.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Nidoran♀ {G}
-Whenever Nidorina deals combat damage to a player, you may return target permanent card from your graveyard to your hand.</text>
+Whenever Nidorina evolves or deals combat damage to a player, return target permanent card from your graveyard to your hand.</text>
       <prop>
         <type>Pokémon - Poison</type>
         <maintype>Pokémon</maintype>
         <cmc>4</cmc>
         <colors>G</colors>
-        <manacost>3G</manacost>
-        <pt>3/4</pt>
+        <manacost>2GG</manacost>
+        <pt>4/5</pt>
       </prop>
     </card>
     <card>
@@ -595,7 +595,7 @@ Whenever Nidorina deals combat damage to a player, you may return target permane
       <set picURL="https://brooks42.github.io/pkto/cards/Nidoqueen.png" rarity="rare">PKTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Nidorina {1}{G}{G}
-Whenever Nidoqueen evolves or attacks, return target permanent card from your graveyard to your hand. If it's a land or Pokémon card with mana value 3 or less, put it onto the battlefield instead.</text>
+Whenever Nidoqueen evolves or attacks, return target permanent card from your graveyard to your hand. If it has mana value 3 or less, return it to the battlefield instead.</text>
       <prop>
         <type>Pokémon - Poison Ground</type>
         <maintype>Pokémon</maintype>
@@ -2184,7 +2184,7 @@ Whenever Pinsir deals combat damage to a player, put a +1/+1 counter on target P
       <set picURL="https://brooks42.github.io/pkto/cards/Tauros.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
       <text>Trample
-Each Pokémon you control with a +1/+1 counter on it must be blocked if able.</text>
+Whenever Tauros deals combat damage to a player, destroy target artifact that player controls with mana value less than or equal to that damage. If you do, put a +1/+1 counter on target Pokémon.</text>
       <prop>
         <type>Pokémon - Normal</type>
         <maintype>Pokémon</maintype>
@@ -2571,7 +2571,7 @@ Each other Pokémon you control gets +2/+2 if it shares a color with a Pokémon 
       <tablerow>2</tablerow>
       <text>Flying, ward {3}
 Pokémoncycling {3}
-When Mew is put into your graveyard from anywhere, shuffle it into your library. If you cycled it and you've cycled a card named Mew two or more times this game, put it onto the battlefield instead.</text>
+When Mew is put into your graveyard from anywhere, shuffle it into your library. If you cycled it and you've cycled a card named Mew three or more times this game, put it onto the battlefield instead.</text>
       <prop>
         <type>Legendary Pokémon - Psychic</type>
         <maintype>Pokémon</maintype>
@@ -2719,7 +2719,7 @@ When Mew is put into your graveyard from anywhere, shuffle it into your library.
       <name>Sabrina</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Sabrina.png" rarity="mythic">PKTO</set>
       <tablerow>1</tablerow>
-      <loyalty>4</loyalty>
+      <loyalty>3</loyalty>
       <text>[+1]: Look at the top card of each opponent's library, then scry 1.
 [-3]: Scry 2, then target Pokémon gets +X/-X until end of turn, where X is the number of cards you looked at while scrying this turn.
 [-8]: Take an extra turn after this one.</text>
@@ -2787,7 +2787,7 @@ When Mew is put into your graveyard from anywhere, shuffle it into your library.
       <loyalty>4</loyalty>
       <text>Whenever you gain life, put a loyalty counter on Lorelei.
 [0]: Tap or untap up to one target Pokémon. You gain 1 life.
-[-3]: Put three stun counters on target permanent.</text>
+[-3]: Put three stun counters on target nonland permanent.</text>
       <prop>
         <type>Legendary Trainer - Lorelei</type>
         <maintype>Trainer</maintype>
@@ -3256,7 +3256,7 @@ You may exile a card from your hand. If you do, draw a card..</text>
       <name>Ember</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Ember.png" rarity="common">PKTO</set>
       <tablerow>3</tablerow>
-      <text>Damage can't be prevented this turn. Ember deals 2 damage to any target.</text>
+      <text>Ember deals 2 damage to any target. If a permanent dealt damage by Ember would die this turn, exile it instead.</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
@@ -4172,7 +4172,7 @@ Cycling {2}</text>
       <tablerow>0</tablerow>
       <text>Digett's Cave enters tapped.
 {T}: Add {R}.
-{2}{R}, {T}, Sacrifice Diglett's Cave: Destroy target nonbasic land.</text>
+{2}{R}, {T}, Sacrifice Diglett's Cave: Destroy target artifact or nonbasic land.</text>
 	  <cipt>1</cipt>
       <prop>
         <type>Land</type>
@@ -5285,7 +5285,6 @@ Whenever Pichu evolves, up to two target Pokémon must block this turn if able. 
       <tablerow>2</tablerow>
 	  <related>Treasure Token</related>
       <text>Baby — Cards named Clefairy have "Evolve from Cleffa {W/B}."
-Cleffa can't be blocked by Pokémon with power 3 or greater.
 {Q}: Create a Treasure token. Activate only as a sorcery and only once each turn.</text>
       <prop>
         <type>Pokémon - Fairy</type>
@@ -5758,8 +5757,8 @@ When Misdreavus dies, create a Treasure Token.</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Unown.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
       <related>Clue Token</related>
-      <text>{U}{B}, {T}: Scry 2.
-Whenever you scry a number of cards, put that many mystery counters on Unown. Then if it has 26 or more mystery counters on it, you win the game. Otherwise, investigate.
+      <text>{U}{B}, {T}: Scry 2. Investigate.
+Whenever you scry a number of cards, put that many mystery counters on Unown. Then if it has 26 or more mystery counters on it, you win the game.
 When Unown dies, put its mystery counters on target Clue you control. That Clue becomes a copy of Unown.</text>
       <prop>
         <type>Pokémon - Psychic</type>
@@ -6141,7 +6140,7 @@ Menace
         <maintype>Pokémon</maintype>
         <cmc>4</cmc>
         <colors>W</colors>
-        <manacost>3W</manacost>
+        <manacost>2W</manacost>
         <pt>2/3</pt>
       </prop>
     </card>
@@ -6305,7 +6304,7 @@ When Stantler dies, create two 2/2 green and white Normal Pokémon tokens with v
       <name>Tyrogue</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Tyrogue.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Baby — Cards named Hitmonchan, Hitmonlee, or Hitmontop have "Evolve from Tyrogue {G}."
+      <text>Baby — Cards named Hitmonchan, Hitmonlee, or Hitmontop have "Evolve from Tyrogue {R/G/W}{R/G/W}{R/G/W}."
 First strike, trample, haste
 Whenever Tyrogue evolves, put three stun counters on up to one target Pokémon.</text>
       <prop>
@@ -6497,7 +6496,7 @@ Whenever you sacrifice a nontoken permanent, target opponent discards a card.</t
       <set picURL="https://brooks42.github.io/pjto/cards/Pupitar.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Larvitar {B}{R}
-Whenever Pupitar deals combat damage to a player, you may sacrifice a permanent. If you do, defending player sacrifices two permanents that share a card type with it.</text>
+Whenever Pupitar attacks, defending player sacrifices a nonland permanent. If Pupitar is evolved, repeat this process once.</text>
       <prop>
         <type>Pokémon - Rock Ground</type>
         <maintype>Pokémon</maintype>
@@ -6512,7 +6511,8 @@ Whenever Pupitar deals combat damage to a player, you may sacrifice a permanent.
       <set picURL="https://brooks42.github.io/pjto/cards/Tyranitar.png" rarity="mythic">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Pupitar {B}{R}
-Whenever Tyranitar attacks, defending player sacrifices a nonland permanent. If Tyranitar is evolved, that player also sacrifices a land.</text>
+Trample
+Whenever Tyranitar evolves or deals combat damage to a player, each opponent sacrifices a Pokémon.</text>
       <prop>
         <type>Pokémon - Rock Dark</type>
         <maintype>Pokémon</maintype>
@@ -7242,7 +7242,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
       <text>Choose one —
 • Until your next turn, whenever an opponent taps a land for mana, that land deals 1 damage to its controller.
 • Spikes deals 1 damage to each Pokémon and each trainer your opponents control.
-• Target player sacrifices a trainer that was dealt damage this turn.</text>
+• Destroy target artifact.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
@@ -7301,7 +7301,8 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
       <tablerow>3</tablerow>
       <text>Choose one —
 • Twister deals 2 damage to each Pokémon and trainer.
-• Exile any number of cards from your hand, then draw that many cards plus one.</text>
+• Exile any number of cards from your hand, then draw that many cards plus one.
+• Destroy target artifact.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
