@@ -6512,7 +6512,7 @@ Whenever Pupitar attacks, defending player sacrifices a nonland permanent. If Pu
       <tablerow>2</tablerow>
       <text>Evolve from Pupitar {B}{R}
 Trample
-Whenever Tyranitar evolves or deals combat damage to a player, target player sacrifices a Pokémon.</text>
+Whenever Tyranitar evolves or deals combat damage to a player, each opponent sacrifices a Pokémon.</text>
       <prop>
         <type>Pokémon - Rock Dark</type>
         <maintype>Pokémon</maintype>
