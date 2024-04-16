@@ -7301,7 +7301,8 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
       <tablerow>3</tablerow>
       <text>Choose one —
 • Twister deals 2 damage to each Pokémon and trainer.
-• Exile any number of cards from your hand, then draw that many cards plus one.</text>
+• Exile any number of cards from your hand, then draw that many cards plus one.
+• Destroy target artifact.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
