@@ -6304,7 +6304,7 @@ When Stantler dies, create two 2/2 green and white Normal Pokémon tokens with v
       <name>Tyrogue</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Tyrogue.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Baby — Cards named Hitmonchan, Hitmonlee, or Hitmontop have "Evolve from Tyrogue {G}."
+      <text>Baby — Cards named Hitmonchan, Hitmonlee, or Hitmontop have "Evolve from Tyrogue {R/G/W}{R/G/W}{R/G/W}."
 First strike, trample, haste
 Whenever Tyrogue evolves, put three stun counters on up to one target Pokémon.</text>
       <prop>
