@@ -1230,7 +1230,7 @@ Whenever a Pokémon dealt damage by Machoke this turn dies, put a +1/+1 counter 
         <cmc>4</cmc>
         <colors>RG</colors>
         <manacost>2{R/G}{R/G}</manacost>
-        <pt>4/4</pt>
+        <pt>5/5</pt>
       </prop>
     </card>
     <card>
@@ -2025,7 +2025,7 @@ Whenever Horsea evolves, untap it.</text>
       <tablerow>2</tablerow>
       <text>Evolve from Horsea {1}{U}
 Flash
-Whenever Seadra enters or evolves, counter target activated or triggered ability.</text>
+Whenever Seadra enters or evolves, counter up to one target activated or triggered ability.</text>
       <prop>
         <type>Pokémon - Water</type>
         <maintype>Pokémon</maintype>
