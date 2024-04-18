@@ -10,6 +10,6 @@ done
 for i in *.png
 do
   filename="$(basename -- "$i" .png)"
-  echo "Working on $filename file..."
+  echo "Working on $filename..."
   sudo composite -geometry +0+0 "./border/border.png" "$filename.png" "$filename.png"
 done
