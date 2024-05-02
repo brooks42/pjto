@@ -5696,7 +5696,7 @@ Whenever a Pokémon you control evolves, target opponent discards a card. Scry X
       <tablerow>2</tablerow>
       <related>Treasure Token</related>
       <text>Evolve from Eevee {3}{B}
-Whenever a Pokémon you control evolves, create a Treasure token. Each opponent loses life equal to twice the number of Treasures you control.</text>
+Whenever a Pokémon you control evolves, create a Treasure token. Then each opponent loses life equal to twice the number of Treasures you control.</text>
       <prop>
         <type>Pokémon - Dark</type>
         <maintype>Pokémon</maintype>
