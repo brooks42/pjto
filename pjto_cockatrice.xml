@@ -5679,7 +5679,7 @@ Whenever Quagsire attacks, draw a card, then discard a card. Then return a land 
       <name>Espeon</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Espeon.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Evolve from Eevee {3}{U/B}
+      <text>Evolve from Eevee {2}{U/B}
 Whenever a Pokémon you control evolves, target opponent discards a card. Scry X, where X is 1 plus the mana value of the discarded card.</text>
       <prop>
         <type>Pokémon - Psychic</type>
@@ -5695,7 +5695,7 @@ Whenever a Pokémon you control evolves, target opponent discards a card. Scry X
       <set picURL="https://brooks42.github.io/pjto/cards/Umbreon.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <related>Treasure Token</related>
-      <text>Evolve from Eevee {3}{B}
+      <text>Evolve from Eevee {2}{B}
 Whenever a Pokémon you control evolves, create a Treasure token. Then each opponent loses life equal to twice the number of Treasures you control.</text>
       <prop>
         <type>Pokémon - Dark</type>
