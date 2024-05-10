@@ -6131,7 +6131,7 @@ Menace
       <tablerow>2</tablerow>
       <related>Food Token</related>
       <related>Treasure Token</related>
-      <text>Whenever you cast a spell, choose one at random.
+      <text>Whenever an opponent casts a spell other than the first spell they cast during each of their turns, choose one at random.
 • Create a Food token.
 • Create a Treasure token.
 • Create a token that's a copy of up to one target token you control.</text>
