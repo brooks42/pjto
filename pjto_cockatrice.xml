@@ -5725,7 +5725,7 @@ When Murkrow enters, target player discards a card. If mana from a Treasure was 
       <set picURL="https://brooks42.github.io/pjto/cards/Slowking.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Slowpoke {U/B}{U/B}
-Whenever Slowking is dealt noncombat damage, put that many +1/+1 counters on it and scry that many cards.</text>
+Whenever Slowking is dealt noncombat damage, scry that many cards, then you may reveal the top card of your library. If you do, each player loses life equal to its mana value and you draw a card.</text>
       <prop>
         <type>Pokémon - Water Psychic</type>
         <maintype>Pokémon</maintype>
