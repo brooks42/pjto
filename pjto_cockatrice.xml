@@ -6589,7 +6589,7 @@ If another Pokémon you control would die, instead remove all counters from it, 
       <set picURL="https://brooks42.github.io/pjto/cards/Bugsy.png" rarity="mythic">PJTO</set>
       <tablerow>1</tablerow>
       <loyalty>2</loyalty>
-      <text>Whenever a Bug Pokémon enters or evolves, draw a card.
+      <text>Whenever a Bug Pokémon enters or evolves, put a loyalty counter on Bugsy.
 [+1]: Untap target land.
 [−2]: Put a +1/+1 counter on each Pokémon you control.</text>
       <prop>
