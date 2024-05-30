@@ -6179,7 +6179,7 @@ When Skarmory enters, reveal the top X cards of your library, where X is one plu
       <tablerow>2</tablerow>
       <text>Menace
 Whenever another Pokémon enters, its controller loses 1 life.
-Whenever Houndour evolves, it deals 1 damage to each Pokémon you don't control.</text>
+Whenever Houndour evolves, it deals 1 damage to each other Pokémon.</text>
       <prop>
         <type>Pokémon - Dark Fire</type>
         <maintype>Pokémon</maintype>
