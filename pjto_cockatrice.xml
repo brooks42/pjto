@@ -5145,7 +5145,7 @@ Whenever Hoothoot evolves, create X Treasure tokens, where X is the number of Po
       <tablerow>2</tablerow>
       <text>Evolve from Hoothoot {W/B}
 Flying, vigilance
-Whenever you sacrifice a Treasure for the first time each turn, target player loses 2 life and you gain 2 life.</text>
+You may cast Pokémon spells from your graveyard by exiling a number of Treasures equal to their mana values rather than paying their mana costs.</text>
       <prop>
         <type>Pokémon - Normal Flying</type>
         <maintype>Pokémon</maintype>
