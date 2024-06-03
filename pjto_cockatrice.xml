@@ -5128,8 +5128,8 @@ Whenever Furret evolves or attacks, create a 1/1 white Normal Pokémon token wit
       <tablerow>2</tablerow>
       <related>Treasure Token</related>
       <related count="x">Treasure Token</related>
-      <text>Whenever Hoothoot deals combat damage to a player, create a Treasure token.
-Whenever Hoothoot evolves, create X Treasure tokens, where X is the number of Pokémon cards in all graveyards.</text>
+      <text>At the beginning of your upkeep, if you have less life than an opponent, create a tapped Treasure token.
+Whenever Hoothoot evolves, create X Treasure tokens, where X is one plus the number of Treasures you control.</text>
       <prop>
         <type>Pokémon - Normal Flying</type>
         <maintype>Pokémon</maintype>
