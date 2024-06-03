@@ -7226,7 +7226,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
       <set picURL="https://brooks42.github.io/pjto/cards/Snore.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
 	  <related count="x">Treasure Token</related>
-      <text>Destroy all nontoken Pokémon. Create a tapped Treasure token for each Pokémon destroyed this way.</text>
+      <text>Destroy all nontoken Pokémon. For each Pokémon destroyed this way, its controller creates a tapped Treasure token.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
