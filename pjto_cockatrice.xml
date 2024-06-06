@@ -1605,7 +1605,7 @@ Whenever a Pokémon with a -1/-1 counter on it dies, create a 1/2 black Poison P
       <name>Shellder</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Shellder.png" rarity="common">PKTO</set>
       <tablerow>2</tablerow>
-      <text>{2}, {T}: Shellder gains indestructible until end of turn. This ability costs {1} less to activate as long as you own a card in exile.</text>
+      <text>{1}{U}, {T}: Shellder gets +0/+X until end of turn, where X is the number of cards you own in exile. Counter up to one target spell that targets Shellder.</text>
       <prop>
         <type>Pokémon - Water</type>
         <maintype>Pokémon</maintype>
@@ -2054,7 +2054,7 @@ Whenever Seadra enters or evolves, counter up to one target activated or trigger
       <tablerow>2</tablerow>
       <text>Evolve from Goldeen {U}{U}
 Flash
-Whenever Seaking enters or evolves, counter target spell.</text>
+Whenever Seaking enters or evolves, choose target spell. If Seaking is evolved, counter that spell. Otherwise, return that spell to its owner's hand.</text>
       <prop>
         <type>Pokémon - Water</type>
         <maintype>Pokémon</maintype>
@@ -2604,7 +2604,7 @@ When Mew is put into your graveyard from anywhere, shuffle it into your library.
       <tablerow>1</tablerow>
       <loyalty>4</loyalty>
       <text>Blue spells and red spells you cast cost {1} less to cast for each card you own in exile that shares a card type with that spell.
-[+1]: Draw two cards, then exile a card from your hand.
+[+1]: Draw a card, then you may exile a card from your hand.
 [-4]: Create a token that's a copy of target Pokémon you don't control, except it has haste. Exile it at the beginning of the next end step.</text>
       <prop>
         <type>Legendary Trainer - Blue</type>
@@ -2966,7 +2966,7 @@ When Mew is put into your graveyard from anywhere, shuffle it into your library.
       <name>Revive (PKTO)</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Revive.png" rarity="common">PKTO</set>
       <tablerow>3</tablerow>
-      <text>Choose target Pokémon card with mana value 3 or less in your graveyard. Return it to the battlefield or to your hand.</text>
+      <text>Choose target Pokémon card with mana value 3 or less in your graveyard. Return that card to the battlefield or to your hand.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
@@ -2979,7 +2979,7 @@ When Mew is put into your graveyard from anywhere, shuffle it into your library.
       <name>Max Revive</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Max%20Revive.png" rarity="rare">PKTO</set>
       <tablerow>3</tablerow>
-      <text>Choose target Pokémon card in your graveyard. Return it to the battlefield or to your hand.</text>
+      <text>Choose target Pokémon card in your graveyard. You may return that card to the battlefield evolved onto a Pokémon you control. If you don't, return that card to the battlefield.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
@@ -3268,13 +3268,13 @@ You may exile a card from your hand. If you do, draw a card..</text>
       <name>Gust</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Gust.png" rarity="common">PKTO</set>
       <tablerow>3</tablerow>
-      <text>Gust deals 2 damage to target attacking Pokémon. If that Pokémon has flying, Gust deals 6 damage instead.</text>
+      <text>Choose target Pokémon. If that Pokémon is attacking, Gust deals 2 damage to it for each {W} spent to cast this spell. If that Pokémon has flying, Gust deals 4 damage to it for each {G} spent to cast this spell.</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
-        <cmc>1</cmc>
+        <cmc>2</cmc>
         <colors>GW</colors>
-        <manacost>{G/W}</manacost>
+        <manacost>1{G/W}</manacost>
       </prop>
     </card>
     <card>
@@ -3285,9 +3285,9 @@ You may exile a card from your hand. If you do, draw a card..</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
-        <cmc>3</cmc>
+        <cmc>2</cmc>
         <colors>W</colors>
-        <manacost>2W</manacost>
+        <manacost>1W</manacost>
       </prop>
     </card>
     <card>
@@ -3349,7 +3349,7 @@ Draw a card.</text>
       <name>Aurora Beam</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Aurora%20Beam.png" rarity="rare">PKTO</set>
       <tablerow>3</tablerow>
-      <text>Exile target Pokémon. Its controller gains life equal to its power.</text>
+      <text>Exile target Pokémon. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
@@ -3611,7 +3611,7 @@ Counter target spell unless its controller pays {X}.</text>
       <set picURL="https://brooks42.github.io/pkto/cards/Dig.png" rarity="uncommon">PKTO</set>
       <tablerow>3</tablerow>
       <text>Create two 2/1 red Ground Pokémon tokens named Diglett.
-{2}: Exile Dig from your hand. For as long as it remains exiled, may cast it on a later turn for {1}{R}. If you do, those tokens gain haste.</text>
+{2}: Exile Dig from your hand. For as long as it remains exiled, you may cast it on a later turn for {1}{R}. If you do, those tokens gain haste.</text>
       <related count="2">Diglett Token</related>
       <prop>
         <type>Sorcery</type>
@@ -5128,8 +5128,8 @@ Whenever Furret evolves or attacks, create a 1/1 white Normal Pokémon token wit
       <tablerow>2</tablerow>
       <related>Treasure Token</related>
       <related count="x">Treasure Token</related>
-      <text>Whenever Hoothoot deals combat damage to a player, create a Treasure token.
-Whenever Hoothoot evolves, create X Treasure tokens, where X is the number of Pokémon cards in all graveyards.</text>
+      <text>At the beginning of your upkeep, if you have less life than an opponent, create a tapped Treasure token.
+Whenever Hoothoot evolves, create X Treasure tokens, where X is one plus the number of Treasures you control.</text>
       <prop>
         <type>Pokémon - Normal Flying</type>
         <maintype>Pokémon</maintype>
@@ -5145,7 +5145,7 @@ Whenever Hoothoot evolves, create X Treasure tokens, where X is the number of Po
       <tablerow>2</tablerow>
       <text>Evolve from Hoothoot {W/B}
 Flying, vigilance
-Whenever you sacrifice a Treasure for the first time each turn, target player loses 2 life and you gain 2 life.</text>
+You may cast Pokémon spells from your graveyard by exiling a number of Treasures equal to their mana values rather than paying their mana costs.</text>
       <prop>
         <type>Pokémon - Normal Flying</type>
         <maintype>Pokémon</maintype>
@@ -6131,10 +6131,10 @@ Menace
       <tablerow>2</tablerow>
       <related>Food Token</related>
       <related>Treasure Token</related>
-      <text>Whenever an opponent casts a spell other than the first spell they cast during each of their turns, choose one at random.
+      <text>Whenever an opponent casts a spell other than the first spell they cast during each of their turns, choose one —
 • Create a Food token.
 • Create a Treasure token.
-• Create a token that's a copy of up to one target token you control.</text>
+• Create a token that's a copy of target token you control.</text>
       <prop>
         <type>Pokémon - Ice Flying</type>
         <maintype>Pokémon</maintype>
@@ -6162,7 +6162,7 @@ Menace
       <name>Skarmory</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Skarmory.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Flying, first strike
+      <text>Flying, ward {2}
 When Skarmory enters, reveal the top X cards of your library, where X is one plus the amount of {C} spent to cast it. Put one of them into your hand and exile the rest.</text>
       <prop>
         <type>Pokémon - Steel Flying</type>
@@ -7226,7 +7226,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
       <set picURL="https://brooks42.github.io/pjto/cards/Snore.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
 	  <related count="x">Treasure Token</related>
-      <text>Destroy all nontoken Pokémon. Create a tapped Treasure token for each Pokémon destroyed this way.</text>
+      <text>Destroy all nontoken Pokémon. For each Pokémon destroyed this way, its controller creates a tapped Treasure token.</text>
       <prop>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
