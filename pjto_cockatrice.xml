@@ -5145,7 +5145,7 @@ Whenever Hoothoot evolves, create X Treasure tokens, where X is one plus the num
       <tablerow>2</tablerow>
       <text>Evolve from Hoothoot {W/B}
 Flying, vigilance
-You may cast Pokémon spells from your graveyard by exiling a number of Treasures equal to their mana values rather than paying their mana costs.</text>
+You may cast Pokémon spells from your graveyard by exiling a number of Treasures you control equal to their mana values rather than paying their mana costs.</text>
       <prop>
         <type>Pokémon - Normal Flying</type>
         <maintype>Pokémon</maintype>
