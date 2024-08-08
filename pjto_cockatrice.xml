@@ -1979,7 +1979,7 @@ At the beginning of your upkeep, you gain 2 life. Then if you have 40 or more li
       <name>Tangela</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Tangela.png" rarity="uncommon">PKTO</set>
       <tablerow>2</tablerow>
-      <text>Landfall - Whenever a land enters under your control, put a +1/+1 counter on Tangela.</text>
+      <text>Landfall - Whenever a land you control enters, put a +1/+1 counter on Tangela.</text>
       <prop>
         <type>Pokémon - Grass</type>
         <maintype>Pokémon</maintype>
@@ -2227,7 +2227,7 @@ Whenever Gyarados enters or evolves, it deals 6 damage divided as you choose amo
       <name>Lapras</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Lapras.png" rarity="rare">PKTO</set>
       <tablerow>2</tablerow>
-      <text>When Lapras enters the battlefield, you gain 3 life. 
+      <text>When Lapras enters, you gain 3 life.
 {2}{W}{U}, Exile Lapras: Exile target Pokémon. If it's your turn, draw a card.</text>
       <prop>
         <type>Pokémon - Water Ice</type>
@@ -5065,7 +5065,7 @@ Whenever Typhlosion enters or evolves, target opponent sacrifices X nonland perm
       <set picURL="https://brooks42.github.io/pjto/cards/Croconaw.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Totodile {G}{U}
-Landfall — Whenever a land enters under your control, untap Croconaw and mill a card. Then add one mana of any color among cards in your graveyard. If a land card was milled this way, draw a card.</text>
+Landfall — Whenever a land you control enters, untap Croconaw and mill a card. Then add one mana of any color among cards in your graveyard. If a land card was milled this way, draw a card.</text>
       <prop>
         <type>Pokémon - Water</type>
         <maintype>Pokémon</maintype>
@@ -5095,7 +5095,7 @@ Whenever Feraligatr enters or evolves, draw X cards, where X is one plus the num
       <set picURL="https://brooks42.github.io/pjto/cards/Sentret.png" rarity="common">PJTO</set>
       <tablerow>2</tablerow>
       <text>Vigilance
-Whenever another Pokémon enters under your control, you gain 1 life.</text>
+Whenever another Pokémon you control enters, you gain 1 life.</text>
       <prop>
         <type>Pokémon - Normal</type>
         <maintype>Pokémon</maintype>
@@ -5500,7 +5500,7 @@ As long as it's your turn, each instant and sorcery card in your graveyard has f
       <set picURL="https://brooks42.github.io/pjto/cards/Politoed.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <text>Evolve from Poliwhirl {2}{G}{U}
-Landfall — Whenever a land enters under your control, draw a card.
+Landfall — Whenever a land you control enters, draw a card.
 Whenever Politoed evolves, search your library for up to two land cards, put them onto the battlefield tapped, then shuffle.</text>
       <prop>
         <type>Pokémon - Water</type>
@@ -5648,7 +5648,7 @@ Yanma has hexproof from each mana value among cards you own in exile.</text>
       <name>Wooper</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Wooper.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
-      <text>Landfall — Whenever a land enters under your control, target Pokémon gains your choice of deathtouch or hexproof until end of turn. Untap it.</text>
+      <text>Landfall — Whenever a land you control enters, target Pokémon gains your choice of deathtouch or hexproof until end of turn. Untap that Pokémon.</text>
       <prop>
         <type>Pokémon - Water Ground</type>
         <maintype>Pokémon</maintype>
@@ -5913,7 +5913,7 @@ Whenever a Pokémon with toughness 5 or greater enters or evolves, create a Trea
       <set picURL="https://brooks42.github.io/pjto/cards/Qwilfish.png" rarity="uncommon">PJTO</set>
       <tablerow>2</tablerow>
       <text>Deathtouch
-Landfall — Whenever a land enters under your control, up to one target Pokémon gets -1/-1 until end of turn.
+Landfall — Whenever a land you control enters, up to one target Pokémon gets -1/-1 until end of turn.
 Whenever Qwilfish attacks, return a land you control to its owner's hand. You may play an additional land this turn.</text>
       <prop>
         <type>Pokémon - Water Poison</type>
@@ -5944,7 +5944,7 @@ Whenever Scizor enters or evolves, put a +1/+1 counter on it for each {C} spent 
       <set picURL="https://brooks42.github.io/pjto/cards/Shuckle.png" rarity="rare">PJTO</set>
       <tablerow>2</tablerow>
       <related>Food Token</related>
-      <text>Landfall — Whenever a land enters under your control, create a Food token.
+      <text>Landfall — Whenever a land you control enters, create a Food token.
 Sacrifice two Foods: Target artifact, enchantment, or Pokémon loses all abilities and becomes a green Bug Pokémon with base power and toughness 3/3. Activate only as a sorcery.</text>
       <prop>
         <type>Pokémon - Bug Rock</type>
@@ -6899,7 +6899,7 @@ Draw two cards and create a Treasure token.</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Rapid%20Spin.png" rarity="uncommon">PJTO</set>
       <tablerow>3</tablerow>
       <text>Put target nonland permanent on top of its owner's library.
-Landfall — If you had a land enter under your control this turn, put that nonland permanent into its owner's library third from the top instead.</text>
+Landfall — If you had a land enter the battlefield under your control this turn, put that nonland permanent into its owner's library third from the top instead.</text>
       <prop>
         <type>Instant</type>
         <maintype>Instant</maintype>
@@ -7551,7 +7551,7 @@ At the beginning of your upkeep, if you control ten or more Treasures, you win t
       <name>Rain Dance</name>
       <set picURL="https://brooks42.github.io/pjto/cards/Rain%20Dance.png" rarity="uncommon">PJTO</set>
       <tablerow>1</tablerow>
-      <text>Landfall — Whenever a land enters under your control, each player mills a card. If a nonland, non-Pokémon card is milled this way, you draw a card.</text>
+      <text>Landfall — Whenever a land you control enters, each player mills a card. If a nonland, non-Pokémon card is milled this way, you draw a card.</text>
       <prop>
         <type>Enchantment</type>
         <maintype>Enchantment</maintype>
