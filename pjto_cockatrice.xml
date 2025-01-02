@@ -7300,7 +7300,7 @@ Up to two target Pokémon can't block this turn. If this spell's additional cost
       <set picURL="https://brooks42.github.io/pjto/cards/Twister.png" rarity="uncommon">PJTO</set>
       <tablerow>3</tablerow>
       <text>Choose one —
-• Twister deals 2 damage to each Pokémon and trainer.
+• Twister deals 2 damage to each Pokémon and each trainer.
 • Exile any number of cards from your hand, then draw that many cards plus one.
 • Destroy target artifact.</text>
       <prop>
@@ -8009,7 +8009,7 @@ Cycling {2}</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Victory%20Road.png" rarity="rare">PJTO</set>
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
-{1}, {T}: For each color among monocolored permanents you control, add one mana of that color.
+{1}, {T}: Add one mana of any color among Pokémon you control.
 {4}, {T}, Sacrifice Victory Road: Search your library for a trainer card, reveal it, put it into your hand, then shuffle.</text>
       <prop>
         <type>Land</type>
