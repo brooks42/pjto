@@ -6883,7 +6883,7 @@ Draw two cards and create a Treasure token.</text>
       <set picURL="https://brooks42.github.io/pjto/cards/Psych%20Up.png" rarity="rare">PJTO</set>
       <tablerow>3</tablerow>
       <text>Choose one — 
-• Psych up deals 4 damage to target player or trainer.
+• Psych Up deals 4 damage to target player or trainer.
 • Pokémon you control gain first strike until end of turn.
 • Destroy target artifact or enchantment.</text>
       <prop>
