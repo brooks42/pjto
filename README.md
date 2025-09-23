@@ -10,7 +10,3 @@ A repo for the MTG Pokemon TCG cockatrice XML and supporting materials but for G
 **Q: Can I use Hidden Power to cast a spell using its Evolve from cost?**
 
 **A**: No, casting a spell without paying its mana cost is an alternate cost, as is Evolve from. You can only choose one alternate casting cost.
-
-**Q: If I have Magcargo evolved onto Slugma, and Magcargo dies, can I return Slugma to the battlefield with the death trigger?**
-
-**A**: No, Slugma and Magcargo are the same object on the battlefield when evolved, and the ability tracks that when they go to the graveyard. Returning a different card will still trigger and return Slugma.
