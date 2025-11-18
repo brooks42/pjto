@@ -3658,8 +3658,8 @@ Sacrifice Thunder Stone: Destroy target artifact or enchantment.</text>
       <prop>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
-        <cmc>3</cmc>
-        <manacost>3</manacost>
+        <cmc>2</cmc>
+        <manacost>2</manacost>
       </prop>
     </card>
     <card>
@@ -3668,12 +3668,12 @@ Sacrifice Thunder Stone: Destroy target artifact or enchantment.</text>
       <tablerow>1</tablerow>
       <text>{T}: Add {G}.
 Whenever a Pokémon you control evolves, put a +1/+1 counter on it.
-Sacrifice Leaf Stone: Add {G}{G}.</text>
+Sacrifice Leaf Stone: You may play an additional land this turn.</text>
       <prop>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
-        <cmc>3</cmc>
-        <manacost>3</manacost>
+        <cmc>2</cmc>
+        <manacost>2</manacost>
       </prop>
     </card>
     <card>
@@ -3686,8 +3686,8 @@ Sacrifice Water Stone: Scry 3.</text>
       <prop>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
-        <cmc>3</cmc>
-        <manacost>3</manacost>
+        <cmc>2</cmc>
+        <manacost>2</manacost>
       </prop>
     </card>
     <card>
@@ -3700,8 +3700,8 @@ Sacrifice Fire Stone: It deals 2 damage to target Pokémon or trainer.</text>
       <prop>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
-        <cmc>3</cmc>
-        <manacost>3</manacost>
+        <cmc>2</cmc>
+        <manacost>2</manacost>
       </prop>
     </card>
     <card>
@@ -3715,8 +3715,8 @@ Sacrifice Moon Stone: Create a Treasure token.</text>
       <prop>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
-        <cmc>3</cmc>
-        <manacost>3</manacost>
+        <cmc>2</cmc>
+        <manacost>2</manacost>
       </prop>
     </card>
     <!-- misc artifacts -->
@@ -3801,7 +3801,7 @@ When Nugget is put into a graveyard from the battlefield, draw a card.</text>
       <name>Pokédex</name>
       <set picURL="https://brooks42.github.io/pkto/cards/Pok%C3%A9dex.png" rarity="uncommon">PKTO</set>
       <tablerow>1</tablerow>
-      <text>{2}, {T}: Draw a card, then put a data counter on Pokédex. Then if there are four or more data counters on it, sacrifice it. If you do, reveal cards from the top of your library until you reveal a Pokémon card. Put that card into your hand and the rest on the bottom of your library in any order.</text>
+      <text>{2}, {T}: Draw a card, then put a data counter on Pokédex. Then if there are four or more data counters on it, sacrifice it. If you do, search your library for a Pokémon card, reveal it, put it into your hand, then shuffle.</text>
       <prop>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
